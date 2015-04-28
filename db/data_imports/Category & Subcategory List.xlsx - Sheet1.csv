@@ -1,0 +1,459 @@
+Cat_SubCat ID,Category,Sub Category,Description
+9001,Attraction,Amusement Park,
+9002,Attraction,Aquarium,
+9003,Attraction,Aquatic Reserve,
+9004,Attraction,Arcade,
+9005,Attraction,Casino,
+9006,Attraction,Ethnic Places,
+9007,Attraction,Events Venue,A venue that is not a convention or conference center
+9008,Attraction,Farm,
+9009,Attraction,Festival,
+9010,Attraction,Gardens,This is a generic reference.  See Botanical Garden also.
+9011,Attraction,Historic Building,
+9012,Attraction,Historic Houses,"A historic house can be a stately home, the birthplace of a famous person, or a house with an interesting history or architecture."
+9013,Attraction,Local Park,
+9014,Attraction,Marina,
+9015,Attraction,Museum - Aerospace,
+9016,Attraction,Museum - Art,
+9017,Attraction,Museum - Children,
+9018,Attraction,Museum - Fire,
+9019,Attraction,Museum - History,
+9020,Attraction,Museum - Living History,
+9021,Attraction,Museum - Maritime,
+9022,Attraction,Museum - Music,
+9023,Attraction,Museum - Other,"If no existing sub-category is a better fit, and a new sub-category would be too limited, use ""Other"".  Can also be used as a placeholder until a better sub-category is defined"
+9024,Attraction,Museum - Railway,
+9025,Attraction,Museum - Science,
+9026,Attraction,Museum - Sport,
+9027,Attraction,Museum - Train,
+9028,Attraction,Museum - Transportation,
+9029,Attraction,Music Venue,
+9030,Attraction,National Park,
+9031,Attraction,Nature Preserve,
+9032,Attraction,Other,"If no existing sub-category is a better fit, and a new sub-category would be too limited, use ""Other"".  Can also be used as a placeholder until a better sub-category is defined"
+9033,Attraction,Planetarium,
+9034,Attraction,Point of Interest,
+9035,Attraction,Private Park,
+9036,Attraction,State Park,
+9037,Attraction,Theater - Drive-in,
+9038,Attraction,Theater - Movie,
+9039,Attraction,Theater - Performing Arts,
+9040,Attraction,Theme Park,
+9041,Attraction,Tour,
+9042,Attraction,Water Park,
+9043,Attraction,Zoo,
+9044,Food/Drink,African,
+9045,Food/Drink,American,
+9046,Food/Drink,Asian,
+9047,Food/Drink,Asian Fusion,
+9048,Food/Drink,Bakery,
+9049,Food/Drink,Bar,
+9050,Food/Drink,BBQ,
+9051,Food/Drink,Bistro,
+9052,Food/Drink,Breakfast,
+9053,Food/Drink,Brewery,
+9054,Food/Drink,Cafe,
+9055,Food/Drink,Cajun/Creole Cuisine,"Cajun cuisine arose from the more rustic, provincial French cooking adapted by the Acadians to Louisiana ingredients, whereas the cooking of the Louisiana Creoles tended more toward classical European styles adapted to local foodstuffs."
+9056,Food/Drink,Californian,
+9057,Food/Drink,Candy Shop,
+9058,Food/Drink,Caribbean,
+9059,Food/Drink,Casual Dining,
+9060,Food/Drink,Chinese,
+9061,Food/Drink,Coffeehouse,"A coffeehouse or coffee shop is an establishment which primarily serves prepared coffee or other hot beverages. It shares some of the characteristics of a bar, and some of the characteristics of a restaurant, but it is different from a cafeteria. As the name suggests, coffeehouses focus on providing coffee and tea as well as light snacks."
+9062,Food/Drink,Continental,
+9063,Food/Drink,Dairy,
+9064,Food/Drink,Deli,
+9065,Food/Drink,Desserts,
+9066,Food/Drink,Distillery,
+9067,Food/Drink,Eclectic,
+9068,Food/Drink,Eurasian,
+9069,Food/Drink,European,
+9071,Food/Drink,Fine Dining,
+9072,Food/Drink,French,
+9073,Food/Drink,French Cuisine/Bistro,
+9074,Food/Drink,Fusion,
+9075,Food/Drink,German,
+9076,Food/Drink,Greek,
+9077,Food/Drink,Ice Cream,
+9078,Food/Drink,Indian,
+9079,Food/Drink,International,
+9080,Food/Drink,Irish Pub,
+9081,Food/Drink,Italian,
+9082,Food/Drink,Japanese,
+9083,Food/Drink,Latin,
+9084,Food/Drink,Liquor,
+9085,Food/Drink,Local,
+9086,Food/Drink,Mediterranean,
+9087,Food/Drink,Mexican,
+9088,Food/Drink,Middle Eastern,
+9089,Food/Drink,Nightclub,
+9090,Food/Drink,Other,"If no existing sub-category is a better fit, and a new sub-category would be too limited, use ""Other"".  Can also be used as a placeholder until a better sub-category is defined"
+9091,Food/Drink,Persian,
+9092,Food/Drink,Pizza,
+9093,Food/Drink,Regional,
+9094,Food/Drink,Sandwiches,
+9095,Food/Drink,Seafood,
+9096,Food/Drink,Southern,
+9097,Food/Drink,Southwestern,
+9098,Food/Drink,Spanish,
+9099,Food/Drink,Sports Bar,
+9100,Food/Drink,Steakhouse,
+9101,Food/Drink,Sushi,
+9102,Food/Drink,Tapas/Spanish,
+9103,Food/Drink,Tea,
+9104,Food/Drink,Thai,
+9105,Food/Drink,Vegetarian,
+9106,Food/Drink,Vegetarian/Vegan,
+9107,Food/Drink,Vietnamese,
+9108,Food/Drink,Wine Bar,"A wine bar (also known as a bodega) is a tavern-like business focusing on selling wine, rather than liquor or beer. A typical feature of many wine bars is a wide selection of wines available by the glass. Some wine bars are profiled on wines of a certain type of origin, such as Italian wine or Champagne.  [Wikipedia]"
+9109,Food/Drink,Winery,
+9110,Lodging,Bed & Breakfast or Guest House,
+9111,Lodging,Cabin or Cottage,
+9112,Lodging,Campground,
+9113,Lodging,Farm Stay,
+9114,Lodging,Guest Ranch / Dude Ranch,
+9115,Lodging,Hospitality Service,
+9116,Lodging,Hostal (a posh hostel),
+9117,Lodging,Hostel,
+9118,Lodging,Hotel,
+9119,Lodging,Motel,
+9120,Lodging,Other,"If no existing sub-category is a better fit, and a new sub-category would be too limited, use ""Other"".  Can also be used as a placeholder until a better sub-category is defined"
+9121,Lodging,Private Home,
+9122,Lodging,Resort,
+9123,Lodging,RV Park,
+9124,Lodging,Vacation Rental,
+9125,Services,Cybercaf,
+9126,Services,Equipment Rental,
+9127,Services,Laundromat,
+9128,Services,Other,"If no existing sub-category is a better fit, and a new sub-category would be too limited, use ""Other"".  Can also be used as a placeholder until a better sub-category is defined"
+9129,Services,Spa/Massage,
+9130,Shopping,Antiques,
+9131,Shopping,Art Gallery,
+9132,Shopping,Bazaar,
+9133,Shopping,Beauty and Beauty Services,
+9134,Shopping,Bookstore,
+9135,Shopping,Candy Shop,
+9136,Shopping,Charity Shop,
+9137,Shopping,Chocolate Shop,
+9138,Shopping,Clothing & Shoes,
+9139,Shopping,Convenience Store,
+9140,Shopping,Department Store,
+9141,Shopping,Dollar Store,
+9142,Shopping,Electronics,
+9143,Shopping,Eyewear,
+9144,Shopping,Farmers Market,
+9145,Shopping,Flea Market,
+9146,Shopping,Furnishings,
+9147,Shopping,General Store,
+9148,Shopping,Gift Shop,
+9149,Shopping,Give-Away Shop,
+9150,Shopping,Hardware Store,
+9151,Shopping,Crafts & Hobbies,A store that sells supplies for people engaged in crafts and hobbies.
+9152,Shopping,Housewares,
+9153,Shopping,Jewelry,
+9154,Shopping,Lingerie,
+9155,Shopping,"Alcohol (Beer, Wine and Spirits)",A business that sells alcoholic beverages for consumption outside of the store.
+9156,Shopping,Local Market,
+9157,Shopping,Music,
+9158,Shopping,Other,"If no existing sub-category is a better fit, and a new sub-category would be too limited, use ""Other"".  Can also be used as a placeholder until a better sub-category is defined"
+9159,Shopping,Pet Store,
+9160,Shopping,Pharmacy,
+9161,Shopping,Shopping Mall,
+9162,Shopping,Shopping Outlet,
+9163,Shopping,Sporting Goods,
+9164,Shopping,Supermarket,
+9165,Shopping,Surplus Store,
+9166,Shopping,Thrift Store,
+9167,Shopping,Town Square,
+9168,Shopping,Toys,
+9169,Shopping,Travel Agency,
+9170,Sport or Activity,Auto Racing,
+9171,Sport or Activity,Dog Racing,
+9172,Sport or Activity,Fishing,
+9173,Sport or Activity,Golf,
+9174,Sport or Activity,Horse Racing,
+9175,Sport or Activity,Hunting,
+9176,Sport or Activity,Motorcycling Racing,
+9177,Sport or Activity,Other,"If no existing sub-category is a better fit, and a new sub-category would be too limited, use ""Other"".  Can also be used as a placeholder until a better sub-category is defined"
+9178,Sport or Activity,Skiing,
+9179,Sport or Activity,Team Stadium,The stadium could be single or multi-sport
+9180,Sport or Activity,Water,
+9181,Transportation,Airport (General Aviation),
+9182,Transportation,Airport (Scheduled Service),
+9183,Transportation,Bus Station,"A bus station is a structure where city or intercity buses stop to pick up and drop off passengers. It is larger than a bus stop, which is usually simply a place on the roadside, where buses can stop. It may be intended as a terminal station for a number of routes, or as a transfer station where the routes continue. [Wikipedia]"
+9184,Transportation,Port,
+9185,Transportation,Train,
+9186,Landmark - Natural,Beach,
+9187,Landmark - Natural,Waterfall,
+9188,Food/Drink,Diner,"For restaurants that cannot be defined by the type of food they serve, but have the word “diner” in their name or in their description.  Diners are characterized by offering a wide range of foods, mostly American, a casual atmosphere, a counter, and late operating hours."
+9189,Food/Drink,Drive-in Restaurant,"At a drive-in restaurant, customers park their vehicles and are usually served by staff who walk out to take orders and return with food, encouraging diners to remain parked while they eat."
+9190,Municipality,City,A city is a relatively large and permanent settlement.
+9191,Food/Drink,Confectionery,"Confectionery is the set of food items that are rich in sugar, any one or type of which is called a confection. Modern usage may include substances rich in artificial sweeteners as well. The word candy (North America), sweets (UK and Ireland) and lollies (Australia and New Zealand) are also used for the extensive variety of confectionery."
+9192,Food/Drink,Pub,"A public house, informally known as a pub, is a drinking establishment fundamental to the culture of Britain,[1][2] Ireland,[3] Australia[4] and New Zealand.
+
+Historically, public houses have been socially and culturally distinct from cafés, bars, bierkellers and brewpubs. Most public houses offer a range of beers, wines, spirits, and soft drinks."
+9193,Attraction,Museum - Automobile,An Automobile museum is a museum that explores the history of all aspects of automotive related transportation.
+9194,Food/Drink,Cuban,
+9195,Food/Drink,Hamburger,"Primarily known for their hamburgers, or “burger” is in the name."
+9196,Food/Drink,Cafeteria,"A cafeteria is a type of food service location in which there is little or no waiting staff table service, whether a restaurant or within an institution such as a large office building or school"
+9197,Services,Visitors Center,"A visitor center, visitor information center, tourist information center, is a physical location that provides tourist information to the visitors who tour the place or area locally."
+9198,Food/Drink,Contemporary,Food or drink establishments that are perceived as the latest trend.
+9199,Food/Drink,Cigar Bar,"While some cigar bars permit the smoking of cigarettes, the classic cigar bar focuses strictly on cigars.  Featured prominently in upscale bars are humidors, even walk-in humidors where people can buy and store cigars for safekeeping in special cigar lockers for individuals. The bars frequently also serve food and alcohol."
+9200,Food/Drink,Winery Tasting Room,"Use this designation when a tasting room is not located at a winery.
+
+Change to “Tasting Room”, as breweries also have tasting rooms"
+9201,Attraction,Museum - Cultural,"A museum that focuses on culture, or the historical culture of a place or people"
+9202,Food/Drink,Gastropub/Gastrolounge,Gastropub or Gastrolounge refers to a bar and restaurant that serves high-end beer and food.
+9203,Food/Drink,Hamburger,An establishment that is known primarily for their hamburgers.
+9204,Food/Drink,Fast Food,"Fast food is the term given to food that can be prepared and served very quickly. While any meal with low preparation time can be considered to be fast food, typically the term refers to food sold in a restaurant or store with preheated or precooked ingredients, and served to the customer in a packaged form for take-out/take-away."
+9205,Attraction,Theater - Dinner,"Dinner theater (sometimes called dinner and a show) is a form of entertainment that combines a restaurant meal with a staged play or musical. Sometimes the play is incidental entertainment, secondary to the meal, in the style of a sophisticated night club, or the play may be a major production with dinner less important, or in some cases, optional."
+9206,Food/Drink,Buffet/Smorgasbord,A buffet is a system of serving meals in which food is placed in a public area where the diners generally serve themselves.
+9207,Food/Drink,Brazilian,"Food specific to Brazil.  Brazilian cooking, while it has many similarities with that of its South American neighbors, is distinct. Stretching from the Amazon in the north, through the fertile plantations of the central coast and on to the southern pampas, the food of Brazil spans a unique mix of cultures and cuisines."
+9208,Sport or Activity,Disc Golf,"Disc golf is a disc game in which individual players throw a flying disc into a basket or at a target. According to the Professional Disc Golf Association, ""The object of the game is to traverse a course from beginning to end in the fewest number of throws of the disc."""
+9209,Attraction,Convention or Conference Center,A venue that is designed to hold conventions and/or conferences such as trade shows.  The building could be connected to a hotel or other attraction (like a stadium).
+9210,Sport or Activity,Driving Experience,An activity that allows visitors to self-drive a vehicle.
+9211,Food/Drink,Tex-Mex,Regional American cuisine that blends food products available in the United States and the culinary creations of Mexican-Americans influenced by the cuisines of Mexico.
+9212,Landmark - Man Made,Building,"Use this designation when the building itself is not a public destination, but a location inside is (i.e. a restaurant on the top floor of a condominium)"
+9213,Food/Drink,Chicken,A food establishment that serves primarily chicken
+9214,Food/Drink,Donuts,A food establishment that serves primarily donuts
+9215,Food/Drink,Hot Dog,An establishment that serves mainly hot dogs
+9216,Sport or Activity,Shooting Range,A shooting range or firing range is a specialized facility designed for firearms practice.
+9217,Landmark - Man Made,House,"A house that is a point of interest, but not open to the public"
+9218,Food/Drink,Cheesesteak,"A cheesesteak, also known as a Philadelphia cheesesteak, Philly cheesesteak, cheese steak, or steak and cheese, is a sandwich made from thinly-sliced pieces of steak and melted cheese in a long roll. A popular regional fast food, it has its roots in the city of Philadelphia, Pennsylvania."
+9219,Food/Drink,East Asian Cuisine,"Asian cuisine styles can be broken down into several tiny regional styles that have roots in the peoples and cultures of those regions. The major types can be roughly defined as East Asian with its origins in Imperial China and now encompassing modern Japan and the Korean peninsula; Southeast Asian which encompasses Cambodia, Laos, Thailand, Viet Nam, Brunei, Indonesia, Malaysia, Singapore, and the Philippines; South Asian states that are made up of India, Burma, Sri Lanka and Pakistan as well as several other countries in this region of the continent; Central Asian and Middle Eastern. [Wikipedia]"
+9220,Food/Drink,Southeast Asian Cuisine,"Asian cuisine styles can be broken down into several tiny regional styles that have roots in the peoples and cultures of those regions. The major types can be roughly defined as East Asian with its origins in Imperial China and now encompassing modern Japan and the Korean peninsula; Southeast Asian which encompasses Cambodia, Laos, Thailand, Viet Nam, Brunei, Indonesia, Malaysia, Singapore, and the Philippines; South Asian states that are made up of India, Burma, Sri Lanka and Pakistan as well as several other countries in this region of the continent; Central Asian and Middle Eastern. [Wikipedia]"
+9221,Food/Drink,South Asian Cuisine,"Asian cuisine styles can be broken down into several tiny regional styles that have roots in the peoples and cultures of those regions. The major types can be roughly defined as East Asian with its origins in Imperial China and now encompassing modern Japan and the Korean peninsula; Southeast Asian which encompasses Cambodia, Laos, Thailand, Viet Nam, Brunei, Indonesia, Malaysia, Singapore, and the Philippines; South Asian states that are made up of India, Burma, Sri Lanka and Pakistan as well as several other countries in this region of the continent; Central Asian and Middle Eastern. [Wikipedia]"
+9222,Services,Chamber of Commerce,"A chamber of commerce (also referred to in some circles as a board of trade) is a form of business network, e.g., a local organization of businesses whose goal is to further the interests of businesses."
+9223,Attraction,Museum - Military,"A museum dedicated to the military, both current and historical"
+9225,Shopping,Retail Center (Outdoor),"A catchall term for a number of outdoor malls, including Strip Malls, Lifestyle Centers and Power Centers.  They are different from indoor Shopping Malls."
+9226,Shopping,Grocery Store,"A grocery store is a store that retails food. A grocer, the owner of a grocery store, stocks different kinds of foods from assorted places and cultures, and sells these ""groceries"" to customers. Large grocery stores that stock products other than food, such as clothing or household items, are called supermarkets. [Wikipedia]"
+9227,Landmark - Man Made,Place of Worship,"A place of worship or house of worship is an establishment or her location where a group of people (a congregation) comes to perform acts of religious study, honor, or devotion. [Wikipedia]"
+9228,Landmark - Man Made,Cemetery,A cemetery is a spatially defined area where the remains of deceased people are buried or are otherwise interred.
+9229,Landmark - Natural,Rock Formation,"Rock formations can include isolated, scenic, or spectacular surface rock outcrops. These formations are usually the result of weathering and erosion sculpting the existing rock. The term 'rock formation' can also refer to specific sedimentary strata or other rock unit in stratigraphic and petrologic studies."
+9230,Shopping,Shopping District,"Open-air street-side shopping districts that are destination locations in cities. Boutique stores, fashion houses, and purveyors of specialty and/or luxury goods usually characterize these locations. They may be located along a designated street or clustered in mixed-use commercial area within the city. In major cities and metropolitan areas, there may be more than one leading shopping street or district."
+9231,Attraction,Retreat (spiritual),"The meaning of a spiritual retreat can be different for different religious communities. Spiritual Retreats are an integral part of many Buddhist, Christian and Sufi (Islamic) communities. [Wikipedia]"
+9232,Transportation,Bus Provider,"A company that provides bus transportation.  Associated POI’s will denote bus stations, which could include more than one bus provider (see Bus Station for Place records)"
+9233,Services,Bike Rental,"A bike rental or bike hire business is a bike shop or other business that rents bikes for short periods of time (usually for a few hours) for a fee. Most rentals are provided by bicycle shops as a sideline to their main businesses of sales and service, but some shops specialize in rentals. [Wikipedia]"
+9234,Attraction,Exhibition,"An exhibition, in the most general sense, is an organized presentation and display of a selection of items. In practice, exhibitions usually occur within museums, galleries and exhibition halls, and World's Fairs. Exhibitions include [whatever as in major art museums and small art galleries; interpretive exhibitions, as at natural history museums and history museums], for example; and commercial exhibitions, or trade fairs.  [Wikipedia]  For our use, an Exhibition will be a non-permanent display."
+9235,Transportation,Train station,"A train station, also called a railroad station (mainly in the United States) or railway station (mainly in the British Commonwealth) and often shortened to just station,[note 1] is a railway facility where trains regularly stop to load or unload passengers or freight. [Wikipedia]"
+9236,Sport or Activity,Arena,"An arena is an enclosed area, often circular or oval-shaped, designed to showcase theater, musical performances, or sporting events."
+9237,Transportation,Water Taxi Provider,"A water taxi or water bus, also known as a commuter boat, is a watercraft used to provide public transport, usually but not always in an urban environment."
+9238,Attraction,Cultural Center,"A cultural center or cultural centre is an organization, building or complex that promotes culture and arts. Cultural centers can be neighborhood community arts organizations, private facilities, government-sponsored, or activist-run."
+9239,Shopping,Shop - Kitchen & Bath,"A shop, or small store, that specializes in kitchen and/or bath products"
+9240,Food/Drink,Peruvian,Food from Peru
+9241,Shopping,Vintage Clothing,"Vintage clothing is a generic term for new or second hand garments originating from a previous era. The phrase is also used in connection with a retail outlet, e.g. ""vintage clothing store."" [Wikipedia]"
+9242,Sport or Activity,Go-kart,An activity that involves driving rental go-karts
+9244,Sport or Activity,Public Pool,"A pool that is available to the public, regardless if it’s operated by a government or a private company"
+9245,Food/Drink,Farm-to-Table,"Farm-to-table refers to a movement concerned with producing food locally and delivering that food to local consumers. Linked to the local food movement, the movement is promoted by some in the agriculture, food service, and restaurant communities. It may also be associated with organic farming initiatives, sustainable agriculture, and community-supported agriculture. [Wikipedia]"
+9246,Shopping,Boutique,"A boutique is a small shopping outlet, especially one that specializes in elite and fashionable items such as clothing and jewelry.  [Wikipedia]"
+9247,Landmark - Man Made,Covered Bridge,"A covered bridge is a bridge with enclosed sides and a roof, often accommodating only a single lane of traffic. Most covered bridges are wooden; some newer ones are concrete or metal with glass sides. Mainly associated with the 19th century, covered bridges often serve as prominent local landmarks and have long attracted the attention of historic preservationists.  [Wikipedia]"
+9248,Food/Drink,Bar & Grill,"A bar that also serves full meals.  Related to gastropubs, but the food is not the main draw."
+9249,Landmark - Man Made,Pier,"A pier is a raised structure, including bridge and building supports and walkways, over water, typically supported by widely spread piles or pillars.  [Wikipedia]"
+9250,Landmark - Man Made,Dam,"A dam is a barrier that impounds water or underground streams. Dams generally serve the primary purpose of retaining water, while other structures such as floodgates or levees (also known as dikes) are used to manage or prevent water flow into specific land regions.  [Wikipedia]"
+9251,Landmark - Man Made,Bridge,"A bridge is a structure built to span physical obstacles such as a body of water, valley, or road, for the purpose of providing passage over the obstacle.  [Wikipedia]"
+9252,Landmark - Natural,Island,"An island is any piece of sub-continental land that is surrounded by water. Very small islands such as emergent land features on atolls can be called islets, cays or keys. An island in a river or an island in a lake may be called an eyot, or holm. A grouping of geographically or geologically related islands is called an archipelago.  [Wikipedia]"
+9253,Attraction,Arts Center,"An art centre or arts center is distinct from an art gallery or art museum. An arts centre is a functional community centre with a specific remit to encourage arts practice and to provide facilities such as theatre space, gallery space, venues for musical performance, workshop areas, educational facilities, technical equipment, etc.  [Wikpedia]"
+9254,Food/Drink,Taiwanese,"Taiwanese cuisine itself is often associated with influences from mid to southern provinces of Mainland China, most notably from the province of Fujian (Hokkien), but influences from all of Mainland China can easily be found. A notable Japanese influence exists due to the period when Taiwan was under Japanese rule. Traditional Chinese food can be found in Taiwan, alongside Fujian and Hakka-style as well as native Taiwanese dishes, includes dishes from Guangdong, Jiangxi, Chaoshan, Shanghai, Hunan, Sichuan and Beijing.  [Wikipedia]"
+9255,Food/Drink,Irish,
+9256,Food/Drink,Bagels,An establishment known primarily for their bagels
+9257,Food/Drink,Fondue,"Since the 1950s, the name ""fondue"" has been generalized to other dishes where a food is dipped into a communal pot of hot liquid: chocolate fondue, where pieces of fruit are dipped into a melted chocolate mixture, and fondue bourguignonne, where pieces of meat are cooked in hot oil."
+9258,Transportation,Marina,A marina is a dock or basin with moorings and supplies for yachts and small boats. A marina differs from a port in that a marina does not handle large passenger ships or cargo from freighters.  [Wikipedia]
+9259,Attraction,Amusement Ride,"Use this designation when the Point of Interest is only one amusement attraction, like a carousel."
+9260,Attraction,Museum - Natural History,Museums of natural history and natural science typically exhibit work of the natural world. The focus lies on nature and culture.
+9261,Attraction,Fine Arts Center,Fine art or the fine arts encompass art forms developed primarily for aesthetics and/or concept rather than practical application.
+9262,Attraction,Museum - Historic House,"A historic house museum is a house that has been transformed into a museum. Historic furnishings may be displayed in a way that reflects their original placement and usage in a home. Historic house museums are held to a variety of standards, including those of the International Council of Museums."
+9263,Attraction,Presidential Library,"In the United States, the Presidential library system is a nationwide network of libraries administered by the Office of Presidential Libraries, which is part of the National Archives and Records Administration (NARA). These are not libraries in the modern sense, but rather repositories for preserving and making available the papers, records, collections and other historical materials of every President of the United States since Herbert Hoover."
+9264,Food/Drink,Midwest Cuisine,"Midwestern cuisine is a regional cuisine of the American Midwest. It draws its culinary roots most significantly from the cuisines of Central, Northern and Eastern Europe, and is influenced by regionally and locally grown foodstuffs and cultural diversity."
+9265,Food/Drink,Tasting Room,"A tasting room is a part of a winery, typically located on the premises of the winery's production facilities, at which guests may sample the winery's products.  Applies to other drinks too."
+9266,Food/Drink,Brewpub,"A restaurant-brewery that sells 25% or more of its beer on site. The beer is brewed primarily for sale in the restaurant and bar. The beer is often dispensed directly from the brewery's storage tanks. Where allowed by law, brewpubs often sell beer ""to go"" and /or distribute to off site accounts. Note: BA re-categorizes a company as a microbrewery if its off-site (distributed) beer sales exceed 75%.  [Brewers Association | Market Segments - http://www.brewersassociation.org/pages/business-tools/craft-brewing-statistics/market-segments]"
+9267,Food/Drink,Cupcakes,Shops that are known primarily for selling cupcakes
+9268,Shopping,Food - Specialty,Stores that sell specialty foods
+9269,Sport or Activity,Class - Cooking,"A cooking class that someone takes for the enjoyment, or experience, not for work."
+9270,Food/Drink,Specialty Food Grower,Use for businesses like olive orchards or food/drink other than beer and wine
+9271,Attraction,Botanical Garden,"A botanical garden (or botanic garden) is a well-tended area displaying a wide range of plants labelled with their botanical names. It may contain specialist plant collections such as cacti and succulent plants, herb gardens, plants from particular parts of the world, and so on; there may be greenhouses, shadehouses, again with special collections such as tropical plants, alpine plants or other exotic plants. Visitor services at a botanical garden might include tours, educational displays, art exhibitions, book rooms, open-air theatrical and musical performances and other entertainment.  [Wikipedia]"
+9272,Shopping,Specialty Store,A store that focuses on a particular product or type of product
+9273,Attraction,Factory Tour,"A factory tour Involves organised visits to factories to see things being manufactured and processes at work. Breweries and distilleries, together with manufacturers of clothes, pottery and glass, are amongst the most popular factory visits.  [Wikipedia]"
+9274,Municipality,Neighborhood,"A neighborhood (or neighbourhood ) is a geographically localised community within a larger city, town or suburb.  [Wikipedia]"
+9275,Shopping,Tabacco Shop,A shop that sells pipes and pipe tobacco and cigars and cigarettes.
+9276,Attraction,Museum - Company,A museum that documents the history and products of a particular company
+9277,Attraction,National Register of Historic Places (NRHP),"The National Register of Historic Places (NRHP) is the United States federal government's official list of districts, sites, buildings, structures, and objects deemed worthy of preservation.  [Wikipedia]"
+9278,Attraction,Wildlife Education Center,"An organization that focuses on the history, biology, behavior, and ecology of wildlife, or one particular species of wildlife.  Different from a Nature Preserve, where the focus is on preserving the land with indigenous species, whereas an education center may not house the wildlife in natural or native settings."
+9279,Attraction,National Monument (U.S.),A National Monument in the United States is a protected area that is similar to a National Park except that the President of the United States can quickly declare an area of the United States to be a National Monument without the approval of Congress. National monuments receive less funding and afford fewer protections to wildlife than national parks.  [Wikipedia]
+9280,Attraction,National Historic Landmark (NHL),"A National Historic Landmark (NHL) is a building, site, structure, or object that is officially recognized by the United States government for its historical significance. Out of more than 80,000 places on the National Register of Historic Places only about 2,430 are NHLs.  [Wikipedia]"
+9281,Attraction,Historical Society,"A historical society is an organization that collects, researches, interprets and preserves information or items of historical interest. Generally, a historical society focuses on a specific geographical area, such as a county or town or subject, such as aviation or rail. Many historical societies publish journals or maintain museums to showcase their field of study.  [Wikipedia]"
+9282,Sport or Activity,Skatepark,"A skatepark is a purpose-built recreational environment made for skateboarding, BMX and aggressive inline skating. A skatepark may contain half-pipes, quarter pipes, spine transfers, handrails, funboxes, vert ramps, pyramids, banked ramps, full pipes, pools, bowls, snake runs stairsets, and any number of other objects.  [Wikipedia]"
+9283,Sport or Activity,Surfing,"A place to surf at, or to rent or take lessons for."
+9284,Food/Drink,Hawaiin,"Food that has originated in Hawaii, or is thought of as being Hawaiin."
+9285,Sport or Activity,Polo,
+9286,Sport or Activity,Sport Rental,
+9287,Services,Barbershop,
+9288,Food/Drink,Tibetan,"Tibetan cuisine reflects local climates and customs. Few crops grow at the high altitudes that characterize Tibet, although a few areas in Tibet are low enough to grow such crops as rice, oranges, bananas, and lemon. The most important crop is barley. Flour milled from roasted barley, called tsampa, is the staple food of Tibet.  [Wikipedia]"
+9289,Lodging,Lodge,"a small country house occupied in season for sports such as hunting, shooting, fishing, and skiing.  If a place offering lodging refers to itself as a “lodge”, it could also be another word for a motel.  Only use “lodge” when the lodging is truly not a motel or other urban accommodation."
+9290,Landmark - Man Made,Lighthouse,"A lighthouse is a tower, building, or other type of structure designed to emit light from a system of light and lenses and used as an aid to navigation for maritime pilots at sea or on inland waterways.  [Wikipedia]"
+9291,Food/Drink,Seasonal,Menu offerings that change with the season.
+9292,Attraction,Artistic Activity/Class,"An activity or class where people can make something of an artistic nature, as opposed to building something of use."
+9293,Landmark - Man Made,Statue,
+9294,Shopping,Collective,"A collective is a group of entities that share or are motivated by at least one common issue or interest, or work together on a specific project(s) to achieve a common objective. Collectives differ from cooperatives in that they are not necessarily focused upon an economic benefit or saving (but can be that as well).  [Wikipedia]"
+9295,Shopping,Nursery,"A farm or farm products retailer who commercially grows flowering plants, shrubs, and trees as ornamental plants for floristry, landscaping, or for horticultural purposes.  [Wikipedia]"
+9296,Shopping,Outdoor Outfitter,"An outfitter is a shop or person that sells specialized clothes (an outfit is a set of clothing). More specifically, it is a company or individual who provides or deals in equipment and supplies for the pursuit of certain activities.  [Wikipedia]"
+9297,Attraction,Fair,"A fair is a gathering of people to display or trade produce or other goods, to parade or display animals and often to enjoy associated carnival or funfair entertainment. It is normally of the essence of a fair that it is temporary; some last only an afternoon while others may last as long as ten weeks.  [Wikipedia]"
+9299,Sport or Activity,Driving Range,A driving range is an area where golfers can practice their golf swing. It can also be a recreational activity itself for amateur golfers or when enough time for a full game is not available.  [Wikipedia]
+9300,Attraction,Nature Center,"A nature center (or nature centre) is an organization with a visitor center or interpretive center designed to educate people about nature and the environment. Usually located within a protected open space, nature centers often have trails through their property. Some are located within a state or city park, and some have special gardens or an arboretum. Their properties can be characterized as nature preserves and wildlife sanctuaries.  [Wikipedia]"
+9301,Food/Drink,Korean,
+9302,Food/Drink,Scandinavian,
+9303,Food/Drink,British,
+9304,Shopping,Food - Local,A store featuring local produce and products.
+9305,Food/Drink,Australian,
+9306,Services,Pet Boarding,
+9307,Lodging,Camping,"A location that provides camping locations, camping experiences, or an area where camping is allowed.  Different from “campground”, which is a managed facility for camping."
+9308,Food/Drink,Chocolatier,"A chocolatier is someone who makes confectionery from chocolate. Chocolatiers are distinct from chocolate makers, who create chocolate from cacao beans and other ingredients.  [Wikipedia]"
+9309,Attraction,Museum - Technology,A museum that is devoted primarily to technology.
+9310,Food/Drink,Soul Food,"Soul food cuisine consists of a selection of foods traditional for African Americans. It is closely related to the cuisine of the Southern United States. The descriptive terminology may have originated in the mid-1960s, when soul was a common definer used to describe African-American culture (for example, soul music).  [Wikipedia]"
+9311,Food/Drink,Pakastani,Pakistani cuisine is a refined blend of various regional cooking traditions of South Asia.  [Wikipedia]
+9312,Food/Drink,Juice Bar/Smoothies,
+9313,Food/Drink,Austrian,
+9314,Food/Drink,Belgium,
+9315,Food/Drink,Argentine,
+9316,Food/Drink,Charcuterie,"Charcuterie is the branch of cooking devoted to prepared meat products, such as bacon, ham, sausage, terrines, galantines, pâtés, and confit, primarily from pork. Charcuterie is part of the garde manger chef's repertoire. Originally intended as a way to preserve meats before the advent of refrigeration, they are prepared today for their flavors derived from the preservation processes.  [Wikipedia]"
+9317,Attraction,Museum - Industry,"Museums that focus on an industry, both past and present."
+9318,Attraction,Cabaret,"Cabaret is a form of entertainment featuring music, comedy, song, dance, recitation or drama. It is mainly distinguished by the performance venue (also called a cabaret), such as in a restaurant, pub or nightclub with a stage for performances. The audience usually sits at tables, often dining or drinking. Performances are usually introduced by a master of ceremonies or MC (spelled emcee in the U.S.). The entertainment is often (but not always) oriented towards adult audiences.  [Wikipedia]"
+9319,Landmark - Man Made,Monument,
+9320,Food/Drink,Basque,"Basque cuisine, the cuisine of the Basque people, includes meats and fish grilled over hot coals, marmitako and lamb stews, cod, Tolosa bean dishes, paprikas from Lekeitio, pintxos (Basque tapas), Idiazabal sheep's cheese, txakoli sparkling wine, and Basque cider.  [Wikipedia]"
+9321,Food/Drink,Lebanese,"Lebanese cuisine includes an abundance of starches, whole grain, fruits, vegetables, fresh fish and seafood; animal fats are consumed sparingly. Poultry is eaten more often than red meat. When red meat is eaten it is usually lamb on the coast, and goat meat in the mountain regions. It also includes copious amounts of garlic and olive oil, often seasoned by lemon juice.;[1] olive oil, herbs, garlic and lemon are typical flavours found in the Lebanese diet.  [Wikipedia]"
+9322,Food/Drink,Portuguese,"Portuguese cuisine is characterised by rich, filling and full-flavoured dishes and is closely related to Mediterranean cuisine."
+9323,Food/Drink,Turkish,"Turkish cuisine is largely the heritage of Ottoman cuisine, which can be described as a fusion and refinement of Central Asian, Middle Eastern and Balkan cuisines.  [Wikipedia]"
+9324,Food/Drink,Columbian,"Colombian cuisine includes the cooking traditions and practices of Colombia and its Caribbean shoreline, Pacific coast, mountains, jungle, and ranchlands. Colombian cuisine varies regionally and is influenced by indigenous, Spanish, African, Arab and some Asian influences.  [Wikipedia]"
+9325,Food/Drink,Jewish,"Jewish cuisine is a collection of the different cooking traditions of the Jewish people worldwide. It is a diverse cuisine that has evolved over many centuries, shaped by Jewish dietary laws (kashrut) and Jewish Festival and Shabbat (Sabbath) traditions. Jewish Cuisine is influenced by the economics, agriculture, and culinary traditions of the many countries where Jewish communities have existed and varies widely throughout the world.  [Wikipedia]"
+9326,Food/Drink,Russian,"Russian cuisine (Russian: Русская кухня, tr. Russkaya kuhnya) is diverse, as Russia is by area the largest country in the world.[1] Russian cuisine derives its varied character from the vast and multi-cultural expanse of Russia. Its foundations were laid by the peasant food of the rural population in an often harsh climate, with a combination of plentiful fish, poultry, game, mushrooms, berries, and honey. Crops of rye, wheat, barley, and millet provided the ingredients for a plethora of breads, pancakes, cereals, beer, and vodka. Soups and stews full of flavor are centered on seasonal or storable produce, fish, and meats. This wholly native food remained the staple for the vast majority of Russians well into the 20th century.  [Wikipedia]"
+9327,Food/Drink,Pacific Northwest,"Pacific Northwest cuisine is a North American cuisine of the states of Oregon, Washington and Alaska, and the provinces of British Columbia and the southern Yukon. The cuisine reflects the ethnic makeup of the region, with noticeable influence from Asian and Native American traditions.  [Wikipedia]"
+9328,Food/Drink,Danish,"Danish cuisine (Danish: dansk køkken), originating from the peasant population's own local produce, was enhanced by cooking techniques developed in the late 19th century and the wider availability of goods after the Industrial Revolution. The open sandwiches, known as smørrebrød, which in their basic form are the usual fare for lunch, can be considered a national speciality when prepared and decorated with a variety of fine ingredients. Hot meals traditionally consist of ground meats, such as frikadeller (meat balls), or of more substantial meat and fish dishes such as flæskesteg (roast pork with crackling) or kogt torsk (poached cod) with mustard sauce and trimmings. Denmark is known for its Carlsberg and Tuborg beers and for its akvavit and bitters although imported wine is now gaining popularity.  [Wikipedia]"
+9329,Food/Drink,Meadery,A meadery is a winery that produces honey wines or meads.  [Wikipedia]
+9330,Food/Drink,Cidery,A brewery where cider is produced.  [Wiktionary]
+9331,Attraction,Aerial Tramway,"An aerial tramway, cable car, ropeway (Japanese) or aerial tram is a type of aerial lift which uses one or two stationary ropes for support while a third moving rope provides propulsion.[1] With this form of lift, the grip of an aerial tramway cabin is fixed onto the propulsion rope and cannot be decoupled from it during operations.  [Wikipedia]"
+9332,Services,Retreat - Health/Fitness,A retreat that focuses on health or fitness
+9333,Services,Well-being/Wellness,Services that focus on well-being and or wellness.
+9334,Attraction,Library,
+9335,Services,Yoga,
+9336,Attraction,Pool,
+9338,Food/Drink,Filipino,
+9339,Food/Drink,Cider House,"A cider house is an establishment, often little more than a room in a farmhouse or cottage, that sells locally fermented alcoholic cider for consumption on the premises. Historically, some cider houses also sold cider ""to go"", for consumption off the premises.  [Wikipedia]"
+9340,Attraction,Comedy Club,"A comedy club is a venue, typically a nightclub, bar, or restaurant where people watch or listen to performances, including stand-up comedians, improvisational comedians, impersonators, magicians, ventriloquists and other comedy acts. The term ""comedy club"" usually refers to venues that feature standup comedy, as distinguished from improv theaters that host improv or sketch comedy and variety clubs that may also host musical acts.  [Wikipedia]"
+9341,Shopping,Comic Books,A store that sells comic books
+9342,Landmark - Natural,Lake,
+9343,Landmark - Natural,Inlet,
+9344,Landmark - Natural,Canyon,
+9345,Landmark - Man Made,Road,
+9346,Landmark - Natural,Tree,
+9347,Shopping,Florist,
+9348,Food/Drink,Brunch,"Brunch is a meal eaten between breakfast and lunch, and is a substitute for both these meals. The word is a portmanteau of breakfast and lunch.  [Wikipedia]"
+9349,Sport or Activity,Winter Sport,Whatever winter sport is not already defined.
+9350,Food/Drink,Falafel,A restaurant that is known mainly because it serves falafel
+9351,Attraction,National Conservation Area,National Conservation Area is a designation for certain protected areas in the United States. National Conservation Areas are managed by the United States Bureau of Land Management under the National Landscape Conservation System. Restrictions vary between conservation areas but generally the areas are not leased or sold under mining laws and motorized vehicle use is restricted.
+9352,Food/Drink,Polynesian,
+9353,Attraction,Art Exhibit,"A exhibit that is typically outdoors, and part of a larger institution"
+9354,Sport or Activity,Bowling,
+9355,Food/Drink,Puerto Rican,"Puerto Rican cuisine has its roots in the cooking traditions and practices of Europe (Spain), Africa and the Amerindian Taínos. In the latter part of the 19th century, the cuisine of Puerto Rico was greatly influenced by the United States in the ingredients used in its preparation. Puerto Rican cuisine has transcended the boundaries of the island, and can be found in several countries outside the archipelago.  [Wikipedia]"
+9356,Shopping,Bicycle Shop,
+9357,Food/Drink,Creamery,"In a dairy, the creamery is the location of cream processing. Cream is separated from whole milk; pasteurization is done to the skimmed milk and cream separately. Whole milk for sale has had some cream returned to the skimmed milk.
+
+The creamery is the source of butter from a dairy. While cream is an emulsion of fat-in-water, the process of churning causes a phase inversion to butter which is an emulsion of water-in-fat. Excess liquid as buttermilk is drained off in the process. While modern creameries are automatically controlled industries, the traditional creamery required skilled workers. Traditional tools included the butter churn and Scotch hands.
+
+The term ""Creamery"" is sometimes used in retail trade as a place to buy milk products such as yogurt and ice cream. Under the banner of a creamery one might find a store also stocking pies and cakes or even a coffeehouse with confectionery.  [Wikipedia]"
+9359,Shopping,Cheese Shop,
+9360,Sport or Activity,Outdoor Activity,Outdoor activity not specifically defined
+9361,Attraction,Visitor Center,
+9362,Attraction,National Wildlife Refuge (U.S.),National Wildlife Refuge is a designation for certain protected areas of the United States managed by the United States Fish and Wildlife Service.  [Wikipedia]
+9363,Food/Drink,Israeli,
+9365,Sport or Activity,Activity School,"A place or business that teaches people how to do something.  For instance, bull riding."
+9366,Food/Drink,Bolivian,
+9367,Food/Drink,Frozen Yogurt,
+9368,Lodging,Private Home - Short Term Rental,A private residence that rents part or all of the residence for short periods.  Usually rented through services like AirBnB.com
+9369,Landmark - Natural,Flower Field,
+9370,Attraction,Museum - Government,
+9371,Attraction,Museum - Entertainment,
+9372,Services,Library,For libraries that are not government owned
+9373,Sport or Activity,Adventure Activities,"This could include team building, acrobatic activities, zipline, etc."
+9374,Attraction,Sculpture Garden,
+9375,Attraction,Museum - Surfing,
+9376,Attraction,Observatory,
+9377,Food/Drink,Chilean,
+9378,Food/Drink,Uruguayan,
+9379,Food/Drink,Polish,
+9381,Shopping,Street Market,"A street market is an outdoor market such as traditionally held in a market square or in a market town, and often held only on particular days of the week. Very similar markets, or bazaars, can also be found in large enclosed spaces, instead of on a street.  [Wikipedia]"
+9382,Attraction,Library - Presidential,"In the United States, the presidential library system is a nationwide network of 13 libraries administered by the Office of Presidential Libraries, which is part of the National Archives and Records Administration (NARA). These are repositories for preserving and making available the papers, records, collections and other historical materials of every President of the United States since Herbert Hoover.
+
+Although not officially sanctioned and maintained by NARA, libraries have been organized for several Presidents who preceded the official start of the Presidential Library Office."
+9383,Food/Drink,Food Truck,
+9384,Attraction,Karaoke,"A place that offer karaoke either exclusively, or along with food or other attractions"
+9385,Food/Drink,Tea House,"A tea house or tea room is an establishment which primarily serves tea and other light refreshments. Although its function varies widely depending on the culture, tea houses often serve as centers of social interaction. Some cultures have a variety of distinct tea-centered houses or parlors that all qualify under the English language term ""tea house"" or ""tea room.""  [Wikipedia]"
+9386,Food/Drink,Dim Sum,"Dim sum refers to a style of Cantonese food prepared as small bite-sized or individual portions of food traditionally served in small steamer baskets or on small plates. Dim sum is also well known for the unique way it is served in some restaurants, wherein fully cooked and ready-to-serve dim sum dishes are carted around the restaurant for customers to choose their orders while seated at their tables.  [Wikipedia]"
+9387,Sport or Activity,Bike Park - Indoor,
+9388,Food/Drink,New England,
+9389,Attraction,Esplanade/Promenade,"An esplanade is a long, open, level area, usually next to a river or large body of water, where people may walk. Esplanade and promenade are sometimes used interchangeably. The derivation of ""promenade"" indicates a place specifically intended for walking, though many modern promenades and esplanades also allow bicycles and other nonmotorized transport.[1] Some esplanades also include large boulevards or avenues where cars are permitted.  [Wikipedia]"
+9390,Attraction,National Seashore,
+9391,Services,Transportation - Misc,
+9392,Landmark - Natural,Mountain,
+9393,Transportation,Ferry,
+9394,Transportation,Packhorse,"A packhorse or pack horse refers generally to an equid such as a horse, mule, donkey or pony used for carrying goods on their backs, usually carried in sidebags or panniers. Typically packhorses are used to cross difficult terrain, where the absence of roads prevents the use of wheeled vehicles.  [Wikipedia]"
+9395,Landmark - Man Made,Road,
+9396,Educational Institution,College or University,
+9397,Food/Drink,Fish and Chips,
+9398,Attraction,National Historical Park,"In the United States, sites are ""historic"", while parks are ""historical"". The National Park Service explains that a site can be intrinsically historic, while a park is a modern legal invention. As such, a park is not itself ""historic"", but can be called ""historical"" when it contains historic resources. It is the resources which are historic, not the park.  [Wikipedia]"
+9399,Food/Drink,Moroccan,
+9400,Food/Drink,Comfort Food,"Comfort food is traditionally eaten food (which often provides a nostalgic or sentimental feeling to the person eating it), or simply provides the consumer an easy-to-digest meal, soft in consistency, and rich in calories, nutrients, or both. The nostalgic element most comfort food has may be specific to either the individual or a specific culture. Many comfort foods are flavorful; some may also be easily prepared.  [Wikipedia]"
+9401,Attraction,Museum - Archaeology,Archaeology museums specialize in the display of archaeological artifacts.  [Wikipedia]
+9402,Attraction,Museum - Anthropology,"Anthropology is the ""science of humanity."" It has origins in the humanities, the natural sciences, and the social sciences. The term ""anthropology"" is from the Greek anthrōpos, ""man"", understood to mean humankind or humanity, and -logia, ""discourse"" or ""study.""  [Wikipedia]"
+9403,Attraction,Museum - Medicine,
+9404,Food/Drink,Shave Ice,"Shave ice or Hawaiian shave ice is an ice-based dessert made by shaving a block of ice. While the product can resemble a snow cone, snow cones are made with crushed, rather than shaved, ice. Even though it is made with shaved ice, it is called ""shave ice"", not ""shaved ice"" by Hawaiians.  [Wikipedia]"
+9405,Shopping,Public Market,"Public markets are markets, in public spaces, where independent merchants can sell their products to the public. Typical products sold at public markets include fresh produce, baked goods, locally raised meats and dairy products and various other food items and handcrafted goods. Public markets often emphasize foods, clothing, and artisanal products reflective of the ethnicities in their respective regions. They can also serve as popular venues for public events and busking. Public markets are distinct from farmers' markets in that they often feature imported goods.  [Wikipedia]"
+9406,Food/Drink,Coffee Shop,"Coffee shop, in the U.S., a casual, popular-priced restaurant similar to a diner"
+9407,Food/Drink,Pie Shop,A shop specializing in pies
+9408,Lodging,Retreat,
+9409,Attraction,Observation Deck,"An observation deck, observation platform or viewing platform is an elevated sightseeing platform usually situated upon a tall architectural structure such as a skyscraper or observation tower. Fitted with railings or fencing for safety, observation decks are sometimes enclosed from weather, as many skyscraper decks, and may include coin operated telescopes for viewing distant features.important.  [Wikipedia]"
+9410,Food/Drink,Armenian,
+9411,Attraction,Museum - Ethnography,"Ethnography is a qualitative research design aimed at exploring cultural phenomena. The resulting field study or a case report reflects the knowledge and the system of meanings in the lives of a cultural group. An ethnography is a means to represent graphically and in writing, the culture of a people.  [Wikipedia]"
+9412,Attraction,Playground - Indoor,
+9413,Attraction,National Marine Sanctuary,"A U.S. National Marine Sanctuary is a federally designated area within United States waters that protects areas of the marine environment with special conservation, recreational, ecological, historical, cultural, archeological, scientific, educational, or aesthetic qualities.  [Wikipedia]"
+9414,Food/Drink,Georgian,
+9415,Attraction,Insectarium,"An insectarium is a live insect zoo, or a museum or exhibit of live insects. Insectariums often display a variety of insects and similar arthropods, such as spiders, beetles, cockroaches, ants, bees, millipedes, centipedes, crickets, grasshoppers, stick insects, scorpions and mantids."
+9416,Food/Drink,Tap Room,
+9417,Attraction,Theater - Comedy,
+9418,Services,Pet Services,
+9419,Food/Drink,Southern Europe,
+9420,Food/Drink,English,
+9421,Services,Blacksmith,
+9422,Sport or Activity,Tennis,
+9423,Attraction,National Memorial (U.S.),"National memorial is a designation in the United States for a protected area that memorializes a historic person or event.[1] National memorials are authorized by the United States Congress. The memorial need not be located on a site directly related to the subject[1] and many, such as the Lincoln Memorial, do not have the word ""national"" in their titles.
+
+There are 29 national memorials owned and administered by the National Park Service as official units. Five more are administered by other organizations but receive assistance from and are considered affiliated areas of the NPS.  [Wikipedia]"
+9424,Shopping,Kitchenware,
+9425,Food/Drink,Slow Food,"Slow Food is an international movement founded by Carlo Petrini in 1986. Promoted as an alternative to fast food, it strives to preserve traditional and regional cuisine and encourages farming of plants, seeds and livestock characteristic of the local ecosystem."
+9426,Food/Drink,Tapas,
+9427,Food/Drink,Kebab,"Kebab is a wide variety of skewered meals originating in the Middle East and later on adopted in the Balkans, the Caucasus, other parts of Europe, as well as Central and South Asia, that are now found worldwide."
+9428,Food/Drink,Mongolian,
+9429,Landmark - Man Made,Marker,"A marker of some sort that denotes a place of interest, or even a person of interest"
+9430,Landmark - Man Made,Boardwalk,
+9431,Attraction,Natural Attraction,An attraction that highlights a feature found in nature
+9432,Attraction,National Military Park,"National Military Park, National Battlefield, National Battlefield Park, and National Battlefield Site are four designations for 25 battle sites preserved by the United States federal government because of their national importance. The designation applies to ""sites where historic battles were fought on American soil during the armed conflicts that shaped the growth and development of the United States...."""
+9433,Food/Drink,Ethiopian,
+9434,Food/Drink,Prix Fixe,
+9435,Food/Drink,Swedish,
+9436,Food/Drink,Afghan,
+9437,Food/Drink,Salvadoran,
+9438,Food/Drink,Canadian,
+9439,Food/Drink,Native American,
+9440,Food/Drink,Ramen,
+9441,Landmark - Natural,Water Feature,
+9442,Food/Drink,Rotating Menu,Use for restaurants that have a rotating menu
+9443,Shopping,Gifts & Accessories,
+9444,Attraction,Park - Open Space,
+9445,Food/Drink,Szechuan,
+9446,Sport or Activity,Minigolf,"Miniature golf, or minigolf, is a miniature version of the sport of golf.  [Wikipedia]"
+9447,Food/Drink,Poutine,Poutine is a dish consisting of fresh cut French fries and cheese curds covered in brown gravy or other sauces combined with a variety of toppings.
+9448,Attraction,Cruise - Dinner,
+9449,Lodging,Hotel - Boutique,"Boutique hotel is a term popularized in North America and the United Kingdom to describe hotels which have typically between 10 and 100 rooms, but can be as small as 2 rooms in a commercial setting (as opposed to rooms for rent in private residences), and often contain luxury facilities in unique or intimate settings with full service accommodations."
+9450,Educational Institution,Other,"If no existing sub-category is a better fit, and a new sub-category would be too limited, use ""Other"".  Can also be used as a placeholder until a better sub-category is defined"
+9451,Landmark - Man Made,Other,"If no existing sub-category is a better fit, and a new sub-category would be too limited, use ""Other"".  Can also be used as a placeholder until a better sub-category is defined"
+9452,Landmark - Natural,Other,"If no existing sub-category is a better fit, and a new sub-category would be too limited, use ""Other"".  Can also be used as a placeholder until a better sub-category is defined"
+9453,Municipality,Other,"If no existing sub-category is a better fit, and a new sub-category would be too limited, use ""Other"".  Can also be used as a placeholder until a better sub-category is defined"
+9454,Transportation,Other,"If no existing sub-category is a better fit, and a new sub-category would be too limited, use ""Other"".  Can also be used as a placeholder until a better sub-category is defined"
