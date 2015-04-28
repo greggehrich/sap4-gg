@@ -1,0 +1,1199 @@
+CBSA Code,MSA_Name,Div Code,Metropolitan Division Name,FIPS,State,Component Name,Component Type
+10180,"Abilene, TX MSA",,,48059,TX,Callahan,County
+10180,"Abilene, TX MSA",,,48253,TX,Jones,County
+10180,"Abilene, TX MSA",,,48441,TX,Taylor,County
+10380,"Aguadilla-Isabela-San Sebastián, PR MSA",,,72003,PR,Aguada ,Municipio
+10380,"Aguadilla-Isabela-San Sebastián, PR MSA",,,72005,PR,Aguadilla ,Municipio
+10380,"Aguadilla-Isabela-San Sebastián, PR MSA",,,72011,PR,Añasco ,Municipio
+10380,"Aguadilla-Isabela-San Sebastián, PR MSA",,,72071,PR,Isabela ,Municipio
+10380,"Aguadilla-Isabela-San Sebastián, PR MSA",,,72081,PR,Lares ,Municipio
+10380,"Aguadilla-Isabela-San Sebastián, PR MSA",,,72099,PR,Moca ,Municipio
+10380,"Aguadilla-Isabela-San Sebastián, PR MSA",,,72117,PR,Rincón ,Municipio
+10380,"Aguadilla-Isabela-San Sebastián, PR MSA",,,72131,PR,San Sebastián ,Municipio
+10420,"Akron, OH MSA",,,39133,OH,Portage,County
+10420,"Akron, OH MSA",,,39153,OH,Summit,County
+10500,"Albany, GA MSA",,,13007,GA,Baker,County
+10500,"Albany, GA MSA",,,13095,GA,Dougherty,County
+10500,"Albany, GA MSA",,,13177,GA,Lee,County
+10500,"Albany, GA MSA",,,13273,GA,Terrell,County
+10500,"Albany, GA MSA",,,13321,GA,Worth,County
+10580,"Albany-Schenectady-Troy, NY MSA",,,36001,NY,Albany,County
+10580,"Albany-Schenectady-Troy, NY MSA",,,36083,NY,Rensselaer,County
+10580,"Albany-Schenectady-Troy, NY MSA",,,36091,NY,Saratoga,County
+10580,"Albany-Schenectady-Troy, NY MSA",,,36093,NY,Schenectady,County
+10580,"Albany-Schenectady-Troy, NY MSA",,,36095,NY,Schoharie,County
+10740,"Albuquerque, NM MSA",,,35001,NM,Bernalillo,County
+10740,"Albuquerque, NM MSA",,,35043,NM,Sandoval,County
+10740,"Albuquerque, NM MSA",,,35057,NM,Torrance,County
+10740,"Albuquerque, NM MSA",,,35061,NM,Valencia,County
+10780,"Alexandria, LA MSA",,,22043,LA,Grant Parish,Parish
+10780,"Alexandria, LA MSA",,,22079,LA,Rapides Parish,Parish
+10900,"Allentown-Bethlehem-Easton, PA-NJ MSA",,,34041,NJ,Warren,County
+10900,"Allentown-Bethlehem-Easton, PA-NJ MSA",,,42025,PA,Carbon,County
+10900,"Allentown-Bethlehem-Easton, PA-NJ MSA",,,42077,PA,Lehigh,County
+10900,"Allentown-Bethlehem-Easton, PA-NJ MSA",,,42095,PA,Northampton,County
+11020,"Altoona, PA MSA",,,42013,PA,Blair,County
+11100,"Amarillo, TX MSA",,,48011,TX,Armstrong,County
+11100,"Amarillo, TX MSA",,,48065,TX,Carson,County
+11100,"Amarillo, TX MSA",,,48375,TX,Potter,County
+11100,"Amarillo, TX MSA",,,48381,TX,Randall,County
+11180,"Ames, IA MSA",,,19169,IA,Story,County
+11260,"Anchorage, AK MSA",,,2020,AK,Anchorage ,Municipality
+11260,"Anchorage, AK MSA",,,2170,AK,Matanuska-Susitna Borough,Borough
+11300,"Anderson, IN MSA",,,18095,IN,Madison,County
+11340,"Anderson, SC MSA",,,45007,SC,Anderson,County
+11460,"Ann Arbor, MI MSA",,,26161,MI,Washtenaw,County
+11500,"Anniston-Oxford, AL MSA",,,1015,AL,Calhoun,County
+11540,"Appleton, WI MSA",,,55015,WI,Calumet,County
+11540,"Appleton, WI MSA",,,55087,WI,Outagamie,County
+11700,"Asheville, NC MSA",,,37021,NC,Buncombe,County
+11700,"Asheville, NC MSA",,,37087,NC,Haywood,County
+11700,"Asheville, NC MSA",,,37089,NC,Henderson,County
+11700,"Asheville, NC MSA",,,37115,NC,Madison,County
+12020,"Athens-Clarke County, GA MSA",,,13059,GA,Clarke,County
+12020,"Athens-Clarke County, GA MSA",,,13195,GA,Madison,County
+12020,"Athens-Clarke County, GA MSA",,,13219,GA,Oconee,County
+12020,"Athens-Clarke County, GA MSA",,,13221,GA,Oglethorpe,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13013,GA,Barrow,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13015,GA,Bartow,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13035,GA,Butts,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13045,GA,Carroll,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13057,GA,Cherokee,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13063,GA,Clayton,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13067,GA,Cobb,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13077,GA,Coweta,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13085,GA,Dawson,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13089,GA,DeKalb,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13097,GA,Douglas,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13113,GA,Fayette,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13117,GA,Forsyth,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13121,GA,Fulton,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13135,GA,Gwinnett,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13143,GA,Haralson,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13149,GA,Heard,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13151,GA,Henry,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13159,GA,Jasper,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13171,GA,Lamar,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13199,GA,Meriwether,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13217,GA,Newton,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13223,GA,Paulding,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13227,GA,Pickens,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13231,GA,Pike,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13247,GA,Rockdale,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13255,GA,Spalding,County
+12060,"Atlanta-Sandy Springs-Marietta, GA MSA",,,13297,GA,Walton,County
+12100,"Atlantic City-Hammonton, NJ MSA",,,34001,NJ,Atlantic,County
+12220,"Auburn-Opelika, AL MSA",,,1081,AL,Lee,County
+12260,"Augusta-Richmond County, GA-SC MSA",,,13033,GA,Burke,County
+12260,"Augusta-Richmond County, GA-SC MSA",,,13073,GA,Columbia,County
+12260,"Augusta-Richmond County, GA-SC MSA",,,13189,GA,McDuffie,County
+12260,"Augusta-Richmond County, GA-SC MSA",,,13245,GA,Richmond,County
+12260,"Augusta-Richmond County, GA-SC MSA",,,45003,SC,Aiken,County
+12260,"Augusta-Richmond County, GA-SC MSA",,,45037,SC,Edgefield,County
+12420,"Austin-Round Rock-San Marcos, TX MSA",,,48021,TX,Bastrop,County
+12420,"Austin-Round Rock-San Marcos, TX MSA",,,48055,TX,Caldwell,County
+12420,"Austin-Round Rock-San Marcos, TX MSA",,,48209,TX,Hays,County
+12420,"Austin-Round Rock-San Marcos, TX MSA",,,48453,TX,Travis,County
+12420,"Austin-Round Rock-San Marcos, TX MSA",,,48491,TX,Williamson,County
+12540,"Bakersfield-Delano, CA MSA",,,6029,CA,Kern,County
+12580,"Baltimore-Towson, MD MSA",,,24003,MD,Anne Arundel,County
+12580,"Baltimore-Towson, MD MSA",,,24005,MD,Baltimore,County
+12580,"Baltimore-Towson, MD MSA",,,24013,MD,Carroll,County
+12580,"Baltimore-Towson, MD MSA",,,24025,MD,Harford,County
+12580,"Baltimore-Towson, MD MSA",,,24027,MD,Howard,County
+12580,"Baltimore-Towson, MD MSA",,,24035,MD,Queen Anne's,County
+12580,"Baltimore-Towson, MD MSA",,,24510,MD,Baltimore ,City
+12620,"Bangor, ME MSA",,,23019,ME,Penobscot,County
+12700,"Barnstable Town, MA MSA",,,25001,MA,Barnstable,County
+12940,"Baton Rouge, LA MSA",,,22005,LA,Ascension Parish,Parish
+12940,"Baton Rouge, LA MSA",,,22033,LA,East Baton Rouge Parish,Parish
+12940,"Baton Rouge, LA MSA",,,22037,LA,East Feliciana Parish,Parish
+12940,"Baton Rouge, LA MSA",,,22047,LA,Iberville Parish,Parish
+12940,"Baton Rouge, LA MSA",,,22063,LA,Livingston Parish,Parish
+12940,"Baton Rouge, LA MSA",,,22077,LA,Pointe Coupee Parish,Parish
+12940,"Baton Rouge, LA MSA",,,22091,LA,St. Helena Parish,Parish
+12940,"Baton Rouge, LA MSA",,,22121,LA,West Baton Rouge Parish,Parish
+12940,"Baton Rouge, LA MSA",,,22125,LA,West Feliciana Parish,Parish
+12980,"Battle Creek, MI MSA",,,26025,MI,Calhoun,County
+13020,"Bay City, MI MSA",,,26017,MI,Bay,County
+13140,"Beaumont-Port Arthur, TX MSA",,,48199,TX,Hardin,County
+13140,"Beaumont-Port Arthur, TX MSA",,,48245,TX,Jefferson,County
+13140,"Beaumont-Port Arthur, TX MSA",,,48361,TX,Orange,County
+13380,"Bellingham, WA MSA",,,53073,WA,Whatcom,County
+13460,"Bend, OR MSA",,,41017,OR,Deschutes,County
+13740,"Billings, MT MSA",,,30009,MT,Carbon,County
+13740,"Billings, MT MSA",,,30111,MT,Yellowstone,County
+13780,"Binghamton, NY MSA",,,36007,NY,Broome,County
+13780,"Binghamton, NY MSA",,,36107,NY,Tioga,County
+13820,"Birmingham-Hoover, AL MSA",,,1007,AL,Bibb,County
+13820,"Birmingham-Hoover, AL MSA",,,1009,AL,Blount,County
+13820,"Birmingham-Hoover, AL MSA",,,1021,AL,Chilton,County
+13820,"Birmingham-Hoover, AL MSA",,,1073,AL,Jefferson,County
+13820,"Birmingham-Hoover, AL MSA",,,1115,AL,St. Clair,County
+13820,"Birmingham-Hoover, AL MSA",,,1117,AL,Shelby,County
+13820,"Birmingham-Hoover, AL MSA",,,1127,AL,Walker,County
+13900,"Bismarck, ND MSA",,,38015,ND,Burleigh,County
+13900,"Bismarck, ND MSA",,,38059,ND,Morton,County
+13980,"Blacksburg-Christiansburg-Radford, VA MSA",,,51071,VA,Giles,County
+13980,"Blacksburg-Christiansburg-Radford, VA MSA",,,51121,VA,Montgomery,County
+13980,"Blacksburg-Christiansburg-Radford, VA MSA",,,51155,VA,Pulaski,County
+13980,"Blacksburg-Christiansburg-Radford, VA MSA",,,51750,VA,Radford ,City
+14020,"Bloomington, IN MSA",,,18055,IN,Greene,County
+14020,"Bloomington, IN MSA",,,18105,IN,Monroe,County
+14020,"Bloomington, IN MSA",,,18119,IN,Owen,County
+14060,"Bloomington-Normal, IL MSA",,,17113,IL,McLean,County
+14260,"Boise City-Nampa, ID MSA",,,16001,ID,Ada,County
+14260,"Boise City-Nampa, ID MSA",,,16015,ID,Boise,County
+14260,"Boise City-Nampa, ID MSA",,,16027,ID,Canyon,County
+14260,"Boise City-Nampa, ID MSA",,,16045,ID,Gem,County
+14260,"Boise City-Nampa, ID MSA",,,16073,ID,Owyhee,County
+14460,"Boston-Cambridge-Quincy, MA-NH MSA",37764,"Peabody, MA Metropolitan Division",25009,MA,Essex,County
+14460,"Boston-Cambridge-Quincy, MA-NH MSA",15764,"Cambridge-Newton-Framingham, MA Metropolitan Division",25017,MA,Middlesex,County
+14460,"Boston-Cambridge-Quincy, MA-NH MSA",14484,"Boston-Quincy, MA Metropolitan Division",25021,MA,Norfolk,County
+14460,"Boston-Cambridge-Quincy, MA-NH MSA",14484,"Boston-Quincy, MA Metropolitan Division",25023,MA,Plymouth,County
+14460,"Boston-Cambridge-Quincy, MA-NH MSA",14484,"Boston-Quincy, MA Metropolitan Division",25025,MA,Suffolk,County
+14460,"Boston-Cambridge-Quincy, MA-NH MSA",40484,"Rockingham County-Strafford County, NH Metropolitan Division",33015,NH,Rockingham,County
+14460,"Boston-Cambridge-Quincy, MA-NH MSA",40484,"Rockingham County-Strafford County, NH Metropolitan Division",33017,NH,Strafford,County
+14460,"Boston-Cambridge-Quincy, MA-NH MSA",14484,"Boston-Quincy, MA Metropolitan Division",,,,
+14460,"Boston-Cambridge-Quincy, MA-NH MSA",15764,"Cambridge-Newton-Framingham, MA Metropolitan Division",,,,
+14460,"Boston-Cambridge-Quincy, MA-NH MSA",37764,"Peabody, MA Metropolitan Division",,,,
+14460,"Boston-Cambridge-Quincy, MA-NH MSA",40484,"Rockingham County-Strafford County, NH Metropolitan Division",,,,
+14500,"Boulder, CO MSA",,,8013,CO,Boulder,County
+14540,"Bowling Green, KY MSA",,,21061,KY,Edmonson,County
+14540,"Bowling Green, KY MSA",,,21227,KY,Warren,County
+14740,"Bremerton-Silverdale, WA MSA",,,53035,WA,Kitsap,County
+14860,"Bridgeport-Stamford-Norwalk, CT MSA",,,9001,CT,Fairfield,County
+15180,"Brownsville-Harlingen, TX MSA",,,48061,TX,Cameron,County
+15260,"Brunswick, GA MSA",,,13025,GA,Brantley,County
+15260,"Brunswick, GA MSA",,,13127,GA,Glynn,County
+15260,"Brunswick, GA MSA",,,13191,GA,McIntosh,County
+15380,"Buffalo-Niagara Falls, NY MSA",,,36029,NY,Erie,County
+15380,"Buffalo-Niagara Falls, NY MSA",,,36063,NY,Niagara,County
+15500,"Burlington, NC MSA",,,37001,NC,Alamance,County
+15540,"Burlington-South Burlington, VT MSA",,,50007,VT,Chittenden,County
+15540,"Burlington-South Burlington, VT MSA",,,50011,VT,Franklin,County
+15540,"Burlington-South Burlington, VT MSA",,,50013,VT,Grand Isle,County
+15940,"Canton-Massillon, OH MSA",,,39019,OH,Carroll,County
+15940,"Canton-Massillon, OH MSA",,,39151,OH,Stark,County
+15980,"Cape Coral-Fort Myers, FL MSA",,,12071,FL,Lee,County
+16020,"Cape Girardeau-Jackson, MO-IL MSA",,,17003,IL,Alexander,County
+16020,"Cape Girardeau-Jackson, MO-IL MSA",,,29017,MO,Bollinger,County
+16020,"Cape Girardeau-Jackson, MO-IL MSA",,,29031,MO,Cape Girardeau,County
+16180,"Carson City, NV MSA",,,32510,NV,Carson ,City
+16220,"Casper, WY MSA",,,56025,WY,Natrona,County
+16300,"Cedar Rapids, IA MSA",,,19011,IA,Benton,County
+16300,"Cedar Rapids, IA MSA",,,19105,IA,Jones,County
+16300,"Cedar Rapids, IA MSA",,,19113,IA,Linn,County
+16580,"Champaign-Urbana, IL MSA",,,17019,IL,Champaign,County
+16580,"Champaign-Urbana, IL MSA",,,17053,IL,Ford,County
+16580,"Champaign-Urbana, IL MSA",,,17147,IL,Piatt,County
+16620,"Charleston, WV MSA",,,54005,WV,Boone,County
+16620,"Charleston, WV MSA",,,54015,WV,Clay,County
+16620,"Charleston, WV MSA",,,54039,WV,Kanawha,County
+16620,"Charleston, WV MSA",,,54043,WV,Lincoln,County
+16620,"Charleston, WV MSA",,,54079,WV,Putnam,County
+16700,"Charleston-North Charleston-Summerville, SC MSA",,,45015,SC,Berkeley,County
+16700,"Charleston-North Charleston-Summerville, SC MSA",,,45019,SC,Charleston,County
+16700,"Charleston-North Charleston-Summerville, SC MSA",,,45035,SC,Dorchester,County
+16740,"Charlotte-Gastonia-Rock Hill, NC-SC MSA",,,37007,NC,Anson,County
+16740,"Charlotte-Gastonia-Rock Hill, NC-SC MSA",,,37025,NC,Cabarrus,County
+16740,"Charlotte-Gastonia-Rock Hill, NC-SC MSA",,,37071,NC,Gaston,County
+16740,"Charlotte-Gastonia-Rock Hill, NC-SC MSA",,,37119,NC,Mecklenburg,County
+16740,"Charlotte-Gastonia-Rock Hill, NC-SC MSA",,,37179,NC,Union,County
+16740,"Charlotte-Gastonia-Rock Hill, NC-SC MSA",,,45091,SC,York,County
+16820,"Charlottesville, VA MSA",,,51003,VA,Albemarle,County
+16820,"Charlottesville, VA MSA",,,51065,VA,Fluvanna,County
+16820,"Charlottesville, VA MSA",,,51079,VA,Greene,County
+16820,"Charlottesville, VA MSA",,,51125,VA,Nelson,County
+16820,"Charlottesville, VA MSA",,,51540,VA,Charlottesville ,City
+16860,"Chattanooga, TN-GA MSA",,,13047,GA,Catoosa,County
+16860,"Chattanooga, TN-GA MSA",,,13083,GA,Dade,County
+16860,"Chattanooga, TN-GA MSA",,,13295,GA,Walker,County
+16860,"Chattanooga, TN-GA MSA",,,47065,TN,Hamilton,County
+16860,"Chattanooga, TN-GA MSA",,,47115,TN,Marion,County
+16860,"Chattanooga, TN-GA MSA",,,47153,TN,Sequatchie,County
+16940,"Cheyenne, WY MSA",,,56021,WY,Laramie,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",16974,"Chicago-Joliet-Naperville, IL Metropolitan Division",17031,IL,Cook,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",16974,"Chicago-Joliet-Naperville, IL Metropolitan Division",17037,IL,DeKalb,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",16974,"Chicago-Joliet-Naperville, IL Metropolitan Division",17043,IL,DuPage,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",16974,"Chicago-Joliet-Naperville, IL Metropolitan Division",17063,IL,Grundy,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",16974,"Chicago-Joliet-Naperville, IL Metropolitan Division",17089,IL,Kane,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",16974,"Chicago-Joliet-Naperville, IL Metropolitan Division",17093,IL,Kendall,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",29404,"Lake County-Kenosha County, IL-WI Metropolitan Division",17097,IL,Lake,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",16974,"Chicago-Joliet-Naperville, IL Metropolitan Division",17111,IL,McHenry,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",16974,"Chicago-Joliet-Naperville, IL Metropolitan Division",17197,IL,Will,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",23844,"Gary, IN Metropolitan Division",18073,IN,Jasper,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",23844,"Gary, IN Metropolitan Division",18089,IN,Lake,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",23844,"Gary, IN Metropolitan Division",18111,IN,Newton,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",23844,"Gary, IN Metropolitan Division",18127,IN,Porter,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",29404,"Lake County-Kenosha County, IL-WI Metropolitan Division",55059,WI,Kenosha,County
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",16974,"Chicago-Joliet-Naperville, IL Metropolitan Division",,,,
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",23844,"Gary, IN Metropolitan Division",,,,
+16980,"Chicago-Joliet-Naperville, IL-IN-WI MSA",29404,"Lake County-Kenosha County, IL-WI Metropolitan Division",,,,
+17020,"Chico, CA MSA",,,6007,CA,Butte,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,18029,IN,Dearborn,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,18047,IN,Franklin,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,18115,IN,Ohio,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,21015,KY,Boone,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,21023,KY,Bracken,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,21037,KY,Campbell,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,21077,KY,Gallatin,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,21081,KY,Grant,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,21117,KY,Kenton,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,21191,KY,Pendleton,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,39015,OH,Brown,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,39017,OH,Butler,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,39025,OH,Clermont,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,39061,OH,Hamilton,County
+17140,"Cincinnati-Middletown, OH-KY-IN MSA",,,39165,OH,Warren,County
+17300,"Clarksville, TN-KY MSA",,,21047,KY,Christian,County
+17300,"Clarksville, TN-KY MSA",,,21221,KY,Trigg,County
+17300,"Clarksville, TN-KY MSA",,,47125,TN,Montgomery,County
+17300,"Clarksville, TN-KY MSA",,,47161,TN,Stewart,County
+17420,"Cleveland, TN MSA",,,47011,TN,Bradley,County
+17420,"Cleveland, TN MSA",,,47139,TN,Polk,County
+17460,"Cleveland-Elyria-Mentor, OH MSA",,,39035,OH,Cuyahoga,County
+17460,"Cleveland-Elyria-Mentor, OH MSA",,,39055,OH,Geauga,County
+17460,"Cleveland-Elyria-Mentor, OH MSA",,,39085,OH,Lake,County
+17460,"Cleveland-Elyria-Mentor, OH MSA",,,39093,OH,Lorain,County
+17460,"Cleveland-Elyria-Mentor, OH MSA",,,39103,OH,Medina,County
+17660,"Coeur d'Alene, ID MSA",,,16055,ID,Kootenai,County
+17780,"College Station-Bryan, TX MSA",,,48041,TX,Brazos,County
+17780,"College Station-Bryan, TX MSA",,,48051,TX,Burleson,County
+17780,"College Station-Bryan, TX MSA",,,48395,TX,Robertson,County
+17820,"Colorado Springs, CO MSA",,,8041,CO,El Paso,County
+17820,"Colorado Springs, CO MSA",,,8119,CO,Teller,County
+17860,"Columbia, MO MSA",,,29019,MO,Boone,County
+17860,"Columbia, MO MSA",,,29089,MO,Howard,County
+17900,"Columbia, SC MSA",,,45017,SC,Calhoun,County
+17900,"Columbia, SC MSA",,,45039,SC,Fairfield,County
+17900,"Columbia, SC MSA",,,45055,SC,Kershaw,County
+17900,"Columbia, SC MSA",,,45063,SC,Lexington,County
+17900,"Columbia, SC MSA",,,45079,SC,Richland,County
+17900,"Columbia, SC MSA",,,45081,SC,Saluda,County
+17980,"Columbus, GA-AL MSA",,,1113,AL,Russell,County
+17980,"Columbus, GA-AL MSA",,,13053,GA,Chattahoochee,County
+17980,"Columbus, GA-AL MSA",,,13145,GA,Harris,County
+17980,"Columbus, GA-AL MSA",,,13197,GA,Marion,County
+17980,"Columbus, GA-AL MSA",,,13215,GA,Muscogee,County
+18020,"Columbus, IN MSA",,,18005,IN,Bartholomew,County
+18140,"Columbus, OH MSA",,,39041,OH,Delaware,County
+18140,"Columbus, OH MSA",,,39045,OH,Fairfield,County
+18140,"Columbus, OH MSA",,,39049,OH,Franklin,County
+18140,"Columbus, OH MSA",,,39089,OH,Licking,County
+18140,"Columbus, OH MSA",,,39097,OH,Madison,County
+18140,"Columbus, OH MSA",,,39117,OH,Morrow,County
+18140,"Columbus, OH MSA",,,39129,OH,Pickaway,County
+18140,"Columbus, OH MSA",,,39159,OH,Union,County
+18580,"Corpus Christi, TX MSA",,,48007,TX,Aransas,County
+18580,"Corpus Christi, TX MSA",,,48355,TX,Nueces,County
+18580,"Corpus Christi, TX MSA",,,48409,TX,San Patricio,County
+18700,"Corvallis, OR MSA",,,41003,OR,Benton,County
+18880,"Crestview-Fort Walton Beach-Destin, FL MSA",,,12091,FL,Okaloosa,County
+19060,"Cumberland, MD-WV MSA",,,24001,MD,Allegany,County
+19060,"Cumberland, MD-WV MSA",,,54057,WV,Mineral,County
+19100,"Dallas-Fort Worth-Arlington, TX MSA",19124,"Dallas-Plano-Irving, TX Metropolitan Division",48085,TX,Collin,County
+19100,"Dallas-Fort Worth-Arlington, TX MSA",19124,"Dallas-Plano-Irving, TX Metropolitan Division",48113,TX,Dallas,County
+19100,"Dallas-Fort Worth-Arlington, TX MSA",19124,"Dallas-Plano-Irving, TX Metropolitan Division",48119,TX,Delta,County
+19100,"Dallas-Fort Worth-Arlington, TX MSA",19124,"Dallas-Plano-Irving, TX Metropolitan Division",48121,TX,Denton,County
+19100,"Dallas-Fort Worth-Arlington, TX MSA",19124,"Dallas-Plano-Irving, TX Metropolitan Division",48139,TX,Ellis,County
+19100,"Dallas-Fort Worth-Arlington, TX MSA",19124,"Dallas-Plano-Irving, TX Metropolitan Division",48231,TX,Hunt,County
+19100,"Dallas-Fort Worth-Arlington, TX MSA",23104,"Fort Worth-Arlington, TX Metropolitan Division",48251,TX,Johnson,County
+19100,"Dallas-Fort Worth-Arlington, TX MSA",19124,"Dallas-Plano-Irving, TX Metropolitan Division",48257,TX,Kaufman,County
+19100,"Dallas-Fort Worth-Arlington, TX MSA",23104,"Fort Worth-Arlington, TX Metropolitan Division",48367,TX,Parker,County
+19100,"Dallas-Fort Worth-Arlington, TX MSA",19124,"Dallas-Plano-Irving, TX Metropolitan Division",48397,TX,Rockwall,County
+19100,"Dallas-Fort Worth-Arlington, TX MSA",23104,"Fort Worth-Arlington, TX Metropolitan Division",48439,TX,Tarrant,County
+19100,"Dallas-Fort Worth-Arlington, TX MSA",23104,"Fort Worth-Arlington, TX Metropolitan Division",48497,TX,Wise,County
+19100,"Dallas-Fort Worth-Arlington, TX MSA",19124,"Dallas-Plano-Irving, TX Metropolitan Division",,,,
+19100,"Dallas-Fort Worth-Arlington, TX MSA",23104,"Fort Worth-Arlington, TX Metropolitan Division",,,,
+19140,"Dalton, GA MSA",,,13213,GA,Murray,County
+19140,"Dalton, GA MSA",,,13313,GA,Whitfield,County
+19180,"Danville, IL MSA",,,17183,IL,Vermilion,County
+19260,"Danville, VA MSA",,,51143,VA,Pittsylvania,County
+19260,"Danville, VA MSA",,,51590,VA,Danville ,City
+19340,"Davenport-Moline-Rock Island, IA-IL MSA",,,17073,IL,Henry,County
+19340,"Davenport-Moline-Rock Island, IA-IL MSA",,,17131,IL,Mercer,County
+19340,"Davenport-Moline-Rock Island, IA-IL MSA",,,17161,IL,Rock Island,County
+19340,"Davenport-Moline-Rock Island, IA-IL MSA",,,19163,IA,Scott,County
+19380,"Dayton, OH MSA",,,39057,OH,Greene,County
+19380,"Dayton, OH MSA",,,39109,OH,Miami,County
+19380,"Dayton, OH MSA",,,39113,OH,Montgomery,County
+19380,"Dayton, OH MSA",,,39135,OH,Preble,County
+19460,"Decatur, AL MSA",,,1079,AL,Lawrence,County
+19460,"Decatur, AL MSA",,,1103,AL,Morgan,County
+19500,"Decatur, IL MSA",,,17115,IL,Macon,County
+19660,"Deltona-Daytona Beach-Ormond Beach, FL MSA",,,12127,FL,Volusia,County
+19740,"Denver-Aurora-Broomfield, CO MSA",,,8001,CO,Adams,County
+19740,"Denver-Aurora-Broomfield, CO MSA",,,8005,CO,Arapahoe,County
+19740,"Denver-Aurora-Broomfield, CO MSA",,,8014,CO,Broomfield,County
+19740,"Denver-Aurora-Broomfield, CO MSA",,,8019,CO,Clear Creek,County
+19740,"Denver-Aurora-Broomfield, CO MSA",,,8031,CO,Denver,County
+19740,"Denver-Aurora-Broomfield, CO MSA",,,8035,CO,Douglas,County
+19740,"Denver-Aurora-Broomfield, CO MSA",,,8039,CO,Elbert,County
+19740,"Denver-Aurora-Broomfield, CO MSA",,,8047,CO,Gilpin,County
+19740,"Denver-Aurora-Broomfield, CO MSA",,,8059,CO,Jefferson,County
+19740,"Denver-Aurora-Broomfield, CO MSA",,,8093,CO,Park,County
+19780,"Des Moines-West Des Moines, IA MSA",,,19049,IA,Dallas,County
+19780,"Des Moines-West Des Moines, IA MSA",,,19077,IA,Guthrie,County
+19780,"Des Moines-West Des Moines, IA MSA",,,19121,IA,Madison,County
+19780,"Des Moines-West Des Moines, IA MSA",,,19153,IA,Polk,County
+19780,"Des Moines-West Des Moines, IA MSA",,,19181,IA,Warren,County
+19820,"Detroit-Warren-Livonia, MI MSA",47644,"Warren-Troy-Farmington Hills, MI Metropolitan Division",26087,MI,Lapeer,County
+19820,"Detroit-Warren-Livonia, MI MSA",47644,"Warren-Troy-Farmington Hills, MI Metropolitan Division",26093,MI,Livingston,County
+19820,"Detroit-Warren-Livonia, MI MSA",47644,"Warren-Troy-Farmington Hills, MI Metropolitan Division",26099,MI,Macomb,County
+19820,"Detroit-Warren-Livonia, MI MSA",47644,"Warren-Troy-Farmington Hills, MI Metropolitan Division",26125,MI,Oakland,County
+19820,"Detroit-Warren-Livonia, MI MSA",47644,"Warren-Troy-Farmington Hills, MI Metropolitan Division",26147,MI,St. Clair,County
+19820,"Detroit-Warren-Livonia, MI MSA",19804,"Detroit-Livonia-Dearborn, MI Metropolitan Division",26163,MI,Wayne,County
+19820,"Detroit-Warren-Livonia, MI MSA",19804,"Detroit-Livonia-Dearborn, MI Metropolitan Division",,,,
+19820,"Detroit-Warren-Livonia, MI MSA",47644,"Warren-Troy-Farmington Hills, MI Metropolitan Division",,,,
+20020,"Dothan, AL MSA",,,1061,AL,Geneva,County
+20020,"Dothan, AL MSA",,,1067,AL,Henry,County
+20020,"Dothan, AL MSA",,,1069,AL,Houston,County
+20100,"Dover, DE MSA",,,10001,DE,Kent,County
+20220,"Dubuque, IA MSA",,,19061,IA,Dubuque,County
+20260,"Duluth, MN-WI MSA",,,27017,MN,Carlton,County
+20260,"Duluth, MN-WI MSA",,,27137,MN,St. Louis,County
+20260,"Duluth, MN-WI MSA",,,55031,WI,Douglas,County
+20500,"Durham-Chapel Hill, NC MSA",,,37037,NC,Chatham,County
+20500,"Durham-Chapel Hill, NC MSA",,,37063,NC,Durham,County
+20500,"Durham-Chapel Hill, NC MSA",,,37135,NC,Orange,County
+20500,"Durham-Chapel Hill, NC MSA",,,37145,NC,Person,County
+20740,"Eau Claire, WI MSA",,,55017,WI,Chippewa,County
+20740,"Eau Claire, WI MSA",,,55035,WI,Eau Claire,County
+20940,"El Centro, CA MSA",,,6025,CA,Imperial,County
+21060,"Elizabethtown, KY MSA",,,21093,KY,Hardin,County
+21060,"Elizabethtown, KY MSA",,,21123,KY,Larue,County
+21140,"Elkhart-Goshen, IN MSA",,,18039,IN,Elkhart,County
+21300,"Elmira, NY MSA",,,36015,NY,Chemung,County
+21340,"El Paso, TX MSA",,,48141,TX,El Paso,County
+21500,"Erie, PA MSA",,,42049,PA,Erie,County
+21660,"Eugene-Springfield, OR MSA",,,41039,OR,Lane,County
+21780,"Evansville, IN-KY MSA",,,18051,IN,Gibson,County
+21780,"Evansville, IN-KY MSA",,,18129,IN,Posey,County
+21780,"Evansville, IN-KY MSA",,,18163,IN,Vanderburgh,County
+21780,"Evansville, IN-KY MSA",,,18173,IN,Warrick,County
+21780,"Evansville, IN-KY MSA",,,21101,KY,Henderson,County
+21780,"Evansville, IN-KY MSA",,,21233,KY,Webster,County
+21820,"Fairbanks, AK MSA",,,2090,AK,Fairbanks North Star Borough,Borough
+21940,"Fajardo, PR MSA",,,72037,PR,Ceiba ,Municipio
+21940,"Fajardo, PR MSA",,,72053,PR,Fajardo ,Municipio
+21940,"Fajardo, PR MSA",,,72089,PR,Luquillo ,Municipio
+22020,"Fargo, ND-MN MSA",,,27027,MN,Clay,County
+22020,"Fargo, ND-MN MSA",,,38017,ND,Cass,County
+22140,"Farmington, NM MSA",,,35045,NM,San Juan,County
+22180,"Fayetteville, NC MSA",,,37051,NC,Cumberland,County
+22180,"Fayetteville, NC MSA",,,37093,NC,Hoke,County
+22220,"Fayetteville-Springdale-Rogers, AR-MO MSA",,,5007,AR,Benton,County
+22220,"Fayetteville-Springdale-Rogers, AR-MO MSA",,,5087,AR,Madison,County
+22220,"Fayetteville-Springdale-Rogers, AR-MO MSA",,,5143,AR,Washington,County
+22220,"Fayetteville-Springdale-Rogers, AR-MO MSA",,,29119,MO,McDonald,County
+22380,"Flagstaff, AZ MSA",,,4005,AZ,Coconino,County
+22420,"Flint, MI MSA",,,26049,MI,Genesee,County
+22500,"Florence, SC MSA",,,45031,SC,Darlington,County
+22500,"Florence, SC MSA",,,45041,SC,Florence,County
+22520,"Florence-Muscle Shoals, AL MSA",,,1033,AL,Colbert,County
+22520,"Florence-Muscle Shoals, AL MSA",,,1077,AL,Lauderdale,County
+22540,"Fond du Lac, WI MSA",,,55039,WI,Fond du Lac,County
+22660,"Fort Collins-Loveland, CO MSA",,,8069,CO,Larimer,County
+22900,"Fort Smith, AR-OK MSA",,,5033,AR,Crawford,County
+22900,"Fort Smith, AR-OK MSA",,,5047,AR,Franklin,County
+22900,"Fort Smith, AR-OK MSA",,,5131,AR,Sebastian,County
+22900,"Fort Smith, AR-OK MSA",,,40079,OK,Le Flore,County
+22900,"Fort Smith, AR-OK MSA",,,40135,OK,Sequoyah,County
+23060,"Fort Wayne, IN MSA",,,18003,IN,Allen,County
+23060,"Fort Wayne, IN MSA",,,18179,IN,Wells,County
+23060,"Fort Wayne, IN MSA",,,18183,IN,Whitley,County
+23420,"Fresno, CA MSA",,,6019,CA,Fresno,County
+23460,"Gadsden, AL MSA",,,1055,AL,Etowah,County
+23540,"Gainesville, FL MSA",,,12001,FL,Alachua,County
+23540,"Gainesville, FL MSA",,,12041,FL,Gilchrist,County
+23580,"Gainesville, GA MSA",,,13139,GA,Hall,County
+24020,"Glens Falls, NY MSA",,,36113,NY,Warren,County
+24020,"Glens Falls, NY MSA",,,36115,NY,Washington,County
+24140,"Goldsboro, NC MSA",,,37191,NC,Wayne,County
+24220,"Grand Forks, ND-MN MSA",,,27119,MN,Polk,County
+24220,"Grand Forks, ND-MN MSA",,,38035,ND,Grand Forks,County
+24300,"Grand Junction, CO MSA",,,8077,CO,Mesa,County
+24340,"Grand Rapids-Wyoming, MI MSA",,,26015,MI,Barry,County
+24340,"Grand Rapids-Wyoming, MI MSA",,,26067,MI,Ionia,County
+24340,"Grand Rapids-Wyoming, MI MSA",,,26081,MI,Kent,County
+24340,"Grand Rapids-Wyoming, MI MSA",,,26123,MI,Newaygo,County
+24500,"Great Falls, MT MSA",,,30013,MT,Cascade,County
+24540,"Greeley, CO MSA",,,8123,CO,Weld,County
+24580,"Green Bay, WI MSA",,,55009,WI,Brown,County
+24580,"Green Bay, WI MSA",,,55061,WI,Kewaunee,County
+24580,"Green Bay, WI MSA",,,55083,WI,Oconto,County
+24660,"Greensboro-High Point, NC MSA",,,37081,NC,Guilford,County
+24660,"Greensboro-High Point, NC MSA",,,37151,NC,Randolph,County
+24660,"Greensboro-High Point, NC MSA",,,37157,NC,Rockingham,County
+24780,"Greenville, NC MSA",,,37079,NC,Greene,County
+24780,"Greenville, NC MSA",,,37147,NC,Pitt,County
+24860,"Greenville-Mauldin-Easley, SC MSA",,,45045,SC,Greenville,County
+24860,"Greenville-Mauldin-Easley, SC MSA",,,45059,SC,Laurens,County
+24860,"Greenville-Mauldin-Easley, SC MSA",,,45077,SC,Pickens,County
+25020,"Guayama, PR MSA",,,72015,PR,Arroyo ,Municipio
+25020,"Guayama, PR MSA",,,72057,PR,Guayama ,Municipio
+25020,"Guayama, PR MSA",,,72109,PR,Patillas ,Municipio
+25060,"Gulfport-Biloxi, MS MSA",,,28045,MS,Hancock,County
+25060,"Gulfport-Biloxi, MS MSA",,,28047,MS,Harrison,County
+25060,"Gulfport-Biloxi, MS MSA",,,28131,MS,Stone,County
+25180,"Hagerstown-Martinsburg, MD-WV MSA",,,24043,MD,Washington,County
+25180,"Hagerstown-Martinsburg, MD-WV MSA",,,54003,WV,Berkeley,County
+25180,"Hagerstown-Martinsburg, MD-WV MSA",,,54065,WV,Morgan,County
+25260,"Hanford-Corcoran, CA MSA",,,6031,CA,Kings,County
+25420,"Harrisburg-Carlisle, PA MSA",,,42041,PA,Cumberland,County
+25420,"Harrisburg-Carlisle, PA MSA",,,42043,PA,Dauphin,County
+25420,"Harrisburg-Carlisle, PA MSA",,,42099,PA,Perry,County
+25500,"Harrisonburg, VA MSA",,,51165,VA,Rockingham,County
+25500,"Harrisonburg, VA MSA",,,51660,VA,Harrisonburg ,City
+25540,"Hartford-West Hartford-East Hartford, CT MSA",,,9003,CT,Hartford,County
+25540,"Hartford-West Hartford-East Hartford, CT MSA",,,9007,CT,Middlesex,County
+25540,"Hartford-West Hartford-East Hartford, CT MSA",,,9013,CT,Tolland,County
+25620,"Hattiesburg, MS MSA",,,28035,MS,Forrest,County
+25620,"Hattiesburg, MS MSA",,,28073,MS,Lamar,County
+25620,"Hattiesburg, MS MSA",,,28111,MS,Perry,County
+25860,"Hickory-Lenoir-Morganton, NC MSA",,,37003,NC,Alexander,County
+25860,"Hickory-Lenoir-Morganton, NC MSA",,,37023,NC,Burke,County
+25860,"Hickory-Lenoir-Morganton, NC MSA",,,37027,NC,Caldwell,County
+25860,"Hickory-Lenoir-Morganton, NC MSA",,,37035,NC,Catawba,County
+25980,"Hinesville-Fort Stewart, GA MSA",,,13179,GA,Liberty,County
+25980,"Hinesville-Fort Stewart, GA MSA",,,13183,GA,Long,County
+26100,"Holland-Grand Haven, MI MSA",,,26139,MI,Ottawa,County
+26180,"Honolulu, HI MSA",,,15003,HI,Honolulu,County
+26300,"Hot Springs, AR MSA",,,5051,AR,Garland,County
+26380,"Houma-Bayou Cane-Thibodaux, LA MSA",,,22057,LA,Lafourche Parish,Parish
+26380,"Houma-Bayou Cane-Thibodaux, LA MSA",,,22109,LA,Terrebonne Parish,Parish
+26420,"Houston-Sugar Land-Baytown, TX MSA",,,48015,TX,Austin,County
+26420,"Houston-Sugar Land-Baytown, TX MSA",,,48039,TX,Brazoria,County
+26420,"Houston-Sugar Land-Baytown, TX MSA",,,48071,TX,Chambers,County
+26420,"Houston-Sugar Land-Baytown, TX MSA",,,48157,TX,Fort Bend,County
+26420,"Houston-Sugar Land-Baytown, TX MSA",,,48167,TX,Galveston,County
+26420,"Houston-Sugar Land-Baytown, TX MSA",,,48201,TX,Harris,County
+26420,"Houston-Sugar Land-Baytown, TX MSA",,,48291,TX,Liberty,County
+26420,"Houston-Sugar Land-Baytown, TX MSA",,,48339,TX,Montgomery,County
+26420,"Houston-Sugar Land-Baytown, TX MSA",,,48407,TX,San Jacinto,County
+26420,"Houston-Sugar Land-Baytown, TX MSA",,,48473,TX,Waller,County
+26580,"Huntington-Ashland, WV-KY-OH MSA",,,21019,KY,Boyd,County
+26580,"Huntington-Ashland, WV-KY-OH MSA",,,21089,KY,Greenup,County
+26580,"Huntington-Ashland, WV-KY-OH MSA",,,39087,OH,Lawrence,County
+26580,"Huntington-Ashland, WV-KY-OH MSA",,,54011,WV,Cabell,County
+26580,"Huntington-Ashland, WV-KY-OH MSA",,,54099,WV,Wayne,County
+26620,"Huntsville, AL MSA",,,1083,AL,Limestone,County
+26620,"Huntsville, AL MSA",,,1089,AL,Madison,County
+26820,"Idaho Falls, ID MSA",,,16019,ID,Bonneville,County
+26820,"Idaho Falls, ID MSA",,,16051,ID,Jefferson,County
+26900,"Indianapolis-Carmel, IN MSA",,,18011,IN,Boone,County
+26900,"Indianapolis-Carmel, IN MSA",,,18013,IN,Brown,County
+26900,"Indianapolis-Carmel, IN MSA",,,18057,IN,Hamilton,County
+26900,"Indianapolis-Carmel, IN MSA",,,18059,IN,Hancock,County
+26900,"Indianapolis-Carmel, IN MSA",,,18063,IN,Hendricks,County
+26900,"Indianapolis-Carmel, IN MSA",,,18081,IN,Johnson,County
+26900,"Indianapolis-Carmel, IN MSA",,,18097,IN,Marion,County
+26900,"Indianapolis-Carmel, IN MSA",,,18109,IN,Morgan,County
+26900,"Indianapolis-Carmel, IN MSA",,,18133,IN,Putnam,County
+26900,"Indianapolis-Carmel, IN MSA",,,18145,IN,Shelby,County
+26980,"Iowa City, IA MSA",,,19103,IA,Johnson,County
+26980,"Iowa City, IA MSA",,,19183,IA,Washington,County
+27060,"Ithaca, NY MSA",,,36109,NY,Tompkins,County
+27100,"Jackson, MI MSA",,,26075,MI,Jackson,County
+27140,"Jackson, MS MSA",,,28029,MS,Copiah,County
+27140,"Jackson, MS MSA",,,28049,MS,Hinds,County
+27140,"Jackson, MS MSA",,,28089,MS,Madison,County
+27140,"Jackson, MS MSA",,,28121,MS,Rankin,County
+27140,"Jackson, MS MSA",,,28127,MS,Simpson,County
+27180,"Jackson, TN MSA",,,47023,TN,Chester,County
+27180,"Jackson, TN MSA",,,47113,TN,Madison,County
+27260,"Jacksonville, FL MSA",,,12003,FL,Baker,County
+27260,"Jacksonville, FL MSA",,,12019,FL,Clay,County
+27260,"Jacksonville, FL MSA",,,12031,FL,Duval,County
+27260,"Jacksonville, FL MSA",,,12089,FL,Nassau,County
+27260,"Jacksonville, FL MSA",,,12109,FL,St. Johns,County
+27340,"Jacksonville, NC MSA",,,37133,NC,Onslow,County
+27500,"Janesville, WI MSA",,,55105,WI,Rock,County
+27620,"Jefferson City, MO MSA",,,29027,MO,Callaway,County
+27620,"Jefferson City, MO MSA",,,29051,MO,Cole,County
+27620,"Jefferson City, MO MSA",,,29135,MO,Moniteau,County
+27620,"Jefferson City, MO MSA",,,29151,MO,Osage,County
+27740,"Johnson City, TN MSA",,,47019,TN,Carter,County
+27740,"Johnson City, TN MSA",,,47171,TN,Unicoi,County
+27740,"Johnson City, TN MSA",,,47179,TN,Washington,County
+27780,"Johnstown, PA MSA",,,42021,PA,Cambria,County
+27860,"Jonesboro, AR MSA",,,5031,AR,Craighead,County
+27860,"Jonesboro, AR MSA",,,5111,AR,Poinsett,County
+27900,"Joplin, MO MSA",,,29097,MO,Jasper,County
+27900,"Joplin, MO MSA",,,29145,MO,Newton,County
+28020,"Kalamazoo-Portage, MI MSA",,,26077,MI,Kalamazoo,County
+28020,"Kalamazoo-Portage, MI MSA",,,26159,MI,Van Buren,County
+28100,"Kankakee-Bradley, IL MSA",,,17091,IL,Kankakee,County
+28140,"Kansas City, MO-KS MSA",,,20059,KS,Franklin,County
+28140,"Kansas City, MO-KS MSA",,,20091,KS,Johnson,County
+28140,"Kansas City, MO-KS MSA",,,20103,KS,Leavenworth,County
+28140,"Kansas City, MO-KS MSA",,,20107,KS,Linn,County
+28140,"Kansas City, MO-KS MSA",,,20121,KS,Miami,County
+28140,"Kansas City, MO-KS MSA",,,20209,KS,Wyandotte,County
+28140,"Kansas City, MO-KS MSA",,,29013,MO,Bates,County
+28140,"Kansas City, MO-KS MSA",,,29025,MO,Caldwell,County
+28140,"Kansas City, MO-KS MSA",,,29037,MO,Cass,County
+28140,"Kansas City, MO-KS MSA",,,29047,MO,Clay,County
+28140,"Kansas City, MO-KS MSA",,,29049,MO,Clinton,County
+28140,"Kansas City, MO-KS MSA",,,29095,MO,Jackson,County
+28140,"Kansas City, MO-KS MSA",,,29107,MO,Lafayette,County
+28140,"Kansas City, MO-KS MSA",,,29165,MO,Platte,County
+28140,"Kansas City, MO-KS MSA",,,29177,MO,Ray,County
+28420,"Kennewick-Pasco-Richland, WA MSA",,,53005,WA,Benton,County
+28420,"Kennewick-Pasco-Richland, WA MSA",,,53021,WA,Franklin,County
+28660,"Killeen-Temple-Fort Hood, TX MSA",,,48027,TX,Bell,County
+28660,"Killeen-Temple-Fort Hood, TX MSA",,,48099,TX,Coryell,County
+28660,"Killeen-Temple-Fort Hood, TX MSA",,,48281,TX,Lampasas,County
+28700,"Kingsport-Bristol-Bristol, TN-VA MSA",,,47073,TN,Hawkins,County
+28700,"Kingsport-Bristol-Bristol, TN-VA MSA",,,47163,TN,Sullivan,County
+28700,"Kingsport-Bristol-Bristol, TN-VA MSA",,,51169,VA,Scott,County
+28700,"Kingsport-Bristol-Bristol, TN-VA MSA",,,51191,VA,Washington,County
+28700,"Kingsport-Bristol-Bristol, TN-VA MSA",,,51520,VA,Bristol ,City
+28740,"Kingston, NY MSA",,,36111,NY,Ulster,County
+28940,"Knoxville, TN MSA",,,47001,TN,Anderson,County
+28940,"Knoxville, TN MSA",,,47009,TN,Blount,County
+28940,"Knoxville, TN MSA",,,47093,TN,Knox,County
+28940,"Knoxville, TN MSA",,,47105,TN,Loudon,County
+28940,"Knoxville, TN MSA",,,47173,TN,Union,County
+29020,"Kokomo, IN MSA",,,18067,IN,Howard,County
+29020,"Kokomo, IN MSA",,,18159,IN,Tipton,County
+29100,"La Crosse, WI-MN MSA",,,27055,MN,Houston,County
+29100,"La Crosse, WI-MN MSA",,,55063,WI,La Crosse,County
+29140,"Lafayette, IN MSA",,,18007,IN,Benton,County
+29140,"Lafayette, IN MSA",,,18015,IN,Carroll,County
+29140,"Lafayette, IN MSA",,,18157,IN,Tippecanoe,County
+29180,"Lafayette, LA MSA",,,22055,LA,Lafayette Parish,Parish
+29180,"Lafayette, LA MSA",,,22099,LA,St. Martin Parish,Parish
+29340,"Lake Charles, LA MSA",,,22019,LA,Calcasieu Parish,Parish
+29340,"Lake Charles, LA MSA",,,22023,LA,Cameron Parish,Parish
+29420,"Lake Havasu City-Kingman, AZ MSA",,,4015,AZ,Mohave,County
+29460,"Lakeland-Winter Haven, FL MSA",,,12105,FL,Polk,County
+29540,"Lancaster, PA MSA",,,42071,PA,Lancaster,County
+29620,"Lansing-East Lansing, MI MSA",,,26037,MI,Clinton,County
+29620,"Lansing-East Lansing, MI MSA",,,26045,MI,Eaton,County
+29620,"Lansing-East Lansing, MI MSA",,,26065,MI,Ingham,County
+29700,"Laredo, TX MSA",,,48479,TX,Webb,County
+29740,"Las Cruces, NM MSA",,,35013,NM,Dona Ana,County
+29820,"Las Vegas-Paradise, NV MSA",,,32003,NV,Clark,County
+29940,"Lawrence, KS MSA",,,20045,KS,Douglas,County
+30020,"Lawton, OK MSA",,,40031,OK,Comanche,County
+30140,"Lebanon, PA MSA",,,42075,PA,Lebanon,County
+30300,"Lewiston, ID-WA MSA",,,16069,ID,Nez Perce,County
+30300,"Lewiston, ID-WA MSA",,,53003,WA,Asotin,County
+30340,"Lewiston-Auburn, ME MSA",,,23001,ME,Androscoggin,County
+30460,"Lexington-Fayette, KY MSA",,,21017,KY,Bourbon,County
+30460,"Lexington-Fayette, KY MSA",,,21049,KY,Clark,County
+30460,"Lexington-Fayette, KY MSA",,,21067,KY,Fayette,County
+30460,"Lexington-Fayette, KY MSA",,,21113,KY,Jessamine,County
+30460,"Lexington-Fayette, KY MSA",,,21209,KY,Scott,County
+30460,"Lexington-Fayette, KY MSA",,,21239,KY,Woodford,County
+30620,"Lima, OH MSA",,,39003,OH,Allen,County
+30700,"Lincoln, NE MSA",,,31109,NE,Lancaster,County
+30700,"Lincoln, NE MSA",,,31159,NE,Seward,County
+30780,"Little Rock-North Little Rock-Conway, AR MSA",,,5045,AR,Faulkner,County
+30780,"Little Rock-North Little Rock-Conway, AR MSA",,,5053,AR,Grant,County
+30780,"Little Rock-North Little Rock-Conway, AR MSA",,,5085,AR,Lonoke,County
+30780,"Little Rock-North Little Rock-Conway, AR MSA",,,5105,AR,Perry,County
+30780,"Little Rock-North Little Rock-Conway, AR MSA",,,5119,AR,Pulaski,County
+30780,"Little Rock-North Little Rock-Conway, AR MSA",,,5125,AR,Saline,County
+30860,"Logan, UT-ID MSA",,,16041,ID,Franklin,County
+30860,"Logan, UT-ID MSA",,,49005,UT,Cache,County
+30980,"Longview, TX MSA",,,48183,TX,Gregg,County
+30980,"Longview, TX MSA",,,48401,TX,Rusk,County
+30980,"Longview, TX MSA",,,48459,TX,Upshur,County
+31020,"Longview, WA MSA",,,53015,WA,Cowlitz,County
+31100,"Los Angeles-Long Beach-Santa Ana, CA MSA",31084,"Los Angeles-Long Beach-Glendale, CA Metropolitan Division",6037,CA,Los Angeles,County
+31100,"Los Angeles-Long Beach-Santa Ana, CA MSA",42044,"Santa Ana-Anaheim-Irvine, CA Metropolitan Division",6059,CA,Orange,County
+31100,"Los Angeles-Long Beach-Santa Ana, CA MSA",31084,"Los Angeles-Long Beach-Glendale, CA Metropolitan Division",,,,
+31100,"Los Angeles-Long Beach-Santa Ana, CA MSA",42044,"Santa Ana-Anaheim-Irvine, CA Metropolitan Division",,,,
+31140,"Louisville/Jefferson County, KY-IN MSA",,,18019,IN,Clark,County
+31140,"Louisville/Jefferson County, KY-IN MSA",,,18043,IN,Floyd,County
+31140,"Louisville/Jefferson County, KY-IN MSA",,,18061,IN,Harrison,County
+31140,"Louisville/Jefferson County, KY-IN MSA",,,18175,IN,Washington,County
+31140,"Louisville/Jefferson County, KY-IN MSA",,,21029,KY,Bullitt,County
+31140,"Louisville/Jefferson County, KY-IN MSA",,,21103,KY,Henry,County
+31140,"Louisville/Jefferson County, KY-IN MSA",,,21111,KY,Jefferson,County
+31140,"Louisville/Jefferson County, KY-IN MSA",,,21163,KY,Meade,County
+31140,"Louisville/Jefferson County, KY-IN MSA",,,21179,KY,Nelson,County
+31140,"Louisville/Jefferson County, KY-IN MSA",,,21185,KY,Oldham,County
+31140,"Louisville/Jefferson County, KY-IN MSA",,,21211,KY,Shelby,County
+31140,"Louisville/Jefferson County, KY-IN MSA",,,21215,KY,Spencer,County
+31140,"Louisville/Jefferson County, KY-IN MSA",,,21223,KY,Trimble,County
+31180,"Lubbock, TX MSA",,,48107,TX,Crosby,County
+31180,"Lubbock, TX MSA",,,48303,TX,Lubbock,County
+31340,"Lynchburg, VA MSA",,,51009,VA,Amherst,County
+31340,"Lynchburg, VA MSA",,,51011,VA,Appomattox,County
+31340,"Lynchburg, VA MSA",,,51019,VA,Bedford,County
+31340,"Lynchburg, VA MSA",,,51031,VA,Campbell,County
+31340,"Lynchburg, VA MSA",,,51515,VA,Bedford ,City
+31340,"Lynchburg, VA MSA",,,51680,VA,Lynchburg ,City
+31420,"Macon, GA MSA",,,13021,GA,Bibb,County
+31420,"Macon, GA MSA",,,13079,GA,Crawford,County
+31420,"Macon, GA MSA",,,13169,GA,Jones,County
+31420,"Macon, GA MSA",,,13207,GA,Monroe,County
+31420,"Macon, GA MSA",,,13289,GA,Twiggs,County
+31460,"Madera-Chowchilla, CA MSA",,,6039,CA,Madera,County
+31540,"Madison, WI MSA",,,55021,WI,Columbia,County
+31540,"Madison, WI MSA",,,55025,WI,Dane,County
+31540,"Madison, WI MSA",,,55049,WI,Iowa,County
+31700,"Manchester-Nashua, NH MSA",,,33011,NH,Hillsborough,County
+31740,"Manhattan, KS MSA",,,20061,KS,Geary,County
+31740,"Manhattan, KS MSA",,,20149,KS,Pottawatomie,County
+31740,"Manhattan, KS MSA",,,20161,KS,Riley,County
+31860,"Mankato-North Mankato, MN MSA",,,27013,MN,Blue Earth,County
+31860,"Mankato-North Mankato, MN MSA",,,27103,MN,Nicollet,County
+31900,"Mansfield, OH MSA",,,39139,OH,Richland,County
+32420,"Mayagüez, PR MSA",,,72067,PR,Hormigueros ,Municipio
+32420,"Mayagüez, PR MSA",,,72097,PR,Mayagüez ,Municipio
+32580,"McAllen-Edinburg-Mission, TX MSA",,,48215,TX,Hidalgo,County
+32780,"Medford, OR MSA",,,41029,OR,Jackson,County
+32820,"Memphis, TN-MS-AR MSA",,,5035,AR,Crittenden,County
+32820,"Memphis, TN-MS-AR MSA",,,28033,MS,DeSoto,County
+32820,"Memphis, TN-MS-AR MSA",,,28093,MS,Marshall,County
+32820,"Memphis, TN-MS-AR MSA",,,28137,MS,Tate,County
+32820,"Memphis, TN-MS-AR MSA",,,28143,MS,Tunica,County
+32820,"Memphis, TN-MS-AR MSA",,,47047,TN,Fayette,County
+32820,"Memphis, TN-MS-AR MSA",,,47157,TN,Shelby,County
+32820,"Memphis, TN-MS-AR MSA",,,47167,TN,Tipton,County
+32900,"Merced, CA MSA",,,6047,CA,Merced,County
+33100,"Miami-Fort Lauderdale-Pompano Beach, FL MSA",22744,"Fort Lauderdale-Pompano Beach-Deerfield Beach, FL Metropolitan Division",12011,FL,Broward,County
+33100,"Miami-Fort Lauderdale-Pompano Beach, FL MSA",33124,"Miami-Miami Beach-Kendall, FL Metropolitan Division",12086,FL,Miami-Dade,County
+33100,"Miami-Fort Lauderdale-Pompano Beach, FL MSA",48424,"West Palm Beach-Boca Raton-Boynton Beach, FL Metropolitan Division",12099,FL,Palm Beach,County
+33100,"Miami-Fort Lauderdale-Pompano Beach, FL MSA",22744,"Fort Lauderdale-Pompano Beach-Deerfield Beach, FL Metropolitan Division",,,,
+33100,"Miami-Fort Lauderdale-Pompano Beach, FL MSA",33124,"Miami-Miami Beach-Kendall, FL Metropolitan Division",,,,
+33100,"Miami-Fort Lauderdale-Pompano Beach, FL MSA",48424,"West Palm Beach-Boca Raton-Boynton Beach, FL Metropolitan Division",,,,
+33140,"Michigan City-La Porte, IN MSA",,,18091,IN,LaPorte,County
+33260,"Midland, TX MSA",,,48329,TX,Midland,County
+33340,"Milwaukee-Waukesha-West Allis, WI MSA",,,55079,WI,Milwaukee,County
+33340,"Milwaukee-Waukesha-West Allis, WI MSA",,,55089,WI,Ozaukee,County
+33340,"Milwaukee-Waukesha-West Allis, WI MSA",,,55131,WI,Washington,County
+33340,"Milwaukee-Waukesha-West Allis, WI MSA",,,55133,WI,Waukesha,County
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",,,27003,MN,Anoka,County
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",,,27019,MN,Carver,County
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",,,27025,MN,Chisago,County
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",,,27037,MN,Dakota,County
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",,,27053,MN,Hennepin,County
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",,,27059,MN,Isanti,County
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",,,27123,MN,Ramsey,County
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",,,27139,MN,Scott,County
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",,,27141,MN,Sherburne,County
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",,,27163,MN,Washington,County
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",,,27171,MN,Wright,County
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",,,55093,WI,Pierce,County
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",,,55109,WI,St. Croix,County
+33540,"Missoula, MT MSA",,,30063,MT,Missoula,County
+33660,"Mobile, AL MSA",,,1097,AL,Mobile,County
+33700,"Modesto, CA MSA",,,6099,CA,Stanislaus,County
+33740,"Monroe, LA MSA",,,22073,LA,Ouachita Parish,Parish
+33740,"Monroe, LA MSA",,,22111,LA,Union Parish,Parish
+33780,"Monroe, MI MSA",,,26115,MI,Monroe,County
+33860,"Montgomery, AL MSA",,,1001,AL,Autauga,County
+33860,"Montgomery, AL MSA",,,1051,AL,Elmore,County
+33860,"Montgomery, AL MSA",,,1085,AL,Lowndes,County
+33860,"Montgomery, AL MSA",,,1101,AL,Montgomery,County
+34060,"Morgantown, WV MSA",,,54061,WV,Monongalia,County
+34060,"Morgantown, WV MSA",,,54077,WV,Preston,County
+34100,"Morristown, TN MSA",,,47057,TN,Grainger,County
+34100,"Morristown, TN MSA",,,47063,TN,Hamblen,County
+34100,"Morristown, TN MSA",,,47089,TN,Jefferson,County
+34580,"Mount Vernon-Anacortes, WA MSA",,,53057,WA,Skagit,County
+34620,"Muncie, IN MSA",,,18035,IN,Delaware,County
+34740,"Muskegon-Norton Shores, MI MSA",,,26121,MI,Muskegon,County
+34820,"Myrtle Beach-North Myrtle Beach-Conway, SC MSA",,,45051,SC,Horry,County
+34900,"Napa, CA MSA",,,6055,CA,Napa,County
+34940,"Naples-Marco Island, FL MSA",,,12021,FL,Collier,County
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",,,47015,TN,Cannon,County
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",,,47021,TN,Cheatham,County
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",,,47037,TN,Davidson,County
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",,,47043,TN,Dickson,County
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",,,47081,TN,Hickman,County
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",,,47111,TN,Macon,County
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",,,47147,TN,Robertson,County
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",,,47149,TN,Rutherford,County
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",,,47159,TN,Smith,County
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",,,47165,TN,Sumner,County
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",,,47169,TN,Trousdale,County
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",,,47187,TN,Williamson,County
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",,,47189,TN,Wilson,County
+35300,"New Haven-Milford, CT MSA",,,9009,CT,New Haven,County
+35380,"New Orleans-Metairie-Kenner, LA MSA",,,22051,LA,Jefferson Parish,Parish
+35380,"New Orleans-Metairie-Kenner, LA MSA",,,22071,LA,Orleans Parish,Parish
+35380,"New Orleans-Metairie-Kenner, LA MSA",,,22075,LA,Plaquemines Parish,Parish
+35380,"New Orleans-Metairie-Kenner, LA MSA",,,22087,LA,St. Bernard Parish,Parish
+35380,"New Orleans-Metairie-Kenner, LA MSA",,,22089,LA,St. Charles Parish,Parish
+35380,"New Orleans-Metairie-Kenner, LA MSA",,,22095,LA,St. John the Baptist Parish,Parish
+35380,"New Orleans-Metairie-Kenner, LA MSA",,,22103,LA,St. Tammany Parish,Parish
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35644,"New York-White Plains-Wayne, NY-NJ Metropolitan Division",34003,NJ,Bergen,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35084,"Newark-Union, NJ-PA Metropolitan Division",34013,NJ,Essex,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35644,"New York-White Plains-Wayne, NY-NJ Metropolitan Division",34017,NJ,Hudson,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35084,"Newark-Union, NJ-PA Metropolitan Division",34019,NJ,Hunterdon,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",20764,"Edison-New Brunswick, NJ Metropolitan Division",34023,NJ,Middlesex,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",20764,"Edison-New Brunswick, NJ Metropolitan Division",34025,NJ,Monmouth,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35084,"Newark-Union, NJ-PA Metropolitan Division",34027,NJ,Morris,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",20764,"Edison-New Brunswick, NJ Metropolitan Division",34029,NJ,Ocean,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35644,"New York-White Plains-Wayne, NY-NJ Metropolitan Division",34031,NJ,Passaic,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",20764,"Edison-New Brunswick, NJ Metropolitan Division",34035,NJ,Somerset,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35084,"Newark-Union, NJ-PA Metropolitan Division",34037,NJ,Sussex,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35084,"Newark-Union, NJ-PA Metropolitan Division",34039,NJ,Union,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35644,"New York-White Plains-Wayne, NY-NJ Metropolitan Division",36005,NY,Bronx,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35644,"New York-White Plains-Wayne, NY-NJ Metropolitan Division",36047,NY,Kings,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35004,"Nassau-Suffolk, NY Metropolitan Division",36059,NY,Nassau,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35644,"New York-White Plains-Wayne, NY-NJ Metropolitan Division",36061,NY,New York,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35644,"New York-White Plains-Wayne, NY-NJ Metropolitan Division",36079,NY,Putnam,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35644,"New York-White Plains-Wayne, NY-NJ Metropolitan Division",36081,NY,Queens,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35644,"New York-White Plains-Wayne, NY-NJ Metropolitan Division",36085,NY,Richmond,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35644,"New York-White Plains-Wayne, NY-NJ Metropolitan Division",36087,NY,Rockland,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35004,"Nassau-Suffolk, NY Metropolitan Division",36103,NY,Suffolk,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35644,"New York-White Plains-Wayne, NY-NJ Metropolitan Division",36119,NY,Westchester,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35084,"Newark-Union, NJ-PA Metropolitan Division",42103,PA,Pike,County
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",20764,"Edison-New Brunswick, NJ Metropolitan Division",,,,
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35004,"Nassau-Suffolk, NY Metropolitan Division",,,,
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35084,"Newark-Union, NJ-PA Metropolitan Division",,,,
+35620,"New York-Northern New Jersey-Long Island, NY-NJ-PA MSA",35644,"New York-White Plains-Wayne, NY-NJ Metropolitan Division",,,,
+35660,"Niles-Benton Harbor, MI MSA",,,26021,MI,Berrien,County
+35840,"North Port-Bradenton-Sarasota, FL MSA",,,12081,FL,Manatee,County
+35840,"North Port-Bradenton-Sarasota, FL MSA",,,12115,FL,Sarasota,County
+35980,"Norwich-New London, CT MSA",,,9011,CT,New London,County
+36100,"Ocala, FL MSA",,,12083,FL,Marion,County
+36140,"Ocean City, NJ MSA",,,34009,NJ,Cape May,County
+36220,"Odessa, TX MSA",,,48135,TX,Ector,County
+36260,"Ogden-Clearfield, UT MSA",,,49011,UT,Davis,County
+36260,"Ogden-Clearfield, UT MSA",,,49029,UT,Morgan,County
+36260,"Ogden-Clearfield, UT MSA",,,49057,UT,Weber,County
+36420,"Oklahoma City, OK MSA",,,40017,OK,Canadian,County
+36420,"Oklahoma City, OK MSA",,,40027,OK,Cleveland,County
+36420,"Oklahoma City, OK MSA",,,40051,OK,Grady,County
+36420,"Oklahoma City, OK MSA",,,40081,OK,Lincoln,County
+36420,"Oklahoma City, OK MSA",,,40083,OK,Logan,County
+36420,"Oklahoma City, OK MSA",,,40087,OK,McClain,County
+36420,"Oklahoma City, OK MSA",,,40109,OK,Oklahoma,County
+36500,"Olympia, WA MSA",,,53067,WA,Thurston,County
+36540,"Omaha-Council Bluffs, NE-IA MSA",,,19085,IA,Harrison,County
+36540,"Omaha-Council Bluffs, NE-IA MSA",,,19129,IA,Mills,County
+36540,"Omaha-Council Bluffs, NE-IA MSA",,,19155,IA,Pottawattamie,County
+36540,"Omaha-Council Bluffs, NE-IA MSA",,,31025,NE,Cass,County
+36540,"Omaha-Council Bluffs, NE-IA MSA",,,31055,NE,Douglas,County
+36540,"Omaha-Council Bluffs, NE-IA MSA",,,31153,NE,Sarpy,County
+36540,"Omaha-Council Bluffs, NE-IA MSA",,,31155,NE,Saunders,County
+36540,"Omaha-Council Bluffs, NE-IA MSA",,,31177,NE,Washington,County
+36740,"Orlando-Kissimmee-Sanford, FL MSA",,,12069,FL,Lake,County
+36740,"Orlando-Kissimmee-Sanford, FL MSA",,,12095,FL,Orange,County
+36740,"Orlando-Kissimmee-Sanford, FL MSA",,,12097,FL,Osceola,County
+36740,"Orlando-Kissimmee-Sanford, FL MSA",,,12117,FL,Seminole,County
+36780,"Oshkosh-Neenah, WI MSA",,,55139,WI,Winnebago,County
+36980,"Owensboro, KY MSA",,,21059,KY,Daviess,County
+36980,"Owensboro, KY MSA",,,21091,KY,Hancock,County
+36980,"Owensboro, KY MSA",,,21149,KY,McLean,County
+37100,"Oxnard-Thousand Oaks-Ventura, CA MSA",,,6111,CA,Ventura,County
+37340,"Palm Bay-Melbourne-Titusville, FL MSA",,,12009,FL,Brevard,County
+37380,"Palm Coast, FL MSA",,,12035,FL,Flagler,County
+37460,"Panama City-Lynn Haven-Panama City Beach, FL MSA",,,12005,FL,Bay,County
+37620,"Parkersburg-Marietta-Vienna, WV-OH MSA",,,39167,OH,Washington,County
+37620,"Parkersburg-Marietta-Vienna, WV-OH MSA",,,54073,WV,Pleasants,County
+37620,"Parkersburg-Marietta-Vienna, WV-OH MSA",,,54105,WV,Wirt,County
+37620,"Parkersburg-Marietta-Vienna, WV-OH MSA",,,54107,WV,Wood,County
+37700,"Pascagoula, MS MSA",,,28039,MS,George,County
+37700,"Pascagoula, MS MSA",,,28059,MS,Jackson,County
+37860,"Pensacola-Ferry Pass-Brent, FL MSA",,,12033,FL,Escambia,County
+37860,"Pensacola-Ferry Pass-Brent, FL MSA",,,12113,FL,Santa Rosa,County
+37900,"Peoria, IL MSA",,,17123,IL,Marshall,County
+37900,"Peoria, IL MSA",,,17143,IL,Peoria,County
+37900,"Peoria, IL MSA",,,17175,IL,Stark,County
+37900,"Peoria, IL MSA",,,17179,IL,Tazewell,County
+37900,"Peoria, IL MSA",,,17203,IL,Woodford,County
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",48864,"Wilmington, DE-MD-NJ Metropolitan Division",10003,DE,New Castle,County
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",48864,"Wilmington, DE-MD-NJ Metropolitan Division",24015,MD,Cecil,County
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",15804,"Camden, NJ Metropolitan Division",34005,NJ,Burlington,County
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",15804,"Camden, NJ Metropolitan Division",34007,NJ,Camden,County
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",15804,"Camden, NJ Metropolitan Division",34015,NJ,Gloucester,County
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",48864,"Wilmington, DE-MD-NJ Metropolitan Division",34033,NJ,Salem,County
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",37964,"Philadelphia, PA Metropolitan Division",42017,PA,Bucks,County
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",37964,"Philadelphia, PA Metropolitan Division",42029,PA,Chester,County
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",37964,"Philadelphia, PA Metropolitan Division",42045,PA,Delaware,County
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",37964,"Philadelphia, PA Metropolitan Division",42091,PA,Montgomery,County
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",37964,"Philadelphia, PA Metropolitan Division",42101,PA,Philadelphia,County
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",15804,"Camden, NJ Metropolitan Division",,,,
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",37964,"Philadelphia, PA Metropolitan Division",,,,
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",48864,"Wilmington, DE-MD-NJ Metropolitan Division",,,,
+38060,"Phoenix-Mesa-Glendale, AZ MSA",,,4013,AZ,Maricopa,County
+38060,"Phoenix-Mesa-Glendale, AZ MSA",,,4021,AZ,Pinal,County
+38220,"Pine Bluff, AR MSA",,,5025,AR,Cleveland,County
+38220,"Pine Bluff, AR MSA",,,5069,AR,Jefferson,County
+38220,"Pine Bluff, AR MSA",,,5079,AR,Lincoln,County
+38300,"Pittsburgh, PA MSA",,,42003,PA,Allegheny,County
+38300,"Pittsburgh, PA MSA",,,42005,PA,Armstrong,County
+38300,"Pittsburgh, PA MSA",,,42007,PA,Beaver,County
+38300,"Pittsburgh, PA MSA",,,42019,PA,Butler,County
+38300,"Pittsburgh, PA MSA",,,42051,PA,Fayette,County
+38300,"Pittsburgh, PA MSA",,,42125,PA,Washington,County
+38300,"Pittsburgh, PA MSA",,,42129,PA,Westmoreland,County
+38340,"Pittsfield, MA MSA",,,25003,MA,Berkshire,County
+38540,"Pocatello, ID MSA",,,16005,ID,Bannock,County
+38540,"Pocatello, ID MSA",,,16077,ID,Power,County
+38660,"Ponce, PR MSA",,,72075,PR,Juana Díaz ,Municipio
+38660,"Ponce, PR MSA",,,72113,PR,Ponce ,Municipio
+38660,"Ponce, PR MSA",,,72149,PR,Villalba ,Municipio
+38860,"Portland-South Portland-Biddeford, ME MSA",,,23005,ME,Cumberland,County
+38860,"Portland-South Portland-Biddeford, ME MSA",,,23023,ME,Sagadahoc,County
+38860,"Portland-South Portland-Biddeford, ME MSA",,,23031,ME,York,County
+38900,"Portland-Vancouver-Hillsboro, OR-WA MSA",,,41005,OR,Clackamas,County
+38900,"Portland-Vancouver-Hillsboro, OR-WA MSA",,,41009,OR,Columbia,County
+38900,"Portland-Vancouver-Hillsboro, OR-WA MSA",,,41051,OR,Multnomah,County
+38900,"Portland-Vancouver-Hillsboro, OR-WA MSA",,,41067,OR,Washington,County
+38900,"Portland-Vancouver-Hillsboro, OR-WA MSA",,,41071,OR,Yamhill,County
+38900,"Portland-Vancouver-Hillsboro, OR-WA MSA",,,53011,WA,Clark,County
+38900,"Portland-Vancouver-Hillsboro, OR-WA MSA",,,53059,WA,Skamania,County
+38940,"Port St. Lucie, FL MSA",,,12085,FL,Martin,County
+38940,"Port St. Lucie, FL MSA",,,12111,FL,St. Lucie,County
+39100,"Poughkeepsie-Newburgh-Middletown, NY MSA",,,36027,NY,Dutchess,County
+39100,"Poughkeepsie-Newburgh-Middletown, NY MSA",,,36071,NY,Orange,County
+39140,"Prescott, AZ MSA",,,4025,AZ,Yavapai,County
+39300,"Providence-New Bedford-Fall River, RI-MA MSA",,,25005,MA,Bristol,County
+39300,"Providence-New Bedford-Fall River, RI-MA MSA",,,44001,RI,Bristol,County
+39300,"Providence-New Bedford-Fall River, RI-MA MSA",,,44003,RI,Kent,County
+39300,"Providence-New Bedford-Fall River, RI-MA MSA",,,44005,RI,Newport,County
+39300,"Providence-New Bedford-Fall River, RI-MA MSA",,,44007,RI,Providence,County
+39300,"Providence-New Bedford-Fall River, RI-MA MSA",,,44009,RI,Washington,County
+39340,"Provo-Orem, UT MSA",,,49023,UT,Juab,County
+39340,"Provo-Orem, UT MSA",,,49049,UT,Utah,County
+39380,"Pueblo, CO MSA",,,8101,CO,Pueblo,County
+39460,"Punta Gorda, FL MSA",,,12015,FL,Charlotte,County
+39540,"Racine, WI MSA",,,55101,WI,Racine,County
+39580,"Raleigh-Cary, NC MSA",,,37069,NC,Franklin,County
+39580,"Raleigh-Cary, NC MSA",,,37101,NC,Johnston,County
+39580,"Raleigh-Cary, NC MSA",,,37183,NC,Wake,County
+39660,"Rapid City, SD MSA",,,46093,SD,Meade,County
+39660,"Rapid City, SD MSA",,,46103,SD,Pennington,County
+39740,"Reading, PA MSA",,,42011,PA,Berks,County
+39820,"Redding, CA MSA",,,6089,CA,Shasta,County
+39900,"Reno-Sparks, NV MSA",,,32029,NV,Storey,County
+39900,"Reno-Sparks, NV MSA",,,32031,NV,Washoe,County
+40060,"Richmond, VA MSA",,,51007,VA,Amelia,County
+40060,"Richmond, VA MSA",,,51033,VA,Caroline,County
+40060,"Richmond, VA MSA",,,51036,VA,Charles City,County
+40060,"Richmond, VA MSA",,,51041,VA,Chesterfield,County
+40060,"Richmond, VA MSA",,,51049,VA,Cumberland,County
+40060,"Richmond, VA MSA",,,51053,VA,Dinwiddie,County
+40060,"Richmond, VA MSA",,,51075,VA,Goochland,County
+40060,"Richmond, VA MSA",,,51085,VA,Hanover,County
+40060,"Richmond, VA MSA",,,51087,VA,Henrico,County
+40060,"Richmond, VA MSA",,,51097,VA,King and Queen,County
+40060,"Richmond, VA MSA",,,51101,VA,King William,County
+40060,"Richmond, VA MSA",,,51109,VA,Louisa,County
+40060,"Richmond, VA MSA",,,51127,VA,New Kent,County
+40060,"Richmond, VA MSA",,,51145,VA,Powhatan,County
+40060,"Richmond, VA MSA",,,51149,VA,Prince George,County
+40060,"Richmond, VA MSA",,,51183,VA,Sussex,County
+40060,"Richmond, VA MSA",,,51570,VA,Colonial Heights ,City
+40060,"Richmond, VA MSA",,,51670,VA,Hopewell ,City
+40060,"Richmond, VA MSA",,,51730,VA,Petersburg ,City
+40060,"Richmond, VA MSA",,,51760,VA,Richmond ,City
+40140,"Riverside-San Bernardino-Ontario, CA MSA",,,6065,CA,Riverside,County
+40140,"Riverside-San Bernardino-Ontario, CA MSA",,,6071,CA,San Bernardino,County
+40220,"Roanoke, VA MSA",,,51023,VA,Botetourt,County
+40220,"Roanoke, VA MSA",,,51045,VA,Craig,County
+40220,"Roanoke, VA MSA",,,51067,VA,Franklin,County
+40220,"Roanoke, VA MSA",,,51161,VA,Roanoke,County
+40220,"Roanoke, VA MSA",,,51770,VA,Roanoke ,City
+40220,"Roanoke, VA MSA",,,51775,VA,Salem ,City
+40340,"Rochester, MN MSA",,,27039,MN,Dodge,County
+40340,"Rochester, MN MSA",,,27109,MN,Olmsted,County
+40340,"Rochester, MN MSA",,,27157,MN,Wabasha,County
+40380,"Rochester, NY MSA",,,36051,NY,Livingston,County
+40380,"Rochester, NY MSA",,,36055,NY,Monroe,County
+40380,"Rochester, NY MSA",,,36069,NY,Ontario,County
+40380,"Rochester, NY MSA",,,36073,NY,Orleans,County
+40380,"Rochester, NY MSA",,,36117,NY,Wayne,County
+40420,"Rockford, IL MSA",,,17007,IL,Boone,County
+40420,"Rockford, IL MSA",,,17201,IL,Winnebago,County
+40580,"Rocky Mount, NC MSA",,,37065,NC,Edgecombe,County
+40580,"Rocky Mount, NC MSA",,,37127,NC,Nash,County
+40660,"Rome, GA MSA",,,13115,GA,Floyd,County
+40900,"Sacramento--Arden-Arcade--Roseville, CA MSA",,,6017,CA,El Dorado,County
+40900,"Sacramento--Arden-Arcade--Roseville, CA MSA",,,6061,CA,Placer,County
+40900,"Sacramento--Arden-Arcade--Roseville, CA MSA",,,6067,CA,Sacramento,County
+40900,"Sacramento--Arden-Arcade--Roseville, CA MSA",,,6113,CA,Yolo,County
+40980,"Saginaw-Saginaw Township North, MI MSA",,,26145,MI,Saginaw,County
+41060,"St. Cloud, MN MSA",,,27009,MN,Benton,County
+41060,"St. Cloud, MN MSA",,,27145,MN,Stearns,County
+41100,"St. George, UT MSA",,,49053,UT,Washington,County
+41140,"St. Joseph, MO-KS MSA",,,20043,KS,Doniphan,County
+41140,"St. Joseph, MO-KS MSA",,,29003,MO,Andrew,County
+41140,"St. Joseph, MO-KS MSA",,,29021,MO,Buchanan,County
+41140,"St. Joseph, MO-KS MSA",,,29063,MO,DeKalb,County
+41180,"St. Louis, MO-IL MSA",,,17005,IL,Bond,County
+41180,"St. Louis, MO-IL MSA",,,17013,IL,Calhoun,County
+41180,"St. Louis, MO-IL MSA",,,17027,IL,Clinton,County
+41180,"St. Louis, MO-IL MSA",,,17083,IL,Jersey,County
+41180,"St. Louis, MO-IL MSA",,,17117,IL,Macoupin,County
+41180,"St. Louis, MO-IL MSA",,,17119,IL,Madison,County
+41180,"St. Louis, MO-IL MSA",,,17133,IL,Monroe,County
+41180,"St. Louis, MO-IL MSA",,,17163,IL,St. Clair,County
+41180,"St. Louis, MO-IL MSA",,,29055,MO,Crawford,County
+41180,"St. Louis, MO-IL MSA",,,29071,MO,Franklin,County
+41180,"St. Louis, MO-IL MSA",,,29099,MO,Jefferson,County
+41180,"St. Louis, MO-IL MSA",,,29113,MO,Lincoln,County
+41180,"St. Louis, MO-IL MSA",,,29183,MO,St. Charles,County
+41180,"St. Louis, MO-IL MSA",,,29189,MO,St. Louis,County
+41180,"St. Louis, MO-IL MSA",,,29219,MO,Warren,County
+41180,"St. Louis, MO-IL MSA",,,29221,MO,Washington,County
+41180,"St. Louis, MO-IL MSA",,,29510,MO,St. Louis ,City
+41420,"Salem, OR MSA",,,41047,OR,Marion,County
+41420,"Salem, OR MSA",,,41053,OR,Polk,County
+41500,"Salinas, CA MSA",,,6053,CA,Monterey,County
+41540,"Salisbury, MD MSA",,,24039,MD,Somerset,County
+41540,"Salisbury, MD MSA",,,24045,MD,Wicomico,County
+41620,"Salt Lake City, UT MSA",,,49035,UT,Salt Lake,County
+41620,"Salt Lake City, UT MSA",,,49043,UT,Summit,County
+41620,"Salt Lake City, UT MSA",,,49045,UT,Tooele,County
+41660,"San Angelo, TX MSA",,,48235,TX,Irion,County
+41660,"San Angelo, TX MSA",,,48451,TX,Tom Green,County
+41700,"San Antonio-New Braunfels, TX MSA",,,48013,TX,Atascosa,County
+41700,"San Antonio-New Braunfels, TX MSA",,,48019,TX,Bandera,County
+41700,"San Antonio-New Braunfels, TX MSA",,,48029,TX,Bexar,County
+41700,"San Antonio-New Braunfels, TX MSA",,,48091,TX,Comal,County
+41700,"San Antonio-New Braunfels, TX MSA",,,48187,TX,Guadalupe,County
+41700,"San Antonio-New Braunfels, TX MSA",,,48259,TX,Kendall,County
+41700,"San Antonio-New Braunfels, TX MSA",,,48325,TX,Medina,County
+41700,"San Antonio-New Braunfels, TX MSA",,,48493,TX,Wilson,County
+41740,"San Diego-Carlsbad-San Marcos, CA MSA",,,6073,CA,San Diego,County
+41780,"Sandusky, OH MSA",,,39043,OH,Erie,County
+41860,"San Francisco-Oakland-Fremont, CA MSA",36084,"Oakland-Fremont-Hayward, CA Metropolitan Division",6001,CA,Alameda,County
+41860,"San Francisco-Oakland-Fremont, CA MSA",36084,"Oakland-Fremont-Hayward, CA Metropolitan Division",6013,CA,Contra Costa,County
+41860,"San Francisco-Oakland-Fremont, CA MSA",41884,"San Francisco-San Mateo-Redwood City, CA Metropolitan Division",6041,CA,Marin,County
+41860,"San Francisco-Oakland-Fremont, CA MSA",41884,"San Francisco-San Mateo-Redwood City, CA Metropolitan Division",6075,CA,San Francisco,County
+41860,"San Francisco-Oakland-Fremont, CA MSA",41884,"San Francisco-San Mateo-Redwood City, CA Metropolitan Division",6081,CA,San Mateo,County
+41860,"San Francisco-Oakland-Fremont, CA MSA",36084,"Oakland-Fremont-Hayward, CA Metropolitan Division",,,,
+41860,"San Francisco-Oakland-Fremont, CA MSA",41884,"San Francisco-San Mateo-Redwood City, CA Metropolitan Division",,,,
+41900,"San Germán-Cabo Rojo, PR MSA",,,72023,PR,Cabo Rojo ,Municipio
+41900,"San Germán-Cabo Rojo, PR MSA",,,72079,PR,Lajas ,Municipio
+41900,"San Germán-Cabo Rojo, PR MSA",,,72121,PR,Sabana Grande ,Municipio
+41900,"San Germán-Cabo Rojo, PR MSA",,,72125,PR,San Germán ,Municipio
+41940,"San Jose-Sunnyvale-Santa Clara, CA MSA",,,6069,CA,San Benito,County
+41940,"San Jose-Sunnyvale-Santa Clara, CA MSA",,,6085,CA,Santa Clara,County
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72007,PR,Aguas Buenas ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72009,PR,Aibonito ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72013,PR,Arecibo ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72017,PR,Barceloneta ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72019,PR,Barranquitas ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72021,PR,Bayamón ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72025,PR,Caguas ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72027,PR,Camuy ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72029,PR,Canóvanas ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72031,PR,Carolina ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72033,PR,Cataño ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72035,PR,Cayey ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72039,PR,Ciales ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72041,PR,Cidra ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72045,PR,Comerío ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72047,PR,Corozal ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72051,PR,Dorado ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72054,PR,Florida ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72061,PR,Guaynabo ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72063,PR,Gurabo ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72065,PR,Hatillo ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72069,PR,Humacao ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72077,PR,Juncos ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72085,PR,Las Piedras ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72087,PR,Loíza ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72091,PR,Manatí ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72095,PR,Maunabo ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72101,PR,Morovis ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72103,PR,Naguabo ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72105,PR,Naranjito ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72107,PR,Orocovis ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72115,PR,Quebradillas ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72119,PR,Río Grande ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72127,PR,San Juan ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72129,PR,San Lorenzo ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72135,PR,Toa Alta ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72137,PR,Toa Baja ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72139,PR,Trujillo Alto ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72143,PR,Vega Alta ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72145,PR,Vega Baja ,Municipio
+41980,"San Juan-Caguas-Guaynabo, PR MSA",,,72151,PR,Yabucoa ,Municipio
+42020,"San Luis Obispo-Paso Robles, CA MSA",,,6079,CA,San Luis Obispo,County
+42060,"Santa Barbara-Santa Maria-Goleta, CA MSA",,,6083,CA,Santa Barbara,County
+42100,"Santa Cruz-Watsonville, CA MSA",,,6087,CA,Santa Cruz,County
+42140,"Santa Fe, NM MSA",,,35049,NM,Santa Fe,County
+42220,"Santa Rosa-Petaluma, CA MSA",,,6097,CA,Sonoma,County
+42340,"Savannah, GA MSA",,,13029,GA,Bryan,County
+42340,"Savannah, GA MSA",,,13051,GA,Chatham,County
+42340,"Savannah, GA MSA",,,13103,GA,Effingham,County
+42540,"Scranton--Wilkes-Barre, PA MSA",,,42069,PA,Lackawanna,County
+42540,"Scranton--Wilkes-Barre, PA MSA",,,42079,PA,Luzerne,County
+42540,"Scranton--Wilkes-Barre, PA MSA",,,42131,PA,Wyoming,County
+42660,"Seattle-Tacoma-Bellevue, WA MSA",42644,"Seattle-Bellevue-Everett, WA Metropolitan Division",53033,WA,King,County
+42660,"Seattle-Tacoma-Bellevue, WA MSA",45104,"Tacoma, WA Metropolitan Division",53053,WA,Pierce,County
+42660,"Seattle-Tacoma-Bellevue, WA MSA",42644,"Seattle-Bellevue-Everett, WA Metropolitan Division",53061,WA,Snohomish,County
+42660,"Seattle-Tacoma-Bellevue, WA MSA",42644,"Seattle-Bellevue-Everett, WA Metropolitan Division",,,,
+42660,"Seattle-Tacoma-Bellevue, WA MSA",45104,"Tacoma, WA Metropolitan Division",,,,
+42680,"Sebastian-Vero Beach, FL MSA",,,12061,FL,Indian River,County
+43100,"Sheboygan, WI MSA",,,55117,WI,Sheboygan,County
+43300,"Sherman-Denison, TX MSA",,,48181,TX,Grayson,County
+43340,"Shreveport-Bossier City, LA MSA",,,22015,LA,Bossier Parish,Parish
+43340,"Shreveport-Bossier City, LA MSA",,,22017,LA,Caddo Parish,Parish
+43340,"Shreveport-Bossier City, LA MSA",,,22031,LA,De Soto Parish,Parish
+43580,"Sioux City, IA-NE-SD MSA",,,19193,IA,Woodbury,County
+43580,"Sioux City, IA-NE-SD MSA",,,31043,NE,Dakota,County
+43580,"Sioux City, IA-NE-SD MSA",,,31051,NE,Dixon,County
+43580,"Sioux City, IA-NE-SD MSA",,,46127,SD,Union,County
+43620,"Sioux Falls, SD MSA",,,46083,SD,Lincoln,County
+43620,"Sioux Falls, SD MSA",,,46087,SD,McCook,County
+43620,"Sioux Falls, SD MSA",,,46099,SD,Minnehaha,County
+43620,"Sioux Falls, SD MSA",,,46125,SD,Turner,County
+43780,"South Bend-Mishawaka, IN-MI MSA",,,18141,IN,St. Joseph,County
+43780,"South Bend-Mishawaka, IN-MI MSA",,,26027,MI,Cass,County
+43900,"Spartanburg, SC MSA",,,45083,SC,Spartanburg,County
+44060,"Spokane, WA MSA",,,53063,WA,Spokane,County
+44100,"Springfield, IL MSA",,,17129,IL,Menard,County
+44100,"Springfield, IL MSA",,,17167,IL,Sangamon,County
+44140,"Springfield, MA MSA",,,25011,MA,Franklin,County
+44140,"Springfield, MA MSA",,,25013,MA,Hampden,County
+44140,"Springfield, MA MSA",,,25015,MA,Hampshire,County
+44180,"Springfield, MO MSA",,,29043,MO,Christian,County
+44180,"Springfield, MO MSA",,,29059,MO,Dallas,County
+44180,"Springfield, MO MSA",,,29077,MO,Greene,County
+44180,"Springfield, MO MSA",,,29167,MO,Polk,County
+44180,"Springfield, MO MSA",,,29225,MO,Webster,County
+44220,"Springfield, OH MSA",,,39023,OH,Clark,County
+44300,"State College, PA MSA",,,42027,PA,Centre,County
+44600,"Steubenville-Weirton, OH-WV MSA",,,39081,OH,Jefferson,County
+44600,"Steubenville-Weirton, OH-WV MSA",,,54009,WV,Brooke,County
+44600,"Steubenville-Weirton, OH-WV MSA",,,54029,WV,Hancock,County
+44700,"Stockton, CA MSA",,,6077,CA,San Joaquin,County
+44940,"Sumter, SC MSA",,,45085,SC,Sumter,County
+45060,"Syracuse, NY MSA",,,36053,NY,Madison,County
+45060,"Syracuse, NY MSA",,,36067,NY,Onondaga,County
+45060,"Syracuse, NY MSA",,,36075,NY,Oswego,County
+45220,"Tallahassee, FL MSA",,,12039,FL,Gadsden,County
+45220,"Tallahassee, FL MSA",,,12065,FL,Jefferson,County
+45220,"Tallahassee, FL MSA",,,12073,FL,Leon,County
+45220,"Tallahassee, FL MSA",,,12129,FL,Wakulla,County
+45300,"Tampa-St. Petersburg-Clearwater, FL MSA",,,12053,FL,Hernando,County
+45300,"Tampa-St. Petersburg-Clearwater, FL MSA",,,12057,FL,Hillsborough,County
+45300,"Tampa-St. Petersburg-Clearwater, FL MSA",,,12101,FL,Pasco,County
+45300,"Tampa-St. Petersburg-Clearwater, FL MSA",,,12103,FL,Pinellas,County
+45460,"Terre Haute, IN MSA",,,18021,IN,Clay,County
+45460,"Terre Haute, IN MSA",,,18153,IN,Sullivan,County
+45460,"Terre Haute, IN MSA",,,18165,IN,Vermillion,County
+45460,"Terre Haute, IN MSA",,,18167,IN,Vigo,County
+45500,"Texarkana, TX-Texarkana, AR MSA",,,5091,AR,Miller,County
+45500,"Texarkana, TX-Texarkana, AR MSA",,,48037,TX,Bowie,County
+45780,"Toledo, OH MSA",,,39051,OH,Fulton,County
+45780,"Toledo, OH MSA",,,39095,OH,Lucas,County
+45780,"Toledo, OH MSA",,,39123,OH,Ottawa,County
+45780,"Toledo, OH MSA",,,39173,OH,Wood,County
+45820,"Topeka, KS MSA",,,20085,KS,Jackson,County
+45820,"Topeka, KS MSA",,,20087,KS,Jefferson,County
+45820,"Topeka, KS MSA",,,20139,KS,Osage,County
+45820,"Topeka, KS MSA",,,20177,KS,Shawnee,County
+45820,"Topeka, KS MSA",,,20197,KS,Wabaunsee,County
+45940,"Trenton-Ewing, NJ MSA",,,34021,NJ,Mercer,County
+46060,"Tucson, AZ MSA",,,4019,AZ,Pima,County
+46140,"Tulsa, OK MSA",,,40037,OK,Creek,County
+46140,"Tulsa, OK MSA",,,40111,OK,Okmulgee,County
+46140,"Tulsa, OK MSA",,,40113,OK,Osage,County
+46140,"Tulsa, OK MSA",,,40117,OK,Pawnee,County
+46140,"Tulsa, OK MSA",,,40131,OK,Rogers,County
+46140,"Tulsa, OK MSA",,,40143,OK,Tulsa,County
+46140,"Tulsa, OK MSA",,,40145,OK,Wagoner,County
+46220,"Tuscaloosa, AL MSA",,,1063,AL,Greene,County
+46220,"Tuscaloosa, AL MSA",,,1065,AL,Hale,County
+46220,"Tuscaloosa, AL MSA",,,1125,AL,Tuscaloosa,County
+46340,"Tyler, TX MSA",,,48423,TX,Smith,County
+46540,"Utica-Rome, NY MSA",,,36043,NY,Herkimer,County
+46540,"Utica-Rome, NY MSA",,,36065,NY,Oneida,County
+46660,"Valdosta, GA MSA",,,13027,GA,Brooks,County
+46660,"Valdosta, GA MSA",,,13101,GA,Echols,County
+46660,"Valdosta, GA MSA",,,13173,GA,Lanier,County
+46660,"Valdosta, GA MSA",,,13185,GA,Lowndes,County
+46700,"Vallejo-Fairfield, CA MSA",,,6095,CA,Solano,County
+47020,"Victoria, TX MSA",,,48057,TX,Calhoun,County
+47020,"Victoria, TX MSA",,,48175,TX,Goliad,County
+47020,"Victoria, TX MSA",,,48469,TX,Victoria,County
+47220,"Vineland-Millville-Bridgeton, NJ MSA",,,34011,NJ,Cumberland,County
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,37053,NC,Currituck,County
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51073,VA,Gloucester,County
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51093,VA,Isle of Wight,County
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51095,VA,James City,County
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51115,VA,Mathews,County
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51181,VA,Surry,County
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51199,VA,York,County
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51550,VA,Chesapeake ,City
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51650,VA,Hampton ,City
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51700,VA,Newport News ,City
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51710,VA,Norfolk ,City
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51735,VA,Poquoson ,City
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51740,VA,Portsmouth ,City
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51800,VA,Suffolk ,City
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51810,VA,Virginia Beach ,City
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",,,51830,VA,Williamsburg ,City
+47300,"Visalia-Porterville, CA MSA",,,6107,CA,Tulare,County
+47380,"Waco, TX MSA",,,48309,TX,McLennan,County
+47580,"Warner Robins, GA MSA",,,13153,GA,Houston,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",11001,DC,District of Columbia,Federal District
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",24009,MD,Calvert,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",24017,MD,Charles,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",13644,"Bethesda-Rockville-Frederick, MD Metropolitan Division",24021,MD,Frederick,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",13644,"Bethesda-Rockville-Frederick, MD Metropolitan Division",24031,MD,Montgomery,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",24033,MD,Prince George's,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51013,VA,Arlington,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51043,VA,Clarke,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51059,VA,Fairfax,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51061,VA,Fauquier,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51107,VA,Loudoun,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51153,VA,Prince William,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51177,VA,Spotsylvania,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51179,VA,Stafford,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51187,VA,Warren,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51510,VA,Alexandria ,City
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51600,VA,Fairfax ,City
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51610,VA,Falls Church ,City
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51630,VA,Fredericksburg ,City
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51683,VA,Manassas ,City
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",51685,VA,Manassas Park ,City
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",54037,WV,Jefferson,County
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",13644,"Bethesda-Rockville-Frederick, MD Metropolitan Division",,,,
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",,,,
+47940,"Waterloo-Cedar Falls, IA MSA",,,19013,IA,Black Hawk,County
+47940,"Waterloo-Cedar Falls, IA MSA",,,19017,IA,Bremer,County
+47940,"Waterloo-Cedar Falls, IA MSA",,,19075,IA,Grundy,County
+48140,"Wausau, WI MSA",,,55073,WI,Marathon,County
+48300,"Wenatchee-East Wenatchee, WA MSA",,,53007,WA,Chelan,County
+48300,"Wenatchee-East Wenatchee, WA MSA",,,53017,WA,Douglas,County
+48540,"Wheeling, WV-OH MSA",,,39013,OH,Belmont,County
+48540,"Wheeling, WV-OH MSA",,,54051,WV,Marshall,County
+48540,"Wheeling, WV-OH MSA",,,54069,WV,Ohio,County
+48620,"Wichita, KS MSA",,,20015,KS,Butler,County
+48620,"Wichita, KS MSA",,,20079,KS,Harvey,County
+48620,"Wichita, KS MSA",,,20173,KS,Sedgwick,County
+48620,"Wichita, KS MSA",,,20191,KS,Sumner,County
+48660,"Wichita Falls, TX MSA",,,48009,TX,Archer,County
+48660,"Wichita Falls, TX MSA",,,48077,TX,Clay,County
+48660,"Wichita Falls, TX MSA",,,48485,TX,Wichita,County
+48700,"Williamsport, PA MSA",,,42081,PA,Lycoming,County
+48900,"Wilmington, NC MSA",,,37019,NC,Brunswick,County
+48900,"Wilmington, NC MSA",,,37129,NC,New Hanover,County
+48900,"Wilmington, NC MSA",,,37141,NC,Pender,County
+49020,"Winchester, VA-WV MSA",,,51069,VA,Frederick,County
+49020,"Winchester, VA-WV MSA",,,51840,VA,Winchester ,City
+49020,"Winchester, VA-WV MSA",,,54027,WV,Hampshire,County
+49180,"Winston-Salem, NC MSA",,,37059,NC,Davie,County
+49180,"Winston-Salem, NC MSA",,,37067,NC,Forsyth,County
+49180,"Winston-Salem, NC MSA",,,37169,NC,Stokes,County
+49180,"Winston-Salem, NC MSA",,,37197,NC,Yadkin,County
+49340,"Worcester, MA MSA",,,25027,MA,Worcester,County
+49420,"Yakima, WA MSA",,,53077,WA,Yakima,County
+49500,"Yauco, PR MSA",,,72055,PR,Guánica ,Municipio
+49500,"Yauco, PR MSA",,,72059,PR,Guayanilla ,Municipio
+49500,"Yauco, PR MSA",,,72111,PR,Peñuelas ,Municipio
+49500,"Yauco, PR MSA",,,72153,PR,Yauco ,Municipio
+49620,"York-Hanover, PA MSA",,,42133,PA,York,County
+49660,"Youngstown-Warren-Boardman, OH-PA MSA",,,39099,OH,Mahoning,County
+49660,"Youngstown-Warren-Boardman, OH-PA MSA",,,39155,OH,Trumbull,County
+49660,"Youngstown-Warren-Boardman, OH-PA MSA",,,42085,PA,Mercer,County
+49700,"Yuba City, CA MSA",,,6101,CA,Sutter,County
+49700,"Yuba City, CA MSA",,,6115,CA,Yuba,County
+49740,"Yuma, AZ MSA",,,4027,AZ,Yuma,County

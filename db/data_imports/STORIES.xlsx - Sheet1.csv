@@ -1,0 +1,1678 @@
+story_id,url_id,story_ready_for_display,story_list_complete,story_date_to_review,story_media_series,story_alt_title,story_alt_description,orig_publ_year,orig_publ_month,orig_publ_day,Story Publication_Author,story_tv_season,story_tv_episode_number,story_tv_episode_sequence,story_tv_episode_title,story_tv_episode_air_date_year,story_tv_episode_air_date_month,story_tv_episode_air_date_day,story_note,story_recurring_event_number,story_category_id,story_category_code
+1,70331,No,,,,,,2011,7,,Andrea Minarcek,,,,,,,,,,0,1
+2,70332,No,,,,,,2011,10,,"Danielle Contray, Nicholas DeRenzo, Nicole Frehsee, Devon O’Neil, Melinda Page, Valerie Rains, Julie Schwietert, and Diane Vadino",,,,,,,,,,3,4
+3,70354,Yes,,,,,List of the parks in the U.S. National Park Service,,,,,,,,,,,,"This list is meant to be the complete list of parks and other NPS properties, and will be amended as needed.",,,
+4,70355,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,1,1,101,Classics,2007,4,23,Scraped info from FN's DDD website,,0,1
+5,70356,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,1,2,102,That's Italian,2007,4,30,Scraped info from FN's DDD website,,0,1
+6,70357,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,1,3,103,Blue Plate Special,2007,5,7,Scraped info from FN's DDD website,,0,1
+7,70358,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,1,4,104,Breakfast,2007,5,21,Scraped info from FN's DDD website,,0,1
+8,70359,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,1,5,105,BBQ,2007,5,28,Scraped info from FN's DDD website,,0,1
+9,70360,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,1,6,106,Local Legends,2007,6,4,Scraped info from FN's DDD website,,0,1
+10,70361,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,1,7,107,Burgers,2007,6,11,Scraped info from FN's DDD website,,0,1
+11,70362,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,1,8,108,House Specials,2007,6,18,Scraped info from FN's DDD website,,0,1
+12,70363,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,1,9,109,Retro,2007,7,9,Scraped info from FN's DDD website,,0,1
+13,70364,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,1,10,110,Worth the Trip,2007,7,16,Scraped info from FN's DDD website,,0,1
+14,70365,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,1,11,111,Diners A-Plenty,2007,7,23,Scraped info from FN's DDD website,,0,1
+15,70366,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,1,12,112,American Cookin',2007,7,30,Scraped info from FN's DDD website,,0,1
+16,70367,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,2,1,201,Totally Fried,2007,10,1,Scraped info from FN's DDD website,,0,1
+17,70368,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,2,2,202,Route 66,2007,10,8,Scraped info from FN's DDD website,,0,1
+18,70369,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,2,8,208,One of a Kind,2007,11,19,Scraped info from FN's DDD website,,0,1
+19,70370,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,2,4,204,Local Flavor,2007,10,22,Scraped info from FN's DDD website,,0,1
+20,70371,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,2,6,206,Real Deal BBQ,2007,11,5,Scraped info from FN's DDD website,,0,1
+21,70372,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,2,3,203,Seaside Eats,2007,10,15,Scraped info from FN's DDD website,,0,1
+22,70373,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,2,7,207,Talkin' Turkey,2007,11,10,Scraped info from FN's DDD website,,0,1
+23,70374,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,2,5,205,Viewer's Choice,2007,10,29,Scraped info from FN's DDD website,,0,1
+24,70375,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,2,9,209,Family Owned,2007,11,23,Scraped info from FN's DDD website,,0,1
+25,70376,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,2,10,210,Open 24/7,2008,1,13,Scraped info from FN's DDD website,,0,1
+26,70377,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,2,11,211,Off the Hook Specials,2008,1,20,Scraped info from FN's DDD website,,0,1
+27,70378,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,2,12,212,"Burgers, Rings and Fries",2008,1,21,Scraped info from FN's DDD website,,0,1
+28,70379,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,2,13,213,The New Jersey Diner Tour,2008,1,28,Scraped info from FN's DDD website,,0,1
+29,70380,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,3,1,301,Big Breakfast,2008,3,10,Scraped info from FN's DDD website,,0,1
+30,70381,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,3,2,302,Like Mama Made,2008,3,17,Scraped info from FN's DDD website,,0,1
+31,70382,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,3,3,303,Regional Favorites,2008,3,24,Scraped info from FN's DDD website,,0,1
+32,70383,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,3,4,304,Neighborhood Joints,2008,3,31,Scraped info from FN's DDD website,,0,1
+33,70384,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,3,5,305,A World of Flavors,2008,4,7,Scraped info from FN's DDD website,,0,1
+34,70385,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,3,6,306,Something Different,2008,4,14,Scraped info from FN's DDD website,,0,1
+35,70386,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,3,9,309,The Memphis BBQ Tour,2008,5,26,Scraped info from FN's DDD website,,0,1
+36,70387,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,3,8,308,Real Deal Fast Food,2008,5,19,Scraped info from FN's DDD website,,0,1
+37,70388,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,3,7,307,American Classics,2008,5,18,Scraped info from FN's DDD website,,0,1
+38,70389,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,3,10,310,Comfort Food,2008,6,15,Scraped info from FN's DDD website,,0,1
+39,70390,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,3,11,311,Where the Locals Go,2008,6,23,Scraped info from FN's DDD website,,0,1
+40,70391,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,3,12,312,All Kinds of BBQ,2008,6,30,Scraped info from FN's DDD website,,0,1
+41,70392,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,3,13,313,In the Family,2008,7,7,Scraped info from FN's DDD website,,0,1
+42,70393,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,4,1,401,Brain Freeze,2008,7,14,Scraped info from FN's DDD website,,0,1
+43,70394,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,4,2,402,Diners You Sent Me To,2008,7,21,Scraped info from FN's DDD website,,0,1
+44,70395,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,4,3,403,Bar Food,2008,7,28,Scraped info from FN's DDD website,,0,1
+45,70396,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,4,4,404,Burgers and Dogs,2008,8,4,Scraped info from FN's DDD website,,0,1
+46,70397,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,4,5,405,Where the Locals Eat,2008,8,11,Scraped info from FN's DDD website,,0,1
+47,70398,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,4,6,406,Totally Unexpected,2008,8,18,Scraped info from FN's DDD website,,0,1
+48,70399,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,4,7,407,A Taste of Everywhere,2008,9,15,Scraped info from FN's DDD website,,0,1
+49,70400,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,4,8,408,Better Than Ever,2008,9,22,Scraped info from FN's DDD website,,0,1
+50,70401,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,4,9,409,Big Flavor,2008,9,29,Scraped info from FN's DDD website,,0,1
+51,70402,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,4,10,410,Cookin' It Old School,2008,10,6,Scraped info from FN's DDD website,,0,1
+52,70403,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,4,11,411,Grabbin' a Sandwich,2008,10,13,Scraped info from FN's DDD website,,0,1
+53,70404,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,4,12,412,Traditional Dishes,2008,11,3,Scraped info from FN's DDD website,,0,1
+54,70405,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,4,13,413,Doin' Their Own Thing,2008,11,10,Scraped info from FN's DDD website,,0,1
+55,70406,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,5,1,501,What's For Breakfast,2008,11,10,Scraped info from FN's DDD website,,0,1
+56,70407,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,5,2,502,Real Deal Italian,2008,10,17,Scraped info from FN's DDD website,,0,1
+57,70408,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,5,3,503,Not What You'd Expect,2008,11,24,Scraped info from FN's DDD website,,0,1
+58,70409,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,5,4,504,Places You Sent Me,2008,12,1,Scraped info from FN's DDD website,,0,1
+59,70410,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,5,5,505,Long Time Legends,2009,1,5,Scraped info from FN's DDD website,,0,1
+60,70411,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,5,6,506,Something from Everywhere,2009,1,12,Scraped info from FN's DDD website,,0,1
+61,70412,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,5,7,507,Neighborhood Favorites,2009,1,19,Scraped info from FN's DDD website,,0,1
+62,70413,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,5,8,508,Just Like Yesterday,2009,1,26,Scraped info from FN's DDD website,,0,1
+63,70414,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,5,9,509,Return to Route 66,2009,2,2,Scraped info from FN's DDD website,,0,1
+64,70415,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,5,10,510,BBQ & More,2009,2,9,Scraped info from FN's DDD website,,0,1
+65,70416,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,5,11,511,Regional Classics,2009,2,16,Scraped info from FN's DDD website,,0,1
+66,70417,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,5,13,513,Family Favorites,2009,3,23,Scraped info from FN's DDD website,,0,1
+67,70418,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,5,12,512,All Kinds of Fast Foods,2009,3,16,Scraped info from FN's DDD website,,0,1
+68,70419,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,6,1,601,Funky Joints,2009,4,6,Scraped info from FN's DDD website,,0,1
+69,70420,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,6,2,602,Their Own Way,2009,4,13,Scraped info from FN's DDD website,,0,1
+70,70421,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,6,3,603,A Little Bit of Everywhere,2009,4,20,Scraped info from FN's DDD website,,0,1
+71,70422,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,6,4,604,"A Burger, A Bowl and a Slice",2009,4,27,Scraped info from FN's DDD website,,0,1
+72,70423,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,6,5,605,"Biscuits, Bagels and BLT's",2009,5,4,Scraped info from FN's DDD website,,0,1
+73,70424,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,6,6,606,Who'Da Thunk It?,2009,5,11,Scraped info from FN's DDD website,,0,1
+74,70425,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,6,7,607,Go-To Joints,2009,5,25,Scraped info from FN's DDD website,,0,1
+75,70426,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,6,8,608,Homestyle,2009,6,1,Scraped info from FN's DDD website,,0,1
+76,70427,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,6,9,609,All Kinds of Classics,2009,6,8,Scraped info from FN's DDD website,,0,1
+77,70428,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,6,10,610,All Over the Map,2009,6,15,Scraped info from FN's DDD website,,0,1
+78,70429,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,6,11,611,Old Time Favorites,2009,6,22,Scraped info from FN's DDD website,,0,1
+79,70430,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,6,12,612,Comfort Cookin',2009,6,29,Scraped info from FN's DDD website,,0,1
+80,70431,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,6,13,613,Mama's Cookin',2009,7,27,Scraped info from FN's DDD website,,0,1
+81,70432,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,7,1,701,Upper Crust,2009,8,3,Scraped info from FN's DDD website,,0,1
+82,70433,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,7,2,702,"Burgers, Tacos and Dogs",2009,8,10,Scraped info from FN's DDD website,,0,1
+83,70434,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,7,3,703,Name That Cook,2009,8,17,Scraped info from FN's DDD website,,0,1
+84,70435,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,7,4,704,Global Grub,2009,8,24,Scraped info from FN's DDD website,,0,1
+85,70436,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,7,5,705,Only At This Joint,2009,8,31,Scraped info from FN's DDD website,,0,1
+86,70437,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,7,6,706,You Picked 'Em,2009,9,7,Scraped info from FN's DDD website,,0,1
+87,70438,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,7,7,707,You Can Say That Again,2009,10,5,Scraped info from FN's DDD website,,0,1
+88,70439,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,7,8,708,"Barbequed, Baked, and Brined",2009,10,12,Scraped info from FN's DDD website,,0,1
+89,70440,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,7,9,709,Blast From the Past,2009,10,19,Scraped info from FN's DDD website,,0,1
+90,70441,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,7,10,710,Dives Worth a Drive,2009,10,26,Scraped info from FN's DDD website,,0,1
+91,70442,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,7,11,711,Family Style,2009,11,2,Scraped info from FN's DDD website,,0,1
+92,70443,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,7,12,712,Diners Times Three,,,,Scraped info from FN's DDD website,,0,1
+93,70444,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,7,13,713,Legacies,2009,11,16,Scraped info from FN's DDD website,,0,1
+94,70445,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,1,801,"Burgers, Steaks and Chops",2009,11,23,Scraped info from FN's DDD website,,0,1
+95,70446,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,2,802,"PIZZA, PORK AND PAPRIKASH",2010,1,11,Scraped info from FN's DDD website,,0,1
+96,70447,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,3,803,"Stacked, Stuffed and Loaded",2010,1,18,Scraped info from FN's DDD website,,0,1
+97,70448,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,4,804,Triple D Goes Tailgatin',2010,1,25,Scraped info from FN's DDD website,,0,1
+98,70449,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,5,805,Home And Away,2010,2,1,Scraped info from FN's DDD website,,0,1
+99,70450,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,6,806,By Request,2010,2,8,Scraped info from FN's DDD website,,0,1
+100,70451,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,7,807,And The Kicker Is...,2010,2,15,Scraped info from FN's DDD website,,0,1
+101,70452,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,8,808,Comfort Food Classics,2010,2,22,Scraped info from FN's DDD website,,0,1
+102,70453,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,9,809,Twists And Traditions,2010,3,22,Scraped info from FN's DDD website,,0,1
+103,70454,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,10,810,Fresh And Funky,2010,3,29,Scraped info from FN's DDD website,,0,1
+104,70455,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,11,811,Triple D Goes Hawaiian,2010,4,5,Scraped info from FN's DDD website,,0,1
+105,70456,No,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,12,812,"Best of Diners, Drive-Ins & Dives",,,,Scraped info from FN's DDD website,,0,1
+106,70457,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,13,813,Guy's Disney Holiday,,,,Scraped info from FN's DDD website,,0,1
+107,70458,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,14,814,"Diners, Drive-Ins & Dives: A North Pole Christmas",,,,Scraped info from FN's DDD website,,0,1
+108,70459,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,8,15,815,Diner's Drive-ins and Dives: Best from the Road,,,,Scraped info from FN's DDD website,,0,1
+109,70460,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,1,901,Surf 'n Turf,2010,4,27,Scraped info from FN's DDD website,,0,1
+110,70461,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,2,902,Homegrown And Homemade,2010,5,3,Scraped info from FN's DDD website,,0,1
+111,70462,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,3,903,Globetrottin',2010,5,10,Scraped info from FN's DDD website,,0,1
+112,70463,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,4,904,Bringin' It Home,2010,5,17,Scraped info from FN's DDD website,,0,1
+113,70464,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,5,905,Porkapalooza,2010,5,24,Scraped info from FN's DDD website,,0,1
+114,70465,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,6,906,"Grilled, Smoked And Sauced",2010,5,31,Scraped info from FN's DDD website,,0,1
+115,70466,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,7,907,Comfort Food With Attitude,2010,6,7,Scraped info from FN's DDD website,,0,1
+116,70467,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,8,908,Fast Food Their Way,2010,6,21,Scraped info from FN's DDD website,,0,1
+117,70468,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,9,909,Farm To Table,2010,6,28,Scraped info from FN's DDD website,,0,1
+118,70469,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,10,910,Kansas City Barbecue Tour,2010,7,12,Scraped info from FN's DDD website,,0,1
+119,70470,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,11,911,Burgers 'n More,2010,7,19,Scraped info from FN's DDD website,,0,1
+120,70471,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,12,912,You Called It,2010,7,26,Scraped info from FN's DDD website,,0,1
+121,70472,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,13,913,Old Time Attitude,2010,8,9,Scraped info from FN's DDD website,,0,1
+122,70473,No,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,9,14,914,Guy Fieri's Road Show,,,,Scraped info from FN's DDD website,,0,1
+123,70474,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,10,1,1001,Family Joints,2010,8,30,Scraped info from FN's DDD website,,0,1
+124,70475,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,10,2,1002,Tried and True,2010,9,9,Scraped info from FN's DDD website,,0,1
+125,70476,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,10,3,1003,Timeless,2010,9,13,Scraped info from FN's DDD website,,0,1
+126,70477,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,10,4,1004,You Found Em,2010,9,20,Scraped info from FN's DDD website,,0,1
+127,70478,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,10,5,1005,"Wings, Dogs and Claws",2010,9,27,Scraped info from FN's DDD website,,0,1
+128,70479,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,10,6,1006,Sauced and Spiced,2010,10,4,Scraped info from FN's DDD website,,0,1
+129,70480,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,10,7,1007,Made to Order,2010,10,25,Scraped info from FN's DDD website,,0,1
+130,70481,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,10,8,1008,"Fresh, Filled and Fried",2010,11,1,Scraped info from FN's DDD website,,0,1
+131,70482,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,10,9,1009,Gone Global,2010,11,8,Scraped info from FN's DDD website,,0,1
+132,70483,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,10,10,1010,A Triple D Thanksgiving,2010,11,15,Scraped info from FN's DDD website,,0,1
+133,70484,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,10,11,1011,Sweet 'n Savory,2010,11,26,Scraped info from FN's DDD website,,0,1
+134,70485,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,10,12,1012,Wings 'n Things,2010,12,13,Scraped info from FN's DDD website,,0,1
+135,70486,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,10,13,1013,Sandwiches Plus,2010,12,18,Scraped info from FN's DDD website,,0,1
+136,70487,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,11,1,1101,From Pork to Tofu,2011,1,3,Scraped info from FN's DDD website,,0,1
+137,70488,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,11,2,1102,"Po' Boys, Pasta And Pork",2011,1,10,Scraped info from FN's DDD website,,0,1
+138,70489,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,11,3,1103,Funky Finds,2011,1,17,Scraped info from FN's DDD website,,0,1
+139,70490,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,11,4,1104,Quirky Classics,2011,1,24,Scraped info from FN's DDD website,,0,1
+140,70491,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,11,5,1105,A Little Twisted,,,,Scraped info from FN's DDD website,,0,1
+141,70492,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,11,6,1106,Signature Sandwiches,2011,2,7,Scraped info from FN's DDD website,,0,1
+142,70493,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,11,7,1107,Favorites With A Twist,2011,2,28,Scraped info from FN's DDD website,,0,1
+143,70494,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,11,8,1108,Soup and Sandwiches,2011,3,7,Scraped info from FN's DDD website,,0,1
+144,70495,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,11,9,1109,From Crepes to Kreplach,2011,3,14,Scraped info from FN's DDD website,,0,1
+145,70496,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,11,10,1110,Fully Loaded,2011,3,21,Scraped info from FN's DDD website,,0,1
+146,70497,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,11,11,1111,From Mozz to Matzo Balls,2011,3,28,Scraped info from FN's DDD website,,0,1
+147,70498,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,11,12,1112,Signature Twists,2011,4,4,Scraped info from FN's DDD website,,0,1
+148,70499,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,11,13,1113,Porktastic,2011,4,11,Scraped info from FN's DDD website,,0,1
+149,70500,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,12,1,1201,Bar Food and Bon Bons,2011,5,9,Scraped info from FN's DDD website,,0,1
+150,70501,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,12,2,1202,From Kraut to Couscous,2011,5,16,Scraped info from FN's DDD website,,0,1
+151,70502,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,12,3,1203,You Can Only Get It Here,2011,5,23,Scraped info from FN's DDD website,,0,1
+152,70503,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,12,4,1204,Grillin' and Smokin',2011,9,12,Scraped info from FN's DDD website,,0,1
+153,70504,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,12,5,1205,Southern Flavor,2011,9,19,Scraped info from FN's DDD website,,0,1
+154,70505,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,12,6,1206,Gettin' Fresh,2011,9,26,Scraped info from FN's DDD website,,0,1
+155,70506,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,12,7,1207,Homemade & Homebrewed,2011,10,3,Scraped info from FN's DDD website,,0,1
+156,70507,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,12,8,1208,Latin Street Food,2011,10,10,Scraped info from FN's DDD website,,0,1
+157,70508,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,12,9,1209,Slammin' Sammies,2011,10,17,Scraped info from FN's DDD website,,0,1
+158,70509,Yes,,,"Diners, Drive-ins and Dives",,"Watch Guy Fieri visit America's most interesting and unique restaurants in Food Network's Diners, Drive-ins and Dives.",,,,,12,10,1210,Global Comfort,2011,10,24,Scraped info from FN's DDD website,,0,1
+160,70511,No,No,,,Blue Star Museums Initiative - 2012,"Blue Star Museums is a collaboration among the National Endowment of the Arts, Blue Star Families, the Department of Defense, and more than 1,800 museums across America.",,,,,,,,,,,,This Feature lists the museums that participated during the summer of 2012,,,
+161,70757,No,,,,,,2011,11,11,Scott Sporleder,,,,,,,,,,,
+162,70902,Yes,,,,,,2011,8,29,David Boylan,,,,,,,,,,,
+164,70906,Yes,,,,,,2011,11,24,,,,,,,,,,,,
+165,71772,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,1,1,101,Totally Fried,2009,6,21,,,0,1
+166,71773,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,1,2,102,Bar-B-Que,2009,6,23,,,0,1
+167,71774,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,1,3,103,With Bacon,2009,6,30,,,0,1
+168,71775,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,1,4,104,Sugar Rush,2009,7,7,,,0,1
+169,71776,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,1,5,105,Pizza,2009,8,2,,,0,1
+170,71777,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,1,6,106,Obsessions,2009,7,14,,,0,1
+171,71778,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,1,7,107,Wake Up Call,2009,7,28,,,0,1
+172,71779,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,1,8,108,Between Bread,2009,8,4,,,0,1
+173,71780,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,1,9,109,With My Hands,2009,8,11,,,0,1
+174,71781,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,1,10,110,Filled With Envy,2009,8,18,,,0,1
+175,71782,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,2,1,201,Holiday,2009,12,1,,,0,1
+176,71783,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,2,2,202,Hometown Favorites,2010,1,8,,,0,1
+177,71784,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,2,3,203,Cheesy,2010,1,15,,,0,1
+178,71785,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,2,4,204,Salty Goodness,2010,1,22,,,0,1
+179,71786,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,2,5,205,Meat-Fest,2010,1,29,,,0,1
+180,71787,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,2,6,206,Snack Attack,2010,2,5,,,0,1
+181,71788,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,2,7,207,Chocolate,2010,2,12,,,0,1
+182,71789,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,2,8,208,Crunchy,2010,2,19,,,0,1
+183,71790,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,2,9,209,The Classics,2010,2,26,,,0,1
+184,71791,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,2,10,210,Guilty Pleasures,2010,3,5,,,0,1
+185,71792,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,2,11,211,Hot & Spicy,2010,3,12,,,0,1
+186,71793,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,2,12,212,Totally Unexpected,2010,3,19,,,0,1
+187,71794,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,2,13,213,Chilled Perfection,2010,3,26,,,0,1
+188,71795,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,3,1,301,Grilled,2010,5,31,,,0,1
+189,71796,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,3,2,302,Simply Irresistible,2010,6,7,,,0,1
+190,71797,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,3,3,303,Regional Favorites,2010,6,14,,,0,1
+191,71798,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,3,4,304,Sweet Tooth,2010,6,21,,,0,1
+192,71799,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,3,5,305,Burgers,2010,6,28,,,0,1
+193,71800,Yes,Yes,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,3,6,306,Appetizers,2010,7,5,,,0,1
+194,71801,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,3,7,307,In a Bowl,2010,7,26,,,0,1
+195,71802,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,3,8,308,Hidden Treasures,2010,8,2,,,0,1
+196,71803,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,3,9,309,Sauced,2010,8,9,,,0,1
+197,71804,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,3,10,310,With Fruit,2010,8,16,,,0,1
+198,71805,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,3,11,311,Sliced,2010,8,23,,,0,1
+199,71806,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,3,12,312,Last Supper,2010,8,30,,,0,1
+200,71807,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,3,13,313,Best I Ever Drank,2010,9,6,,,0,1
+205,71812,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,1,401,Local Favorites,2010,10,4,,,0,1
+206,71813,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,2,402,Bang for the Buck,2010,9,27,,,0,1
+207,71814,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,3,403,Nutty,2010,10,11,,,0,1
+208,71815,Yes,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,4,404,At a Deli,2010,10,18,,,0,1
+209,71816,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,5,405,Under Wraps,2010,10,25,,,0,1
+210,71817,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,6,406,Cake Walk,2010,11,1,,,0,1
+211,71818,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,7,407,With Chopsticks,2010,11,8,,,0,1
+212,71819,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,8,408,That I'm Thankful For,2010,11,15,,,0,1
+213,71820,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,9,409,Crazy Good,2010,11,22,,,0,1
+214,71821,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,10,410,With Garlic,2010,11,29,,,0,1
+215,71822,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,11,411,I Ever Made For the Holidays,2010,12,6,,,0,1
+216,71823,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,12,412,On a Stick,2010,12,27,,,0,1
+217,71824,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,13,413,For Brunch,2010,12,20,,,0,1
+218,71825,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,4,14,414,Reinvented Classics,2011,1,3,,,0,1
+219,71826,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,5,1,501,Combos,2011,5,16,,,0,1
+220,71827,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,5,2,502,Fried Chicken,2011,5,23,,,0,1
+221,71828,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,5,3,503,Smoky,2011,5,30,,,0,1
+222,71829,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,5,4,504,Better Than Mine,2011,6,6,,,0,1
+223,71830,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,5,5,505,Las Vegas,2011,6,13,,,0,1
+224,71831,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,5,6,506,Street Food,2011,8,15,,,0,1
+225,71832,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,5,7,507,Old School,2011,7,4,,,0,1
+226,71833,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,5,8,508,Ice Creamy,2011,7,22,,,0,1
+227,71834,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,5,9,509,French Favorites,2011,7,29,,,0,1
+228,71835,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,5,10,510,Eggstraordinary,2011,8,5,,,0,1
+229,71836,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,5,11,511,Finger Food,2011,8,8,,,0,1
+230,71837,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,5,12,512,Road Trip,2011,6,20,,,0,1
+231,71838,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,5,13,513,Childhood Favorites,2011,8,22,,,0,1
+232,71839,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,6,1,601,All American,2011,9,12,,,0,1
+233,71840,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,6,2,602,New Orleans,2011,9,19,,,0,1
+234,71841,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,6,3,603,Messy,2011,9,26,,,0,1
+235,71842,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,6,4,604,As Good As Mom's,2011,10,3,,,0,1
+236,71843,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,6,5,605,Frightfully Good,2011,10,24,,,0,1
+237,71844,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,6,6,606,Bird Is the Word,2011,11,14,,,0,1
+238,71845,No,,,The Best Thing I Ever Ate,,Ever wonder what the biggest food stars and chefs eat in their free time – when they're paying? Find out on The Best Thing I Ever Ate!,,,,,6,7,607,Season's Eatings,2011,12,5,,,0,1
+239,71847,Yes,,,Man v. Food,,,,,,,1,1,101,Amarillo,2008,12,3,Man v Food Episode List,101,0,1
+240,71848,Yes,,,Man v. Food,,,,,,,1,2,102,Memphis,2008,12,3,Man v Food Episode List,102,0,1
+241,71849,Yes,,,Man v. Food,,,,,,,1,3,103,Pittsburgh,2008,12,10,Man v Food Episode List,103,0,1
+242,71850,Yes,,,Man v. Food,,,,,,,1,4,104,Columbus,2008,12,10,Man v Food Episode List,104,0,1
+243,71851,Yes,,,Man v. Food,,,,,,,1,5,105,Austin,2008,12,17,Man v Food Episode List,105,0,1
+244,71852,Yes,,,Man v. Food,,,,,,,1,6,106,Chicago,2008,12,24,Man v Food Episode List,106,0,1
+245,71853,Yes,,,Man v. Food,,,,,,,1,7,107,Atlanta,2009,1,7,Man v Food Episode List,107,0,1
+246,71854,Yes,,,Man v. Food,,,,,,,1,8,108,Boston,2009,1,14,Man v Food Episode List,108,0,1
+247,71855,Yes,,,Man v. Food,,,,,,,1,9,109,New York,2009,1,21,Man v Food Episode List,109,0,1
+248,71856,Yes,,,Man v. Food,,,,,,,1,10,110,New Orleans,2009,1,28,Man v Food Episode List,110,0,1
+249,71857,Yes,,,Man v. Food,,,,,,,1,11,111,Portland,2009,2,4,Man v Food Episode List,111,0,1
+250,71858,Yes,,,Man v. Food,,,,,,,1,12,112,Seattle,2009,2,11,Man v Food Episode List,112,0,1
+251,71859,Yes,,,Man v. Food,,,,,,,1,13,113,Los Angeles,2009,2,18,Man v Food Episode List,113,0,1
+252,71860,Yes,,,Man v. Food,,,,,,,1,14,114,St. Louis,2009,2,25,Man v Food Episode List,114,0,1
+253,71861,Yes,,,Man v. Food,,,,,,,1,15,115,San Jose,2009,3,4,Man v Food Episode List,115,0,1
+254,71862,Yes,,,Man v. Food,,,,,,,1,16,116,Denver,2009,3,11,Man v Food Episode List,116,0,1
+255,71863,Yes,,,Man v. Food,,,,,,,1,17,117,North Carolina,2009,3,18,Man v Food Episode List,117,0,1
+256,71864,Yes,,,Man v. Food,,,,,,,1,18,118,Minneapolis,2009,3,25,Man v Food Episode List,118,0,1
+257,71865,Yes,,,Man v. Food,,,,,,,2,1,201,San Antonio,2009,8,5,Man v Food Episode List,201,0,1
+258,71866,Yes,,,Man v. Food,,,,,,,2,2,202,Las Vegas,2009,8,12,Man v Food Episode List,202,0,1
+259,71867,Yes,,,Man v. Food,,,,,,,2,3,203,Charleston,2009,8,19,Man v Food Episode List,203,0,1
+260,71868,Yes,,,Man v. Food,,,,,,,2,4,204,San Francisco,2009,8,26,Man v Food Episode List,204,0,1
+261,71869,Yes,,,Man v. Food,,,,,,,2,5,205,Durham,2009,9,2,Man v Food Episode List,205,0,1
+262,71870,Yes,,,Man v. Food,,,,,,,2,6,206,Hawaii,2009,9,9,Man v Food Episode List,206,0,1
+263,71871,Yes,,,Man v. Food,,,,,,,2,7,207,Sarasota,2009,9,16,Man v Food Episode List,207,0,1
+264,71872,Yes,,,Man v. Food,,,,,,,2,8,208,Philadelphia,2009,9,23,Man v Food Episode List,208,0,1
+265,71873,Yes,,,Man v. Food,,,,,,,2,9,209,Baseball,2009,9,30,Man v Food Episode List,209,0,1
+266,71874,Yes,,,Man v. Food,,,,,,,2,10,210,Springfield,2009,10,7,Man v Food Episode List,210,0,1
+267,71875,Yes,,,Man v. Food,,,,,,,2,11,211,Boise,2009,10,14,Man v Food Episode List,211,0,1
+268,71876,Yes,,,Man v. Food,,,,,,,2,12,212,Washington DC,2009,10,21,Man v Food Episode List,212,0,1
+269,71877,Yes,,,Man v. Food,,,,,,,2,13,213,Baltimore,2009,10,28,Man v Food Episode List,213,0,1
+270,71878,Yes,,,Man v. Food,,,,,,,2,14,214,Detroit,2009,11,4,Man v Food Episode List,214,0,1
+271,,Yes,Yes,,Man v. Food,Man v Food - Brooklyn NY,,,,,,2,15,215,Brooklyn NY,2009,11,11,Man v Food Episode List,215,0,1
+272,71879,Yes,,,Man v. Food,,,,,,,2,16,216,Anchorage,2009,11,18,Man v Food Episode List,216,0,1
+273,71880,Yes,,,Man v. Food,,,,,,,2,17,217,Little Rock,2009,11,25,Man v Food Episode List,217,0,1
+274,71881,Yes,,,Man v. Food,,,,,,,2,18,218,Tucson,2009,12,2,Man v Food Episode List,218,0,1
+275,71882,Yes,,,Man v. Food,,,,,,,2,19,219,New Jersey,2009,12,9,Man v Food Episode List,219,0,1
+276,71883,Yes,,,Man v. Food,,,,,,,2,20,220,Hartford,2009,12,16,Man v Food Episode List,220,0,1
+277,71884,Yes,,,Man v. Food Live,,,,,,,2,21,221,Man v. Food Live,2010,2,3,Man v Food Episode List,221,0,1
+278,71885,Yes,,,Man v. Food,,,,,,,3,1,301,San Diego,2010,6,16,Man v Food Episode List,301,0,1
+279,71886,Yes,,,Man v. Food,,,,,,,3,2,302,Boulder,2010,6,16,Man v Food Episode List,302,0,1
+280,71887,Yes,,,Man v. Food,,,,,,,3,3,303,Cleveland,2010,6,23,Man v Food Episode List,303,0,1
+281,71888,Yes,,,Man v. Food,,,,,,,3,4,304,Richmond,2010,6,30,Man v Food Episode List,304,0,1
+282,71889,Yes,,,Man v. Food,,,,,,,3,5,305,Salt Lake City,2010,7,7,Man v Food Episode List,305,0,1
+283,71890,Yes,,,Man v. Food,,,,,,,3,6,306,Phoenix,2010,7,14,Man v Food Episode List,306,0,1
+284,71891,Yes,,,Man v. Food,,,,,,,3,7,307,Puerto Rico,2010,7,21,Man v Food Episode List,307,0,1
+285,71892,Yes,,,Man v. Food,,,,,,,3,8,308,Long Island,2010,7,28,Man v Food Episode List,308,0,1
+286,71893,Yes,,,Man v. Food,,,,,,,3,9,309,Oklahoma City,2010,8,4,Man v Food Episode List,309,0,1
+287,71894,Yes,,,Man v. Food,,,,,,,3,10,310,Kansas City,2010,8,11,Man v Food Episode List,310,0,1
+288,71895,Yes,,,Man v. Food,,,,,,,3,11,311,Indianapolis,2010,8,18,Man v Food Episode List,311,0,1
+289,71896,Yes,,,Man v. Food,,,,,,,3,12,312,Jersey Shore,2010,8,25,Man v Food Episode List,312,0,1
+290,,Yes,,,Man v. Food,Man v Food,,,,,,3,13,313,,2010,9,1,Man v Food Episode List,313,0,1
+291,71897,Yes,,,Man v. Food,,,,,,,3,14,314,"Portland, Maine",2010,9,8,Man v Food Episode List,314,0,1
+292,71898,Yes,,,Man v. Food,,,,,,,3,15,315,Niagara Falls,2010,9,15,Man v Food Episode List,315,0,1
+293,,Yes,,,Man v. Food,Man v Food,,,,,,3,16,316,,2010,9,22,Man v Food Episode List,316,0,1
+294,71899,Yes,,,Man v. Food,,,,,,,3,17,317,Sacramento,2010,9,29,Man v Food Episode List,317,0,1
+295,71900,Yes,,,Man v. Food,,,,,,,3,18,318,Des Moines,2010,10,6,Man v Food Episode List,318,0,1
+296,71901,Yes,,,Man v. Food,,,,,,,3,19,319,Knoxville,2010,10,13,Man v Food Episode List,319,0,1
+297,71902,Yes,,,Man v. Food,,,,,,,3,20,320,Ann Arbor,2010,10,20,Man v Food Episode List,320,0,1
+298,71903,No,,,Man v. Food Nation,,,,,,,4,1,401,New Haven,2011,6,1,Man v Food Episode List,401,0,1
+299,71904,No,,,Man v. Food Nation,,,,,,,4,2,402,Tampa Bay,2011,6,1,Man v Food Episode List,402,0,1
+300,71905,No,,,Man v. Food Nation,,,,,,,4,3,403,Nashville,2011,6,8,Man v Food Episode List,403,0,1
+301,71906,No,,,Man v. Food Nation,,,,,,,4,4,404,Tulsa,2011,6,15,Man v Food Episode List,404,0,1
+302,71907,No,,,Man v. Food Nation,,,,,,,4,5,405,Albuquerque,2011,6,22,Man v Food Episode List,405,0,1
+303,71908,No,,,Man v. Food Nation,,,,,,,4,6,406,Mobile,2011,6,29,Man v Food Episode List,406,0,1
+304,71909,No,,,Man v. Food Nation,,,,,,,4,7,407,Florida Keys,2011,7,6,Man v Food Episode List,407,0,1
+305,71910,No,,,Man v. Food Nation,,,,,,,4,8,408,Gulf Coast,2011,7,13,Man v Food Episode List,408,0,1
+306,71911,No,,,Man v. Food Nation,,,,,,,4,9,409,Portsmouth,2011,7,20,Man v Food Episode List,409,0,1
+307,71912,No,,,Man v. Food Nation,,,,,,,4,10,410,Louisville,2011,7,27,Man v Food Episode List,410,0,1
+308,71913,No,,,Man v. Food Nation,,,,,,,4,11,411,Milwaukee,2011,8,3,Man v Food Episode List,411,0,1
+309,71914,No,,,Man v. Food Nation,,,,,,,4,12,412,Providence,2011,8,10,Man v Food Episode List,412,0,1
+310,71915,No,,,Man v. Food Nation,,,,,,,4,13,413,Dallas,2011,8,17,Man v Food Episode List,413,0,1
+311,71916,No,,,Man v. Food Nation,,,,,,,4,14,414,Route 66,2011,8,24,Man v Food Episode List,414,0,1
+312,71917,No,,,Man v. Food Nation,,,,,,,4,15,415,Harlem,2011,9,7,Man v Food Episode List,415,0,1
+313,71918,No,,,Man v. Food Nation,,,,,,,4,16,416,Pacific Coast Highway,2011,9,14,Man v Food Episode List,416,0,1
+314,71919,No,,,Man v. Food Nation,,,,,,,4,17,417,Street Eats,2011,9,28,Man v Food Episode List,417,0,1
+315,71920,No,,,Man v. Food Nation,,,,,,,4,18,418,St. Paul,2011,10,5,Man v Food Episode List,418,0,1
+316,71921,No,,,Man v. Food Nation,,,,,,,4,19,419,Cincinnati,2011,10,12,Man v Food Episode List,419,0,1
+317,71922,No,,,Man v. Food Nation,,,,,,,4,20,420,NASCAR,2011,10,19,Man v Food Episode List,420,0,1
+318,71923,No,,,Man v. Food Nation,,,,,,,4,21,421,Omaha,2011,10,26,Man v Food Episode List,421,0,1
+319,71924,No,,,Man v. Food Nation,,,,,,,4,22,422,Green Bay,2011,11,2,Man v Food Episode List,422,0,1
+320,71925,No,,,Man v. Food Nation,,,,,,,4,23,423,Savannah,2011,11,9,Man v Food Episode List,423,0,1
+321,71926,No,,,Man v. Food Nation,,,,,,,4,24,424,The Feast Special,2011,11,16,Man v Food Episode List,424,0,1
+322,71927,No,,,Man v. Food Nation,,,,,,,4,25,425,Oahu,2011,11,30,Man v Food Episode List,425,0,1
+323,,Yes,,,Food Wars,"Food Wars - Buffalo, NY Wing War",Anchor Bar vs. Duff's,,,,,1,1,101,"Buffalo, NY Wing War",2010,3,9,Food Wars Episode List,101,0,1
+324,,Yes,,,Food Wars,"Food Wars - Chicago, IL Italian Beef War",Al's #1 Italian Beef vs. Mr. Beef,,,,,1,2,102,"Chicago, IL Italian Beef War",2010,3,9,Food Wars Episode List,102,0,1
+325,,Yes,,,Food Wars,"Food Wars - Pittsburg, KS Fried Chicken War",Chicken Annie's vs. Chicken Mary's,,,,,1,3,103,"Pittsburg, KS Fried Chicken War",2010,3,16,Food Wars Episode List,103,0,1
+326,,Yes,,,Food Wars,"Food Wars - Lockhart, TX BBQ War",Kreuz Market vs. Smitty's Market,,,,,1,4,104,"Lockhart, TX BBQ War",2010,3,23,Food Wars Episode List,104,0,1
+327,,Yes,,,Food Wars,"Food Wars - Minneapolis, MN Jucy Lucy War",Matt's vs. The 5-8 Club,,,,,1,5,105,"Minneapolis, MN Jucy Lucy War",2010,3,30,Food Wars Episode List,105,0,1
+328,,Yes,,,Food Wars,"Food Wars - Tucson, AZ Sonoran Dog War",BK vs. El Güero Canelo,,,,,1,6,106,"Tucson, AZ Sonoran Dog War",2010,4,6,Food Wars Episode List,106,0,1
+329,,Yes,,,Food Wars,"Food Wars - Washington, D.C. Jumbo Pizza Slice War",Pizza Mart vs Jumbo Slice,,,,,1,7,107,"Washington, D.C. Jumbo Pizza Slice War",2010,4,13,Food Wars Episode List,107,0,1
+330,,Yes,,,Food Wars,"Food Wars - New York, NY Pastrami Sandwich War",Katz’s Deli vs Second Avenue Deli,,,,,1,8,108,"New York, NY Pastrami Sandwich War",2010,4,20,Food Wars Episode List,108,0,1
+331,,Yes,,,Food Wars,"Food Wars - Los Angeles, CA Gourmet Burger Truck War",Baby's Badass Burgers vs Grill 'Em All,,,,,1,9,109,"Los Angeles, CA Gourmet Burger Truck War",2010,8,18,Food Wars Episode List,109,0,1
+332,,Yes,,,Food Wars,"Food Wars - Detroit, MI Coney Island Hot Dog War",American Coney Island vs Lafayette Coney Island,,,,,1,10,110,"Detroit, MI Coney Island Hot Dog War",2010,8,25,Food Wars Episode List,110,0,1
+333,,Yes,,,Food Wars,"Food Wars - Pueblo, CO Slopper War",Gray's Coors Tavern vs Sunset Inn,,,,,1,11,111,"Pueblo, CO Slopper War",2010,9,1,Food Wars Episode List,111,0,1
+334,,Yes,,,Food Wars,"Food Wars - Kansas City, MO BBQ Ribs War",Arthur Bryant's vs Gates Bar-B-Q,,,,,1,12,112,"Kansas City, MO BBQ Ribs War",2010,9,8,Food Wars Episode List,112,0,1
+335,,Yes,,,Food Wars,"Food Wars - New Orleans, LA Po'Boy Sandwich War",Domilise's vs Parkway Bakery & Tavern,,,,,1,13,113,"New Orleans, LA Po'Boy Sandwich War",2010,9,15,Food Wars Episode List,113,0,1
+336,,Yes,,,Food Wars,"Food Wars - Philadelphia, PA Philly Cheesesteak War",Pat's vs Tony Luke's,,,,,1,14,114,"Philadelphia, PA Philly Cheesesteak War",2010,9,22,Food Wars Episode List,114,0,1
+337,,Yes,,,Food Wars,"Food Wars - Chicago, IL Deep Dish Pizza War",Pizzeria Uno vs Lou Malnati's,,,,,1,15,115,"Chicago, IL Deep Dish Pizza War",2010,9,29,Food Wars Episode List,115,0,1
+338,,Yes,,,Food Wars,"Food Wars - Newark, NJ Italian Hot Dog War","Jimmy Buff's vs. Charlie's ""Famous"" Italian Hot Dog",,,,,1,16,116,"Newark, NJ Italian Hot Dog War",2010,10,6,Food Wars Episode List,116,0,1
+339,,Yes,,,Food Wars,"Food Wars - Milwaukee, WI Cheeseburger War",Sobelman's vs. AJ Bomber's,,,,,1,17,117,"Milwaukee, WI Cheeseburger War",2010,10,13,Food Wars Episode List,117,0,1
+340,,Yes,,,Food Wars,"Food Wars - Omaha, NE Steak War",Caniglia's Venice Inn vs. Piccolo Pete's Restaurant,,,,,1,18,118,"Omaha, NE Steak War",2010,10,20,Food Wars Episode List,118,0,1
+341,,Yes,,,Food Wars,"Food Wars - Key West, FL Key Lime Pie War",Blue Heaven vs. Blond Giraffe,,,,,1,19,119,"Key West, FL Key Lime Pie War",2010,10,27,Food Wars Episode List,119,0,1
+342,,Yes,,,Food Wars,Food Wars - Maine Lobster Roll War,Alisson's Restaurant vs. The Clam Shack,,,,,1,20,120,Maine Lobster Roll War,2010,11,3,Food Wars Episode List,120,0,1
+343,,Yes,,,Food Wars,"Food Wars - Reno, NV Awful-Awful Burger War",John Ascuaga's Nugget vs. The Little Nugget,,,,,1,21,121,"Reno, NV Awful-Awful Burger War",2010,11,10,Food Wars Episode List,121,0,1
+344,,Yes,,,Food Wars,Food Wars - New York City Pizza War,John's of Bleecker Street vs. Grimaldi's Pizzeria,,,,,1,22,122,New York City Pizza War,2010,11,17,Food Wars Episode List,122,0,1
+345,73328,No,,,,,,,,,,,,,,,,,,,3,4
+346,73329,Yes,,,,,,,,,,,,,,,,,,,,
+347,73330,Yes,,,,,,2010,12,1,Hal Amen,,,,,,,,,,,
+348,73331,Yes,,,,,,,,,,,,,,,,,,,,
+349,73332,Yes,,,,Where to find Carousels listed by the National Carousel Association,,,,,,,,,,,,,,,,
+350,73333,Yes,,,,,,2010,12,20,Kathy YL Chan,,,,,,,,,,3,4
+351,73334,No,,,,,,,,,,,,,,,,,,,3,4
+352,73335,Yes,No,,,,,2010,5,5,Molly Young,,,,,,,,,,3,4
+353,73336,No,No,,,,,,,,,,,,,,,,,,,
+354,76891,Yes,Yes,,,2009 Top 100 Chinese Restaurants Competition - Top 100 Overall Excellence Winners,,2009,,,,,,,,,,,,,5,6
+355,73338,Yes,,,,,,2010,3,28,Hilary Howard,,,,,,,,,,,
+356,73339,Yes,,,,,,2010,8,15,Kristina Shevory,,,,,,,,,,,
+357,73340,Yes,,,,,,2010,10,17,Freda Moon,,,,,,,,,,,
+358,73341,Yes,,,,,,2010,10,24,Shaila Dewan,,,,,,,,,,4,5
+359,73342,Yes,,,,,,2011,2,20,Chris Colin,,,,,,,,,,4,5
+360,73343,Yes,,,,,,2011,2,27,Lionel Beehner,,,,,,,,,,4,5
+361,73344,Yes,,,,,,2011,3,27,David Laskin,,,,,,,,,,4,5
+362,73345,Yes,,,,,,2011,7,3,Michelle Higgins,,,,,,,,,,4,5
+363,73346,Yes,,,,,,2011,7,14,Geraldine Fabrikant,,,,,,,,,,4,5
+364,70039,Yes,,,,,,,,,,,,,,,,,,,3,4
+365,70040,Yes,,,,,,,,,,,,,,,,,,,3,4
+366,70041,Yes,,,,,,,,,,,,,,,,,,,,
+367,70042,Yes,,,,,,2011,2,15,Pete Freedman,,,,,,,,,,,
+368,70043,Yes,,,,,,,,,,,,,,,,,,,3,4
+369,70078,Yes,Yes,,,,,2010,1,28,Andrew Knowlton,,,,,,,,,,3,4
+370,70333,No,Yes,,,The Coolest Small Towns in America - 2006,,,,,,,,,,,,,,,,
+371,70080,Yes,,,,,,2009,5,7,,,,,,,,,,,,
+372,70081,Yes,,,,,,2007,9,,Shax Riegler,,,,,,,,,,,
+373,70082,Yes,,,,,,2008,3,3,Jason Cochran,,,,,,,,,,,
+374,70083,No,No,,,,,2008,9,,,,,,,,,,,,,
+375,70084,No,,,,,,2009,10,,,,,,,,,,,,,
+376,70085,Yes,,,,,,2010,9,,,,,,,,,,,,,
+377,70086,Yes,,,,,,2010,10,,Katherine Wheelock,,,,,,,,,,3,4
+378,70087,Yes,,,,,,2010,11,,Nicholas DeRenzo,,,,,,,,,,3,4
+379,70088,Yes,,,,,,2011,9,,,,,,,,,,,,,
+380,70089,Yes,,,,,,2011,9,,,,,,,,,,,,,
+381,70090,Yes,Yes,,,,,2011,3,11,Nicole Frehsee,,,,,,,,,,7,8
+382,70091,Yes,,,,,,2011,6,,Melinda Page,,,,,,,,,,3,4
+383,70092,Yes,,,,,,2011,2,,Daniel Duane,,,,,,,,,,,
+384,70330,Yes,,,,,,2010,11,,Katy McColl,,,,,,,,,,,
+385,70093,Yes,,,,,,2010,11,,"Geraldine Campbell, Kendell Cronstrom, Elaine Glusac, Naomi Lindt, and Mario López-Cordero",,,,,,,,,,3,4
+386,70094,Yes,Yes,,,,,2010,11,12,David Farley,,,,,,,,,,,
+387,70096,Yes,,,,,,,,,,,,,,,,,,,,
+388,73406,No,Yes,09/24/2012,,,,2011,10,26,Tom Markovich,,,,,,,,,,,
+389,70097,No,Yes,,,,,,,,,,,,,,,,,,,
+390,70099,Yes,,,,,,,,,,,,,,,,,,,3,4
+391,70100,Yes,,,,,,,,,,,,,,,,,,,3,4
+392,70101,Yes,,,,,,2010,11,12,Nicholas Gill,,,,,,,,,,3,4
+393,70102,Yes,Yes,,,,,,,,Carrie Havranek,,,,,,,,,,3,4
+394,70103,Yes,,,,,,2011,,,,,,,,,,,,,3,4
+395,70104,Yes,,,,,,2013,5,10,,,,,,,,,,,3,4
+396,70105,Yes,,,,,,2013,5,10,,,,,,,,,,,3,4
+397,70106,Yes,,,,,,2010,10,,,,,,,,,,,,3,4
+398,70107,Yes,,,,,,2007,11,18,Christopher Reynolds,,,,,,,,,,3,4
+399,70108,Yes,,,,,,2011,1,9,Rosemary McClure,,,,,,,,,,,
+400,70109,Yes,Yes,,,,,2011,6,17,Greg Emerson,,,,,,,,,,3,4
+401,70112,Yes,,,,,,2011,8,,,,,,,,,,,,,
+402,70113,Yes,,,,,,2011,3,18,,,,,,,,,,,,
+403,70114,Yes,,,,,,2010,12,8,Steve Jermanok,,,,,,,,,,7,8
+404,70115,No,No,,,,,,,,,,,,,,,,,,7,8
+405,70118,Yes,,,,,,,,,,,,,,,,,,,,
+406,70119,Yes,,,,,,,,,,,,,,,,,,,,
+407,70120,Yes,,,,,,2010,10,21,Jason Zinoman,,,,,,,,,,,
+408,70121,Yes,,,,,,2010,12,28,Sam Sifton,,,,,,,,,,3,4
+409,70122,Yes,,,,,,2011,2,22,Pete Wells,,,,,,,,,,,
+410,70133,Yes,,,,,,,,,,,,,,,,,,,,
+411,70135,No,,,,,,,,,,,,,,,,,,,3,4
+412,70136,Yes,No,,,,,2008,9,9,Rachel Kalt,,,,,,,,,,,
+413,70137,Yes,,,,,,2011,8,17,,,,,,,,,,,,
+414,70138,Yes,,,,,,2011,6,21,Keli Dailey,,,,,,,,,,,
+415,70139,Yes,,,,,,2011,6,23,Caroline Dipping,,,,,,,,,,3,4
+416,70140,Yes,,,,,,2011,5,2,Ted Glennon,,,,,,,,,,,
+417,70141,Yes,,,,,,2010,9,,,,,,,,,,,,,
+418,70142,Yes,,,,,,,,,,,,,,,,,,,3,4
+420,70144,Yes,,,,,,,,,,,,,,,,,,,3,4
+421,70145,Yes,,,,,,,,,,,,,,,,,,,3,4
+422,70146,Yes,,,,,,,,,,,,,,,,,,,,
+423,70147,Yes,Yes,,,,,,,,,,,,,,,,,,3,4
+424,73485,Yes,,,,,,2010,10,,Joshua Pramis,,,,,,,,,,3,4
+425,73486,Yes,,,,,,2012,12,,Nina Fedrizzi,,,,,,,,,,3,4
+426,73487,Yes,,,,,,2013,7,,Charlotte Druckman,,,,,,,,,,3,4
+427,73488,Yes,,,,,,2011,4,,Ratha Tep,,,,,,,,,,,
+428,73489,Yes,,,,,,2011,2,,Katrina Brown Hunt,,,,,,,,,,,
+429,73490,Yes,,,,,,2013,2,,"Brendan Spiegel, Sarah Storms",,,,,,,,,,3,4
+430,73491,Yes,,,,,,2012,12,,Nate Storey,,,,,,,,,,3,4
+431,73492,Yes,,,,,,2010,12,,,,,,,,,,,,3,4
+432,70184,Yes,,,,,,2012,1,,,,,,,,,,,,3,4
+433,73494,Yes,Yes,,,,,2010,3,,,,,,,,,,,,0,1
+434,70186,Yes,,,,,,,,,,,,,,,,,,,,
+435,70187,Yes,,,,,,,,,,,,,,,,,,,,
+436,73500,Yes,,,,,,,,,,,,,,,,,,,,
+437,73323,Yes,,,,,,,,,,,,,,,,,,,,
+438,73508,Yes,,,,,,,,,,,,,,,,,,,,
+439,73509,Yes,,,,,,,,,,,,,,,,,,,,
+440,73325,Yes,,,,,,,,,,,,,,,,,,,,
+441,73327,Yes,,,,,,,,,,,,,,,,,,,,
+442,73326,Yes,,,,,,,,,,,,,,,,,,,,
+443,70189,Yes,,,,,,,,,,,,,,,,,,,3,4
+444,70038,Yes,,,,36 Hours in Bar Harbor ME,POI's added to the feature = 36 Hours in Bar Harbor ME,2011,7,14,Geraldine Fabrikant,,,,,,,,36 Hours in Bar Harbor ME,,4,5
+445,76959,Yes,,,,"36 Hours in Cape May, N.J.","POI's added to the feature = 36 Hours in Cape May, N.J.",2011,7,7,Ron Hodson,,,,,,,,"36 Hours in Cape May, N.J.",,,
+446,70035,Yes,,,,36 Hours in Mammoth Lakes,POI's added to the feature = 36 Hours in Mammoth Lakes,2011,2,24,Lionel Beehner,,,,,,,,36 Hours in Mammoth Lakes,,4,5
+447,76955,Yes,,,,American Whiskey Trails,POI's added to the feature = American Whiskey Trails,2010,11,7,Ron Hodson,,,,,,,,American Whiskey Trails,,,
+448,76956,Yes,,,,Best Resorts in the Caribbean,POI's added to the feature = Best Resorts in the Caribbean,2011,2,1,Ron Hodson,,,,,,,,Best Resorts in the Caribbean,,3,4
+449,76957,No,,,,Humongous Homes & Unique Roosts,POI's added to the feature = Humongous Homes & Unique Roosts,2011,3,11,Ron Hodson,,,,,,,,Humongous Homes & Unique Roosts,,,
+450,70141,Yes,,,,Sunset It's Humboldt,POI's added to the feature = Sunset It's Humboldt,2010,9,,Sara Schneider,,,,,,,,Sunset It's Humboldt,,,
+451,76958,Yes,,,,The Smallest Towns in the U.S.,POI's added to the feature = The Smallest Towns in the U.S.,2011,8,5,Ron Hodson,,,,,,,,The Smallest Towns in the U.S.,,,
+452,76960,Yes,,,,Austin Points of Interest,Where's URL original content tentatively called = Austin Points of Interest,2011,2,9,Ron Hodson,,,,,,,,Austin Points of Interest,,,
+453,,Yes,,,,B&B's of Napa,Where's URL original content tentatively called = B&B's of Napa,,,,,,,,,,,,B&B's of Napa,,,
+454,,Yes,,,,B&B's of Santa Rosa and Petaluma,Where's URL original content tentatively called = B&B's of Santa Rosa and Petaluma,,,,,,,,,,,,B&B's of Santa Rosa and Petaluma,,,
+455,,Yes,,,,Chicago Sports Facilities,Where's URL original content tentatively called = Chicago Sports Facilities,,,,,,,,,,,,Chicago Sports Facilities,,,
+456,,Yes,,,,Cleveland Sports & Attractions,Where's URL original content tentatively called = Cleveland Sports & Attractions,,,,,,,,,,,,Cleveland Sports & Attractions,,,
+457,,No,Yes,,,Covered Bridges - Lancaster County PA,Where's URL original content tentatively called = Covered Bridges - Lancaster County PA,,,,,,,,,,,,Covered Bridges - Lancaster County PA,,,
+458,,Yes,,,,"Hawaii Food, Sports & Attractions","Where's URL original content tentatively called = Hawaii Food, Sports & Attractions",,,,,,,,,,,,"Hawaii Food, Sports & Attractions",,,
+459,,Yes,,,,Indianapolis IN,Where's URL original content tentatively called = Indianapolis IN,,,,,,,,,,,,Indianapolis IN,,,
+460,77788,Yes,,,,Indoor Water Parks of North America,Where's URL original content tentatively called = Indoor Water Parks,2011,1,19,,,,,,,,,Indoor Water Parks,,,
+461,,Yes,,,,Las Vegas Points of Interest,Where's URL original content tentatively called = Las Vegas Points of Interest,,,,,,,,,,,,Las Vegas Points of Interest,,,
+462,,Yes,,,,Los Angeles Points of Interest,Where's URL original content tentatively called = Los Angeles Points of Interest,,,,,,,,,,,,Los Angeles Points of Interest,,,
+463,,Yes,,,,Memphis Sports Facilities,Where's URL original content tentatively called = Memphis Sports Facilities,,,,,,,,,,,,Memphis Sports Facilities,,,
+464,,Yes,,,,MLB Stadiums,Where's URL original content tentatively called = MLB Stadiums,,,,,,,,,,,,MLB Stadiums,,,
+465,,Yes,,,,NASCAR & IndyCar Racetracks,Where's URL original content tentatively called = NASCAR & IndyCar Racetracks,,,,,,,,,,,,NASCAR & IndyCar Racetracks,,,
+466,,Yes,,,,Nashville Music,Where's URL original content tentatively called = Nashville Music,,,,,,,,,,,,Nashville Music,,,
+467,,Yes,,,,Nashville Sports Facilities,Where's URL original content tentatively called = Nashville Sports Facilities,,,,,,,,,,,,Nashville Sports Facilities,,,
+468,,Yes,,,,Phoenix Sports & Attractions,Where's URL original content tentatively called = Phoenix Sports & Attractions,,,,,,,,,,,,Phoenix Sports & Attractions,,,
+469,,Yes,,,,Pittsburgh Sports & Attractions,Where's URL original content tentatively called = Pittsburgh Sports & Attractions,,,,,,,,,,,,Pittsburgh Sports & Attractions,,,
+470,,Yes,,,,San Antonio Points of Interest,Where's URL original content tentatively called = San Antonio Points of Interest,,,,,,,,,,,,San Antonio Points of Interest,,,
+471,,Yes,,,,Santa Fe Points of Interest,Where's URL original content tentatively called = Santa Fe Points of Interest,,,,,,,,,,,,Santa Fe Points of Interest,,,
+472,,Yes,,,,Train Museums,Where's URL original content tentatively called = Train Museums,,,,,,,,,,,,Train Museums,,,
+473,,Yes,,,,Zip Code Trivia,Where's URL original content tentatively called = Zip Code Trivia,,,,,,,,,,,,Zip Code Trivia,,,
+474,73585,Yes,,,,,These popular malls lure tourists and locals alike by offering much more than retail therapy.,2011,12,,Joe Yogerst,,,,,,,,,,3,4
+475,73610,Yes,,,,,"This trip, Guy's tasting his way through the day.",,,,,12,11,1211,"Breakfast, Lunch and Dinner",2011,10,31,,,0,1
+476,73612,Yes,,,,,"This trip, Guy's in for some old school favorites and new school stunners.",,,,,12,13,1213,Old to New,2011,11,21,,,0,1
+477,73618,Yes,,,,,"This trip, Guy's going for surf and turf between the slices.",,,,,13,01,1301,Seafood & Sammies,2011,11,28,,,0,1
+478,73621,Yes,,,,,"This trip, Guy's driving the Camaro all over the nation for some real deal eats.",,,,,13,02,1302,Coast to Coast Classics,2011,12,5,,,0,1
+479,73623,Yes,,,,,"This trip, Guy's taking Kid Rock's lead on a tour through D-town. ",,,,,13,03,1303,Kid Rock's Detroit Tour,2011,12,12,,,0,1
+480,73628,Yes,,,,,"This trip, Guy's traveling all over the country searching for a taste of the South.",,,,,13,04,1304,Southern Staples,2011,12,19,,,0,1
+481,73634,Yes,,,,,"This trip, some of Guy's favorites are totally homemade from coast to coast.",,,,,13,05,1305,Scratch Made Classics,2011,12,26,,,0,1
+482,73638,Yes,,,,,"This trip, Guy goes all animal.",,,,,13,06,1306,Meat Madness,2012,1,16,,,0,1
+483,73645,Yes,,,,,,2011,11,,Lyndsey Matthews,,,,,,,,,,3,4
+484,76890,Yes,Yes,,,2010 Top 100 Chinese Restaurants Competition - Top 100 Overall Excellence (USA),,,,,,,,,,,,,,,5,6
+485,76889,Yes,Yes,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Overall Excellence (USA),,,,,,,,,,,,,,,5,6
+486,73663,Yes,,,,,,2012,1,11,Harriet Baskas,,,,,,,,,,,
+487,73666,Yes,,,,,,,,,,,,,,,,,,,,
+488,73668,Yes,,,,,,2012,1,,Mary Jo Manzanares,,,,,,,,,,,
+489,73669,No,No,,,,"San Diego Restaurant Week - January 15-20, 2012",,,,,,,,,,,,,,,
+490,73337,Yes,,,,2011 Top 100 Chinese Restaurants Competition - Top 10 Overall Excellence (USA),,,,,,,,,,,,,,,5,6
+491,73337,Yes,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Overall Excellence (USA),,,,,,,,,,,,,,,5,6
+492,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Takeouts (USA),,,,,,,,,,,,,,,5,6
+493,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Buffet (USA),,,,,,,,,,,,,,,5,6
+494,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Local Favorite (USA),,,,,,,,,,,,,,,5,6
+495,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Healthy Menus (USA),,,,,,,,,,,,,,,5,6
+496,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top Celebrity Chefs & Owners (USA),,,,,,,,,,,,,,,5,6
+497,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Hall of Fame Restaurants (USA),,,,,,,,,,,,,,,5,6
+498,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Overall Excellence (CAN),,,,,,,,,,,,,,,5,6
+499,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Specialty (CAN),,,,,,,,,,,,,,,5,6
+500,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Buffet (CAN),,,,,,,,,,,,,,,5,6
+501,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Local Favorite (CAN),,,,,,,,,,,,,,,5,6
+502,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Rising Stars (CAN),,,,,,,,,,,,,,,5,6
+503,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Chinese/Asian Fusion Cuisine (CAN),,,,,,,,,,,,,,,5,6
+504,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Overall Excellence (AUS),,,,,,,,,,,,,,,5,6
+505,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Specialty (AUS),,,,,,,,,,,,,,,5,6
+506,73337,,,,,2011 Top 100 Chinese Restaurants Competition - Top 100 Local Favorite (UK),,,,,,,,,,,,,,,5,6
+507,73337,,,,,"2011 Top 100 Chinese Restaurants Competition - Top 100 Asian Restaurants, Dining Excellence (Asian)",,,,,,,,,,,,,,,5,6
+508,73671,Yes,,,,,,2012,1,15,Rosemary McClure,,,,,,,,,,,
+509,73678,Yes,,,,,,2012,1,15,Missy Sullivan,,,,,,,,,,,
+510,73682,Yes,,,,,,2012,1,14,Karla Peterson,,,,,,,,,,,
+511,,Yes,,,,Things to do before and after Super Bowl XLVI in Indianapolis,"When you’re not at Lucas Oil Stadium watching the Super Bowl, explore what Indianapolis has to offer for attractions, food, and things to do.",,,,,,,,,,,,,,,
+512,73706,Yes,,,,National Dinner Theatre Association Members,,,,,,,,,,,,,,,,
+513,73736,No,,,,,,,,,Kendra L. Williams,,,,,,,,,,3,4
+514,,Yes,,,,Dinner theaters not part of the National Dinner Theatre Association,,,,,,,,,,,,,,,,
+515,73748,Yes,,,,,,2012,1,19,Laura Bly,,,,,,,,,,,
+516,73755,Yes,,,,North County Arts & Culture Coalition,,,,,,,,,,,,,,,,
+517,73770,Yes,,,,,,,,,,,,,,,,,,,3,4
+518,73786,Yes,,,,,,2011,9,,Andrew Knowlton,,,,,,,,,,3,4
+519,73798,Yes,,,,,,2011,,,John Mariani,,,,,,,,,,3,4
+520,73809,Yes,,,,The restaurants of Michael Schlow,"Michael Schlow – Executive Chef and Owner of Radius, Via Matta, Alta Strada, and Tico restaurants – is recognized as one of the leading chefs in the United States. Since moving to Boston from New York City in 1995, Schlow has been at the culinary forefront, helping define and shape the city’s restaurant landscape.",,,,,,,,,,,,,,,
+521,2213,Yes,No,,,The restaurants of Michael Mina,"When Michael Mina began his love affair with San Francisco, the earth moved. Literally. On his second day in the City, the Loma Prieta earthquake struck, but the 22-year-old chef was unfazed; he’d been given the opportunity of a lifetime to help design an upscale seafood restaurant from scratch, and he threw himself into it heart and soul. The now legendary Aqua opened to widespread acclaim in 1991 and quickly became a destination restaurant in a city that knows a thing or two about food. And Michael Mina’s reputation as one of the culinary world’s most innovative and talented chefs was born.
+
+Now, 20 years and 19 restaurants later, the award-winning chef and restaurateur is bringing back the magic that made Aqua one of San Francisco’s top restaurants. He has opened the eponymous Michael Mina in Aqua’s former location — for him, hallowed ground.",,,,,,,,,,,,,,,
+522,73848,Yes,,,,The restaurants of the Buckhead Life Restaurant Group,,,,,,,,,,,,,,,,
+523,73862,Yes,,,,,,2010,,,John Mariani,,,,,,,,This list needs to be finished,,3,4
+524,73864,Yes,No,,,The restaurants of the Patina Restaurant Group,,,,,,,,,,,,,,,,
+525,73888,Yes,,,,,,,,,,,,,,,,,Initially only added restaurants located in the U.S.,,,
+526,73896,Yes,,,,,,2011,,,,,,,,,,,,,3,4
+527,73912,Yes,,,,,,,,,,,,,,,,,,,,
+528,73913,Yes,,,,,,2012,1,30,Lori Weisberg,,,,,,,,,,,
+529,73919,Yes,,,,,,2012,1,26,Chris Ross,,,,,,,,,,,
+530,73921,Yes,,,,,,2012,1,26,Keli Dailey,,,,,,,,,,,
+531,73923,Yes,,,,,,2012,1,24,R. A. Scott,,,,,,,,,,,
+532,73927,Yes,,,,,,2012,1,31,Pete Wells,,,,,,,,,,,
+533,73929,Yes,,,,,,2012,1,31,Pete Wells,,,,,,,,,,,
+534,73932,Yes,,,,The restaurants of John DeLucie,"The restaurants that John DeLucie has either created, or worked at.",,,,,,,,,,,,,,,
+535,73937,Yes,,,,,,2012,2,1,Jill Wendholt Silva,,,,,,,,,,,
+536,73947,Yes,,,,,,2012,2,1,Sarah Maslin Nir,,,,,,,,,,,
+537,73949,Yes,,,,,,2012,1,14,Elaine Glusac,,,,,,,,,,,
+538,73952,Yes,,,,,,,,,,,,,,,,,,,3,4
+539,73968,Yes,,,,,,,,,,,,,,,,,,,,
+540,74703,Yes,,,,,,2012,2,4,Nathan Scharn,,,,,,,,,,,
+541,74705,Yes,,,,,,,,,,,,,,,,,,,,
+542,74710,Yes,,,,,,2012,2,7,Peter Rowe,,,,,,,,,,,
+543,74713,Yes,,,,,,2011,10,24,Katarina Kovacevic,,,,,,,,,,,
+544,74718,Yes,,,,,,2012,2,7,Sam Anderson,,,,,,,,,,,
+545,74720,Yes,,,,,,2011,11,,Sandra Ramani,,,,,,,,,,3,4
+546,74731,Yes,,,,,,2012,2,3,Stephanie Rosenbloom,,,,,,,,,,,
+547,74734,Yes,,,,,,2012,2,7,Pete Wells,,,,,,,,,,,
+548,74739,Yes,,,,,,2011,2,8,Ligaya Mishan,,,,,,,,,,,
+549,74747,Yes,,,,Supersized Food,,,,,,,,,Supersized Food,2010,11,5,,,0,1
+550,74753,Yes,,,,,,2012,1,28,Karen Schwartz,,,,,,,,,,,
+551,74754,Yes,,,,,,2012,2,9,Joyce Wadler,,,,,,,,,,,
+552,74755,Yes,Yes,03/21/2012,,,,2005,12,4,Susan Lehman,,,,,,,,,,,
+553,74756,Yes,Yes,,,Best of BedandBreakfast.com 2011-2012 February Award: Top Ten Most Romantic B&Bs,,2012,2,,,,,,,,,,,,3,4
+554,74762,Yes,Yes,,,Top 10 Pet-Friendly Spa Resorts at SpaFinder,,,,,,,,,,,,,,,3,4
+555,74776,Yes,,,,,,2010,8,17,,,,,,,,,,,,
+556,74784,Yes,,,,,,2007,7,17,Matt Weddle,,,,,,,,,,,
+557,74786,No,,03/21/2012,,,,2012,2,12,Lori Weisberg,,,,,,,,,,,
+558,74787,Yes,,,,2012 San Diego Museum Month,"The San Diego Museum Council is a coalition of San Diego County museums working cooperatively to increase awareness of and attendance at the diverse museums in the region. The Council provides support services to the museum industry in management, resource networking, advocacy, education, and promotional opportunities.",,,,,,,,,,,,,,,
+559,74794,Yes,,,,,,,,,,,,,,,,,,,,
+560,74798,Yes,,,,,,2009,6,18,,,,,,,,,,,,
+561,74805,Yes,,,,,,2009,5,24,David Farley,,,,,,,,,,,
+562,74812,Yes,,,,,,,,,,,,,,2012,1,16,,,0,1
+563,74823,Yes,,,,,,2012,2,11,Peter Rowe,,,,,,,,,,,
+564,74828,Yes,,,,,,2012,2,11,Mary Jo Manzanares,,,,,,,,,,,
+565,74832,Yes,,,,,,,,,,,,,,,,,,,,
+566,74833,Yes,,,,,,2012,2,12,Rob Lovitt,,,,,,,,,,,
+567,74835,Yes,,,,,,2012,1,25,Keli Dailey,,,,,,,,,,,
+568,74836,Yes,,,,,,2012,2,15,Chris Ross,,,,,,,,,,,
+569,74838,Yes,,,,,,2012,2,16,Michael Tortorello,,,,,,,,,,,
+570,74879,Yes,,,,,,2012,2,16,Campbell Robertson,,,,,,,,,,4,5
+571,74887,Yes,,,,,,,,,,,,,,,,,,,,
+572,74901,Yes,,,,,,2012,2,16,Ryan Murphy,,,,,,,,,,,
+573,74924,Yes,,,,,,,,,,1,8,108,,,,,,,0,1
+574,74934,Yes,,,,,,2012,1,26,Gary A. Warner,,,,,,,,,,,
+575,74939,Yes,,,,,,2012,2,19,Valarie Strauss,,,,,,,,,,,
+576,74951,Yes,,,,,,2012,2,12,Gary A. Warner,,,,,,,,,,,
+577,74956,Yes,,,,,,,,,,,,,,,,,,,,
+578,74966,Yes,,,,,,2012,2,22,Nicholas K. Geranios,,,,,,,,,,,
+579,74976,Yes,,,,,,,,,,,,,,,,,,,,
+580,74983,Yes,,,,,,2012,2,9,"Dave Henkes, Donna Hood Crecca",,,,,,,,,,3,4
+581,74984,Yes,,,,"Collection of hotels, restaurants and nightlife properties",,,,,,,,,,,,,,,,
+582,74998,Yes,,,,,,2012,2,25,Kirk Johnson,,,,,,,,,,,
+583,75016,Yes,,,,,,2011,12,29,Susan Gregory Thomas,,,,,,,,,,,
+584,75091,Yes,,,,,Restaurants of the Nadolife Restaurant Group,,,,,,,,,,,,,,,
+585,75098,Yes,,,,,Over 70 New York attractions with Free Entry for New York Pass holders,,,,,,,,,,,,,,,
+586,75123,Yes,,,,,,,,,,,,,,,,,,,,
+587,75195,Yes,,05/15/2012,,Vista Brewers Guild,The breweries that make up the Vista Brewers Guild of Vista California,,,,,,,,,,,,"A URL for “www.vistabrewersguild.com” exists but wasn’t active when this collection was created.  Collection created based on an article by Nathan Scharn in the UTSanDiego called “Brewing scene is hopping in Vista”, but not online.",,,
+588,75136,Yes,,,,,,2012,3,2,Bill Schulz,,,,,,,,,,,
+589,75137,Yes,Yes,,,,,2012,3,1,Rachel Lee Harris,,,,,,,,,,4,5
+590,75139,Yes,,,,,,,,,,,,,,,,,,,,
+592,75140,Yes,,,,Hotels of Evans Hotels ,,,,,,,,,,,,,,,,
+593,75141,Yes,,,,,,2012,3,5,Adam Ngourney,,,,,,,,,,,
+594,75142,Yes,,,,,,2012,3,12,Katy Steinmetz,,,,,,,,,,,
+595,75150,Yes,No,,,,A collection of the craft and whiskey distillers,,,,,,,,,,,,"This list was started on 3/5/2012, but was not complete.  See the spreadsheet named “American Distillers Directory” for the complete list of URL’s.",,,
+596,75151,Yes,No,05/15/2012,,,,2012,3,6,Jane Black,,,,,,,,,,,
+597,75154,Yes,,,,,Restaurants of the Verant Group,,,,,,,,,,,,,,,
+598,75165,Yes,No,,,,Collection of member theatres,,,,,,,,,,,,This was created 3/7/2012 but was not complete (created using existing theaters),,,
+599,75184,Yes,,,,,,2012,3,6,Pete Wells,,,,,,,,,,,
+600,75188,Yes,,,,,,2012,3,7,Lori Weisberg,,,,,,,,,,,
+601,75192,Yes,,,,,"This trip, triple D is all over the triple P.",,,,,12,12,1212,"Pizza, Pancakes and Pork",2011,11,7,,,0,1
+602,75196,Yes,Yes,,,,,,,,,,,,,,,,,,3,4
+603,75219,Yes,No,04/18/2012,,,,2012,3,6,Peter Rowe,,,,,,,,,,,
+604,75223,Yes,No,04/18/2012,,,,2012,3,1,Michelle Dederko,,,,,,,,,,,
+605,75224,Yes,,,,Restaurants of the Chefs supporting America’s Chefs,,,,,,,,,,,,,,,,
+606,75232,Yes,,,,,,2012,3,,Alan Richman,,,,,,,,,,3,4
+607,75239,Yes,,,,,The restaurants of Ashley Christensen Restaurants,,,,,,,,,,,,,,,
+608,75250,Yes,No,05/15/2012,,,,2012,3,14,Peter Rowe,,,,,,,,,,,
+609,75255,Yes,Yes,,,,,2010,4,13,Ned Martel,,,,,,,,,,3,4
+610,75287,Yes,Yes,,,,,,,,,,,,,,,,,,3,4
+611,75302,Yes,Yes,,,,,2012,3,14,Tanya Mannes,,,,,,,,,,3,4
+612,75309,Yes,Yes,,,,,,,,,,,,,,,,,,,
+613,75325,Yes,Yes,,,,,,,,,,,,,,,,,,,
+614,75336,Yes,Yes,,,,,,,,,,,,,,,,,,3,4
+615,75345,Yes,Yes,,,,,2012,3,19,Keli Dailey,,,,,,,,,,,
+616,,Yes,Yes,,,The 2012 Teams of the MLB American League,,,,,,,,,,,,,,,,
+617,,Yes,Yes,,,The 2012 Teams of the MLB National League,,,,,,,,,,,,,,,,
+622,75518,Yes,Yes,,,,,2012,3,23,Carl H. Larsen,,,,,,,,,,,
+623,75520,Yes,Yes,,,,,,,,,,,,,,,,,,,
+624,75521,Yes,Yes,,,,,,,,,,,,,,,,,,,
+625,75522,Yes,Yes,,,,,,,,,,,,,,,,,,,
+626,75523,Yes,Yes,,,,,,,,,,,,,,,,,,,
+627,75524,Yes,Yes,,,,,,,,,,,,,,,,,,,
+628,75525,Yes,Yes,,,,,,,,,,,,,,,,,,,
+630,75526,Yes,Yes,,,,,,,,,,,,,,,,,,,
+631,75527,Yes,Yes,,,,,,,,,,,,,,,,,,,
+632,75528,Yes,Yes,,,,,,,,,,,,,,,,,,,
+633,75529,Yes,Yes,,,,,,,,,,,,,,,,,,,
+634,75530,Yes,Yes,,,,,,,,,,,,,,,,,,,
+635,75532,Yes,Yes,,,,,,,,,,,,,,,,,,,
+636,75533,Yes,Yes,,,,,,,,,,,,,,,,,,,
+637,75531,Yes,Yes,,,,,,,,,,,,,,,,,,,
+638,75534,Yes,Yes,,,,,2012,3,22,Katie Kelly Bell,,,,,,,,,,,
+639,75535,Yes,Yes,,,,,,,,,,,,,,,,,,,
+640,75541,Yes,Yes,,,,,2012,3,25,Sarah Grieco,,,,,,,,,,,
+641,75545,Yes,Yes,,,,,2012,3,24,Lori Weisberg,,,,,,,,,,,
+642,,Yes,Yes,,,The Bars and Restaurants of Good Time Design,,,,,,,,,,,,,,,,
+643,75554,Yes,Yes,,,,,2012,3,23,Hannah Sampson,,,,,,,,,,,
+644,75564,Yes,,,,,,2011,6,21,Sean O’Neill,,,,,,,,,,3,4
+645,75570,Yes,Yes,,,,,2012,4,1,Kristen Dahlgren,,,,,,,,,,0,1
+646,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Park,,,,,,,,,,,,,,,5,6
+647,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Waterpark,,,,,,,,,,,,,,,5,6
+648,75575,Yes,Yes,,,The amusement properties of Schlitterbahn,,,,,,,,,,,,,,,5,6
+649,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Children’s Park,,,,,,,,,,,,,,,5,6
+650,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Marine Life Park,,,,,,,,,,,,,,,5,6
+651,75585,Yes,Yes,,,The properties of SeaWorld Parks & Entertainment,,,,,,,,,,,,,,,5,6
+652,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Seaside Park,,2011,,,,,,,,,,,,,5,6
+653,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Indoor Waterpark,,2011,,,,,,,,,,,,,5,6
+654,77221,Yes,Yes,,,2011 Golden Ticket Awards - Friendliest Park,,2011,,,,,,,,,,,,,5,6
+655,77221,Yes,Yes,,,2011 Golden Ticket Awards - Cleanest Park,,2011,,,,,,,,,,,,,5,6
+656,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Shows,,2011,,,,,,,,,,,,,5,6
+657,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Food,,2011,,,,,,,,,,,,,5,6
+658,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Waterpark Ride,,2011,,,,,,,,,,,,,5,6
+659,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Kid’s Area,,2011,,,,,,,,,,,,,5,6
+660,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Dark Ride,,2011,,,,,,,,,,,,,5,6
+661,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Outdoor Show Production,,2011,,,,,,,,,,,,,5,6
+662,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Landscaping,,2011,,,,,,,,,,,,,5,6
+663,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Halloween Event,,2011,,,,,,,,,,,,,5,6
+664,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Christmas Event,,2011,,,,,,,,,,,,,5,6
+665,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Carousel,,2011,,,,,,,,,,,,,5,6
+666,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Indoor Coaster,,2011,,,,,,,,,,,,,5,6
+667,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Funhouse/Walk-Through Attraction,,2011,,,,,,,,,,,,,5,6
+668,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best New Ride for 2011 (Amusement Park),,2011,,,,,,,,,,,,,5,6
+669,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best New Ride for 2011 (Waterpark),,2011,,,,,,,,,,,,,5,6
+670,77221,Yes,Yes,,,2011 Golden Ticket Awards - Best Water Ride (Park),,2011,,,,,,,,,,,,,5,6
+671,75608,Yes,Yes,,,,,2012,4,5,Jim Spellman,,,,,,,,,,,
+672,75612,Yes,Yes,,,,,2012,3,29,Larry Bleiberg,,,,,,,,,,,
+673,75622,Yes,Yes,,,,,2012,4,12,Larry Bleiberg,,,,,,,,,,,
+674,75644,Yes,Yes,,,,,2012,4,17,Elizabeth Gunnison,,,,,,,,,,,
+675,75647,Yes,Yes,,,,,2012,,,,,,,,,,,,,3,4
+676,75655,Yes,Yes,,,,,2012,4,18,Laura T. Coffey,,,,,,,,,,,
+677,75661,Yes,Yes,,,The Restaurants of Jeff Ruby,,,,,,,,,,,,,,,,
+678,,Yes,Yes,,,"The Restaurants of Jerry Dal Bozzo, Dante Serafini and Andrea Froncillo","Jerry Dal Bozzo, Dante Serafini and Andrea Froncillo have collaborated on a number of renowned restaurants, with food focused on steakhouses, seafood and Italian.",,,,,,,,,,,,,,,
+679,75684,Yes,Yes,,,,,2012,,,,,,,,,,,,,,
+680,76204,Yes,Yes,,,,,2012,4,20,Tanya Mannes,,,,,,,,,,,
+681,76245,Yes,Yes,,,,,2012,4,20,Jakob Schiller,,,,,,,,,,,
+682,76246,Yes,Yes,,,,,2012,4,20,Lucy Burningham,,,,,,,,,,,
+683,76251,Yes,Yes,,,,,2011,6,,Katie McElveen,,,,,,,,,,,
+684,76259,Yes,Yes,,,,,2012,4,20,Norma Meyer,,,,,,,,,,,
+685,76260,Yes,Yes,,,,,2012,5,7,Adam Fisher,,,,,,,,,,,
+686,76264,Yes,No,,,,,2012,4,26,Gary Warner,,,,,,,,,,,
+687,76272,Yes,No,,,,,2012,,,,,,,,,,,,,3,4
+688,76274,Yes,No,,,,,,,,,,,,,,,,,,,
+689,76276,Yes,Yes,,,,,2012,3,30,Sean O’Neill,,,,,,,,,,,
+690,76282,Yes,Yes,,,,,2012,2,20,Christopher Reynolds,,,,,,,,,,,
+691,76315,Yes,Yes,,,,,2012,4,11,,,,,,,,,,,,
+692,76321,Yes,Yes,,,,,2011,11,15,Dave Lieberman,,,,,,,,,,,
+693,76336,Yes,Yes,,,,,2012,4,,Jenny Price,,,,,,,,,,,
+694,76342,Yes,Yes,,,,,2011,,,,,,,,,,,,,3,4
+695,76347,Yes,Yes,,,,,2011,,,,,,,,,,,,,3,4
+696,76350,Yes,Yes,,,,,2011,,,,,,,,,,,,,3,4
+697,76355,Yes,Yes,,,,,,,,,,,,,,,,,,,
+698,76363,Yes,Yes,,,,,2012,5,5,Jim MacQuarrie,,,,,,,,,,,
+699,76364,Yes,Yes,,,,,2011,,,,,,,,,,,,,3,4
+700,76366,Yes,Yes,,,,,2012,4,12,Jessica Forsyth,,,,,,,,,,,
+701,76369,Yes,Yes,,,,,2012,5,,Laura Bly,,,,,,,,,,,
+702,70335,Yes,Yes,,,The restaurants of the Cohn Restaurant Group,,,,,,,,,,,,,,,,
+703,76375,No,No,05/31/2012,,,,2012,5,5,Lori Weisberg,,,,,,,,,,,
+704,76377,Yes,Yes,,,,,,,,Carrie Havranek,,,,,,,,,,3,4
+705,76387,Yes,Yes,,,World Beer Cup 2012 Winners - USA & CAN,,,,,,,,,,,,,,,5,6
+706,76407,Yes,Yes,,,,,2012,5,,Joshua Pramis,,,,,,,,,,3,4
+707,76437,Yes,Yes,,,,,2012,5,11,Rob Lovitt,,,,,,,,,,,
+708,76441,Yes,Yes,,,,,2012,5,13,Norma Meyer,,,,,,,,,,,
+709,76442,Yes,Yes,,,Ten Museums in the Amherst Five College Area,"Museums10, a partnership of seven outstanding college museums with three unique neighboring museums offers visitors an unparalleled opportunity to experience the art, books, and history of many periods and cultures.",,,,,,,,,,,,,,,
+710,76450,Yes,Yes,,,Museums of Boston,Over 40 Museums in the Greater Boston area,,,,,,,,,,,,"This collection is a combination of the places listed on their website, plus additional places listed on their printed brochure.  The properties of the Historic New England website will be listed on their own Feature collection (Feature ID 712)",,,
+711,76458,Yes,Yes,,,,,2012,5,14,,,,,,,,,,,,
+712,57,Yes,Yes,,,The historic properties of the Historic New England organization,,,,,,,,,,,,,,,,
+713,76469,Yes,Yes,,,,,2012,5,14,Louis Sahagun,,,,,,,,,,,
+714,76507,Yes,No,,,,,2012,5,16,Allison Austin Scheff,,,,,,,,Need to add The Blu Grouse (http://theblugrouse.com/),,,
+715,76513,Yes,Yes,,,,,2012,5,14,Sage Russell,,,,,,,,,,3,4
+716,76568,Yes,Yes,,,,,2012,5,17,Freda Moon,,,,,,,,,,4,5
+717,76585,Yes,Yes,,,,,2012,5,19,Adam Schupak,,,,,,,,,,,
+718,76586,Yes,Yes,,,,,2012,3,31,Eddie Trent,,,,,,,,,,,
+719,76588,Yes,Yes,,,,,2012,5,20,Jessica Gelt,,,,,,,,,,,
+720,76642,Yes,Yes,,,,,2012,5,26,Hugo Martin,,,,,,,,,,,
+721,76644,Yes,Yes,,,,,2012,5,27,Ryan Ritchie,,,,,,,,,,,
+722,76646,Yes,Yes,,,,,2012,5,27,Brady MacDonald,,,,,,,,,,,
+724,76648,Yes,Yes,,,,,2012,2,12,Terrisa Meeks,,,,,,,,,,,
+725,76653,Yes,Yes,,,,,2012,5,22,Brett Zongker,,,,,,,,,,,
+726,76656,Yes,Yes,,,,,2012,5,28,James Chute,,,,,,,,,,,
+727,76657,Yes,Yes,,,,,2012,1,19,Zachary Fowle,,,,,,,,,,,
+728,76661,Yes,Yes,,,,,2012,5,31,Larry Olmsted,,,,,,,,,,,
+729,76664,Yes,Yes,,,,,2012,6,1,Harriet Baskas,,,,,,,,,,,
+730,76667,Yes,Yes,,,,,2012,6,2,Patricia Cohen,,,,,,,,,,,
+731,76669,Yes,Yes,,,,,2012,6,3,Ethan Gilsdorf,,,,,,,,,,,
+732,76670,Yes,Yes,,,,,2012,5,31,David Boylan,,,,,,,,,,,
+733,76672,Yes,Yes,,,,,2012,5,7,Laura Bly,,,,,,,,,,,
+734,76673,Yes,Yes,,,,,2012,6,3,Christopher Reynolds,,,,,,,,,,,
+735,76695,Yes,Yes,,,,,2012,6,8,Beth Greenfield,,,,,,,,,,,
+736,76709,Yes,Yes,,,,,2012,6,7,Larry Bleiberg,,,,,,,,,,,
+737,76714,Yes,Yes,,,,,2012,6,,Yelena Moroz,,,,,,,,,,3,4
+738,76715,Yes,Yes,,,,,2012,6,12,Harriet Baskas,,,,,,,,,,,
+739,76718,Yes,Yes,,,,,2012,6,15,Olivia Barker,,,,,,,,,,,
+740,76719,Yes,Yes,,,,,2012,6,15,Laura Bly,,,,,,,,,,,
+741,76720,Yes,Yes,,,,,2012,6,15,Adam Sylvain,,,,,,,,,,,
+742,76721,Yes,Yes,,,,,2012,6,17,Jessica Gelt,,,,,,,,,,,
+743,76738,Yes,Yes,,,,,2012,6,12,Susan Spano,,,,,,,,,,,
+744,76745,Yes,Yes,,,,,2012,6,24,Ryan Ritchie,,,,,,,,,,,
+745,76751,Yes,Yes,,,,,2012,6,22,Katia Hetter,,,,,,,,,,,
+746,76762,Yes,Yes,,,,,2012,6,21,Larry Olmsted,,,,,,,,,,,
+747,76767,Yes,Yes,,,,,2012,6,27,Larry Olmsted,,,,,,,,,,,
+748,76768,Yes,Yes,,,,,2012,6,26,Jayne Clark,,,,,,,,,,,
+749,76770,Yes,Yes,,,,,2012,6,22,Tony Perrottet,,,,,,,,,,,
+750,76775,Yes,Yes,,,,,2012,6,24,Nancy Trejos,,,,,,,,,,,
+751,76779,Yes,Yes,,,,,2012,7,2,Allison Linn,,,,,,,,,,,
+752,76780,Yes,Yes,,,,,2012,7,2,Adrienne So,,,,,,,,,,3,4
+753,76783,Yes,Yes,,,,,2012,7,3,Neil Genzlinger,,,,,,,,,,,
+754,76785,Yes,Yes,,,,,2011,7,1,Jay Jones,,,,,,,,,,,
+755,76792,Yes,Yes,,,,,2012,7,6,,,,,,,,,,,,
+756,76794,Yes,Yes,,,,,2012,7,7,Adam Ngourney,,,,,,,,,,,
+757,76796,Yes,Yes,,,,,2012,7,8,Harriet Ryan,,,,,,,,,,,
+758,76798,Yes,Yes,,,,,2012,7,8,Ryan Ritchie,,,,,,,,,,,
+759,76803,Yes,No,,,,,2012,7,8,Booth Moore,,,,,,,,,,,
+760,76808,Yes,Yes,,,,,2012,7,19,Larry Olmsted,,,,,,,,,,,
+762,76817,Yes,Yes,,,,,,,,,1,1,101,Northeast,2012,6,6,,,0,1
+764,76810,Yes,Yes,,,,,2012,7,19,Eve M. Kahn,,,,,,,,,,,
+765,76818,Yes,Yes,,,,,,,,,1,2,102,Gulf Coast - Adam Richman’s Best Sandwich in America,2012,6,6,,,0,1
+766,76821,Yes,Yes,,,,,,,,,1,3,103,South - Adam Richman’s Best Sandwich in America,2012,6,13,,,0,1
+767,76826,Yes,Yes,,,,,,,,,1,4,104,Midwest Episode - Adam Richman’s Best Sandwich in America,2012,6,20,,,0,1
+768,76828,Yes,Yes,,,,,,,,,1,5,105,Mid Atlantic Episode - Adam Richman’s Best Sandwich in America,2012,6,27,,,0,1
+769,76831,Yes,Yes,,,,,,,,,1,6,106,Northwest Episode - Adam Richman’s Best Sandwich in America,2012,7,11,,,0,1
+770,76834,Yes,Yes,,,,,,,,,1,7,107,West Coast Episode - Adam Richman’s Best Sandwich in America,2012,7,18,,,0,1
+771,76837,Yes,No,,,,,,,,,1,8,108,Great Lakes Episode - Adam Richman’s Best Sandwich in America,2012,7,25,,,0,1
+772,76840,Yes,Yes,,,,,,,,,,,,,,,,,,0,1
+773,76844,Yes,Yes,,,,,,,,,1,,,,,,,,,0,1
+774,76847,Yes,Yes,,,,,,,,,1,,,,,,,,,0,1
+775,76852,Yes,Yes,,,,,,,,,1,,,,,,,,,0,1
+776,76862,Yes,Yes,,,,,,,,,1,,,,,,,,,0,1
+777,76867,Yes,Yes,,,,,2012,7,22,Ted Gregory,,,,,,,,,,,
+778,76868,Yes,No,,,,,2012,7,22,Jordan Rane,,,,,,,,,,,
+779,76869,Yes,Yes,,,,,2012,7,5,Larry Olmsted,,,,,,,,,,3,4
+780,76878,Yes,No,,,,,2012,7,23,Larry Bleiberg,,,,,,,,,,,
+781,76879,Yes,Yes,,,The restaurants of Tom Douglas (Seattle area),,,,,,,,,,,,,,,,
+782,76892,Yes,Yes,,,,,2012,6,27,Larry Himmel,,,,,,,,,,0,1
+783,76894,Yes,Yes,,,,,2012,6,28,Deanne Goodman,,,,,,,,,,,
+784,76896,Yes,Yes,,,,,2012,7,24,Pete Wells,,,,,,,,,,,
+785,76898,Yes,Yes,,,,,2012,7,,Heather Eng,,,,,,,,,,3,4
+786,76900,Yes,Yes,,,,,,,,Karen Cicero,,,,,,,,,,7,8
+787,76902,Yes,Yes,,,,,,,,Megan Othersen Gorman,,,,,,,,,,7,8
+788,76905,Yes,Yes,,,,,,,,Lisa Singh,,,,,,,,,,0,1
+789,76909,Yes,Yes,,,,,2012,7,26,Larry Olmsted,,,,,,,,,,,
+790,76911,Yes,Yes,,,,,2012,6,29,Justin Ocean,,,,,,,,,,,
+793,76920,Yes,Yes,,,,,,,,,,,,,,,,,,3,4
+794,76926,Yes,Yes,,,,,,,,Peter Jon Lindberg,,,,,,,,,,3,4
+795,76934,Yes,Yes,,,,,2012,7,12,Larry Bleiberg,,,,,,,,,,,
+796,76943,Yes,Yes,,,,,2012,7,12,Colleen Lanin,,,,,,,,,,,
+797,76947,Yes,Yes,,,,,2012,6,28,Larry Bleiberg,,,,,,,,,,,
+799,76962,Yes,Yes,,,,,2012,7,12,Larry Olmsted,,,,,,,,,,,
+800,76963,Yes,Yes,,,,,2011,7,31,Kitty Bean Yancey,,,,,,,,,,3,4
+801,76965,Yes,Yes,,,,,,,,Larry Olmsted,,,,,,,,,,3,4
+802,76972,Yes,Yes,,,,,2012,8,2,Brendan Spiegel,,,,,,,,,,4,5
+803,76993,Yes,No,10/08/2012,,,,,,,Lydie,,,,,,,,,,7,8
+804,76998,Yes,No,,,,,2012,8,5,Ben Schott,,,,,,,,,,,
+805,77014,Yes,Yes,,,,,2012,8,3,Larry Bleiberg,,,,,,,,,,,
+806,77019,Yes,Yes,,,,,2012,8,5,Avital Andrews,,,,,,,,,,,
+807,77026,Yes,Yes,,,,,2012,8,13,Josh Sanburn,,,,,,,,,,,
+808,77033,Yes,Yes,,,,,2012,6,,,,,,,,,,,,,
+809,77051,Yes,Yes,,,,,2012,6,7,Liz Weiss,,,,,,,,,,3,4
+810,77060,Yes,Yes,,,,,2011,6,,,,,,,,,,,,3,4
+811,77077,Yes,Yes,,,,,2011,7,29,"Felicia Kelley, Brandon Payne",,,,,,,,,,3,4
+812,77079,Yes,Yes,,,,,2012,4,6,Gretchen Ashton,,,,,,,,,,,
+813,77083,Yes,Yes,,,,,2012,8,14,Matthew Moll,,,,,,,,,,,
+814,77091,Yes,Yes,,,,,,,,,,,,,,,,,,3,4
+815,77092,Yes,Yes,,,,,2012,8,19,Christopher Reynolds,,,,,,,,,,,
+816,77101,Yes,Yes,,,,,2012,8,16,Allison Aubrey,,,,,,,,,,,
+817,77112,Yes,Yes,,,,,2012,8,18,,,,,,,,,,,,
+818,77128,Yes,Yes,,,,,2012,5,,,,,,,,,,,,3,4
+819,77152,Yes,Yes,,,,,2012,8,20,Amanda Kludt,,,,,,,,,,3,4
+820,77159,Yes,Yes,,,,,2012,8,,Jen Swetzoff,,,,,,,,,,,
+821,77171,Yes,Yes,,,,,2012,9,,Margie Goldsmith,,,,,,,,,,,
+822,77184,Yes,No,,,,,2012,8,21,Gary Stoller,,,,,,,,,,3,4
+823,77224,Yes,Yes,,,,,2012,8,24,William Grimes,,,,,,,,,,,
+824,77227,Yes,No,,,,,2012,8,22,Sara Beck,,,,,,,,,,4,5
+825,77228,Yes,Yes,,,,,2012,8,27,Elizabeth A. Harris,,,,,,,,,,,
+826,77247,Yes,Yes,,,,,2012,8,28,Seth Kugel,,,,,,,,,,,
+827,77259,Yes,Yes,,,,,,,,,,,,,,,,,,,
+828,77264,Yes,Yes,,,,,2012,5,16,,,,,,,,,,,,
+829,77271,Yes,Yes,,,,,2012,8,30,Larry Olmsted,,,,,,,,,,,
+830,77276,Yes,No,,,,,2012,8,29,Jamie Beckman,,,,,,,,,,,
+831,77283,Yes,Yes,,,,,2012,9,3,Tanya Lewis,,,,,,,,,,,
+832,77285,Yes,No,,,,,2012,8,31,Cathy Lynn Grossman,,,,,,,,,,,
+833,77292,Yes,No,,,,,2012,8,31,Larry Bleiberg,,,,,,,,,,,
+834,77299,Yes,Yes,,,,,2012,8,,Suzanne Rowan Kelleher,,,,,,,,,,3,4
+836,77312,Yes,No,,,,,,,,,,,,,,,,,,3,4
+837,77343,Yes,Yes,,,,,,,,,,,,,,,,,,3,4
+838,77345,Yes,Yes,,,,,2012,9,3,Jayne Clark,,,,,,,,,,3,4
+839,77356,Yes,Yes,,,,,2012,9,6,Larry Olmsted,,,,,,,,,,,
+840,77357,Yes,Yes,,,,,2012,9,,Corrine White,,,,,,,,,,3,4
+841,77366,Yes,Yes,,,,,2012,9,7,Laura Bly,,,,,,,,,,,
+842,77367,Yes,Yes,,,,,2012,9,6,,,,,,,,,,,,
+843,77370,Yes,Yes,,,Pizzerias certified by Associazione Verace Pizza Napoletana,Pizzerias that have been certified that they respect the culinary tradition of Neapolitan pizza.,,,,,,,,,,,,,,,
+844,77413,Yes,No,,,Restaurants of Select Restaurants,,,,,,,,,,,,,,,,
+845,77451,Yes,Yes,,,,,2012,6,26,,,,,,,,,,,3,4
+846,77458,Yes,Yes,,,,,2012,9,9,Helene Cooper,,,,,,,,,,,
+847,77459,Yes,Yes,,,,,2009,5,22,Alan Richman,,,,,,,,,,3,4
+848,77479,Yes,Yes,,,,,,,,,,,,,,,,,,3,4
+849,77484,Yes,No,,,,,2012,1,,Robert Reid,,,,,,,,,,3,4
+850,77493,Yes,Yes,,,,,2012,9,10,Katherine Dorsett Bennett,,,,,,,,,,,
+851,77502,Yes,Yes,,,,,2012,9,10,Jon Swartz,,,,,,,,,,,
+852,77503,Yes,Yes,,,,,2012,9,11,James Rainey,,,,,,,,,,,
+853,77507,Yes,Yes,,,,,2012,9,7,Laura Bly,,,,,,,,,,,
+854,77508,Yes,No,,,,,2012,9,7,Larry Bleiberg,,,,,,,,,,,
+855,77516,Yes,Yes,,,,,2012,9,13,Larry Olmsted,,,,,,,,,,3,4
+856,77517,Yes,Yes,,,,,,,,,,,,,,,,,,7,8
+858,77539,Yes,Yes,,,,,2012,9,8,Russ Parsons,,,,,,,,,,,
+859,77540,Yes,Yes,,,,,2012,9,16,,,,,,,,,,,,
+860,77544,Yes,Yes,,,,,2012,9,9,Devorah Klein Lev-Tov,,,,,,,,,,3,4
+861,77548,Yes,No,,,,,2012,9,17,Eliana Dockterman,,,,,,,,,,,
+862,77555,Yes,No,,,,,2011,8,12,,,,,,,,,,,3,4
+863,77562,Yes,No,,,,,2011,6,15,Jeff Koyen,,,,,,,,,,3,4
+864,77572,Yes,No,,,,,2012,9,3,Renata Provenzano,,,,,,,,,,3,4
+865,77595,Yes,Yes,,,,,2012,9,11,Jennifer Woods,,,,,,,,,,,
+866,77604,Yes,Yes,,,,,2012,9,12,Keli Dailey,,,,,,,,,,,
+867,77605,Yes,Yes,,,,,2012,9,11,,,,,,,,,,,,
+868,77614,Yes,Yes,,,,,2012,9,10,Keli Dailey,,,,,,,,,,,
+869,77624,Yes,Yes,,,,,,,,,,,,,,,,,,,
+870,77630,Yes,Yes,,,,,2012,9,24,Jeff Gordinier,,,,,,,,,,,
+871,77644,Yes,Yes,,,,,2012,9,24,Raphael Orlove,,,,,,,,,,,
+872,77646,Yes,Yes,,,,,2012,9,25,Pete Wells,,,,,,,,,,,
+873,77649,Yes,Yes,,,,,2012,10,,,,,,,,,,,,3,4
+874,77660,Yes,Yes,,,,,2012,9,26,Lizzie Wade,,,,,,,,,,,
+875,77663,Yes,No,,,,,2012,9,26,Tom Downey,,,,,,,,,,,
+876,77710,Yes,Yes,,,,,2012,9,27,Larry Olmsted,,,,,,,,,,,
+877,77712,Yes,Yes,,,,,2012,9,29,Edward Rothstein,,,,,,,,,,,
+878,77714,Yes,Yes,,,,,2012,8,12,Justin Ocean,,,,,,,,,,,
+879,77722,Yes,Yes,,,,,,,,,,,,,,,,,,,
+880,77740,Yes,Yes,,,,,2012,10,,Nino Padova,,,,,,,,,,3,4
+881,77750,Yes,Yes,,,,,2012,,,,,,,,,,,,,,
+882,77758,Yes,Yes,,,,,2012,9,25,Anne Z. Cooke,,,,,,,,,,,
+884,77764,Yes,Yes,,,,,2012,9,26,Amanda Kludt,,,,,,,,,,3,4
+885,77775,Yes,No,,,,,2012,9,20,Julia Davis,,,,,,,,,,0,1
+886,77780,Yes,Yes,,,,,2012,10,,Nate Storey,,,,,,,,,,3,4
+887,77790,Yes,No,,,,,2012,10,4,Claire Cottrell,,,,,,,,,,3,4
+888,77802,Yes,Yes,,,,,2012,9,25,Adam Carlson,,,,,,,,,,,
+889,77804,Yes,Yes,,,,,2012,9,,,,,,,,,,,,3,4
+890,77816,Yes,No,,,,,2012,10,7,Christopher Reynolds,,,,,,,,,,,
+891,77847,Yes,Yes,,,,,2010,12,,Stirling Kelso,,,,,,,,,,,
+892,77853,No,,,,,,2012,9,26,Lauren Mack,,,,,,,,,,,
+893,77857,Yes,Yes,,,,,,,,,,,,,,,,,,,
+894,77881,Yes,No,,,,,,,,,,,,,,,,,,,
+895,77883,Yes,No,,,,,2012,10,,Adam H. Graham,,,,,,,,,,3,4
+896,77886,Yes,No,,,,,2012,10,14,Christopher Reynolds,,,,,,,,,,,
+897,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best New Ride for 2012 (Amusement Park),,2012,,,,,,,,,,,,,5,6
+898,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best New Ride for 2012 (Waterpark),,2012,,,,,,,,,,,,,5,6
+899,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Park,,2012,,,,,,,,,,,,,5,6
+900,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Waterpark,,2012,,,,,,,,,,,,,5,6
+901,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Children’s Park,,2012,,,,,,,,,,,,,5,6
+902,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Marine Life Park,,2012,,,,,,,,,,,,,5,6
+903,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Seaside Park,,2012,,,,,,,,,,,,,5,6
+904,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Indoor Waterpark,,2012,,,,,,,,,,,,,5,6
+905,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Kid’s Area,,2012,,,,,,,,,,,,,5,6
+906,77900,Yes,Yes,,,2012 Golden Ticket Awards - Cleanest Park,,2012,,,,,,,,,,,,,5,6
+907,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Shows,,2012,,,,,,,,,,,,,5,6
+908,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Food,,2012,,,,,,,,,,,,,5,6
+909,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Water Ride (Park),,2012,,,,,,,,,,,,,5,6
+910,77900,Yes,Yes,,,2012 Golden Ticket Awards - Friendliest Park,,2012,,,,,,,,,,,,,5,6
+911,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Dark Ride,,2012,,,,,,,,,,,,,5,6
+912,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Outdoor Show Production,,2012,,,,,,,,,,,,,5,6
+913,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Landscaping,,2012,,,,,,,,,,,,,5,6
+914,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Halloween Event,,2012,,,,,,,,,,,,,5,6
+915,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Christmas Event,,2012,,,,,,,,,,,,,5,6
+916,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Carousel,,2012,,,,,,,,,,,,,5,6
+917,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Indoor Coaster,,2012,,,,,,,,,,,,,5,6
+918,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Funhouse/Walk-Through Attraction,,2012,,,,,,,,,,,,,5,6
+919,77900,Yes,Yes,,,2012 Golden Ticket Awards - Best Waterpark Ride,,2012,,,,,,,,,,,,,5,6
+920,77907,Yes,Yes,,,,,2012,10,16,Seth Kugel,,,,,,,,,,,
+921,77916,Yes,No,,,,,2011,9,15,Christina Nellemann,,,,,,,,,,,
+922,77918,Yes,Yes,,,,,2012,9,30,Sarah Enelow,,,,,,,,,,,
+923,77921,Yes,Yes,,,,,2012,10,12,Kristine Hansen,,,,,,,,,,,
+924,77932,Yes,Yes,,,,,2012,10,11,Adam Erace,,,,,,,,,,,
+925,77944,Yes,Yes,,,,,2012,10,19,Tara Duggan,,,,,,,,,,,
+926,77949,Yes,Yes,,,,,,,,,,,,,,,,,,,
+927,77952,Yes,Yes,,,,,2012,10,10,,,,,,,,,,,,
+928,77970,Yes,Yes,,,,,2011,10,19,Leslie Horn,,,,,,,,,,3,4
+929,77981,Yes,Yes,,,,,2012,10,26,Tanya Mohn,,,,,,,,,,,
+930,77982,Yes,Yes,,,,,2012,10,25,John Cook,,,,,,,,,,,
+931,77985,Yes,Yes,,,,,2012,10,,Andrea Bennett,,,,,,,,,,3,4
+932,77988,Yes,Yes,,,,,2012,10,2,Lauren Mack,,,,,,,,,,,
+933,77996,Yes,Yes,,,,,2012,7,,Christine Ajudua,,,,,,,,,,,
+935,78015,Yes,Yes,,,,,2012,11,8,Larry Olmsted,,,,,,,,,,,
+936,78017,Yes,Yes,,,,,2012,10,5,John Mariani,,,,,,,,,,3,4
+937,78025,Yes,No,,,,,2012,10,23,Matt Hickman,,,,,,,,,,3,4
+938,78035,Yes,Yes,,,,,2012,11,19,Rob Lovitt,,,,,,,,,,,
+939,78036,Yes,Yes,,,,,2012,10,23,Siobhan Wallace,,,,,,,,,,0,1
+940,78038,No,No,,,Restaurant and Nightlife venues of the EMM Group,"Eugene Remm and Mark Birnbaum along with business entrepreneur Michael Hirtenstein founded EMM Group, one of New York’s most successful restaurant and nightlife management companies, in 2006. Since that time the partners have built a solid reputation as leaders in the hospitality industry, organizing several hundred events and developing the company into a multi-faceted hub for successful venue ownership and execution.",,,,,,,,,,,,,,,
+941,78044,Yes,Yes,,,,,2011,11,17,Jamie Stengle,,,,,,,,,,,
+942,78046,Yes,No,,,,,2012,11,18,Larry Bleiberg,,,,,,,,,,,
+943,78049,Yes,Yes,,,,,2012,12,,Celeste Moure,,,,,,,,,,,
+944,78050,No,No,,,The Boutique Hotels and Restaurants of Canadian Rocky Mountain Resorts,"Canadian Rocky Mountain Resorts is dedicated to offering guests enriching and peaceful holiday experiences. We invite you to discover and enjoy our luxurious lodges, delicious cuisine and exceptional locations – the Simple Treasures that are the hallmarks of CRMR. A visit to one of our lodges will reward you with the rugged beauty that has become synonymous with Canada’s mountain parks. A meal at one of our original and award-winning restaurants – designed with intimacy in mind – will delight and surprise you. Simplified, our philosophy embraces sustainability and balance but with an innovative edge. Of course, we know you have the world to choose from. We hope you find pleasure and joy in what we have to offer – and that you choose here.",,,,,,,,,,,,,,,
+945,78059,Yes,Yes,,,,,2012,11,1,Larry Olmsted,,,,,,,,,,,
+946,78061,Yes,No,,,,,2012,11,23,Hannah Norwick,,,,,,,,,,,
+947,78093,Yes,Yes,,,,,2012,11,24,Jonathan Gold,,,,,,,,,,,
+948,78098,Yes,Yes,,,,,2012,12,,Troy Johnson,,,,,,,,,,3,4
+949,78109,Yes,No,,,,,2012,11,26,Larry Bleiberg,,,,,,,,,,,
+950,78111,Yes,No,,,,,2012,11,,"Laura Kiniry, Brendan Spiegel",,,,,,,,,,3,4
+951,78137,Yes,Yes,,,,,2012,11,28,Anne Midgette,,,,,,,,,,,
+952,78138,Yes,Yes,,,,,2012,11,26,Sara Pepitone,,,,,,,,,,,
+954,78149,Yes,Yes,,,,,2012,6,13,Jessica Sedgwick,,,,,,,,,,,
+955,78152,Yes,Yes,,,,,2012,11,25,Jay Jones,,,,,,,,,,,
+956,78157,Yes,Yes,,,,,2012,10,12,,,,,,,,,,,3,4
+957,78162,Yes,Yes,,,,,2012,11,27,,,,,,,,,,,,
+959,78168,Yes,Yes,,,,,2012,11,13,Howard Seftel,,,,,,,,,,3,4
+960,78177,Yes,Yes,,,,,2012,12,1,Todd Haefer,,,,,,,,,,,
+961,78179,Yes,Yes,,,,,2012,11,29,Larry Olmsted,,,,,,,,,,,
+962,78181,Yes,Yes,,,,,2011,11,30,Edward Rothstein,,,,,,,,,,,
+963,78182,Yes,Yes,,,,,2012,11,24,S. Irene Virbila,,,,,,,,,,,
+965,78188,Yes,Yes,,,,,2012,12,1,Terry Richard,,,,,,,,,,,
+966,78190,Yes,Yes,,,,,2012,11,3,Providence Cicero,,,,,,,,,,,
+967,78202,Yes,Yes,,,,,2012,12,3,Jeanne Cooper,,,,,,,,,,,
+968,78209,Yes,Yes,,,,,2012,10,20,,,,,,,,,,,,
+969,78212,Yes,Yes,,,,,2011,10,20,Jessica Teich,,,,,,,,,,,
+970,78217,Yes,Yes,,,,,2012,12,2,Irene Lechowitzky,,,,,,,,,,,
+971,78221,Yes,Yes,,,,,2012,11,4,Ryan Ritchie,,,,,,,,,,,
+972,78229,Yes,Yes,,,,,2012,12,4,Ben Popken,,,,,,,,,,0,1
+973,78232,Yes,Yes,,,,,2012,12,4,James Holloway,,,,,,,,,,,
+974,78234,Yes,Yes,,,,,2012,12,4,Seth Kugel,,,,,,,,,,,
+975,78243,Yes,Yes,,,,,2012,12,5,Lionel Beehner,,,,,,,,,,4,5
+976,78255,Yes,Yes,,,,,2012,12,3,Kaushik,,,,,,,,,,3,4
+977,78259,Yes,Yes,,,,,2012,12,5,Ayesha Durgahee,,,,,,,,,,,
+978,78261,Yes,Yes,,,,,2012,12,5,Jenn Harris,,,,,,,,,,,
+979,78263,Yes,Yes,,,,,2012,11,15,Larry Olmsted,,,,,,,,,,,
+980,78265,Yes,Yes,,,,,2012,11,29,Jill Becker,,,,,,,,,,,
+981,78269,Yes,No,,,,,2012,11,23,,,,,,,,,,,,
+982,78285,Yes,No,,,,,,,,,,,,,,,,,,,
+983,78291,Yes,Yes,,,,,2012,12,10,Lisa Grossman,,,,,,,,,,,
+984,78293,Yes,Yes,,,,,2012,12,8,Lori Weisberg,,,,,,,,,,,
+985,78294,Yes,Yes,,,,,2012,12,10,Susan Langenhennig,,,,,,,,,,,
+986,78296,Yes,Yes,,,,,2012,12,13,Betty Hallock,,,,,,,,,,,
+987,78298,Yes,Yes,,,,,2012,12,14,Alexander Lobrano,,,,,,,,,,,
+988,78299,Yes,Yes,,,,,2012,12,14,Annie Fitzsimmons,,,,,,,,,,,
+989,78304,Yes,Yes,,,,,2012,12,14,Natalie Musumeci,,,,,,,,,,,
+990,78307,Yes,Yes,,,,,2012,12,13,Larry Olmsted,,,,,,,,,,,
+991,78308,Yes,Yes,,,,,2012,12,12,Jill Becker,,,,,,,,,,,
+993,78316,Yes,No,,,,,2012,12,4,Michelle Kiefer,,,,,,,,,,,
+995,78361,Yes,Yes,,,,,2011,7,5,Jocelyn Murray,,,,,,,,,,3,4
+996,78363,Yes,Yes,,,,,2012,12,10,Jocelyn Murray,,,,,,,,,,3,4
+997,78368,Yes,No,,,,,2012,1,24,,,,,,,,,,,3,4
+998,78370,Yes,Yes,,,,,2012,12,,April Orcutt,,,,,,,,,,3,4
+999,78375,Yes,Yes,,,,,2012,12,16,Junita Bognanni,,,,,,,,,,,
+1000,78376,Yes,No,,,,,2012,11,8,,,,,,,,,,,3,4
+1001,78383,Yes,Yes,,,,,2012,12,20,Larry Olmsted,,,,,,,,,,,
+1002,78384,Yes,Yes,,,,,2012,11,14,tomcoug,,,,,,,,,,3,4
+1003,78389,Yes,Yes,,,,,2012,12,21,Harriet Baskas,,,,,,,,,,,
+1005,78406,Yes,Yes,,,,,2012,12,18,Linda Bao,,,,,,,,,,3,4
+1006,78420,Yes,Yes,,,,,2012,12,21,Oyster.com,,,,,,,,,,,
+1007,78429,Yes,Yes,,,,,2012,12,22,Larry Bleiberg,,,,,,,,,,,
+1008,78432,Yes,Yes,,,,,2013,1,,Gary Shteyngart,,,,,,,,,,,
+1009,78439,Yes,Yes,,,,,2012,12,22,A. Pawlowski,,,,,,,,,,,
+1010,78441,Yes,Yes,,,,,2012,12,20,Seth Kugel,,,,,,,,,,4,5
+1011,78465,Yes,Yes,,,,,2013,1,,Sara Dickerman,,,,,,,,,,,
+1012,78470,Yes,Yes,,,,,2012,12,23,Dan Barry,,,,,,,,,,,
+1013,78472,Yes,Yes,,,,,2012,12,23,Paul Post,,,,,,,,,,2,3
+1014,78474,Yes,Yes,,,,,2012,12,24,Joan Nathan,,,,,,,,,,,
+1015,78477,Yes,Yes,,,,,2012,12,26,Jayne Clark,,,,,,,,,,,
+1016,78481,Yes,No,,,,,2012,12,26,Brady MacDonald,,,,,,,,,,3,4
+1017,78496,Yes,No,,,,,,,,,,,,,,,,,,,
+1018,78504,Yes,No,,,,,,,,Jennifer M. Wood,,,,,,,,,,3,4
+1019,78507,Yes,Yes,,,,,2012,9,,Andrew Knowlton,,,,,,,,,,3,4
+1020,78513,Yes,Yes,,,,,2012,12,27,Julia Moskin,,,,,,,,,,,
+1021,78517,Yes,Yes,,,,,2012,12,27,Larry Olmsted,,,,,,,,,,2,3
+1022,78520,Yes,Yes,,,,,2012,10,,Erin Shaw Street,,,,,,,,,,,
+1023,78529,Yes,Yes,,,,,2012,11,,,,,,,,,,,,,
+1024,78537,Yes,No,,,,,2012,11,,Chadner Navarro,,,,,,,,,,,
+1025,78542,Yes,Yes,,,,,2012,12,28,Edward Rothstein,,,,,,,,,,,
+1027,78543,Yes,Yes,,,,,2012,12,14,Dan Myers,,,,,,,,,,3,4
+1028,78548,Yes,Yes,,,,,2012,12,29,Jonathan Gold,,,,,,,,,,,
+1029,78556,Yes,Yes,,,,,2012,12,20,Danielle Furfaro,,,,,,,,,,,
+1030,78558,Yes,No,,,,,2012,9,21,Emma Sloley,,,,,,,,,,,
+1031,78577,Yes,No,,,,,,,,,,,,,,,,,,,
+1032,78589,Yes,Yes,,,,,,,,,,,,,,,,,,,
+1033,78600,Yes,Yes,,,,,,,,,,,,,,,,,,,
+1034,78601,Yes,Yes,,,,,,,,,,,,,,,,,,,
+1035,78602,Yes,Yes,,,,,,,,,,,,,,,,,,,
+1036,78603,Yes,No,,,,,,,,,,,,,,,,,,0,1
+1037,78665,Yes,Yes,,,,,2013,1,13,Larry Olmsted,,,,,,,,,,,
+1038,78668,Yes,Yes,,,,,2012,12,17,,,,,,,,,,,3,4
+1039,78679,Yes,Yes,,,,,2012,12,27,Iza Wojciechowska,,,,,,,,,,4,5
+1040,78698,Yes,Yes,,,,,2013,1,,"Loren Mooney, Julie Chai, Julie Dugdale, Elizabeth Jenkins, Robin Jones, and Jess Thomson",,,,,,,,,,3,4
+1041,78708,Yes,Yes,,,,,2012,12,20,Will Gordon,,,,,,,,,,,
+1042,78715,Yes,Yes,,,,,2012,12,24,Marisa McClellan,,,,,,,,,,3,4
+1043,78723,Yes,Yes,,,,,2012,10,,Paula Disbrowe,,,,,,,,,,,
+1044,78728,Yes,Yes,,,,,2012,12,28,Jesse McKinley,,,,,,,,,,,
+1045,78735,Yes,No,,,,,2012,12,31,Julia Moskin,,,,,,,,,,,
+1046,78754,Yes,Yes,,,,,2012,12,30,Jay Jones,,,,,,,,,,,
+1047,78757,Yes,Yes,,,,,2013,1,4,Larry Bleiberg,,,,,,,,,,,
+1048,78773,Yes,Yes,,,,,2012,10,29,Joey Nargizian,,,,,,,,,,,
+1049,78776,Yes,Yes,,,,,2013,1,8,Pete Wells,,,,,,,,,,,
+1050,78780,No,Yes,,,,,2013,1,7,Lee Glandorf,,,,,,,,,,,
+1051,78788,Yes,Yes,,,,,2013,1,8,Candice Woo,,,,,,,,,,,
+1052,78806,Yes,Yes,,,,,2013,1,4,,,,,,,,,,,,
+1053,78810,Yes,Yes,,,,,2013,1,10,Larry Olmsted,,,,,,,,,,3,4
+1054,78811,Yes,No,,,,,2013,1,3,,,,,,,,,,,3,4
+1055,78812,Yes,Yes,,,,,2013,1,9,Barbara DeLollis,,,,,,,,,,3,4
+1056,78817,Yes,Yes,,,,,2013,1,,Jason Fagone,,,,,,,,,,,
+1057,78823,Yes,Yes,,,,,2013,1,2,Susan Spano,,,,,,,,,,,
+1058,78829,Yes,Yes,,,,,2013,1,6,Maridel Reyes,,,,,,,,,,3,4
+1059,78842,Yes,Yes,,,,,2013,1,3,Freda Moon,,,,,,,,,,4,5
+1060,78856,Yes,Yes,,,,,2012,1,4,Bill Pennington,,,,,,,,,,,
+1061,78865,Yes,No,,,,,2012,7,,Brian Yaeger,,,,,,,,,,,
+1062,78881,Yes,Yes,,,,,2013,1,11,Larry Bleiberg,,,,,,,,,,,
+1063,78892,Yes,No,,,,,2012,1,31,Emily Temple,,,,,,,,,,3,4
+1064,78899,Yes,Yes,,,,,2012,12,14,Josh Trudell,,,,,,,,,,,
+1065,78906,Yes,Yes,,,,,2013,1,13,Irene Lechowitzky,,,,,,,,,,,
+1066,78907,Yes,Yes,,,,,2013,1,13,Larry Bleiberg,,,,,,,,,,,
+1067,78920,Yes,Yes,,,,,2013,1,14,James Sullivan,,,,,,,,,,,
+1069,78924,Yes,Yes,,,,,2012,12,12,James Sullivan,,,,,,,,,,,
+1070,78925,Yes,Yes,,,,,2012,12,20,Jayme Moye,,,,,,,,,,,
+1071,78929,Yes,Yes,,,,,2013,1,15,Pete Wells,,,,,,,,,,,
+1072,78931,Yes,Yes,,,,,2013,1,10,,,,,,,,,,,,
+1073,78943,Yes,No,,,,,2012,12,18,Dan Myers,,,,,,,,,,3,4
+1074,78955,No,Yes,,,,,2013,1,14,Lee Glandorf,,,,,,,,,,,
+1075,78962,Yes,No,,,,,2013,1,15,Stephanie Oswald,,,,,,,,,,,
+1076,78967,Yes,Yes,,,,,2013,1,14,Mary Forgione,,,,,,,,,,,
+1077,78969,Yes,Yes,,,,,2013,1,16,,,,,,,,,,,3,4
+1078,78979,Yes,Yes,,,,,2013,1,18,,,,,,,,,,,,
+1079,78988,Yes,Yes,,,,,2012,1,16,Kaeli Conforti,,,,,,,,,,3,4
+1080,78995,Yes,No,,,,,2013,1,17,Ingrid K. Williams,,,,,,,,,,4,5
+1081,79023,Yes,Yes,,,,,2013,1,20,Rosemary McClure,,,,,,,,,,,
+1082,79025,Yes,No,,,,,2012,12,28,,,,,,,,,,,3,4
+1083,79033,Yes,Yes,,,,,2013,1,17,Larry Olmsted,,,,,,,,,,,
+1084,79035,Yes,Yes,,,,,2013,1,21,Jessie Cacciola,,,,,,,,,,,
+1085,79042,Yes,Yes,,,,,2013,1,22,Pete Wells,,,,,,,,,,,
+1086,79044,Yes,No,,,,,2012,1,16,Barbara DeLollis,,,,,,,,,,,
+1087,79049,Yes,Yes,,,,,2013,2,,Andrea Bennett,,,,,,,,,,,
+1088,79075,Yes,Yes,,,,,2013,2,,Wayne Curtis,,,,,,,,,,,
+1089,79086,Yes,Yes,,,,,2013,1,22,Jimmy Im,,,,,,,,,,,
+1090,79090,Yes,Yes,,,,,2013,1,19,S. Irene Virbila,,,,,,,,,,,
+1091,79094,Yes,No,,,,,2013,1,22,Lauren Mack,,,,,,,,,,,
+1092,79095,Yes,Yes,,,,,2013,1,22,Seth Kugel,,,,,,,,,,,
+1093,79103,Yes,No,,,,,2013,1,31,Larry Bleiberg,,,,,,,,,,,
+1094,79106,Yes,No,,,,,2013,2,1,Millie Ball,,,,,,,,,,,
+1095,79129,Yes,Yes,,,,,2013,1,24,Gray Faust,,,,,,,,,,,
+1096,79134,Yes,Yes,,,,,2013,1,30,,,,,,,,,,,,
+1097,79136,Yes,Yes,,,,,2013,1,30,Keli Dailey,,,,,,,,,,3,4
+1098,79142,Yes,Yes,,,,,2013,1,31,Ligaya Mishan,,,,,,,,,,,
+1099,79144,Yes,Yes,,,,,2013,1,,Sarah L. Stewart,,,,,,,,,,3,4
+1100,79155,Yes,Yes,,,,,2013,1,17,Cameron Simcik,,,,,,,,,,,
+1101,79157,Yes,Yes,,,,,,,,Lindsey Galloway,,,,,,,,,,3,4
+1102,79162,Yes,No,,,,,2013,2,7,Andrea Crossan,,,,,,,,,,3,4
+1103,79174,No,Yes,,,,,2013,2,5,Lee Glandorf,,,,,,,,,,,
+1104,79180,Yes,Yes,,,,,2013,1,31,Kaushik,,,,,,,,,,,
+1105,79182,Yes,No,,,,,2013,1,24,,,,,,,,,,,,
+1106,79185,Yes,Yes,,,,,2013,1,31,Lisa Boone,,,,,,,,,,,
+1107,79187,Yes,Yes,,,,,2012,2,5,Matt Hickman,,,,,,,,,,,
+1108,79189,Yes,Yes,,,,,2013,1,28,Laura Bly,,,,,,,,,,,
+1109,79197,Yes,Yes,,,,,2013,1,24,Larry Olmsted,,,,,,,,,,,
+1110,79199,Yes,No,,,,,2013,1,24,Freda Moon,,,,,,,,,,4,5
+1111,79213,Yes,Yes,,,,,2013,2,4,Kitty Yancey,,,,,,,,,,,
+1112,79214,Yes,Yes,,,,,2013,1,30,Laura Michonski,,,,,,,,,,,
+1113,79219,Yes,Yes,,,,,2013,2,7,Zofia Smardz,,,,,,,,,,,
+1114,79223,Yes,Yes,,,,,2013,2,7,John Kekis,,,,,,,,,,,
+1115,79225,Yes,Yes,,,,,2013,2,6,Kristen Browning-Blas,,,,,,,,,,,
+1116,79227,Yes,No,,,,,2012,11,30,Angela Hill,,,,,,,,,,,
+1117,79232,Yes,Yes,,,,,2013,1,31,Larry Olmsted,,,,,,,,,,,
+1118,79234,Yes,Yes,,,,,2013,2,9,Jonathan Gold,,,,,,,,,,,
+1119,79238,Yes,No,06/03/2013,,,,2013,2,6,Jef With One F,,,,,,,,,,,
+1120,79241,Yes,Yes,,,,,2013,2,8,Sophia Dembling,,,,,,,,,,,
+1121,79244,Yes,Yes,,,,,2013,2,8,Mark Damon Puckett,,,,,,,,,,3,4
+1122,79248,Yes,No,,,,,2013,2,12,Ashley Day,,,,,,,,,,,
+1123,79266,Yes,No,,,,,2013,2,12,Andrew Knowlton,,,,,,,,,,3,4
+1124,79272,Yes,Yes,,,,,2013,2,10,Kayleigh Kulp,,,,,,,,,,,
+1125,79277,Yes,Yes,,,,,2013,2,12,,,,,,,,,,,,
+1126,79286,Yes,No,,,,,2013,2,13,,,,,,,,,,,,
+1127,79287,Yes,Yes,,,,,2013,2,7,Tracey Teo,,,,,,,,,,,
+1128,79292,Yes,No,,,,,2013,2,18,,,,,,,,,,,3,4
+1129,79320,Yes,Yes,,,,,2013,2,18,Winnie Hu,,,,,,,,,,,
+1130,79322,Yes,Yes,,,,,2013,2,14,Alex Pasquariello,,,,,,,,,,,
+1131,79334,Yes,Yes,,,,,2013,2,15,Brittany Miller,,,,,,,,,,3,4
+1132,79336,Yes,Yes,,,,,2013,2,17,Michelle R. Smith,,,,,,,,,,,
+1133,79341,Yes,No,,,,,2013,2,15,,,,,,,,,,,3,4
+1134,79346,Yes,Yes,,,,,2013,2,15,,,,,,,,,,,,
+1135,79352,Yes,Yes,,,,,2013,2,3,Christopher Reynolds,,,,,,,,,,,
+1136,79357,Yes,Yes,,,,,2013,2,8,Melanie Wynne Waldman,,,,,,,,,,,
+1137,79359,Yes,Yes,,,,,2013,,,Emily H. Bratcher,,,,,,,,,,3,4
+1138,79364,Yes,Yes,,,,,2013,2,22,Ethan Todras-Whitehill,,,,,,,,,,,
+1139,79365,Yes,Yes,,,,,2013,2,21,Larry Olmsted,,,,,,,,,,,
+1140,79367,Yes,Yes,,,,,2013,2,20,Arthur Bovino,,,,,,,,,,3,4
+1141,79397,Yes,Yes,,,,,2013,2,18,Katia Hetter,,,,,,,,,,,
+1142,79401,Yes,Yes,,,,,2013,3,,Alan Richman,,,,,,,,,,3,4
+1143,79409,Yes,Yes,,,,,2013,2,25,Kitty Bean Yancey,,,,,,,,,,,
+1144,79410,Yes,Yes,,,,,2013,2,23,Jonathan Gold,,,,,,,,,,,
+1145,79413,Yes,Yes,,,,,2012,10,,Mark Rozzo,,,,,,,,,,,
+1146,79415,Yes,Yes,,,,,2013,2,15,Eric Spitznagel,,,,,,,,,,,
+1147,79421,Yes,Yes,,,,,2013,3,,Bonnie Friedman,,,,,,,,,,3,4
+1148,79431,Yes,Yes,,,,,2013,2,25,Carol Cain,,,,,,,,,,,
+1149,79437,Yes,Yes,,,,,2013,2,24,,,,,,,,,,,,
+1150,79444,Yes,Yes,,,,,2013,2,25,Michael Luongo,,,,,,,,,,,
+1151,79449,Yes,Yes,,,,,2013,2,18,Laura Bly,,,,,,,,,,,
+1152,79450,Yes,Yes,,,,,2013,3,,Geraldine Campbell,,,,,,,,,,3,4
+1153,79471,Yes,Yes,,,,,2013,2,27,John Eligon,,,,,,,,,,,
+1154,79473,Yes,No,,,,,2013,2,22,A. Pawlowski,,,,,,,,,,,
+1155,79477,Yes,Yes,,,,,2013,2,18,Mary Forgione,,,,,,,,,,,
+1156,79482,Yes,Yes,,,,,2013,2,13,,,,,,,,,,,,
+1157,79496,Yes,Yes,,,,,2013,2,27,Larry Olmsted,,,,,,,,,,,
+1158,79497,Yes,Yes,,,,,2013,2,28,Larry Olmsted,,,,,,,,,,,
+1159,79500,Yes,Yes,,,,,2013,3,2,David Undercoffler,,,,,,,,,,,
+1160,79506,Yes,Yes,,,,,2013,2,28,Ingrid K. Williams,,,,,,,,,,4,5
+1161,79523,Yes,No,,,,,2013,2,17,Christopher Reynolds,,,,,,,,,,,
+1162,79538,Yes,Yes,,,,,2013,3,6,Valentina Palladino,,,,,,,,,,,
+1163,79540,Yes,No,,,,,2013,2,20,Andrew Knowlton,,,,,,,,,,,
+1164,79550,Yes,Yes,,,,,2013,2,21,Emma Janzen,,,,,,,,,,,
+1165,79555,Yes,Yes,,,,,2013,2,28,Katie Dally,,,,,,,,,,3,4
+1166,79560,Yes,Yes,,,,,2013,3,7,Addie Broyles and Matthew Odam,,,,,,,,,,,
+1167,79567,Yes,No,,,,,2013,3,7,Addie Broyles and Matthew Odam,,,,,,,,,,,
+1168,79577,Yes,Yes,,,,,2013,3,7,Matthew Odam,,,,,,,,,,,
+1169,79581,Yes,Yes,,,,,2013,3,8,Jesse Cape,,,,,,,,,,3,4
+1170,79588,Yes,Yes,,,,,2013,3,2,,,,,,,,,,,3,4
+1171,79593,No,No,,,Local Attractions near the Grand Del Mar,Attractions recommended by the Grand Del Mar,,,,,,,,,,,,The art galleries listed on the La Jolla website were not added.,,,
+1172,79601,Yes,Yes,,,,,,,,,,,,,,,,,,,
+1173,79606,Yes,No,,,,,2013,3,,Katrina Brown Hunt,,,,,,,,,,3,4
+1174,79642,Yes,Yes,,,,,2013,3,,Graham Averill,,,,,,,,,,,
+1175,79649,Yes,Yes,,,,,2013,3,1,Deborah Vankin,,,,,,,,,,,
+1176,79650,Yes,No,,,,,2013,3,,,,,,,,,,,,3,4
+1177,79653,Yes,Yes,,,,,2013,3,7,Larry Olmsted,,,,,,,,,,,
+1178,79655,Yes,Yes,,,,,2013,3,5,Jennings Brown,,,,,,,,,,3,4
+1179,79657,Yes,Yes,,,,,2013,3,14,Katrina Brown Hunt,,,,,,,,,,,
+1180,79659,Yes,Yes,,,,,2013,3,16,Larry Bleiberg,,,,,,,,,,,
+1181,79671,Yes,Yes,,,,,2013,3,14,Tim Carman,,,,,,,,,,,
+1182,79673,Yes,No,,,,,2013,3,,Chadner Navarro,,,,,,,,,,,
+1183,79675,Yes,Yes,,,,,2013,3,17,Susan Denley,,,,,,,,,,,
+1184,79677,Yes,Yes,,,,,2013,3,6,Lauren Knight,,,,,,,,,,,
+1185,79685,Yes,No,,,,,2013,3,13,Sheena McKenzie,,,,,,,,,,3,4
+1186,79689,Yes,Yes,,,,,2013,3,,,,,,,,,,,,3,4
+1187,79698,Yes,Yes,,,,,2013,,,,,,,,,,,,,3,4
+1188,79776,Yes,Yes,,,,,2013,4,4,Freda Moon,,,,,,,,,,4,5
+1189,79809,Yes,Yes,,,,,2013,4,,Peter Fish,,,,,,,,,,,
+1190,79821,Yes,No,,,,,2013,5,,Tim McKeogh,,,,,,,,,,3,4
+1191,79824,Yes,No,,,,,2013,4,2,Seth Kugel,,,,,,,,,,,
+1192,79830,Yes,Yes,,,,,2013,4,2,Gary Stoller,,,,,,,,,,,
+1193,79834,Yes,Yes,,,,,2013,4,7,Jill Becker,,,,,,,,,,,
+1194,79837,Yes,Yes,,,,,2013,4,5,Harriet Baskas,,,,,,,,,,,
+1195,79838,Yes,Yes,,,,,2013,4,8,Alice Yoo,,,,,,,,,,,
+1196,79840,Yes,Yes,,,,,2013,4,9,Larry Bleiberg,,,,,,,,,,,
+1197,79847,Yes,Yes,,,,,2013,4,6,Jonathan Gold,,,,,,,,,,10,11
+1198,79849,Yes,Yes,,,,,2013,4,12,Alice Truong,,,,,,,,,,,
+1199,79850,Yes,Yes,,,,,2013,4,11,Avital Andrews,,,,,,,,,,,
+1200,79851,Yes,Yes,,,,,2013,4,11,Larry Olmsted,,,,,,,,,,,
+1201,79852,Yes,Yes,,,,,2013,4,5,Nathan Hurst,,,,,,,,,,,
+1202,79853,Yes,No,,,,,2013,4,1,Emily C. Brands and Rachel B. Levin,,,,,,,,,,,
+1203,79865,Yes,Yes,,,,,2013,4,4,Karla Zimmerman,,,,,,,,,,3,4
+1204,79873,Yes,No,10/01/2013,,,,2013,4,11,Stephanie Orma,,,,,,,,,,,
+1205,79880,Yes,Yes,,,,,2013,3,8,"Cal Ripken, Jr.",,,,,,,,,,3,4
+1206,79881,Yes,Yes,,,,,2013,3,1,Benjamin Hill,,,,,,,,,,3,4
+1207,79882,Yes,Yes,,,Major League Baseball (MLB) - American League Teams,The team stadiums of the American League,2013,,,,,,,,,,,,,,
+1208,79882,Yes,Yes,,,Major League Baseball (MLB) - National League Teams,The team stadiums of the National League,,,,,,,,,,,,,,,
+1209,79884,Yes,Yes,,,,,2013,3,18,Larry Olmsted,,,,,,,,,,,
+1210,79887,Yes,Yes,,,,,2013,3,18,Tracy Saelinger,,,,,,,,,,0,1
+1211,79889,Yes,Yes,,,,,2013,3,16,,,,,,,,,,,3,4
+1212,79898,Yes,Yes,,,,,2013,3,19,Dave Johnson,,,,,,,,,,,
+1213,79910,Yes,Yes,,,,,2013,4,,,,,,,,,,,,3,4
+1214,79935,Yes,No,,,,,2013,3,,,,,,,,,,,,,
+1216,79939,Yes,Yes,,,,,2013,4,7,Christopher Reynolds,,,,,,,,,,,
+1219,79944,Yes,Yes,,,,,2013,4,12,Cory Baldwin,,,,,,,,,,,
+1220,79946,Yes,Yes,,,,,2013,4,15,Mark Damon Puckett,,,,,,,,,,,
+1221,79948,Yes,Yes,,,,,2013,4,12,Colleen Hubbard,,,,,,,,,,,
+1222,79955,Yes,Yes,,,,,2013,4,12,Tamara Palmer,,,,,,,,,,,
+1223,79962,Yes,Yes,,,,,2013,4,18,Sharlene Earnshaw,,,,,,,,,,3,4
+1224,79963,Yes,Yes,,,,,2013,5,,M. Elezabeth Sheldon,,,,,,,,,,,
+1225,79967,Yes,Yes,,,,,2013,4,16,Ann Rivall,,,,,,,,,,3,4
+1226,79973,Yes,Yes,,,,,2013,4,19,Larry Bleiberg,,,,,,,,,,,
+1227,79981,Yes,Yes,,,,,2013,4,,Arthur Bovino,,,,,,,,,,3,4
+1228,80002,Yes,Yes,,,,,2013,4,14,Irene Lechowitzky,,,,,,,,,,,
+1229,80009,Yes,Yes,,,,,2013,,,,,,,,,,,,,3,4
+1230,80026,Yes,Yes,,,,,2013,4,13,,,,,,,,,,,3,4
+1231,80037,Yes,Yes,,,,,2013,4,28,Christopher Reynolds,,,,,,,,,,,
+1232,80038,Yes,Yes,,,,,2013,4,25,Judy Keen,,,,,,,,,,,
+1233,80040,Yes,Yes,,,,,2013,4,24,Linton Weeks,,,,,,,,,,,
+1234,80041,Yes,Yes,,,,,2013,4,25,Ben Popken and Elizabeth Chuck,,,,,,,,,,,
+1235,80043,Yes,Yes,,,,,2013,4,27,Lauren Silverman,,,,,,,,,,,
+1236,80044,Yes,Yes,,,,,2013,4,,Aleksandra Crapanzano,,,,,,,,,,,
+1237,80045,Yes,Yes,,,,,2013,4,11,Lesley Balla,,,,,,,,,,,
+1238,80050,Yes,Yes,,,,,2013,4,16,Gary Stoller,,,,,,,,,,,
+1239,80054,Yes,No,,,,,2013,4,16,Caroline Patek,,,,,,,,,,,
+1240,80055,Yes,No,,,,,2013,4,16,Ben Abramson,,,,,,,,,,,
+1241,80059,Yes,Yes,,,,,2013,4,21,Besha Rodell,,,,,,,,,,,
+1242,80070,Yes,Yes,,,,,2013,4,22,Frank Shyong,,,,,,,,,,1,2
+1243,80082,Yes,No,,,,,2013,4,18,Michael Mascioni,,,,,,,,,,,
+1244,80084,Yes,Yes,,,,,2013,4,16,Adrienne So,,,,,,,,,,,
+1245,80086,Yes,No,,,,,2013,4,22,Kelsey Blodget,,,,,,,,,,,
+1246,80088,Yes,Yes,,,,,2013,4,23,James Holloway,,,,,,,,,,,
+1247,80090,Yes,Yes,,,,,2013,4,23,Christopher Lehault,,,,,,,,,,,
+1248,80103,Yes,Yes,,,,,2013,4,23,,,,,,,,,,,,
+1249,80108,Yes,Yes,,,,,2013,4,24,,,,,,,,,,,,
+1250,80118,Yes,Yes,,,,,2013,4,24,,,,,,,,,,,,
+1251,80122,Yes,Yes,,,,,2013,4,16,AJ Wolfe,,,,,,,,,,3,4
+1252,80156,Yes,Yes,,,,,2013,4,25,Marcus Wohlsen,,,,,,,,,,,
+1253,80158,Yes,Yes,,,,,2013,4,25,Robert Firpo-Cappiello,,,,,,,,,,,
+1254,80164,Yes,Yes,,,,,2013,4,25,Hugo Martin,,,,,,,,,,,
+1255,80165,Yes,Yes,,,,,2013,4,27,Betty Hallock,,,,,,,,,,,
+1256,80169,Yes,Yes,,,,,2013,4,26,Robert Simonson,,,,,,,,,,,
+1257,80177,Yes,Yes,,,,,2013,4,28,Dana McMahan,,,,,,,,,,0,1
+1258,80180,Yes,Yes,,,,,2013,4,30,,,,,,,,,,,3,4
+1259,80184,Yes,Yes,,,,,2013,5,3,Larry Bleiberg,,,,,,,,,,3,4
+1260,80193,Yes,Yes,,,,,2013,5,3,Jonathan Gold,,,,,,,,,,3,4
+1261,80204,Yes,No,,,,,2013,4,30,Joy Pecknold,,,,,,,,,,,
+1262,80208,Yes,Yes,,,,,2013,5,,,,,,,,,,,,3,4
+1263,80211,Yes,Yes,,,,,2013,5,1,Hilary Davidson,,,,,,,,,,3,4
+1264,80221,Yes,No,,,,,2013,5,,"Peter Fish, Ann Marie Brown, and Matthew Jaffe",,,,,,,,,,,
+1265,80234,Yes,Yes,,,,,2013,4,28,Ryan Ritchie,,,,,,,,,,,
+1266,80237,Yes,Yes,,,,,2013,4,30,Jayne Clark,,,,,,,,,,3,4
+1267,80243,Yes,No,,,,,2013,5,1,Paula Hardy,,,,,,,,,,7,8
+1268,80258,Yes,Yes,,,,,2013,4,30,Brady MacDonald,,,,,,,,,,,
+1269,80263,Yes,Yes,,,,,2013,4,30,Brady MacDonald,,,,,,,,,,3,4
+1270,80272,Yes,Yes,,,,,2013,5,2,Larry Olmsted,,,,,,,,,,,
+1271,80273,Yes,Yes,,,,,2013,5,1,Matt Duckor,,,,,,,,,,3,4
+1272,80278,Yes,No,,,,,2013,5,2,Megan Eaves,,,,,,,,,,,
+1273,80284,Yes,Yes,,,,,2013,5,2,Kristine Hansen,,,,,,,,,,,
+1274,80285,Yes,Yes,,,,,2013,5,2,Lauren Wilson,,,,,,,,,,,
+1275,80288,Yes,Yes,,,,,2013,5,4,Dan Myers,,,,,,,,,,3,4
+1276,80299,Yes,No,,,,,2013,4,18,,,,,,,,,,,,
+1277,80301,Yes,No,,,,,2013,4,20,Robert Reid,,,,,,,,,,3,4
+1278,80312,Yes,No,,,,,2013,4,30,Robert Reid,,,,,,,,,,3,4
+1279,80317,Yes,Yes,,,,,,,,,13,7,1307,Global Traditions,2012,1,23,,,0,1
+1280,80319,Yes,Yes,,,,,,,,,13,8,1308,Multitaskers,2012,1,30,,,0,1
+1281,80322,Yes,Yes,,,,,,,,,13,9,1309,Family Matters,2012,2,6,,,0,1
+1282,80325,Yes,Yes,,,,,,,,,13,10,1310,"Old Faves, New Craves",2012,2,13,,,0,1
+1283,80331,Yes,Yes,,,,,,,,,13,11,1311,Long Standing Legacies,2012,2,20,,,0,1
+1284,80334,Yes,Yes,,,,,,,,,13,12,1312,Time Tested Treasures,2012,2,27,,,0,1
+1285,80337,Yes,Yes,,,,,,,,,13,13,1313,Outside the Box,2012,3,5,,,0,1
+1286,80340,Yes,No,,,,,2013,5,8,Billy Kirland,,,,,,,,,,3,4
+1287,80347,Yes,No,,,,,2013,5,12,Amanda Jones,,,,,,,,,,,
+1288,80350,Yes,Yes,,,,,2013,4,23,Pam Grout,,,,,,,,,,3,4
+1289,80351,Yes,Yes,,,,,2013,4,23,,,,,,,,,,,3,4
+1290,80353,Yes,Yes,,,,,2013,4,24,LVesalo,,,,,,,,,,,
+1291,80356,Yes,Yes,,,,,2013,5,1,Mary Forgione,,,,,,,,,,,
+1292,80358,Yes,Yes,,,,,2013,5,8,George Hobica,,,,,,,,,,,
+1293,80371,Yes,No,,,,,2013,5,5,Jonathan Gold,,,,,,,,,,3,4
+1294,80382,Yes,Yes,,,,,2013,5,,,,,,,,,,,,3,4
+1295,80395,Yes,No,,,,,2013,5,,Edward Readicker-Henderson and Natalie Blackmur,,,,,,,,,,,
+1296,80402,Yes,Yes,,,,,2013,4,30,Pete Wells,,,,,,,,,,,
+1297,80403,Yes,Yes,,,,,2013,5,2,Jeanne Cooper,,,,,,,,,,,
+1298,80406,Yes,Yes,,,,,2013,5,3,Robert Firpo-Cappiello,,,,,,,,,,,
+1299,80411,Yes,Yes,,,,,2013,5,4,Michael Bauer,,,,,,,,,,3,4
+1300,80458,Yes,Yes,,,,,2013,4,29,Clare Goggin Sivits,,,,,,,,,,3,4
+1301,80459,Yes,Yes,,,,,2013,5,15,Ted Berg,,,,,,,,,,,
+1302,80460,Yes,Yes,,,,,2013,5,5,Marc Stirdivant,,,,,,,,,,,
+1303,80463,Yes,Yes,,,,,2013,5,6,,,,,,,,,,,,
+1304,80468,Yes,Yes,,,,,2013,5,6,Gary Stoller,,,,,,,,,,,
+1305,80477,Yes,Yes,,,,,2013,5,9,Marybeth Bond,,,,,,,,,,,
+1306,80481,Yes,No,06/15/2013,,,,2013,5,7,Alexis Korman,,,,,,,,,,3,4
+1307,80490,Yes,Yes,,,,,2013,5,8,Larry Olmsted,,,,,,,,,,,
+1308,80491,Yes,Yes,,,,,2013,5,9,Michael Rubinkam,,,,,,,,,,,
+1309,80492,Yes,Yes,,,,,2013,5,,"Tom Austin, Katrina Brown Hunt, Adrien Glover, Lyndsey Matthews",,,,,,,,,,3,4
+1310,80528,Yes,Yes,,,,,2013,5,9,Jayne Clark,,,,,,,,,,,
+1311,80531,Yes,Yes,,,,,2013,5,9,Kathleen Squires,,,,,,,,,,,
+1312,80532,Yes,Yes,,,,,2013,5,10,Marnie Hunter,,,,,,,,,,,
+1313,80537,Yes,Yes,,,,,2013,5,11,John M. Glionna,,,,,,,,,,,
+1314,80539,Yes,Yes,,,,,2013,5,7,,,,,,,,,,,3,4
+1315,70511,Yes,No,,,Blue Star Museums Initiative - 2013,"Blue Star Museums is a collaboration among the National Endowment for the Arts, Blue Star Families, the Department of Defense, and more than 2,000 museums across America.",,,,,,,,,,,,This Feature lists the museums that participated during the summer of 2013,,,
+1316,81531,Yes,No,,,,,2013,5,14,,,,,,,,,,,,
+1317,81534,Yes,No,,,,,2013,5,15,Anne Banas,,,,,,,,,,3,4
+1318,81537,Yes,Yes,,,,,2013,5,20,Matthew Henson,,,,,,,,,,3,4
+1319,81541,Yes,Yes,,,,,2013,5,16,Jeannie Ralston,,,,,,,,,,4,5
+1320,81550,Yes,No,,,,,2013,5,22,,,,,,,,,,,,
+1321,81552,Yes,No,,,,,2013,5,23,Leslie Lang,,,,,,,,,,7,8
+1322,81565,Yes,Yes,,,,,2013,5,25,Eric Limer,,,,,,,,,,,
+1323,81566,Yes,Yes,,,,,2013,5,8,Amy McKeever,,,,,,,,,,3,4
+1324,81589,Yes,Yes,,,,,2013,5,11,Erin Gifford,,,,,,,,,,,
+1325,81591,Yes,Yes,,,,,2013,5,20,Kaeli Conforti,,,,,,,,,,,
+1326,81593,Yes,Yes,,,,,2013,5,21,Felicia Fonseca,,,,,,,,,,,
+1327,81595,Yes,No,,,,,2013,5,22,,,,,,,,,,,,
+1328,81617,Yes,No,,,,,2013,5,24,,,,,,,,,,,3,4
+1329,81640,Yes,Yes,,,,,2013,5,24,Leah Walker,,,,,,,,,,,
+1330,81649,Yes,Yes,,,,,2013,5,27,Keli Dailey,,,,,,,,,,,
+1331,81665,Yes,No,,,,,2013,6,,Kim Foley MacKinnon,,,,,,,,,,,
+1332,81687,Yes,Yes,,,,,2013,6,,Pete Wells,,,,,,,,,,,
+1333,81689,Yes,Yes,,,,,2013,6,3,,,,,,,,,,,,
+1334,81691,Yes,No,,,,,2013,6,2,Lara DiPaola,,,,,,,,,,,
+1335,81698,Yes,No,,,,,2013,6,7,Charles McGrath,,,,,,,,,,,
+1336,81705,Yes,Yes,,,,,2013,6,6,Rob Lovitt,,,,,,,,,,,
+1337,81706,Yes,No,,,,,2013,6,6,Lynn O’Rourke Hayes,,,,,,,,,,7,8
+1338,81709,Yes,Yes,,,,,2013,6,5,Brady MacDonald,,,,,,,,,,,
+1339,81718,Yes,Yes,,,,,2013,5,17,Ian Pike,,,,,,,,,,,
+1340,81722,Yes,No,,,,,2013,6,10,Colleen Clark,,,,,,,,,,,
+1341,81736,Yes,Yes,,,,,2013,6,8,,,,,,,,,,,,
+1342,81738,Yes,Yes,,,,,2013,6,7,,,,,,,,,,,,
+1343,81742,Yes,No,,,,,2013,6,9,Christopher Reynolds,,,,,,,,,,,
+1344,81744,Yes,Yes,,,,,2013,6,5,,,,,,,,,,,3,4
+1345,81745,Yes,Yes,,,,,2013,6,3,Mary Perez,,,,,,,,,,,
+1346,81747,Yes,Yes,,,,,2013,6,1,Heather Bond,,,,,,,,,,,
+1347,81749,Yes,No,,,,,2013,6,1,"Nicole Frehsee, Emma Haak, Matt Hendrickson, Joe Kita, Bonnie Tsui, Robin Hilmantel, and Brook Wilkinson",,,,,,,,,,3,4
+1348,81754,Yes,Yes,,,,,2013,6,11,Jonathan Gold,,,,,,,,,,3,4
+1349,81756,Yes,No,,,,,2013,6,13,Pamela Paul,,,,,,,,,,7,8
+1350,,No,,,,POI’s Without Categories - DELETE AFTER FIXING POI’S,,,,,,,,,,,,,,,,
+1351,81757,Yes,Yes,,,,,2013,6,20,Larry Olmsted,,,,,,,,,,,
+1352,81759,Yes,Yes,,,,,2013,6,20,Hannah Seligson,,,,,,,,,,4,5
+1353,81771,Yes,No,,,,,2013,6,17,Michael Luongo,,,,,,,,,,,
+1354,81775,Yes,No,,,,,2013,6,16,,,,,,,,,,,,
+1355,81780,Yes,Yes,,,,,2013,6,16,Brady MacDonald,,,,,,,,,,3,4
+1356,81781,Yes,Yes,,,,,2013,6,14,,,,,,,,,,,,
+1357,81789,Yes,No,,,,,2013,6,14,Vincze Miklos,,,,,,,,,,,
+1358,81792,Yes,Yes,,,,,2013,6,14,Bridget Borgobello,,,,,,,,,,,
+1359,81794,Yes,Yes,,,,,2013,6,13,David Prior,,,,,,,,,,,
+1360,81795,Yes,Yes,,,,,2013,6,13,Amy Sherman,,,,,,,,,,3,4
+1361,81800,Yes,Yes,,,,,2013,6,12,Lisa Hix,,,,,,,,,,,
+1362,81803,Yes,Yes,,,,,2013,6,11,,,,,,,,,,,,
+1363,81808,Yes,No,,,,,2013,6,11,Cristian Bonetto,,,,,,,,,,,
+1364,81814,Yes,Yes,,,,,2013,6,10,Nancy and James Chuda,,,,,,,,,,,
+1365,81816,Yes,Yes,,,,,2013,6,9,Katie Little,,,,,,,,,,,
+1366,81822,Yes,Yes,,,,,2013,6,22,,,,,,,,,,,,
+1367,81825,Yes,Yes,,,,,2014,4,2,,,,,,,,,,,,
+1368,81828,Yes,Yes,,,,,2013,6,21,Jayne Clark,,,,,,,,,,,
+1369,81829,Yes,Yes,,,,,2013,6,21,Kate Parham,,,,,,,,,,,
+1370,81842,Yes,No,,,,,2013,6,24,Jill Becker,,,,,,,,,,,
+1371,81846,Yes,Yes,,,,,2013,6,14,Beth Landman,,,,,,,,,,,
+1372,81859,Yes,No,,,,,2013,6,21,Brent Rose,,,,,,,,,,,
+1373,81864,Yes,Yes,07/08/2013,,,,2013,6,18,Christopher Robbins,,,,,,,,,,,
+1374,81867,Yes,Yes,,,,,2013,6,13,Pam Kragen,,,,,,,,,,,
+1375,81871,Yes,Yes,,,,,2013,6,1,Allison Flicker,,,,,,,,,,0,1
+1376,81872,Yes,No,,,,,2013,6,,Kathryn O’Shea-Evans,,,,,,,,,,,
+1377,81874,Yes,Yes,,,,,2013,6,,Jennifer V. Cole; Hunter Lewis,,,,,,,,,,3,4
+1378,81884,Yes,Yes,,,,,2013,6,30,Susan Spano,,,,,,,,,,,
+1379,81886,Yes,Yes,,,,,2013,6,29,Dan Myers,,,,,,,,,,,
+1380,81895,Yes,Yes,,,,,2013,6,28,Chris Wadsworth,,,,,,,,,,,
+1381,81896,Yes,Yes,,,,,2013,6,27,Emily Brennan,,,,,,,,,,4,5
+1382,81914,Yes,Yes,,,,,2013,6,26,Jason Allen,,,,,,,,,,,
+1383,81916,Yes,Yes,,,,,2013,6,20,Naomi Kooker,,,,,,,,,,,
+1384,81925,Yes,Yes,,,,,2013,6,20,Paul Yee,,,,,,,,,,,
+1385,81927,Yes,No,,,,,2013,6,12,Emily Temple,,,,,,,,,,,
+1386,81931,Yes,Yes,,,,,2013,5,,Erin Schumaker,,,,,,,,,,,
+1387,81934,Yes,Yes,,,,,2013,6,23,Nancy Vienneau,,,,,,,,,,,
+1388,81938,Yes,Yes,,,,,2013,6,23,Kevin Alexander,,,,,,,,,,3,4
+1389,81960,Yes,Yes,,,,,2013,6,25,Francis Lam,,,,,,,,,,,
+1390,81964,Yes,Yes,,,,,2013,6,26,Kathy Strong,,,,,,,,,,,
+1391,81969,Yes,No,,,,,2013,6,25,Jonathan Gold,,,,,,,,,,,
+1392,81973,Yes,Yes,,,,,2013,6,,Geraldine Campbell,,,,,,,,,,3,4
+1393,81985,Yes,No,,,,,2013,7,,,,,,,,,,,,3,4
+1394,81989,Yes,Yes,,,,,2013,7,4,Jessica Dupuy,,,,,,,,,,,
+1395,81993,Yes,No,,,,,2013,7,4,Adam McCulloch,,,,,,,,,,,
+1396,81996,Yes,Yes,,,,,2013,7,5,David and Kay Scott,,,,,,,,,,3,4
+1397,81999,Yes,No,,,,,2013,7,2,Ann Rivall,,,,,,,,,,7,8
+1398,82002,Yes,Yes,,,,,2013,7,2,,,,,,,,,,,3,4
+1399,82007,Yes,Yes,,,,,2013,7,1,Hayley Bosch,,,,,,,,,,,
+1400,82012,Yes,Yes,,,,,2013,6,,Beth Collins,,,,,,,,,,,
+1401,82027,Yes,Yes,,,,,2013,7,,Megan Krigbaum,,,,,,,,,,3,4
+1402,82035,Yes,Yes,,,,,2013,7,,,,,,,,,,,,,
+1403,82044,Yes,No,,,,,2012,5,,Katrina Brown Hunt,,,,,,,,,,3,4
+1404,82069,Yes,Yes,,,,,2013,5,14,,,,,,,,,,,3,4
+1405,82072,Yes,Yes,,,,,2013,5,15,,,,,,,,,,,3,4
+1406,82076,Yes,Yes,,,,,2013,5,24,Kate Krader,,,,,,,,,,3,4
+1407,82081,Yes,No,,,,,2013,7,3,Kate Krader,,,,,,,,,,3,4
+1408,82083,Yes,Yes,,,,,2013,7,5,Virginia Sole-Smith,,,,,,,,,,,
+1409,82086,Yes,Yes,,,,,2013,6,1,,,,,,,,,,,3,4
+1410,82089,Yes,Yes,,,,,2013,7,11,Keli Dailey,,,,,,,,,,,
+1411,82093,Yes,Yes,,,,,2013,7,9,Keli Dailey,,,,,,,,,,,
+1412,82099,Yes,Yes,,,,,2013,7,1,Lydia Schrandt,,,,,,,,,,,
+1413,82100,Yes,Yes,,,,,2013,7,8,Tom Molanphy,,,,,,,,,,3,4
+1414,82102,Yes,Yes,,,,,2013,7,9,Verena Dobnik,,,,,,,,,,,
+1415,82105,Yes,Yes,,,,,2013,7,10,,,,,,,,,,,,
+1416,82121,Yes,No,,,,,2013,7,11,Jerry Lanson,,,,,,,,,,,
+1417,82125,Yes,Yes,,,,,2013,7,12,Robert Reid,,,,,,,,,,,
+1418,82127,Yes,Yes,,,,,2013,7,3,Cynthia Drescher,,,,,,,,,,,
+1419,82140,Yes,No,,,,,2013,7,12,Alex Skjong,,,,,,,,,,,
+1420,82145,Yes,No,,,,,2013,7,12,Leslie Horn,,,,,,,,,,,
+1421,82147,Yes,Yes,,,,,2013,7,12,Kaeli Conforti,,,,,,,,,,3,4
+1422,82148,Yes,Yes,,,,,2013,7,13,Jonathan Gold,,,,,,,,,,,
+1423,82151,Yes,No,,,,,2013,6,17,Madeline Monaco,,,,,,,,,,3,4
+1424,82159,Yes,Yes,,,,,2013,7,12,Chris Erskine,,,,,,,,,,3,4
+1425,82160,Yes,Yes,,,,,2013,7,20,Dan Carney,,,,,,,,,,,
+1426,82162,Yes,Yes,,,,,2013,5,27,,,,,,,,,,,,
+1427,82173,Yes,Yes,,,,,2012,6,,Shira Levine,,,,,,,,,,,
+1428,82175,Yes,No,,,,,2013,7,,,,,,,,,,,,,
+1429,82177,Yes,Yes,,,,,2013,7,22,Katia Hetter,,,,,,,,,,,
+1430,82178,Yes,Yes,,,,,2013,,,,,,,,,,,,,,
+1431,82191,Yes,Yes,,,,,2013,7,25,Larry Olmsted,,,,,,,,,,,
+1432,82192,Yes,Yes,,,,,2013,7,23,Greg Miller,,,,,,,,,,,
+1433,82193,Yes,No,,,,,2013,7,21,Katrina Woznicki,,,,,,,,,,,
+1434,82197,Yes,No,,,,,2013,7,18,,,,,,,,,,,3,4
+1435,82210,Yes,No,,,,,2013,7,20,John T. Edge,,,,,,,,,,,
+1436,82216,Yes,No,,,,,2013,7,25,Oscar Raymundo,,,,,,,,,,,
+1437,82219,Yes,No,,,,,2013,7,25,Blane Bachelor,,,,,,,,,,3,4
+1438,82220,Yes,Yes,,,,,2013,7,24,,,,,,,,,,,,
+1439,82222,Yes,Yes,,,,,2013,6,,Nicole Lawrence,,,,,,,,,,,
+1440,82225,Yes,Yes,,,,,2013,7,19,Carol Pucci,,,,,,,,,,,
+1441,82231,Yes,Yes,,,,,2013,7,5,Steven Raichlen,,,,,,,,,,3,4
+1443,82233,Yes,No,,,,,,,,,,,,,,,,,,,
+1444,82245,Yes,Yes,,,,,2013,5,28,Stuart Schuffman,,,,,,,,,,3,4
+1445,82253,Yes,Yes,,,,,2013,7,27,Jonathan Gold,,,,,,,,,,,
+1446,82254,Yes,No,,,,,2013,7,27,,,,,,,,,,,3,4
+1447,82260,Yes,No,,,,,2013,7,26,Hollie Deese,,,,,,,,,,,
+1448,82264,Yes,No,,,,,2013,7,26,Donna Heiderstadt,,,,,,,,,,,
+1449,82270,Yes,Yes,,,,,2013,8,3,Ryan Ritchie,,,,,,,,,,,
+1450,82277,Yes,Yes,,,,,2013,8,2,J. Kenji Lopez-Alt,,,,,,,,,,,
+1451,82278,Yes,No,,,,,2013,8,2,Elaine Glusac,,,,,,,,,,,
+1452,82281,Yes,Yes,,,,,2013,8,1,Gabe Zaldivar,,,,,,,,,,,
+1453,82284,Yes,Yes,,,,,2013,7,29,Marcy Franklin,,,,,,,,,,3,4
+1454,82292,Yes,Yes,,,,,2013,8,6,Regis St. Louis,,,,,,,,,,3,4
+1455,82297,Yes,Yes,,,,,2013,8,7,Seth Kugel,,,,,,,,,,,
+1456,82305,Yes,Yes,,,,,2013,8,8,,,,,,,,,,,3,4
+1457,82306,Yes,Yes,,,,,2013,8,6,,,,,,,,,,,,
+1458,82309,Yes,No,,,,,2013,8,6,Deb Hopewell,,,,,,,,,,,
+1459,82316,Yes,Yes,,,,,2013,8,6,Jonathan Gold,,,,,,,,,,,
+1460,82326,Yes,Yes,,,,,2013,8,3,Kevin Murphy,,,,,,,,,,,
+1461,82330,Yes,No,,,,,2013,8,5,Lauriel Cleveland,,,,,,,,,,,
+1462,82332,Yes,Yes,,,,,2013,7,26,Katherine Sehl,,,,,,,,,,3,4
+1463,82336,Yes,No,,,,,2013,7,,Peter Schlesinger,,,,,,,,,,3,4
+1464,82339,Yes,Yes,,,,,2013,8,,Robb Walsh,,,,,,,,,,,
+1465,82342,Yes,No,,,,,2013,7,31,Darley Newman,,,,,,,,,,,
+1466,82345,Yes,Yes,,,,,2013,7,31,Tom Sietsema,,,,,,,,,,,
+1467,82347,Yes,Yes,,,,,,,,,,,,,,,,,,3,4
+1468,82359,Yes,No,,,,,2013,7,24,Keli Dailey,,,,,,,,,,3,4
+1469,82361,Yes,Yes,,,,,2013,3,29,Roxanne Dass,,,,,,,,,,,
+1470,82365,Yes,Yes,,,,,2013,8,9,Greg Miller,,,,,,,,,,,
+1471,82367,Yes,Yes,,,,,2013,8,9,Kate Krader,,,,,,,,,,3,4
+1472,82371,Yes,Yes,,,,,2013,8,10,Irene Lechowitzky,,,,,,,,,,8,9
+1473,82375,Yes,Yes,,,,,2013,8,8,Larry Bleiberg,,,,,,,,,,,
+1474,82379,Yes,Yes,,,,,2013,8,22,Jayne Clark,,,,,,,,,,,
+1475,82380,Yes,Yes,,,,,2013,8,21,Amy Sherman,,,,,,,,,,,
+1476,82389,Yes,No,,,,,2013,8,20,Anne Z. Cooke,,,,,,,,,,,
+1477,82391,Yes,No,,,,,2013,8,19,Rachel Kristensen,,,,,,,,,,,
+1478,82394,Yes,Yes,,,,,2013,8,19,Jennings Brown,,,,,,,,,,,
+1479,82395,No,Yes,,,,,2013,8,15,Robin Wilkey,,,,,,,,,,,
+1480,82396,Yes,Yes,,,,,2013,8,13,Robert Simonson,,,,,,,,,,,
+1481,82398,Yes,Yes,,,,,2013,8,13,Andrew Knowlton,,,,,,,,,,3,4
+1482,82406,Yes,Yes,,,,,2013,8,12,James Mclauchlin,,,,,,,,,,,
+1483,82408,Yes,Yes,,,,,2013,8,22,Larry Bleiberg,,,,,,,,,,,
+1484,82410,Yes,Yes,,,,,2013,8,22,Megan Snedden,,,,,,,,,,1,2
+1485,82412,Yes,No,10/31/2013,,,,2013,8,22,Jimmy Im,,,,,,,,,,,
+1486,82420,Yes,Yes,,,,,2013,8,22,A. Pawlowski,,,,,,,,,,,
+1487,82423,Yes,Yes,,,,,2013,8,19,,,,,,,,,,,,
+1488,82425,Yes,Yes,,,,,2013,8,,,,,,,,,,,,3,4
+1489,82433,No,Yes,,,,,2013,5,16,Eric Yates,,,,,,,,,,,
+1490,82435,Yes,No,,,,,2013,8,26,Allyson Reedy,,,,,,,,,,,
+1491,82437,Yes,Yes,,,,,2013,8,26,Jordan Rane,,,,,,,,,,,
+1492,82439,Yes,Yes,,,,,2013,8,25,Jay Jones,,,,,,,,,,,
+1493,82443,Yes,Yes,,,,,2013,8,23,Jane Stern and Michael Stern,,,,,,,,,,,
+1494,82449,Yes,Yes,,,,,2013,8,27,Kevin Koczwara,,,,,,,,,,,
+1495,82452,Yes,Yes,,,,,2013,8,26,Lily Rothman,,,,,,,,,,,
+1496,82454,Yes,Yes,,,,,2013,8,28,Kristine Hansen,,,,,,,,,,,
+1497,82457,Yes,Yes,,,,,2013,8,22,Sarah Freeman,,,,,,,,,,,
+1498,82461,Yes,Yes,,,,,2013,8,31,Karen Michel,,,,,,,,,,7,8
+1499,82463,Yes,Yes,,,,,2013,8,30,Jeremy Taylor,,,,,,,,,,2,3
+1500,82466,Yes,Yes,,,,,2013,8,30,,,,,,,,,,,3,4
+1501,82480,Yes,Yes,,,,,2013,8,29,Suzanne MacNeille,,,,,,,,,,,
+1502,82485,Yes,Yes,,,,,2013,8,29,Larry Olmsted,,,,,,,,,,,
+1503,82487,Yes,Yes,,,,,2013,8,27,Lauren Mowery,,,,,,,,,,,
+1504,82503,Yes,Yes,,,,,2013,9,2,Joe Brown,,,,,,,,,,,
+1505,82505,Yes,No,,,,,2013,9,1,Tamara Lush,,,,,,,,,,,
+1506,82506,Yes,No,,,,,2013,7,29,Tom Blair,,,,,,,,,,,
+1507,82509,No,No,09/20/2013,,,,,,,,,,,,,,,"September 15-20, 2013",,,
+1508,82510,Yes,No,,,,,2013,,,,,,,,,,,,,3,4
+1509,82512,Yes,Yes,,,,,,,,,,,,,,,,,,,
+1510,82517,Yes,Yes,,,,,2013,3,21,Larry Olmsted,,,,,,,,,,,
+1511,82519,Yes,Yes,,,,,2013,3,28,Shelly Miller,,,,,,,,,,,
+1512,82524,Yes,Yes,,,,,2013,6,28,Sara Norris,,,,,,,,,,,
+1513,82526,Yes,Yes,,,,,2013,7,19,Sara Norris,,,,,,,,,,3,4
+1514,82527,Yes,Yes,,,,,2013,9,6,Bruce Steele,,,,,,,,,,,
+1515,82528,Yes,No,,,,,2013,9,6,Jessica Colley,,,,,,,,,,3,4
+1516,82531,Yes,Yes,,,,,2013,9,5,Larry Olmsted,,,,,,,,,,,
+1517,82532,Yes,No,,,,,2013,8,30,Michellina Jones,,,,,,,,,,,
+1518,82538,Yes,Yes,,,,,2013,8,28,,,,,,,,,,,2,3
+1519,82541,Yes,Yes,,,,,2013,8,22,Fred Perrotta,,,,,,,,,,,
+1520,82545,Yes,Yes,,,,,2013,8,21,Kimberley Lovato,,,,,,,,,,,
+1521,82546,Yes,Yes,,,,,2013,9,7,Tamara Lush,,,,,,,,,,,
+1522,82547,Yes,No,,,,,2013,9,8,Irene Lechowitzky,,,,,,,,,,,
+1523,82551,Yes,No,,,,,2013,9,10,,,,,,,,,,,,
+1524,82605,Yes,Yes,,,,,2013,9,12,,,,,,,,,,,1,2
+1525,82608,Yes,Yes,,,,,2013,7,23,,,,,,,,,,,3,4
+1526,82619,Yes,Yes,,,,,2013,9,11,Jimmy Im,,,,,,,,,,,
+1527,82623,Yes,Yes,,,,,2013,9,9,,,,,,,,,,,3,4
+1528,82630,No,Yes,,,,,2013,9,30,Alline ,,,,,,,,,,,
+1529,82632,Yes,No,,,,,2013,7,31,Hollie Deese,,,,,,,,,,,
+1530,82633,Yes,Yes,,,,,2013,10,2,Nate Rau,,,,,,,,,,,
+1531,82635,Yes,No,,,,,2013,9,21,Chris McGinnis,,,,,,,,,,,
+1532,82653,Yes,No,,,,,2013,9,11,Alison Cook,,,,,,,,,,3,4
+1533,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best New Attraction (Amusement Park),,2013,,,,,,,,,,,,,5,6
+1534,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best New Ride (Waterpark),,2013,,,,,,,,,,,,,5,6
+1535,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Park,,2013,,,,,,,,,,,,,5,6
+1536,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Waterpark,,2013,,,,,,,,,,,,,5,6
+1537,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Children’s Park,,2013,,,,,,,,,,,,,5,6
+1538,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Marine Life Park,,2013,,,,,,,,,,,,,5,6
+1539,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Seaside Park,,2013,,,,,,,,,,,,,5,6
+1540,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Kid’s Area,,2013,,,,,,,,,,,,,5,6
+1541,82657,Yes,Yes,,,2013 Golden Ticket Awards - Cleanest Park,,2013,,,,,,,,,,,,,5,6
+1542,82657,Yes,Yes,,,2013 Golden Ticket Awards - Friendliest Park,,2013,,,,,,,,,,,,,5,6
+1543,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Shows,,2013,,,,,,,,,,,,,5,6
+1544,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Outdoor Show Production,,2013,,,,,,,,,,,,,5,6
+1545,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Landscaping,,2013,,,,,,,,,,,,,5,6
+1546,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Food,,2013,,,,,,,,,,,,,5,6
+1547,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Carousel,,2013,,,,,,,,,,,,,5,6
+1548,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Water Ride,,2013,,,,,,,,,,,,,5,6
+1549,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Waterpark Ride,,2013,,,,,,,,,,,,,5,6
+1550,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Dark Ride,,2013,,,,,,,,,,,,,5,6
+1551,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Indoor Waterpark,,2013,,,,,,,,,,,,,5,6
+1552,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Indoor Roller Coaster,,2013,,,,,,,,,,,,,5,6
+1553,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Funhouse/Walk-Through,,2013,,,,,,,,,,,,,5,6
+1554,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Halloween Event,,2013,,,,,,,,,,,,,5,6
+1555,82657,Yes,Yes,,,2013 Golden Ticket Awards - Best Christmas Event,,2013,,,,,,,,,,,,,5,6
+1556,82663,Yes,Yes,,,,,2014,3,27,Jill Becker,,,,,,,,,,,
+1557,82668,Yes,Yes,,,,,2014,3,18,Willie Mae,,,,,,,,,,,
+1558,82671,Yes,Yes,,,,,2014,2,1,Willie Mae,,,,,,,,,,,
+1559,82673,Yes,Yes,,,,,2014,3,27,Lindsey Galloway,,,,,,,,,,,
+1560,82674,Yes,No,,,,,2014,3,25,Andy Kryza,,,,,,,,,,3,4
+1561,82691,Yes,Yes,,,,,2014,2,16,Will Clark,,,,,,,,,,3,4
+1562,82695,Yes,No,,,,,2014,3,27,Darlene Horn,,,,,,,,,,,
+1563,82700,Yes,Yes,,,,,2014,1,23,David Garrick,,,,,,,,,,,
+1564,82701,Yes,Yes,,,,,2014,3,11,Pam Kragen,,,,,,,,,,,
+1565,82702,Yes,Yes,,,,,2014,3,28,Jessica Wei,,,,,,,,,,3,4
+1566,82712,Yes,Yes,,,,,2014,3,21,S. Irene Virbila,,,,,,,,,,,
+1567,82720,Yes,Yes,,,,,2014,3,31,Nina Sachdev Hoffman,,,,,,,,,,,
+1568,82724,Yes,Yes,,,,,2014,3,5,Sarah Sekula,,,,,,,,,,3,4
+1569,82730,Yes,No,,,,,2014,3,11,Megan Pacella,,,,,,,,,,,
+1570,82751,Yes,Yes,,,,,2014,4,1,Katia Hetter,,,,,,,,,,,
+1571,82754,Yes,Yes,,,,,2014,4,1,Nancy Trejos,,,,,,,,,,,
+1572,82755,Yes,Yes,,,,,2014,3,31,Javier Cabral,,,,,,,,,,,
+1573,82757,Yes,No,,,,,2014,4,1,,,,,,,,,,,7,8
+1574,82762,Yes,No,,,,,2014,4,3,"Pam Kragen, Michele Parente and Lori Weisberg",,,,,,,,,,3,4
+1575,82773,Yes,No,,,,,2014,4,3,Melissa Coleman,,,,,,,,,,4,5
+1576,82792,Yes,Yes,,,,,2014,4,2,Gary Shteyngart,,,,,,,,,,3,4
+1577,82798,Yes,Yes,,,,,2014,4,3,Erin Jackson,,,,,,,,,,,
+1578,82800,Yes,Yes,,,,,2014,4,5,Russ Parsons,,,,,,,,,,,
+1579,82802,Yes,Yes,,,,,2014,4,5,Harriet Baskas,,,,,,,,,,,
+1580,82803,Yes,Yes,,,,,2014,1,13,Darlene Horn,,,,,,,,,,,
+1581,82804,Yes,Yes,,,,,2014,4,3,Larry Olmsted,,,,,,,,,,,
+1582,82806,Yes,Yes,,,,,2014,3,21,Halle Eavelyn,,,,,,,,,,,
+1583,82808,Yes,Yes,,,,,2014,4,4,Marc Stirdivant,,,,,,,,,,,
+1584,82813,Yes,Yes,,,,,2014,3,13,Larry Olmsted,,,,,,,,,,,
+1585,82815,Yes,Yes,,,,,2014,3,6,Larry Olmsted,,,,,,,,,,,
+1586,82816,Yes,Yes,,,,,2014,2,27,Larry Olmsted,,,,,,,,,,,
+1587,82818,Yes,Yes,,,,,2014,2,14,Larry Olmsted,,,,,,,,,,,
+1588,82819,Yes,Yes,,,,,2014,2,6,Larry Olmsted,,,,,,,,,,,
+1589,82821,Yes,Yes,,,,,2014,1,23,Larry Olmsted,,,,,,,,,,,
+1590,82823,Yes,Yes,,,,,2014,1,16,Larry Olmsted,,,,,,,,,,,
+1591,82825,Yes,Yes,,,,,2014,1,15,Erin Jackson,,,,,,,,,,,
+1592,82826,Yes,Yes,,,,,2014,1,25,Suzy Strutner,,,,,,,,,,,
+1593,82827,Yes,Yes,,,,,2014,2,7,Jonathan Gold,,,,,,,,,,,
+1594,82828,Yes,Yes,,,,,2014,3,5,,,,,,,,,,,3,4
+1595,82842,Yes,Yes,,,,,2014,4,8,Bonnie Tsui,,,,,,,,,,,
+1596,82848,Yes,No,,,,,2014,3,11,Darlene Horn,,,,,,,,,,,
+1597,82856,Yes,No,,,,,2013,11,1,Karen Brooks,,,,,,,,,,3,4
+1598,82870,Yes,No,,,,,2011,2,24,Lizzy Caston,,,,,,,,,,,
+1599,82879,Yes,Yes,,,,,2013,6,14,Michael Russell,,,,,,,,,,3,4
+1600,82893,Yes,Yes,,,,,2013,10,21,Larry Brons,,,,,,,,,,,
+1601,82897,Yes,Yes,,,,,2014,1,7,Lindsay Dove,,,,,,,,,,,
+1602,82899,Yes,Yes,,,,,2014,3,28,Samantha Bakall,,,,,,,,,,3,4
+1603,82902,Yes,Yes,,,,,2014,4,2,Martin Cizmar,,,,,,,,,,,
+1604,82905,Yes,Yes,,,,,2014,4,9,Kristina Loring,,,,,,,,,,,
+1605,82906,Yes,Yes,,,,,2014,4,9,Jay Jones,,,,,,,,,,,
+1606,82907,Yes,Yes,,,,,2014,4,9,Betty Hallock,,,,,,,,,,,
+1607,82909,Yes,Yes,,,,,2014,4,,Katia Grubisic,,,,,,,,,,,
+1608,82912,Yes,Yes,,,,,2014,2,13,Sarah Musgrave,,,,,,,,,,,
+1609,82915,Yes,Yes,,,,,2014,4,9,Alan Sytsma,,,,,,,,,,,
+1610,82916,Yes,Yes,,,,,2014,3,6,John Gottenberg Anderson,,,,,,,,,,,
+1611,82919,Yes,Yes,,,,,2014,3,15,John Gottenberg Anderson,,,,,,,,,,3,4
+1612,82921,Yes,No,,,,,2013,6,11,Chris Nuttall-Smith,,,,,,,,,,,
+1613,82925,Yes,Yes,,,,,2014,4,10,Annie Russell,,,,,,,,,,,
+1614,82934,Yes,No,,,,,2014,2,14,Tim Neville,,,,,,,,,,,
+1616,82940,Yes,Yes,,,,,2013,11,1,"Karen Brooks, Rachel Ritchie",,,,,,,,,,3,4
+1617,82956,Yes,Yes,,,,,2013,10,8,Julie Zeveloff,,,,,,,,,,2,3
+1618,82959,Yes,Yes,,,,,2013,10,7,Katia Hetter,,,,,,,,,,2,3
+1619,82960,Yes,No,,,,,2014,1,10,Dustin Gilman,,,,,,,,,,3,4
+1620,82969,Yes,No,,,,,2014,3,,Katrina Brown Hunt,,,,,,,,,,3,4
+1621,82983,Yes,Yes,,,,,2014,3,,Troy Johnson,,,,,,,,,,,
+1622,82985,Yes,Yes,,,,,2014,3,5,Katherine Sehl,,,,,,,,,,3,4
+1623,82993,Yes,Yes,,,,,2014,4,11,Cate Huguelet,,,,,,,,,,3,4
+1624,83000,Yes,Yes,,,,,2014,4,12,Kristen Oliveri,,,,,,,,,,3,4
+1626,83004,Yes,Yes,,,,,2014,4,11,Eric Benson,,,,,,,,,,3,4
+1628,83006,Yes,Yes,,,,,2014,3,,Katrina Brown Hunt,,,,,,,,,,,
+1629,83019,Yes,No,,,,,2014,3,6,Erin Jackson,,,,,,,,,,,
+1630,83021,Yes,Yes,,,,,2014,3,5,,,,,,,,,,,3,4
+1631,83032,Yes,No,,,,,2014,4,8,Renee Jacques,,,,,,,,,,,
+1632,83037,Yes,Yes,,,,,2014,4,10,,,,,,,,,,,8,9
+1633,83040,Yes,No,,,,,2014,4,11,Larry Bleiberg,,,,,,,,,,3,4
+1634,83045,Yes,Yes,,,,,2014,1,24,Beau Eastes,,,,,,,,,,,
+1635,83047,Yes,Yes,,,,,2014,4,10,Claire Jeffers,,,,,,,,,,,
+1637,83050,Yes,Yes,,,,,2014,4,10,Larry Olmsted,,,,,,,,,,,
+1639,83051,Yes,Yes,,,,,2014,4,10,Tommy Werner,,,,,,,,,,3,4
+1640,83066,Yes,No,,,,,2014,4,16,Kristen McKenzie,,,,,,,,,,,
+1641,83068,Yes,No,,,,,2014,4,14,Kristen McKenzie,,,,,,,,,,,
+1642,83069,Yes,Yes,,,,,2014,4,17,Betty Hallock,,,,,,,,,,,
+1643,83071,Yes,Yes,,,,,2014,4,17,Ligaya Mishan,,,,,,,,,,,
+1644,83073,Yes,Yes,,,,,2014,4,17,Greg Morabito,,,,,,,,,,,
+1645,83076,Yes,Yes,,,,,2014,4,17,Erin Jackson,,,,,,,,,,,
+1646,83078,Yes,Yes,,,,,2014,4,16,Emily Wasserman,,,,,,,,,,3,4
+1647,83086,Yes,No,,,,,2014,2,,,,,,,,,,,,,
+1648,83101,Yes,Yes,,,,,2014,4,17,Katelyn Mullen,,,,,,,,,,,
+1649,83103,Yes,Yes,,,,,2014,4,18,Mike Richard,,,,,,,,,,,
+1650,83104,Yes,Yes,,,,,2014,4,16,Brad A. Johnson,,,,,,,,,,,
+1651,83108,Yes,Yes,,,,,2013,6,15,Jonathan Gold,,,,,,,,,,,
+1652,83109,Yes,No,,,,,2014,4,16,Katrina Woznicki,,,,,,,,,,2,3
+1653,83111,Yes,Yes,,,,,2014,4,14,Betty Hallock,,,,,,,,,,3,4
+1654,83120,Yes,No,,,,,2014,4,14,Jareen Iman,,,,,,,,,,1,2
+1655,83126,Yes,Yes,,,,,2014,4,,Kate Parham,,,,,,,,,,3,4
+1656,83136,Yes,No,,,,,2014,4,18,Neal Turnage,,,,,,,,,,,
+1657,83142,Yes,No,,,,,2014,4,10,Caroline Michelman,,,,,,,,,,3,4
+1658,83147,Yes,Yes,,,,,2014,3,17,Amy McKeever,,,,,,,,,,3,4
+1659,83168,Yes,Yes,,,,,2014,5,,Rachel Hart,,,,,,,,,,,
+1660,83170,Yes,Yes,,,,,2014,1,13,John Gravois,,,,,,,,,,1,2
+1661,83177,Yes,Yes,,,,,2014,5,4,Jay Jones,,,,,,,,,,,
+1662,83179,Yes,Yes,,,,,2014,5,2,Elise Craig,,,,,,,,,,,
+1663,83180,Yes,Yes,,,,,2014,5,2,Marjie Lambert,,,,,,,,,,,
+1664,83182,Yes,Yes,,,,,2014,5,3,Louis Sahagun,,,,,,,,,,,
+1665,83184,Yes,Yes,,,,,2014,4,26,Louis Sahagun,,,,,,,,,,,
+1666,83185,Yes,Yes,,,,,2014,4,24,Pam Grout,,,,,,,,,,,
+1667,83187,Yes,Yes,,,,,2014,5,2,Larry Bleiberg,,,,,,,,,,3,4
+1668,83194,Yes,Yes,,,,,2014,4,25,Larry Bleiberg,,,,,,,,,,3,4
+1669,83199,Yes,Yes,,,,,2014,4,22,Annie Fitzsimmons,,,,,,,,,,,
+1670,83210,Yes,Yes,,,,,2014,4,9,U-T Superdiners,,,,,,,,,,,
+1671,83220,Yes,Yes,,,,,2014,5,1,U-T Superdiners,,,,,,,,,,,
+1672,83225,Yes,Yes,,,,,2014,3,12,Chad Deal,,,,,,,,,,,
+1673,83227,Yes,No,,,,,2014,4,29,Annie Fitzsimmons,,,,,,,,,,,
+1674,83230,Yes,Yes,,,,,2014,5,2,,,,,,,,,,,,
+1675,83237,Yes,No,,,,,2014,5,1,Megan Pacella,,,,,,,,,,,
+1676,83241,Yes,Yes,,,,,2014,5,2,Karla Cripps,,,,,,,,,,,
+1677,83243,Yes,Yes,,,,,2014,5,2,David Robert Weible,,,,,,,,,,0,1
+1679,83246,Yes,Yes,,,,,2014,5,4,Andrew Evans,,,,,,,,,,,
+1680,83248,Yes,No,,,,,2014,5,7,Brad Cohen,,,,,,,,,,,
+1681,83251,Yes,Yes,,,,,2014,5,9,Jayne Clark,,,,,,,,,,,
+1682,83252,Yes,Yes,,,,,2014,5,7,Steve Johnson,,,,,,,,,,2,3
+1683,83254,Yes,No,,,,,2014,5,2,Annie Fitzsimmons,,,,,,,,,,,
+1684,76387,Yes,No,,,World Beer Cup 2014,,2014,4,11,,,,,,,,,,,5,6
+1685,83263,Yes,Yes,,,,,2014,5,15,Jennifer Steinhauer,,,,,,,,,,4,5
+1686,83278,Yes,Yes,,,,,2014,5,15,Jonathan Gold,,,,,,,,,,3,4
+1687,83279,Yes,Yes,,,,,2014,5,14,Cliff Kuang,,,,,,,,,,,
+1688,83280,Yes,Yes,,,,,2014,5,15,Moni Basu,,,,,,,,,,1,2
+1689,83281,Yes,Yes,,,,,2014,5,15,John Makely,,,,,,,,,,1,2
+1690,83282,Yes,No,,,,,2014,4,24,Annie Fitzsimmons,,,,,,,,,,,
+1691,83288,Yes,Yes,,,,,2014,4,28,Adam D’Arpino,,,,,,,,,,1,2
+1692,83290,Yes,Yes,,,,,2014,5,15,Pam Kragen,,,,,,,,,,,
+1693,83292,Yes,Yes,,,,,2014,5,2,Pam Kragen,,,,,,,,,,,
+1694,83294,Yes,Yes,,,,,2014,5,17,S. Irene Virbila,,,,,,,,,,,
+1695,83297,Yes,Yes,,,,,2014,5,16,Valentina Silva,,,,,,,,,,,
+1696,83298,Yes,Yes,,,,,2014,5,16,Tamara Hinson,,,,,,,,,,,
+1697,83299,Yes,No,,,,,2014,5,15,Jane Reynolds,,,,,,,,,,,
+1698,83302,Yes,Yes,,,,,2014,5,16,Freda Moon,,,,,,,,,,,
+1699,83304,Yes,Yes,,,,,2014,5,17,Eric Bangeman,,,,,,,,,,,
+1700,83308,Yes,Yes,,,,,2014,2,8,,,,,,,,,,,3,4
+1701,83313,Yes,Yes,,,,,2014,5,16,,,,,,,,,,,3,4
+1702,83315,Yes,Yes,,,,,2014,5,16,Joseph Erbentraut,,,,,,,,,,,
+1703,83317,Yes,No,,,,,2014,5,15,Katelyn Mullen,,,,,,,,,,,
+1704,83322,Yes,Yes,,,,,2014,5,17,Greg Melville,,,,,,,,,,3,4
+1705,83326,Yes,Yes,,,,,2014,5,12,Marla Cimini,,,,,,,,,,3,4
+1706,83331,Yes,Yes,,,,,2014,3,,,,,,,,,,,,,
+1707,83334,Yes,Yes,,,,,2014,3,,Candice Woo,,,,,,,,,,,
+1708,83343,Yes,No,,,,,2014,5,14,Libby Lowe,,,,,,,,,,,
+1709,83351,Yes,Yes,,,,,2014,5,15,Larry Olmsted,,,,,,,,,,,
+1710,83353,Yes,No,,,,,2014,5,18,Jonathan Gold,,,,,,,,,,,
+1711,83424,Yes,Yes,,,,,2013,5,26,Sharon Eberson,,,,,,,,,,,
+1712,83428,Yes,No,,,,,2014,6,3,Rebecca Flint Marx,,,,,,,,,,,
+1713,83431,Yes,Yes,,,,,2014,6,5,Suzanne MacNeille,,,,,,,,,,,
+1714,83435,Yes,Yes,,,,,2014,6,6,Andrea Shea,,,,,,,,,,,
+1715,83440,Yes,Yes,,,,,2014,7,8,Bonjwing Lee,,,,,,,,,,,
+1716,83449,,,,,,,,,,,,,,,,,,,,,
