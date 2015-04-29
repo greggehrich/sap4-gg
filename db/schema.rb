@@ -17,6 +17,15 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   enable_extension "plpgsql"
   enable_extension "hstore"
 
+  create_table "author_story_assignments", force: :cascade do |t|
+    t.integer  "authors_id", null: false
+    t.integer  "stories_id", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "author_story_assignments", ["authors_id", "stories_id"], name: "index_author_story_assignments_on_authors_id_and_stories_id", unique: true, using: :btree
+
   create_table "authors", force: :cascade do |t|
     t.string   "email"
     t.string   "first_name"
@@ -25,15 +34,6 @@ ActiveRecord::Schema.define(version: 20150428204606) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-
-  create_table "authors_stories", force: :cascade do |t|
-    t.integer  "authors_id", null: false
-    t.integer  "stories_id", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "authors_stories", ["authors_id", "stories_id"], name: "index_authors_stories_on_authors_id_and_stories_id", unique: true, using: :btree
 
   create_table "fips", force: :cascade do |t|
     t.integer  "fips",         null: false
@@ -115,6 +115,15 @@ ActiveRecord::Schema.define(version: 20150428204606) do
 
   add_index "place_categories", ["parent_id"], name: "index_place_categories_on_parent_id", using: :btree
 
+  create_table "place_category_assignments", force: :cascade do |t|
+    t.integer  "places_id",           null: false
+    t.integer  "place_categories_id", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "place_category_assignments", ["places_id", "place_categories_id"], name: "idx_place_category_assignment_ids", unique: true, using: :btree
+
   create_table "places", force: :cascade do |t|
     t.integer  "location_id",     null: false
     t.string   "email"
@@ -127,15 +136,6 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   end
 
   add_index "places", ["location_id"], name: "index_places_on_location_id", using: :btree
-
-  create_table "places_place_categories", force: :cascade do |t|
-    t.integer  "places_id",           null: false
-    t.integer  "place_categories_id", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "places_place_categories", ["places_id", "place_categories_id"], name: "idx_places_place_categories_ids", unique: true, using: :btree
 
   create_table "release_queue", force: :cascade do |t|
     t.integer "ordinal",  null: false
@@ -163,25 +163,6 @@ ActiveRecord::Schema.define(version: 20150428204606) do
     t.datetime "updated_at"
   end
 
-  create_table "stories_places", force: :cascade do |t|
-    t.integer  "stories_id", null: false
-    t.integer  "places_id",  null: false
-    t.hstore   "aux_data"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "stories_places", ["stories_id", "places_id"], name: "index_stories_places_on_stories_id_and_places_id", unique: true, using: :btree
-
-  create_table "stories_story_categories", force: :cascade do |t|
-    t.integer  "stories_id",          null: false
-    t.integer  "story_categories_id", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "stories_story_categories", ["stories_id", "story_categories_id"], name: "idx_stories_story_categories_ids", unique: true, using: :btree
-
   create_table "story_categories", force: :cascade do |t|
     t.integer  "parent_id"
     t.string   "code"
@@ -191,6 +172,25 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   end
 
   add_index "story_categories", ["parent_id"], name: "index_story_categories_on_parent_id", using: :btree
+
+  create_table "story_category_assignments", force: :cascade do |t|
+    t.integer  "stories_id",          null: false
+    t.integer  "story_categories_id", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "story_category_assignments", ["stories_id", "story_categories_id"], name: "idx_place_categories_assignment_ids", unique: true, using: :btree
+
+  create_table "story_place_assignments", force: :cascade do |t|
+    t.integer  "stories_id", null: false
+    t.integer  "places_id",  null: false
+    t.hstore   "aux_data"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "story_place_assignments", ["stories_id", "places_id"], name: "idx_story_place_assignment_ids", unique: true, using: :btree
 
   create_table "urls", force: :cascade do |t|
     t.string   "urlable_type",                  null: false

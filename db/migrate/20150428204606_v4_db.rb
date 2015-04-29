@@ -54,7 +54,6 @@ class V4Db < ActiveRecord::Migration
 
     create_table(:stories) do |t|
       t.date :original_published_at
-      # research just month and year
       t.integer :original_published_month
       t.integer :original_publish_year
       t.date :sap_published_at
@@ -84,20 +83,20 @@ class V4Db < ActiveRecord::Migration
     end
     add_index :places, :location_id
 
-    create_table(:stories_places) do |t|
+    create_table(:story_place_assignments) do |t|
       t.integer :stories_id, null: false
       t.integer :places_id, null: false
       t.hstore :aux_data
       t.timestamps
     end
-    add_index :stories_places, [:stories_id, :places_id], unique: true
+    add_index :story_place_assignments, [:stories_id, :places_id], unique: true, name: 'idx_story_place_assignment_ids'
 
-    create_table(:stories_story_categories) do |t|
+    create_table(:story_category_assignments) do |t|
       t.integer :stories_id, null: false
       t.integer :story_categories_id, null: false
       t.timestamps
     end
-    add_index :stories_story_categories, [:stories_id, :story_categories_id], unique: true, name: 'idx_stories_story_categories_ids'
+    add_index :story_category_assignments, [:stories_id, :story_categories_id], unique: true, name: 'idx_place_categories_assignment_ids'
 
     create_table(:story_categories) do |t|
       t.integer :parent_id
@@ -107,12 +106,12 @@ class V4Db < ActiveRecord::Migration
     end
     add_index :story_categories, :parent_id
 
-    create_table(:places_place_categories) do |t|
+    create_table(:place_category_assignments) do |t|
       t.integer :places_id, null: false
       t.integer :place_categories_id, null: false
       t.timestamps
     end
-    add_index :places_place_categories, [:places_id, :place_categories_id], unique: true, name: 'idx_places_place_categories_ids'
+    add_index :place_category_assignments, [:places_id, :place_categories_id], unique: true, name: 'idx_place_category_assignment_ids'
 
     create_table(:place_categories) do |t|
       t.integer :parent_id
@@ -172,12 +171,12 @@ class V4Db < ActiveRecord::Migration
       t.timestamps
     end
 
-    create_table(:authors_stories) do |t|
+    create_table(:author_story_assignments) do |t|
       t.integer :authors_id, null: false
       t.integer :stories_id, null: false
       t.timestamps
     end
-    add_index :authors_stories, [:authors_id, :stories_id], unique: true
+    add_index :author_story_assignments, [:authors_id, :stories_id], unique: true
 
     create_table(:medias) do |t|
       t.string :title, null: false
