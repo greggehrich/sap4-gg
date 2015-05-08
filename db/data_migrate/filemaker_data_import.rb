@@ -4,22 +4,25 @@ class FilemakerDataImport
   STORY_CATEGORIES_MEMO = {}
   PLACE_CATEGORIES_MEMO = {}
   STORIES_MEMO = {}
+  URL_STORY_ASSIGNMENTS_MEMO = {}
   LOCATIONS_MEMO = {}
   PLACES_MEMO = {}
+  URL_PLACE_ASSIGNMENTS_MEMO = {}
+  URLS_MEMO = {}
 
   PLACES_WITHOUT_LOCATION = []
 
   def self.run!
     fr = "#{Rails.root.to_s}/db/data_imports/"
-    place_category_assignments_csv = "#{fr}/Categories\ in\ a\ Place.xlsx\ -\ Sheet1.csv"
-    place_categories_csv = "#{fr}/Category\ \&\ Subcategory\ List.xlsx\ -\ Sheet1.csv"
+    place_category_assignments_csv = "#{fr}/place_category_assignments.csv"
+    place_categories_csv = "#{fr}/place_categories.csv"
     places_csv = "#{fr}/places.csv"
-    stories_places_csv = "#{fr}/STORIES_PLACES.xlsx\ -\ Sheet1.csv"
+    stories_places_csv = "#{fr}/story_place_assignments.csv"
     stories_csv = "#{fr}/stories.csv"
     story_categories_csv = "#{fr}/story_categories.csv"
-    urls_csv = "#{fr}/URLS-A.xlsx\ -\ Sheet1.csv"
-    url_places_assignments = "#{fr}/URLs\ in\ Places.xlsx\ -\ Sheet1.csv"
-    locations_csv = "#{fr}/LOCATIONS.xlsx\ -\ Sheet1.csv"
+    urls_csv = "#{fr}/urls.csv"
+    url_place_assignments_csv = "#{fr}/url_place_assignments.csv"
+    locations_csv = "#{fr}/locations.csv"
 
     # LOCATIONS
     puts "\n\n\n\n\nIMPORTING LOCATIONS DATA..."
@@ -58,15 +61,20 @@ class FilemakerDataImport
       find_or_create_story_cat(row)
     end
 
-    # TODO: first import urls, then update the places and stories fields for name/title and description
-    # # URLS
-    # CSV.foreach(urls_csv, {headers: true}) do |row|
-    #   find_or_create_url(row)
-    # end
+    # URLS
+    puts "\n\n\n\n\nIMPORTING URLS DATA..."
+    # first store url place-assignments in memory (url story-assignments have already been stored)
+    CSV.foreach(url_place_assignments_csv, {headers: true}) do |row|
+      legacy_place_id = row[0]
+      legacy_url_id = row[1]
+      URL_PLACE_ASSIGNMENTS_MEMO[legacy_url_id.to_i] = legacy_place_id.to_i
+    end
+    # now create urls
+    CSV.foreach(urls_csv, {headers: true}) do |row|
+      find_or_create_url(row)
+    end
 
     # TODO: assign places to stories
-
-    # TODO: assigns urls to places or stories
 
     # TODO: assign stories to story_categories
 
@@ -121,9 +129,13 @@ class FilemakerDataImport
     location_id = LOCATIONS_MEMO[legacy_location_id.to_i]
     my_atts = {location_id: location_id, email: email, phone: phone, needs_review: needs_review}
     if location_id
+      if multiple_location_unqiue_name.present?
+        parent_place = Place.where(name: multiple_location_unique_name, location_id: 0).first_or_create!
+        my_atts.merge!(parent_id: parent_place.id) if parent_place
+      end
       p = Place.where(my_atts).first
       p = p ? p : Place.create!(my_atts.merge(aux_data: aux_data))
-      PLACES_MEMO[legacy_place_id.to_i] = {id: p.id, parent_name: multiple_location_unique_name}
+      PLACES_MEMO[legacy_place_id.to_i] = p.id
     else
       PLACES_WITHOUT_LOCATION << my_atts.merge(aux_data).merge(legacy_place_id: legacy_place_id)
     end
@@ -162,7 +174,8 @@ class FilemakerDataImport
     # NOTE: we do not have enough data to check if the story exists yet
     # s = Story.where(my_atts).first
     s = Story.create!(my_atts.merge(aux_data: aux_data))
-    STORIES_MEMO[legacy_story_id.to_i] = {id: s.id, legacy_url_id: legacy_url_id.to_i}
+    STORIES_MEMO[legacy_story_id.to_i] = s.id
+    URL_STORY_ASSIGNMENTS_MEMO[legacy_url_id.to_i] = s.id
   end
 
   def self.find_or_create_story_cat(row)
@@ -181,6 +194,51 @@ class FilemakerDataImport
     parent_pc = PlaceCategory.where(name: parent_cat_name, parent_id: nil).first
     pc = PlaceCategory.where(parent_id: parent_pc.id, name: name, description: description).first_or_create!
     PLACE_CATEGORIES_MEMO[legacy_id.to_i] = pc.id
+  end
+
+  def self.find_or_create_url(row)
+    legacy_url_id = row[0]
+    urlable_type = row[1]
+    if urlable_type == 'PLACES'
+      urlable_type = 'Place'
+    elsif urlable_type == 'STORIES'
+      urlable_type = 'Story'
+    end
+    needs_review = (row[2] == 'Yes')
+    full_url = row[3]
+    url_domain = row[4]
+    legacy_category = row[5]
+    url_title = row[6]
+    url_desc = row[7]
+    url_keywords = row[8]
+    urlable_id = nil
+    if urlable_type == 'Place'
+      urlable_id = PLACES_MEMO[URL_PLACE_ASSIGNMENTS_MEMO[legacy_url_id.to_i]]
+    elsif urlable_type == 'Story'
+      urlable_id = URL_STORY_ASSIGNEMNTS_MEMO[legacy_url_id.to_i]
+    end
+    aux_data = {
+      legacy_url_id: legacy_url_id.to_i,
+      legacy_category: legacy_category
+    }
+    my_atts = {
+      urlable_type: urlable_type,
+      urlable_id: urlable_id,
+      full_url: full_url,
+      needs_review: needs_review,
+      domain: url_domain
+    }
+    u = Url.where(my_atts).first
+    u = u ? u : Url.create!(my_atts.merge(aux_data: aux_data))
+    URLS_MEMO[legacy_url_id.to_i] = u.id
+    # now... update the appropriate place or story with title/name and description data
+    if u.urlable_type == 'Place'
+      place = u.urlable
+      place.update_attributes({name: url_title, description: url_desc})
+    elsif u.urlable_type == 'Story'
+      story = u.urlable
+      story.update_attributes({title: url_title, description: url_desc})
+    end
   end
 
 end

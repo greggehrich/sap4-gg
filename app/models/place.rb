@@ -12,4 +12,12 @@ class Place < ActiveRecord::Base
 
   belongs_to :location
 
+  def is_parent?
+    location_id == 0
+  end
+
+  def is_child?
+    parent_id.present?
+  end
+  
 end

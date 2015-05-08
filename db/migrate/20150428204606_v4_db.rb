@@ -39,21 +39,20 @@ class V4Db < ActiveRecord::Migration
       t.integer :urlable_id, null: false
       t.string :full_url, null: false
       t.string :domain
-      t.string :category
       t.string :title
       t.string :description
       t.boolean :needs_review
       t.boolean :hold
       t.boolean :archive, default: false
       t.text :keywords, array: true, default: []
-      t.integer :legacy_url_id
+      t.hstore :aux_data
       t.timestamps
     end
     add_index :urls, :urlable_id, unique: true
     add_index :urls, :urlable_type
 
     create_table(:story_screen_scrape) do |t|
-      t.string :url
+      t.string :url, null: false
       t.string :title
       t.string :description
       t.text :keywords, array: true, default: []
@@ -65,7 +64,7 @@ class V4Db < ActiveRecord::Migration
     end
 
     create_table(:place_screen_scrape) do |t|
-      t.string :url
+      t.string :url, null: false
       t.string :name
       t.string :description
       t.text :keywords, array: true, default: []
@@ -172,7 +171,6 @@ class V4Db < ActiveRecord::Migration
     end
     add_index :locations, :lat
     add_index :locations, :lng
-    add_index :locations, :name
     add_index :locations, :parent_id
     add_index :locations, :zip_code_id
 

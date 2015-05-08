@@ -59,7 +59,6 @@ ActiveRecord::Schema.define(version: 20150428204606) do
     t.boolean  "needs_review"
     t.string   "lat",          null: false
     t.string   "lng",          null: false
-    t.string   "name",         null: false
     t.integer  "parent_id"
     t.integer  "zip_code_id"
     t.integer  "msa_info_id"
@@ -76,7 +75,6 @@ ActiveRecord::Schema.define(version: 20150428204606) do
 
   add_index "locations", ["lat"], name: "index_locations_on_lat", using: :btree
   add_index "locations", ["lng"], name: "index_locations_on_lng", using: :btree
-  add_index "locations", ["name"], name: "index_locations_on_name", using: :btree
   add_index "locations", ["parent_id"], name: "index_locations_on_parent_id", using: :btree
   add_index "locations", ["zip_code_id"], name: "index_locations_on_zip_code_id", using: :btree
 
@@ -113,6 +111,7 @@ ActiveRecord::Schema.define(version: 20150428204606) do
     t.integer  "parent_id"
     t.string   "code"
     t.string   "name"
+    t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -171,11 +170,11 @@ ActiveRecord::Schema.define(version: 20150428204606) do
     t.date     "original_published_at"
     t.string   "original_published_month"
     t.string   "original_published_year"
+    t.date     "needs_review_at"
     t.string   "title"
     t.text     "description"
     t.date     "sap_published_at"
     t.string   "editor_tagline"
-    t.boolean  "author_track"
     t.boolean  "ready_for_display"
     t.boolean  "list_complete"
     t.decimal  "data_entry_time"
@@ -191,6 +190,7 @@ ActiveRecord::Schema.define(version: 20150428204606) do
     t.integer  "parent_id"
     t.string   "code"
     t.string   "name"
+    t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -230,18 +230,17 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   end
 
   create_table "urls", force: :cascade do |t|
-    t.string   "urlable_type",                  null: false
-    t.integer  "urlable_id",                    null: false
-    t.string   "full_url",                      null: false
+    t.string   "urlable_type",                 null: false
+    t.integer  "urlable_id",                   null: false
+    t.string   "full_url",                     null: false
     t.string   "domain"
-    t.string   "category"
     t.string   "title"
     t.string   "description"
     t.boolean  "needs_review"
     t.boolean  "hold"
-    t.boolean  "archive",       default: false
-    t.text     "keywords",      default: [],                 array: true
-    t.integer  "legacy_url_id"
+    t.boolean  "archive",      default: false
+    t.text     "keywords",     default: [],                 array: true
+    t.hstore   "aux_data"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

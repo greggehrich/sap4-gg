@@ -3,9 +3,9 @@ class FilemakerMsaFipsZipCodeImport
 
   def self.run!
     fr = "#{Rails.root.to_s}/db/data_imports/"
-    zipcodes_csv = "#{fr}/ZIP_CODES.xlsx\ -\ Sheet1.csv"
-    fips_csv = "#{fr}/FIPS.xlsx\ -\ Sheet1.csv"
-    msa_infos_csv = "#{fr}/MSA_INFOS.xlsx\ -\ Sheet1.csv"
+    zipcodes_csv = "#{fr}/zip_codes.csv"
+    fips_csv = "#{fr}/fips.csv"
+    msa_infos_csv = "#{fr}/msa_infos.csv"
 
     # MSA_INFOS
     puts "\n\n\n\n\nimporting msa_infos_csv..."
