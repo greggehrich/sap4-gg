@@ -52,18 +52,46 @@ class V4Db < ActiveRecord::Migration
     add_index :urls, :urlable_id, unique: true
     add_index :urls, :urlable_type
 
+    create_table(:story_screen_scrape) do |t|
+      t.string :url
+      t.string :title
+      t.string :description
+      t.text :keywords, array: true, default: []
+      t.string :published_at_year
+      t.string :published_at_month
+      t.string :published_at_day
+      t.string :author
+      t.timestamps
+    end
+
+    create_table(:place_screen_scrape) do |t|
+      t.string :url
+      t.string :name
+      t.string :description
+      t.text :keywords, array: true, default: []
+      t.string :address1
+      t.string :address2
+      t.string :city
+      t.string :state_province
+      t.string :zip_code
+      t.string :country
+      t.string :email
+      t.string :phone
+      t.timestamps
+    end
+
     create_table(:stories) do |t|
+      t.integer :story_screen_scrape_id
       t.date :original_published_at
-      t.integer :original_published_month
-      t.integer :original_publish_year
+      t.string :original_published_month
+      t.string :original_published_year
+      t.date :needs_review_at
+      t.string :title
+      t.text :description
       t.date :sap_published_at
       t.string :editor_tagline
-      t.boolean :author_track
-      t.boolean :story_ready_for_display
-      t.boolean :story_list_complete
-      t.boolean :track_original_published_at
-      t.boolean :track_original_published_month
-      t.boolean :track_original_published_day
+      t.boolean :ready_for_display
+      t.boolean :list_complete
       t.decimal :data_entry_time
       t.decimal :data_entry_user_id
       t.integer :media_id
@@ -73,7 +101,10 @@ class V4Db < ActiveRecord::Migration
     end
 
     create_table(:places) do |t|
+      t.integer :place_screen_scrape_id
       t.integer :location_id, null: false
+      t.string :name
+      t.text :description
       t.string :email
       t.string :phone
       t.boolean :needs_review
@@ -84,81 +115,87 @@ class V4Db < ActiveRecord::Migration
     add_index :places, :location_id
 
     create_table(:story_place_assignments) do |t|
-      t.integer :stories_id, null: false
-      t.integer :places_id, null: false
+      t.integer :story_id, null: false
+      t.integer :place_id, null: false
       t.hstore :aux_data
       t.timestamps
     end
-    add_index :story_place_assignments, [:stories_id, :places_id], unique: true, name: 'idx_story_place_assignment_ids'
+    add_index :story_place_assignments, [:story_id, :place_id], unique: true, name: 'idx_story_place_assignment_ids'
 
     create_table(:story_category_assignments) do |t|
-      t.integer :stories_id, null: false
-      t.integer :story_categories_id, null: false
+      t.integer :story_id, null: false
+      t.integer :story_category_id, null: false
       t.timestamps
     end
-    add_index :story_category_assignments, [:stories_id, :story_categories_id], unique: true, name: 'idx_place_categories_assignment_ids'
+    add_index :story_category_assignments, [:story_id, :story_category_id], unique: true, name: 'idx_story_category_assignment_ids'
 
     create_table(:story_categories) do |t|
       t.integer :parent_id
       t.string :code
       t.string :name
+      t.text :description
       t.timestamps
     end
     add_index :story_categories, :parent_id
 
     create_table(:place_category_assignments) do |t|
-      t.integer :places_id, null: false
-      t.integer :place_categories_id, null: false
+      t.integer :place_id, null: false
+      t.integer :place_category_id, null: false
       t.timestamps
     end
-    add_index :place_category_assignments, [:places_id, :place_categories_id], unique: true, name: 'idx_place_category_assignment_ids'
+    add_index :place_category_assignments, [:place_id, :place_category_id], unique: true, name: 'idx_place_category_assignment_ids'
 
     create_table(:place_categories) do |t|
       t.integer :parent_id
       t.string :code
       t.string :name
+      t.text :description
       t.timestamps
     end
     add_index :place_categories, :parent_id
 
     create_table(:locations) do |t|
+      t.boolean :needs_review
       t.string :lat, null: false
       t.string :lng, null: false
-      t.string :name, null: false
       t.integer :parent_id
-      t.integer :zip_codes_id
-      t.integer :msa_infos_id
-      t.integer :fips_id
+      t.integer :zip_code_id
+      t.integer :msa_info_id
+      t.integer :fip_id
       t.string :address1
       t.string :address2
       t.string :city
       t.string :state
       t.string :country
+      t.hstore :aux_data
       t.timestamps
     end
     add_index :locations, :lat
     add_index :locations, :lng
     add_index :locations, :name
     add_index :locations, :parent_id
-    add_index :locations, :zip_codes_id
+    add_index :locations, :zip_code_id
 
     create_table(:zip_codes) do |t|
-      t.string :fips_id, null: false
+      t.string :fip_id, null: false
       t.string :postal_code, null: false
+      t.hstore :aux_data
       t.timestamps
     end
     add_index :zip_codes, :postal_code
 
     create_table(:fips) do|t|
-      t.integer :fips, null: false
-      t.string :msa_infos_id, null: false
+      t.integer :external_fip_id, null: false
+      t.string :msa_info_id, null: false
+      t.hstore :aux_data
       t.timestamps
     end
-    add_index :fips, :fips
-    add_index :fips, :msa_infos_id
+    add_index :fips, :external_fip_id
+    add_index :fips, :msa_info_id
 
     create_table(:msa_infos) do |t|
       t.string :name, null: false
+      t.string :description
       t.timestamps
     end
     add_index :msa_infos, :name
@@ -172,11 +209,11 @@ class V4Db < ActiveRecord::Migration
     end
 
     create_table(:author_story_assignments) do |t|
-      t.integer :authors_id, null: false
-      t.integer :stories_id, null: false
+      t.integer :author_id, null: false
+      t.integer :story_id, null: false
       t.timestamps
     end
-    add_index :author_story_assignments, [:authors_id, :stories_id], unique: true
+    add_index :author_story_assignments, [:author_id, :story_id], unique: true
 
     create_table(:medias) do |t|
       t.string :title, null: false

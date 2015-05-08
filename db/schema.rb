@@ -18,13 +18,13 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   enable_extension "hstore"
 
   create_table "author_story_assignments", force: :cascade do |t|
-    t.integer  "authors_id", null: false
-    t.integer  "stories_id", null: false
+    t.integer  "author_id",  null: false
+    t.integer  "story_id",   null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "author_story_assignments", ["authors_id", "stories_id"], name: "index_author_story_assignments_on_authors_id_and_stories_id", unique: true, using: :btree
+  add_index "author_story_assignments", ["author_id", "story_id"], name: "index_author_story_assignments_on_author_id_and_story_id", unique: true, using: :btree
 
   create_table "authors", force: :cascade do |t|
     t.string   "email"
@@ -36,14 +36,15 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   end
 
   create_table "fips", force: :cascade do |t|
-    t.integer  "fips",         null: false
-    t.string   "msa_infos_id", null: false
+    t.integer  "external_fip_id", null: false
+    t.string   "msa_info_id",     null: false
+    t.hstore   "aux_data"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "fips", ["fips"], name: "index_fips_on_fips", using: :btree
-  add_index "fips", ["msa_infos_id"], name: "index_fips_on_msa_infos_id", using: :btree
+  add_index "fips", ["external_fip_id"], name: "index_fips_on_external_fip_id", using: :btree
+  add_index "fips", ["msa_info_id"], name: "index_fips_on_msa_info_id", using: :btree
 
   create_table "images", force: :cascade do |t|
     t.string "image_type",                       null: false
@@ -55,18 +56,20 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   add_index "images", ["image_type"], name: "index_images_on_image_type", using: :btree
 
   create_table "locations", force: :cascade do |t|
+    t.boolean  "needs_review"
     t.string   "lat",          null: false
     t.string   "lng",          null: false
     t.string   "name",         null: false
     t.integer  "parent_id"
-    t.integer  "zip_codes_id"
-    t.integer  "msa_infos_id"
-    t.integer  "fips_id"
+    t.integer  "zip_code_id"
+    t.integer  "msa_info_id"
+    t.integer  "fip_id"
     t.string   "address1"
     t.string   "address2"
     t.string   "city"
     t.string   "state"
     t.string   "country"
+    t.hstore   "aux_data"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -75,7 +78,7 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   add_index "locations", ["lng"], name: "index_locations_on_lng", using: :btree
   add_index "locations", ["name"], name: "index_locations_on_name", using: :btree
   add_index "locations", ["parent_id"], name: "index_locations_on_parent_id", using: :btree
-  add_index "locations", ["zip_codes_id"], name: "index_locations_on_zip_codes_id", using: :btree
+  add_index "locations", ["zip_code_id"], name: "index_locations_on_zip_code_id", using: :btree
 
   create_table "media_types", force: :cascade do |t|
     t.string "name", null: false
@@ -98,7 +101,8 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   add_index "medias", ["parent_id"], name: "index_medias_on_parent_id", using: :btree
 
   create_table "msa_infos", force: :cascade do |t|
-    t.string   "name",       null: false
+    t.string   "name",        null: false
+    t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -116,16 +120,36 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   add_index "place_categories", ["parent_id"], name: "index_place_categories_on_parent_id", using: :btree
 
   create_table "place_category_assignments", force: :cascade do |t|
-    t.integer  "places_id",           null: false
-    t.integer  "place_categories_id", null: false
+    t.integer  "place_id",          null: false
+    t.integer  "place_category_id", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "place_category_assignments", ["places_id", "place_categories_id"], name: "idx_place_category_assignment_ids", unique: true, using: :btree
+  add_index "place_category_assignments", ["place_id", "place_category_id"], name: "idx_place_category_assignment_ids", unique: true, using: :btree
+
+  create_table "place_screen_scrape", force: :cascade do |t|
+    t.string   "url"
+    t.string   "name"
+    t.string   "description"
+    t.text     "keywords",       default: [], array: true
+    t.string   "address1"
+    t.string   "address2"
+    t.string   "city"
+    t.string   "state_province"
+    t.string   "zip_code"
+    t.string   "country"
+    t.string   "email"
+    t.string   "phone"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "places", force: :cascade do |t|
-    t.integer  "location_id",     null: false
+    t.integer  "place_screen_scrape_id"
+    t.integer  "location_id",            null: false
+    t.string   "name"
+    t.text     "description"
     t.string   "email"
     t.string   "phone"
     t.boolean  "needs_review"
@@ -143,17 +167,17 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   end
 
   create_table "stories", force: :cascade do |t|
+    t.integer  "story_screen_scrape_id"
     t.date     "original_published_at"
-    t.integer  "original_published_month"
-    t.integer  "original_publish_year"
+    t.string   "original_published_month"
+    t.string   "original_published_year"
+    t.string   "title"
+    t.text     "description"
     t.date     "sap_published_at"
     t.string   "editor_tagline"
     t.boolean  "author_track"
-    t.boolean  "story_ready_for_display"
-    t.boolean  "story_list_complete"
-    t.boolean  "track_original_published_at"
-    t.boolean  "track_original_published_month"
-    t.boolean  "track_original_published_day"
+    t.boolean  "ready_for_display"
+    t.boolean  "list_complete"
     t.decimal  "data_entry_time"
     t.decimal  "data_entry_user_id"
     t.integer  "media_id"
@@ -174,23 +198,36 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   add_index "story_categories", ["parent_id"], name: "index_story_categories_on_parent_id", using: :btree
 
   create_table "story_category_assignments", force: :cascade do |t|
-    t.integer  "stories_id",          null: false
-    t.integer  "story_categories_id", null: false
+    t.integer  "story_id",          null: false
+    t.integer  "story_category_id", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "story_category_assignments", ["stories_id", "story_categories_id"], name: "idx_place_categories_assignment_ids", unique: true, using: :btree
+  add_index "story_category_assignments", ["story_id", "story_category_id"], name: "idx_story_category_assignment_ids", unique: true, using: :btree
 
   create_table "story_place_assignments", force: :cascade do |t|
-    t.integer  "stories_id", null: false
-    t.integer  "places_id",  null: false
+    t.integer  "story_id",   null: false
+    t.integer  "place_id",   null: false
     t.hstore   "aux_data"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "story_place_assignments", ["stories_id", "places_id"], name: "idx_story_place_assignment_ids", unique: true, using: :btree
+  add_index "story_place_assignments", ["story_id", "place_id"], name: "idx_story_place_assignment_ids", unique: true, using: :btree
+
+  create_table "story_screen_scrape", force: :cascade do |t|
+    t.string   "url"
+    t.string   "title"
+    t.string   "description"
+    t.text     "keywords",           default: [], array: true
+    t.string   "published_at_year"
+    t.string   "published_at_month"
+    t.string   "published_at_day"
+    t.string   "author"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "urls", force: :cascade do |t|
     t.string   "urlable_type",                  null: false
@@ -237,8 +274,9 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
   create_table "zip_codes", force: :cascade do |t|
-    t.string   "fips_id",     null: false
+    t.string   "fip_id",      null: false
     t.string   "postal_code", null: false
+    t.hstore   "aux_data"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
