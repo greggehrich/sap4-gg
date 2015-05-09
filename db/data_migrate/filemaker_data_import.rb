@@ -1,16 +1,17 @@
 require 'csv'
 class FilemakerDataImport
 
-  LOCATIONS_MEMO = {}
-  STORIES_MEMO = {}
-  STORY_CATEGORIES_MEMO = {}
-  PLACES_MEMO = {}
-  PLACE_CATEGORIES_MEMO = {}
-  URLS_MEMO = {}
-  URL_STORY_ASSIGNMENTS_MEMO = {}
-  URL_PLACE_ASSIGNMENTS_MEMO = {}
+  # or equals assignment makes debugging this much easier!
+  LOCATIONS_MEMO ||= {}
+  STORIES_MEMO ||= {}
+  STORY_CATEGORIES_MEMO ||= {}
+  PLACES_MEMO ||= {}
+  PLACE_CATEGORIES_MEMO ||= {}
+  URLS_MEMO ||= {}
+  URL_STORY_ASSIGNMENTS_MEMO ||= {}
+  URL_PLACE_ASSIGNMENTS_MEMO ||= {}
 
-  PLACES_WITHOUT_LOCATION = []
+  PLACES_WITHOUT_LOCATION ||= []
 
   def self.run!
     fr = "#{Rails.root.to_s}/db/data_imports/"
@@ -81,24 +82,22 @@ class FilemakerDataImport
       find_or_create_story_place_assignment(row)
     end
 
-    ## TODO: not be able to do this as the assignments csv came from SAP3 DB - not the filemaker DB
-    # # STORY_CATEGORY_ASSIGNMENTS
-    # puts "\n\n\n\n\nASSIGNING STORIES TO STORY_CATEGORIES"
-    # CSV.foreach(story_category_assignments_csv) do |row|
-    #   legacy_story_id = row[0]
-    #   legacy_story_category_id = row[1]
-    #   my_atts = {
-    #     story: Story.where(id: STORIES_MEMO[legacy_story_id.to_i]).first,
-    #     story_category: StoryCategory.where(id: STORY_CATEGORIES_MEMO[legacy_story_category_id.to_i]).first
-    #   }
-      #   return nil if my_atts[:story].nil? || my_atts[:story_category].nil?
-    #   StoryCategoryAssignment.where(my_atts).first_or_create!
-    # end
+    # STORY_CATEGORY_ASSIGNMENTS
+    puts "\n\n\n\n\nASSIGNING STORIES TO STORY_CATEGORIES"
+    CSV.foreach(story_category_assignments_csv, {headers: true}) do |row|
+      legacy_story_id = row[0]
+      legacy_story_category_id = row[1]
+      my_atts = {
+        story: Story.where(id: STORIES_MEMO[legacy_story_id.to_i]).first,
+        story_category: StoryCategory.where(id: STORY_CATEGORIES_MEMO[legacy_story_category_id.to_i]).first
+      }
+      return nil if my_atts[:story].nil? || my_atts[:story_category].nil?
+      StoryCategoryAssignment.where(my_atts).first_or_create!
+    end
 
-    # TODO: check out why this is not working...
     # PLACE_CATEGORY_ASSIGNMENTS
     puts "\n\n\n\n\nASSIGNING PLACES TO PLACE_CATEGORIES"
-    CSV.foreach(place_category_assignments_csv) do |row|
+    CSV.foreach(place_category_assignments_csv, {headers: true}) do |row|
       legacy_place_id = row[0]
       legacy_place_category_id = row[1]
       my_atts = {
@@ -207,7 +206,7 @@ class FilemakerDataImport
     URL_STORY_ASSIGNMENTS_MEMO[legacy_url_id.to_i] = s.id
   end
 
-  def self.find_or_create_story_cat(row)
+    def self.find_or_create_story_cat(row)
     legacy_id = row[0]
     code = row[1]
     name = row[2]
