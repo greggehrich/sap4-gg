@@ -1,28 +1,29 @@
 require 'csv'
 class FilemakerDataImport
 
-  STORY_CATEGORIES_MEMO = {}
-  PLACE_CATEGORIES_MEMO = {}
-  STORIES_MEMO = {}
-  URL_STORY_ASSIGNMENTS_MEMO = {}
   LOCATIONS_MEMO = {}
+  STORIES_MEMO = {}
+  STORY_CATEGORIES_MEMO = {}
   PLACES_MEMO = {}
-  URL_PLACE_ASSIGNMENTS_MEMO = {}
+  PLACE_CATEGORIES_MEMO = {}
   URLS_MEMO = {}
+  URL_STORY_ASSIGNMENTS_MEMO = {}
+  URL_PLACE_ASSIGNMENTS_MEMO = {}
 
   PLACES_WITHOUT_LOCATION = []
 
   def self.run!
     fr = "#{Rails.root.to_s}/db/data_imports/"
-    place_category_assignments_csv = "#{fr}/place_category_assignments.csv"
-    place_categories_csv = "#{fr}/place_categories.csv"
+    locations_csv = "#{fr}/locations.csv"
     places_csv = "#{fr}/places.csv"
-    stories_places_csv = "#{fr}/story_place_assignments.csv"
+    place_categories_csv = "#{fr}/place_categories.csv"
+    place_category_assignments_csv = "#{fr}/place_category_assignments.csv"
     stories_csv = "#{fr}/stories.csv"
     story_categories_csv = "#{fr}/story_categories.csv"
+    story_category_assignments_csv = "#{fr}/story_category_assignments.csv"
+    story_place_assignments_csv = "#{fr}/story_place_assignments.csv"
     urls_csv = "#{fr}/urls.csv"
     url_place_assignments_csv = "#{fr}/url_place_assignments.csv"
-    locations_csv = "#{fr}/locations.csv"
 
     # LOCATIONS
     puts "\n\n\n\n\nIMPORTING LOCATIONS DATA..."
@@ -74,11 +75,39 @@ class FilemakerDataImport
       find_or_create_url(row)
     end
 
-    # TODO: assign places to stories
+    # STORY_PLACE_ASSIGNMENTS
+    puts "\n\n\n\nASSIGNING STORIES TO PLACES"
+    CSV.foreach(story_place_assignments_csv, {headers: true}) do |row|
+      find_or_create_story_place_assignment(row)
+    end
 
-    # TODO: assign stories to story_categories
+    ## TODO: not be able to do this as the assignments csv came from SAP3 DB - not the filemaker DB
+    # # STORY_CATEGORY_ASSIGNMENTS
+    # puts "\n\n\n\n\nASSIGNING STORIES TO STORY_CATEGORIES"
+    # CSV.foreach(story_category_assignments_csv) do |row|
+    #   legacy_story_id = row[0]
+    #   legacy_story_category_id = row[1]
+    #   my_atts = {
+    #     story: Story.where(id: STORIES_MEMO[legacy_story_id.to_i]).first,
+    #     story_category: StoryCategory.where(id: STORY_CATEGORIES_MEMO[legacy_story_category_id.to_i]).first
+    #   }
+      #   return nil if my_atts[:story].nil? || my_atts[:story_category].nil?
+    #   StoryCategoryAssignment.where(my_atts).first_or_create!
+    # end
 
-    # TODO: assign places to place_categories
+    # TODO: check out why this is not working...
+    # PLACE_CATEGORY_ASSIGNMENTS
+    puts "\n\n\n\n\nASSIGNING PLACES TO PLACE_CATEGORIES"
+    CSV.foreach(place_category_assignments_csv) do |row|
+      legacy_place_id = row[0]
+      legacy_place_category_id = row[1]
+      my_atts = {
+        place: Place.where(id: PLACES_MEMO[legacy_place_id.to_i]).first,
+        place_category: PlaceCategory.where(id: PLACE_CATEGORIES_MEMO[legacy_place_category_id.to_i]).first
+      }
+      return nil if my_atts[:place].nil? || my_atts[:place_category].nil?
+      PlaceCategoryAssignment.where(my_atts).first_or_create!
+    end
 
   end
 
@@ -128,8 +157,8 @@ class FilemakerDataImport
     email = row[9]
     location_id = LOCATIONS_MEMO[legacy_location_id.to_i]
     my_atts = {location_id: location_id, email: email, phone: phone, needs_review: needs_review}
-    if location_id
-      if multiple_location_unqiue_name.present?
+    if location_id.present?
+      if multiple_location_unique_name.present?
         parent_place = Place.where(name: multiple_location_unique_name, location_id: 0).first_or_create!
         my_atts.merge!(parent_id: parent_place.id) if parent_place
       end
@@ -182,6 +211,7 @@ class FilemakerDataImport
     legacy_id = row[0]
     code = row[1]
     name = row[2]
+    # NOTE: we support parent/child relationship but our import data has none of that
     sc = StoryCategory.where(name: name, code: code).first_or_create!
     STORY_CATEGORIES_MEMO[legacy_id.to_i] = sc.id
   end
@@ -215,7 +245,7 @@ class FilemakerDataImport
     if urlable_type == 'Place'
       urlable_id = PLACES_MEMO[URL_PLACE_ASSIGNMENTS_MEMO[legacy_url_id.to_i]]
     elsif urlable_type == 'Story'
-      urlable_id = URL_STORY_ASSIGNEMNTS_MEMO[legacy_url_id.to_i]
+      urlable_id = URL_STORY_ASSIGNMENTS_MEMO[legacy_url_id.to_i]
     end
     aux_data = {
       legacy_url_id: legacy_url_id.to_i,
@@ -228,6 +258,7 @@ class FilemakerDataImport
       needs_review: needs_review,
       domain: url_domain
     }
+    return nil if !my_atts[:urlable_id].present? || !my_atts[:urlable_type].present? || !my_atts[:full_url].present?
     u = Url.where(my_atts).first
     u = u ? u : Url.create!(my_atts.merge(aux_data: aux_data))
     URLS_MEMO[legacy_url_id.to_i] = u.id
@@ -239,6 +270,24 @@ class FilemakerDataImport
       story = u.urlable
       story.update_attributes({title: url_title, description: url_desc})
     end
+  end
+
+  def self.find_or_create_story_place_assignment(row)
+    aux_data = {}
+    legacy_story_id = row[0]
+    legacy_place_id = row[1]
+    aux_data[:story_comment] = row[2]
+    aux_data[:old_url_id] = row[3]
+    aux_data[:input_list_title] = row[4]
+    aux_data[:input_list_comments] = row[5]
+    aux_data[:input_list_sequence_number] = row[6]
+    my_atts = {
+      story: Story.where(id: STORIES_MEMO[legacy_story_id.to_i]).first,
+      place: Place.where(id: PLACES_MEMO[legacy_place_id.to_i]).first
+    }
+    return nil if my_atts[:story].nil? || my_atts[:place].nil?
+    spa = StoryPlaceAssignment.where(my_atts).first
+    spa = spa ? spa : StoryPlaceAssignment.create!(my_atts.merge(aux_data: aux_data))
   end
 
 end

@@ -128,10 +128,10 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   add_index "place_category_assignments", ["place_id", "place_category_id"], name: "idx_place_category_assignment_ids", unique: true, using: :btree
 
   create_table "place_screen_scrape", force: :cascade do |t|
-    t.string   "url"
+    t.string   "url",                         null: false
     t.string   "name"
     t.string   "description"
-    t.text     "keywords",       default: [], array: true
+    t.text     "keywords",       default: [],              array: true
     t.string   "address1"
     t.string   "address2"
     t.string   "city"
@@ -147,6 +147,7 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   create_table "places", force: :cascade do |t|
     t.integer  "place_screen_scrape_id"
     t.integer  "location_id",            null: false
+    t.integer  "parent_id"
     t.string   "name"
     t.text     "description"
     t.string   "email"
@@ -217,10 +218,10 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   add_index "story_place_assignments", ["story_id", "place_id"], name: "idx_story_place_assignment_ids", unique: true, using: :btree
 
   create_table "story_screen_scrape", force: :cascade do |t|
-    t.string   "url"
+    t.string   "url",                             null: false
     t.string   "title"
     t.string   "description"
-    t.text     "keywords",           default: [], array: true
+    t.text     "keywords",           default: [],              array: true
     t.string   "published_at_year"
     t.string   "published_at_month"
     t.string   "published_at_day"
@@ -245,8 +246,7 @@ ActiveRecord::Schema.define(version: 20150428204606) do
     t.datetime "updated_at"
   end
 
-  add_index "urls", ["urlable_id"], name: "index_urls_on_urlable_id", unique: true, using: :btree
-  add_index "urls", ["urlable_type"], name: "index_urls_on_urlable_type", using: :btree
+  add_index "urls", ["urlable_type", "urlable_id", "full_url"], name: "index_urls_on_urlable_type_and_urlable_id_and_full_url", unique: true, using: :btree
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false

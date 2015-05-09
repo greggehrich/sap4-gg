@@ -1,6 +1,7 @@
 class Place < ActiveRecord::Base
 
-  validates :location, presence: true # TODO: ask if this is correct ?
+  # note validate by location_id because parent places will have location_id == 0
+  validates :location_id, presence: true
 
   has_many :urls, as: :urlable, dependent: :destroy
 
@@ -19,5 +20,5 @@ class Place < ActiveRecord::Base
   def is_child?
     parent_id.present?
   end
-  
+
 end

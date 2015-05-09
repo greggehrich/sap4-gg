@@ -48,8 +48,7 @@ class V4Db < ActiveRecord::Migration
       t.hstore :aux_data
       t.timestamps
     end
-    add_index :urls, :urlable_id, unique: true
-    add_index :urls, :urlable_type
+    add_index :urls, [:urlable_type, :urlable_id, :full_url], unique: true
 
     create_table(:story_screen_scrape) do |t|
       t.string :url, null: false
@@ -102,6 +101,7 @@ class V4Db < ActiveRecord::Migration
     create_table(:places) do |t|
       t.integer :place_screen_scrape_id
       t.integer :location_id, null: false
+      t.integer :parent_id
       t.string :name
       t.text :description
       t.string :email
