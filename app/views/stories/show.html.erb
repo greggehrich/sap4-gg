@@ -9,7 +9,7 @@
   <h4>Places</h4>
   <ul>
     <% @story.places.each do |place| %>
-      <li><%= link_to place.name, place_path(place) %></li>
+      <li><%= link_to place.full_name, place_path(place) %></li>
     <% end %>
   </ul>
 </div>

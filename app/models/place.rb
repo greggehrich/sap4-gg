@@ -1,6 +1,5 @@
 class Place < ActiveRecord::Base
 
-  # note validate by location_id because parent places will have location_id == 0
   validates :location_id, presence: true
 
   has_many :urls, as: :urlable, dependent: :destroy
@@ -30,9 +29,9 @@ class Place < ActiveRecord::Base
 
   def parent_full_name
     if parent.name.present? && name.present?
-      parent.name + ': ' + name
+      parent.name + ': ' + name + ' [has parent - this name is parent name + my name]' # obviously temporary
     elsif parent.name.present?
-      parent.name
+      parent.name + " [using parent's name - i have no name]" # obviously temporary
     else
       name
     end
