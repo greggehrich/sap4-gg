@@ -8,7 +8,7 @@ class Story < ActiveRecord::Base
   has_many :urls, as: :urlable, dependent: :destroy
 
   has_many :story_place_assignments
-  has_many :stories, through: :story_place_assignments
+  has_many :places, through: :story_place_assignments
 
   has_many :story_category_assignments
   has_many :story_categories, through: :story_category_assignments
@@ -18,5 +18,7 @@ class Story < ActiveRecord::Base
 
   belongs_to :image # NOTE: this seems limiting
   belongs_to :media
+
+  scope :ready_for_display, -> {where(ready_for_display: true)}
 
 end

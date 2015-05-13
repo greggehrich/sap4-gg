@@ -1,0 +1,26 @@
+<h2><%= @story.title %> [STORY]</h2>
+
+<div class="panel">
+  <h4>Description</h4>
+  <%= @story.description %>
+</div>
+
+<div class="panel">
+  <h4>Places</h4>
+  <ul>
+    <% @story.places.each do |place| %>
+      <li><%= link_to place.name, place_path(place) %></li>
+    <% end %>
+  </ul>
+</div>
+
+<div class="panel">
+  <h4>Urls</h4>
+  <ul>
+    <% @story.urls.each do |url| %>
+      <li><%= url.full_url %></li>
+    <% end %>
+  </ul>
+</div>
+
+<%= link_to 'Back to Stories Index', stories_path %>

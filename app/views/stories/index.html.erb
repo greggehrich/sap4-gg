@@ -1,0 +1,18 @@
+<h2>Stories Index (most recent first)</h2>
+
+<div class="panel">
+  <%= form_tag nil, method: :get do %>
+    <%= text_field_tag :search, params[:search], placeholder: "Search by Title" %>
+    <%= submit_tag 'Search', class: 'btn btn-primary' %>
+  <% end %>
+  <%= link_to 'Clear Search', stories_path %>
+</div>
+
+<%= will_paginate @stories %>
+<% @stories.each do |story| %>
+  <div class="panel">
+    <h3><u><%= link_to story.title, story_path(story) %></u></h3>
+
+  </div>
+<% end %>
+<%= will_paginate(@stories) %>

@@ -1,0 +1,21 @@
+<h2>Location Show Page</h2>
+
+<div class="text-muted">Locations don't have names (yet), so not sure if they what should be the header on a page like this</div>
+
+<div class="panel">
+  <h3>My Location Info</h3>
+  <dl>
+    <% @location.attributes.each do |key,value| %>
+      <span class="text-muted"><%= key.to_s %></span>:&nbsp;
+      <span><%= value.to_s %></span>
+      <br>
+    <% end %>
+  </dl>
+</div>
+
+<div class="panel">
+  <h3>Places</h3>
+  <% @location.places.each do |place| %>
+    <%= link_to place.name, place_path(place) %>
+  <% end %>
+</div>

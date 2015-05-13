@@ -1,0 +1,17 @@
+<h2>Places Index (most recent first)</h2>
+
+<div class="panel">
+  <%= form_tag nil, method: :get do %>
+    <%= text_field_tag :search, params[:search], placeholder: "Search by Name" %>
+    <%= submit_tag 'Search', class: 'btn btn-primary' %>
+  <% end %>
+  <%= link_to 'Clear Search', places_path %>
+</div>
+
+<%= will_paginate @places %>
+<% @places.each do |place| %>
+  <div class="panel">
+    <h3><u><%= link_to place.full_name, place_path(place) %></u></h3>
+  </div>
+<% end %>
+<%= will_paginate(@places) %>

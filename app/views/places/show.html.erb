@@ -1,0 +1,40 @@
+<h2><%= @place.full_name %> [PLACE]</h2>
+
+<div class="panel">
+  <h4>My Location</h4>
+  <% if @location %>
+    <dl>
+      <dt>Lat</dt>
+      <dd><%= @location.lat %></dd>
+      <dt>Lng</dt>
+      <dd><%= @location.lng %></dd>
+    </dl>
+    <%= link_to 'More Location Info', location_path(@location) %>
+    <div class="text-muted">More location data may or may not be available...</div>
+  <% end %>
+</div>
+
+<div class="panel">
+  <h4>Description</h4>
+  <%= @place.description %>
+</div>
+
+<div class="panel">
+  <h4>Stories</h4>
+  <ul>
+    <% @place.stories.each do |story| %>
+      <li><%= link_to story.title, story_path(story) %></li>
+    <% end %>
+  </ul>
+</div>
+
+<div class="panel">
+  <h4>Urls</h4>
+  <ul>
+    <% @place.urls.each do |url| %>
+      <li><%= url.full_url %></li>
+    <% end %>
+  </ul>
+</div>
+
+<%= link_to 'Back to Places Index', places_path %>
