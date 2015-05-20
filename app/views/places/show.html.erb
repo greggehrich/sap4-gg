@@ -29,7 +29,9 @@
 		<%= @location.address1 %>&nbsp;&nbsp;
 		<%= @location.city %>,&nbsp;
 		<%= @location.state %>&nbsp;&nbsp;
-		<%= @location.zip_code.postal_code %>&nbsp;&nbsp;
+		<% if @location.zip_code %>
+			<%= @location.zip_code.postal_code %>&nbsp;&nbsp;
+		<% end %>
     <dl>
       <dt>Lat :&nbsp;&nbsp;<%= @location.lat %></dt>
       <dt>Lng :&nbsp;&nbsp;<%= @location.lng %></dt>
