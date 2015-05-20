@@ -24,16 +24,17 @@
 </div>
 
 <div class="panel">
-  <h4>My Location</h4>
+  <h4>Location</h4>
   <% if @location %>
+		<%= @location.address1 %>&nbsp;&nbsp;
+		<%= @location.city %>,&nbsp;
+		<%= @location.state %>&nbsp;&nbsp;
+		<%= @location.zip_code.postal_code %>&nbsp;&nbsp;
     <dl>
-      <dt>Lat</dt>
-      <dd><%= @location.lat %></dd>
-      <dt>Lng</dt>
-      <dd><%= @location.lng %></dd>
+      <dt>Lat :&nbsp;&nbsp;<%= @location.lat %></dt>
+      <dt>Lng :&nbsp;&nbsp;<%= @location.lng %></dt>
     </dl>
-    <%= link_to 'More Location Info', location_path(@location) %>
-    <div class="text-muted">More location data may or may not be available...</div>
+    <div><%= link_to 'More Location Info', location_path(@location) %>&nbsp;(may or may not be available)</div>
   <% end %>
 </div>
 
@@ -41,7 +42,7 @@
   <h4>Urls</h4>
   <ul>
     <% @place.urls.each do |url| %>
-      <li><%= url.full_url %></li>
+      <li><%= url.urlable_type %>&nbsp;Url– &nbsp;<%= url.full_url %></li>
     <% end %>
   </ul>
 </div>
