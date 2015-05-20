@@ -6,6 +6,16 @@
 </div>
 
 <div class="panel">
+  <h4>Authors</h4>
+  <ul>
+    <% @story.authors.each do |author| %>
+      <li><%= author.first_name %>&nbsp;
+          <%= author.last_name %></li>
+    <% end %>
+  </ul>
+</div>
+
+<div class="panel">
   <h4>Categories</h4>
   <ul>
     <% @story.story_categories.each do |category| %>
