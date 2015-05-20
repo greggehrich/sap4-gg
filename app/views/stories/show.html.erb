@@ -6,6 +6,15 @@
 </div>
 
 <div class="panel">
+  <h4>Categories</h4>
+  <ul>
+    <% @story.story_categories.each do |category| %>
+      <li><%= category.name %></li>
+    <% end %>
+  </ul>
+</div>
+
+<div class="panel">
   <h4>Places</h4>
   <ul>
     <% @story.places.each do |place| %>

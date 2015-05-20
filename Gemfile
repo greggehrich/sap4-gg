@@ -14,6 +14,7 @@ gem 'puma'
 gem 'pundit'
 gem 'sendgrid'
 gem 'will_paginate'
+gem 'awesome_print'
 
 group :development do
   gem 'better_errors'
