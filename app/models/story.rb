@@ -2,9 +2,6 @@ class Story < ActiveRecord::Base
 
   # TODO: no validations!
 
-  belongs_to :image
-  belongs_to :media
-
   has_many :urls, as: :urlable, dependent: :destroy
 
   has_many :story_place_assignments
@@ -16,7 +13,7 @@ class Story < ActiveRecord::Base
   has_many :author_story_assignments
   has_many :authors, through: :author_story_assignments
 
-  belongs_to :image # NOTE: this seems limiting
+  has_many :images
   belongs_to :media
 
   scope :ready_for_display, -> {where(ready_for_display: true)}

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150428204606) do
+ActiveRecord::Schema.define(version: 20150521172034) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -47,10 +47,11 @@ ActiveRecord::Schema.define(version: 20150428204606) do
   add_index "fips", ["msa_info_id"], name: "index_fips_on_msa_info_id", using: :btree
 
   create_table "images", force: :cascade do |t|
-    t.string "image_type",                       null: false
-    t.string "image_size_h"
-    t.string "image_size_v"
-    t.string "source",       default: "scraped"
+    t.string  "image_type",                       null: false
+    t.string  "image_size_h"
+    t.string  "image_size_v"
+    t.string  "source",       default: "scraped"
+    t.integer "story_id"
   end
 
   add_index "images", ["image_type"], name: "index_images_on_image_type", using: :btree
