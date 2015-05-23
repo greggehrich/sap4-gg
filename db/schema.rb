@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150521172034) do
+ActiveRecord::Schema.define(version: 20150523155635) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -83,7 +83,7 @@ ActiveRecord::Schema.define(version: 20150521172034) do
     t.string "name", null: false
   end
 
-  create_table "medias", force: :cascade do |t|
+  create_table "mediacorps", force: :cascade do |t|
     t.string  "title",                   null: false
     t.integer "parent_id"
     t.string  "name"
@@ -97,7 +97,7 @@ ActiveRecord::Schema.define(version: 20150521172034) do
     t.string  "next_issue_yn"
   end
 
-  add_index "medias", ["parent_id"], name: "index_medias_on_parent_id", using: :btree
+  add_index "mediacorps", ["parent_id"], name: "index_mediacorps_on_parent_id", using: :btree
 
   create_table "msa_infos", force: :cascade do |t|
     t.string   "name",        null: false

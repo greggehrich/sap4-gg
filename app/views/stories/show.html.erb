@@ -3,6 +3,8 @@
 <div class="panel">
   <h4 style="float:left" >Id&nbsp;&nbsp;</h4>
 	<div style="padding-top: 11px;" ><%= @story.id %></div>
+  <h4 style="clear:left" >Title</h4>
+  <%= @story.title %>
   <h4 style="clear:left" >Description</h4>
   <%= @story.description %>
 </div>
@@ -44,9 +46,9 @@
   </ul>
 </div>
 
-<div class="panel">
-  <h4>Image</h4>
-    <%= @story.images.first.story_id %>
-</div>
+<% if @story.images.first.try(:url) %>
+	<%= @story.images.first.url.full_url %><br>
+	<div class="pull-left"><%= image_tag @story.images.first.url.full_url, :width =>200 %></div>
+<% end %>
 
-<%= link_to 'Back to Stories Index', stories_path %>
+<div style="float:left; position:absolute; padding-top:140px;"><%= link_to 'Back to Stories Index', stories_path %></div>

@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   resources :users
 
   resources :stories
+  match 'visitors/index' => 'visitors#index', via: [:get]
+
   resources :places
   resources :locations
 

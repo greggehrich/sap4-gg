@@ -1,4 +1,4 @@
-class Media < ActiveRecord::Base
+class Mediacorp < ActiveRecord::Base
 
   validates :title, presence: true
 

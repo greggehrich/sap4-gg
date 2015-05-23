@@ -5,4 +5,8 @@ class Url < ActiveRecord::Base
 
   belongs_to :urlable, polymorphic: true
 
+  def encoded_url
+    URI.encode(url_full)
+  end
+
 end
