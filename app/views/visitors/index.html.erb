@@ -10,7 +10,12 @@
 	            <div class="col-sm-4 col-centered text-left story_div" style="margin-right: -15px">
 						    <% if story.images.first.try(:url) %>
 						      <div class="pull-left"><%= image_tag story.images.first.url.full_url, :width =>1000 %></div>
-						    <% end %>
+
+	                <% image_prop = story.images.first.image_size_v.to_f / story.images.first.image_size_h.to_f unless story.images.first.image_size_h.nil? %> <!-- calc image proportions -->
+	                <% @desc_trunc = 270 + ((0.7 - (image_prop ||= 0.7)) * 1000) %> <!-- calc the desc length; base px was 220 -->
+	                <% @desc_trunc = @desc_trunc < 75 ? 75 : @desc_trunc %> <!-- set min desc length to 75px -->
+
+	            <% end %>
                 <div class="story-text-block">
 
                   <% if story.editor_tagline.present? %>
@@ -19,8 +24,8 @@
                     </p>
                   <% end %>
 
-                   <p style="font-color: black;font-size:1.1em; font-weight: bold; display: inline">
-                     <%= link_to story.title, story_path(story) %><br><br>
+                  <p style="font-color: black;font-size:1.1em; font-weight: bold; display: inline">
+                     <%= link_to story.title, story_path(story) %>
                   </p>
 
                   <p class="text-muted" style="margin-bottom: 2%">
@@ -28,7 +33,7 @@
 	                  <%= "6/1/2014" %>
 	                </p>
 
-                  <p><%= story.description %></p>
+                  <p style="font-size: 13px"><%= story.description.truncate(@desc_trunc, :separator => ' ') %></p>
 
                 </div>
 	            </div>
