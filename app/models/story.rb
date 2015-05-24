@@ -14,7 +14,7 @@ class Story < ActiveRecord::Base
   has_many :authors, through: :author_story_assignments
 
   has_many :images
-  belongs_to :media
+  belongs_to :mediacorp
 
   scope :ready_for_display, -> {where(ready_for_display: true)}
 
