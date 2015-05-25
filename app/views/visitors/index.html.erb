@@ -5,17 +5,20 @@
     <div class="panel-body landing-panel-sap">
       <div class="container-fluid">
         <div class="text-right" style="padding-top: 4px">
-	        <div class="row row-centered">
+	        <div class="row left-margin-sap">
 	          <% @stories.each do |story| %>
 	            <div class="col-sm-4 col-centered text-left story_div" style="margin-right: -15px">
 						    <% if story.images.first.try(:url) %>
-						      <div class="pull-left"><%= image_tag story.images.first.url.full_url, :width =>1000 %></div>
+
+						      <div class="pull-left">
+	                  <%= link_to image_tag(story.images.first.url.full_url, :width =>1000, :class => "img-responsive"), story_path(story), target: '_blank' %>
+						      </div>
 
 	                <% image_prop = story.images.first.image_size_v.to_f / story.images.first.image_size_h.to_f unless story.images.first.image_size_h.nil? %> <!-- calc image proportions -->
 	                <% @desc_trunc = 270 + ((0.7 - (image_prop ||= 0.7)) * 1000) %> <!-- calc the desc length; base px was 220 -->
 	                <% @desc_trunc = @desc_trunc < 75 ? 75 : @desc_trunc %> <!-- set min desc length to 75px -->
 
-	            <% end %>
+	              <% end %>
                 <div class="story-text-block">
 
                   <% if story.editor_tagline.present? %>
