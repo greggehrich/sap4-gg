@@ -1,4 +1,4 @@
-<h2>Stories Index (most recent first)</h2>
+<h2>Stories List (most recent first)</h2>
 
 <div class="panel">
   <%= form_tag nil, method: :get do %>
@@ -9,10 +9,11 @@
 </div>
 
 <%= will_paginate @stories %>
-<% @stories.each do |story| %>
-  <div class="panel">
-    <h3><u><%= link_to story.title, story_path(story) %></u></h3>
+<div class="panel">
+  <% @stories.each do |story| %>
 
-  </div>
-<% end %>
+    <h4><%= link_to story.title, story_path(story) %></h4>
+
+	<% end %>
+</div>
 <%= will_paginate(@stories) %>

@@ -15,6 +15,8 @@ gem 'pundit'
 gem 'sendgrid'
 gem 'will_paginate'
 gem 'awesome_print'
+gem 'gmaps4rails'
+gem 'underscore-rails'
 
 group :development do
   gem 'better_errors'
