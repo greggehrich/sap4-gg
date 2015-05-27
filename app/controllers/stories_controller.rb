@@ -11,11 +11,12 @@ class StoriesController < ApplicationController
   def show
     @story = Story.find(params[:id])
     @places = @story.places
-    
+
     # the hash holds all the markers for the map
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.location.lat
       marker.lng place.location.lng
+      marker.infowindow place.name
     end
 
   end
