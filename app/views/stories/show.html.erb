@@ -40,6 +40,15 @@
   </ul>
 </div>
 
+<div class="panel">
+  <h4>Locations</h4>
+  <ul>
+    <% @places.each do |place| %>
+      <li><%= place.location.lat %>&nbsp;&nbsp;<%= place.location.lng %></li>
+    <% end %>
+  </ul>
+</div>
+
 <!--style to fix google map zoom display-->
 <style>
 	.gm-style img { max-width: none; }
@@ -57,10 +66,7 @@
 		internal: {id: 'map_canvas'}
 	},
 	function(){
-	markers = handler.addMarkers([
-	{"lat": 33.019047,"lng": -117.219244, "infowindow": "<a href='/places/55161'>Smoking Guns BBQ</a>" },
-	{"lat": 32.987339,"lng": -117.263576, "infowindow": "<a href='/places/55261'>Arthur Bryant's</a>" }
-	]);
+	markers = handler.addMarkers(<%=raw @hash.to_json %>);
 	handler.bounds.extendWith(markers);
 	handler.fitMapToBounds();
 	});
