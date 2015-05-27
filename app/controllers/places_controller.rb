@@ -11,5 +11,4 @@ class PlacesController < ApplicationController
     @location = @place.location
   end
 
-
 end

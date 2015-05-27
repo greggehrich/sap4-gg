@@ -1,0 +1,24 @@
+<h2>Map for the Places in this Story</h2>
+
+<!--style to fix google map zoom display-->
+<style>
+	.gm-style img { max-width: none; }
+	.gm-style label { width: auto; display: inline; }
+</style>
+
+<div style='width: 800px;'>
+  <div id="map_canvas" style='width: 1000px; height: 600px;'></div>
+</div>
+
+<script type="text/javascript">
+	handler = Gmaps.build('Google');
+	handler.buildMap({
+						provider: {},
+						internal: {id: 'map_canvas'}
+					},
+					function(){
+						markers = handler.addMarkers(<%=raw @hash.to_json %>);
+						handler.bounds.extendWith(markers);
+						handler.fitMapToBounds();
+					});
+</script>

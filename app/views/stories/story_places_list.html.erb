@@ -1,0 +1,7 @@
+<h2>Places for this Story (most recent first)</h2>
+
+<div class="panel">
+  <% @places.each do |place| %>
+    <h4><%= link_to place.full_name, place_path(place) %></h4>
+	<% end %>
+</div>

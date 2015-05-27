@@ -9,9 +9,9 @@
 </div>
 
 <%= will_paginate @places %>
-<% @places.each do |place| %>
-  <div class="panel">
-    <h3><u><%= link_to place.full_name, place_path(place) %></u></h3>
-  </div>
-<% end %>
+	<div class="panel">
+	  <% @places.each do |place| %>
+	    <h4><%= link_to place.full_name, place_path(place) %></h4>
+	  <% end %>
+	<div class="panel">
 <%= will_paginate(@places) %>

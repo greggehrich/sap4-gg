@@ -8,7 +8,28 @@ class StoriesController < ApplicationController
 
   end
 
+  # this show will eventually go away
   def show
+    @story = Story.find(params[:id])
+    @places = @story.places
+
+    # the hash holds all the markers for the map
+    @hash = Gmaps4rails.build_markers(@places) do |place, marker|
+      marker.lat place.location.lat
+      marker.lng place.location.lng
+      name = place.name.present? ? place.name : ''
+      marker.infowindow '<a class="iwlayout" href=' + place_path(place) + '>' + name + '</a>'
+    end
+
+  end
+
+  def story_places_list
+    @story = Story.find(params[:id])
+    @places = @story.places
+
+  end
+
+  def story_places_map
     @story = Story.find(params[:id])
     @places = @story.places
 
