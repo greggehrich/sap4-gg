@@ -171,6 +171,12 @@ a.iwlayout:link {color:#3366FF;text-decoration:underline;}
 a.iwlayout:visited {color:#3366FF;text-decoration:underline;}
 a.iwlayout:hover {color: #1A3380;}
 
+/* override will-paginate margins */
+.pagination {
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
 //mobile
 @media (max-width: 768px) {
 
@@ -364,6 +370,9 @@ a.iwlayout:hover {color: #1A3380;}
   }
   .left-margin-sap {
     margin-left: -62px;
+  }
+  .left-margin-zero-sap {
+    margin-left: 0px;
   }
   .editor-pick {
     margin-top: 9px;

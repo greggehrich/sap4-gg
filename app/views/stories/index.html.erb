@@ -1,19 +1,52 @@
-<h2>Stories List (most recent first)</h2>
+<div class="panel" style="margin-top: 5px">
 
-<div class="panel">
-  <%= form_tag nil, method: :get do %>
-    <%= text_field_tag :search, params[:search], placeholder: "Search by Title" %>
-    <%= submit_tag 'Search', class: 'btn btn-primary' %>
-  <% end %>
-  <%= link_to 'Clear Search', stories_path %>
+  <div class="container left-margin-zero-sap">
+    <div class="row">
+      <div class="col-lg-2 pull-left">
+        <h3 style="margin-top: 0px">Find Stories</h3>
+			</div>
+
+      <div class="col-md-8">
+        <%= form_tag nil, method: :get do %>
+          <%= text_field_tag :search, params[:search], placeholder: "Enter Title" %>
+          <%= submit_tag 'Search', class: 'btn btn-primary' %>
+        <% end %>
+        <%= link_to 'Clear Search', stories_path %>
+      </div>
+
+		</div>
+	</div>
 </div>
 
 <%= will_paginate @stories %>
 <div class="panel">
+
   <% @stories.each do |story| %>
 
-    <h4><%= link_to story.title, story_path(story) %></h4>
+    <div class="container left-margin-zero-sap">
+      <div class="row" style="padding-bottom: 6px">
+        <div class="col-lg-2 pull-left">
+	        <% if story.images.first.try(:url) %>
+			      <%= link_to image_tag(story.images.first.url.full_url, :width =>150, :class => "img-responsive"), story_path(story), target: '_blank' %>
+					<% else %>
+            <%= link_to image_tag("https://goo.gl/wYN8RE", :width =>150, :class => "img-responsive"), story_path(story), target: '_blank' %>
+        <% end %>
+				</div>
 
-	<% end %>
+			  <div class="col-md-8">
+			    <p style="font-size: 1.3em; margin-bottom: 3px"><%= link_to story.title, story_path(story) %></p>
+			    <% if story.mediacorp.try(:title) %>
+					  <p style="display:inline; font-weight: bold"><%= story.mediacorp.title %></p>&nbsp;&nbsp;&nbsp;
+				  <% end %>
+			    <% if story.try(:description) %>
+					  <p style="display:inline;"><%= story.description.truncate(150, :separator => ' ') %></p>
+				  <% else %>
+				    <p>(No Description Found)</p>
+				  <% end %>
+				</div>
+			</div>
+		</div>
+  <% end %>
+
+  <%= will_paginate(@stories) %>
 </div>
-<%= will_paginate(@stories) %>
