@@ -1,12 +1,12 @@
-<div class="panel" style="margin-top: 5px">
+<div class="panel top-margin-sap" >
 
   <div class="container left-margin-zero-sap">
     <div class="row">
-      <div class="col-lg-2 pull-left">
+      <div class="col-sm-2 pull-left">
         <h3 style="margin-top: 0px">Find Stories</h3>
 			</div>
 
-      <div class="col-md-8">
+      <div class="col-xl-10">
         <%= form_tag nil, method: :get do %>
           <%= text_field_tag :search, params[:search], placeholder: "Enter Title" %>
           <%= submit_tag 'Search', class: 'btn btn-primary' %>

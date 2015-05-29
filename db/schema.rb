@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150524125016) do
+ActiveRecord::Schema.define(version: 20150529173507) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -245,6 +245,7 @@ ActiveRecord::Schema.define(version: 20150524125016) do
     t.hstore   "aux_data"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "url_type"
   end
 
   add_index "urls", ["urlable_type", "urlable_id", "full_url"], name: "index_urls_on_urlable_type_and_urlable_id_and_full_url", unique: true, using: :btree

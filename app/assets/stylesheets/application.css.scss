@@ -177,6 +177,13 @@ a.iwlayout:hover {color: #1A3380;}
   margin-bottom: 3px;
 }
 
+.img-left-sap {
+  text-align:  left;
+  img {
+    float: left;
+  }
+}
+
 //mobile
 @media (max-width: 768px) {
 
@@ -184,6 +191,9 @@ a.iwlayout:hover {color: #1A3380;}
     width:220px;
     max-width:100%;
     margin-top: 10px;
+  }
+  .top-margin-sap {
+    margin-top: 3px;
   }
   .nav-sap-select {
     min-height: 35px;
@@ -276,6 +286,9 @@ a.iwlayout:hover {color: #1A3380;}
     margin-right: 20px;
     margin-bottom: 10px;
   }
+  .top-margin-sap {
+    margin-top: 20px;
+  }
   .timer-display {
     font-family: 'Roboto', sans-serif;
     color: #4a4a4a;
@@ -353,6 +366,9 @@ a.iwlayout:hover {color: #1A3380;}
     margin-top: 0px;
     margin-right: 25px;
     margin-bottom: 15px;
+  }
+  .top-margin-sap {
+    margin-top: 30px;
   }
   .timer-display {
     font-family: 'Roboto', sans-serif;

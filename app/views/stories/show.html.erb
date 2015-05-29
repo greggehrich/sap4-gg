@@ -1,34 +1,73 @@
-<h2><%= @story.title %> [STORY]</h2>
-
-<div class="panel">
-  <h4 style="float:left" >Id&nbsp;&nbsp;</h4>
-	<div style="padding-top: 11px;" ><%= @story.id %></div>
-  <h4 style="clear:left" >Title/Description</h4>
-  <%= @story.title %>&nbsp;&nbsp;
-  <%= @story.description %>
+<div class="panel top-margin-sap" style="font-size: 18px; font-weight: 500">
+  <p><%= link_to @story.title, @story.urls.first.full_url %>&nbsp;&nbsp;
+	  <a href=<%= @story.urls.first.full_url %> >
+	    <span class="glyphicon glyphicon-globe"></span>
+	  </a>
+  </p>
 </div>
 
 <div class="panel">
-  <h4>Authors</h4>
-  <ul>
-    <% @story.authors.each do |author| %>
-      <li><%= author.first_name %>&nbsp;
-          <%= author.last_name %></li>
-    <% end %>
-  </ul>
+	<div class="container" style="margin-left: -15px">
+	  <div class="row" style="padding-bottom: 6px">
+
+	    <div class="col-lg-5 col-md-7 col-sm-7 col-xs-12">
+	      <h5><%= @story.editor_tagline %></h5></strong>
+	      <% if @story.mediacorp.try(:title) %>
+	        <%= @story.mediacorp.title %>.&nbsp;
+	      <% end %>
+	      <%= @story.description %>
+	    </div>
+
+	    <div class="col-lg-2 col-md-5 col-sm-5 col-xs-7 img-left-sap"><br>
+	      <% if @story.images.first.try(:url) %>
+	        <%= link_to image_tag(@story.images.first.url.full_url, :width =>150, :class => "img-responsive"), story_path(@story), target: '_blank' %>
+	      <% else %>
+	        <%= link_to image_tag("https://goo.gl/wYN8RE", :width =>150, :class => "img-responsive"), story_path(@story), target: '_blank' %>
+	      <% end %>
+	    </div>
+
+	  </div>
+	</div>
+
+  <div class="container" style="margin-left: -15px">
+    <div class="row" style="padding-bottom: 6px">
+      <div class="col-lg-2">
+	      Author
+      </div>
+      <div class="col-lg-10">
+				<% if @story.authors.count > 0 %>
+				  <ul>
+				    <% @story.authors.each do |author| %>
+				      <li><%= author.first_name %>&nbsp;
+				        <%= author.last_name %></li>
+				    <% end %>
+				  </ul>
+				<% else %>
+					<p style="color: #D9D9D9; display: inline">(no author)</p>
+				<% end %>
+      </div>
+
+      <div class="col-lg-2">
+        Category
+      </div>
+      <div class="col-lg-10">
+        <% if @story.story_categories.count > 0 %>
+				  <ul>
+				    <% @story.story_categories.each do |category| %>
+				      <li><%= category.name %></li>
+				    <% end %>
+			    </ul>
+			  <% else %>
+          <p style="color: #D9D9D9; display: inline">(no category)</p>
+			  <% end %>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div class="panel">
-  <h4>Categories</h4>
-  <ul>
-    <% @story.story_categories.each do |category| %>
-      <li><%= category.name %></li>
-    <% end %>
-  </ul>
-</div>
-
-<div class="panel">
-  <h4>Places&nbsp;&nbsp;  <%= link_to "Map", story_places_map_path(@story), class: 'btn btn-info' %></h4>
+	<% place_count = @story.places.count %>
+  <h4><%= pluralize(place_count, 'Place') %> in this Story&nbsp;&nbsp;  <%= link_to "Map View", story_places_map_path(@story), class: 'btn btn-info' %></h4>
   <ul>
     <% @story.places.each do |place| %>
       <li><%= link_to place.full_name, place_path(place) %></li>
@@ -36,18 +75,4 @@
   </ul>
 </div>
 
-<div class="panel">
-  <h4>Urls</h4>
-  <ul>
-    <% @story.urls.each do |url| %>
-      <li><%= url.full_url %></li>
-    <% end %>
-  </ul>
-</div>
-
-<% if @story.images.first.try(:url) %>
-	<%= @story.images.first.url.full_url %><br>
-	<div class="pull-left"><%= image_tag @story.images.first.url.full_url, :width =>200 %></div>
-<% end %>
-
-<div style="float:left; position:absolute; padding-top:140px;"><%= link_to 'Back to Stories Index', stories_path %></div>
+<div style="float:left; position:absolute;"><%= link_to 'Back to Stories List', stories_path %></div>

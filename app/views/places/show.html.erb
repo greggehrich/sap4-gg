@@ -1,8 +1,9 @@
-<h2><%= @place.full_name %> [PLACE]</h2>
-
-<div class="panel">
-  <h4>Title/Description</h4>
-  <%= @place.name %>&nbsp;&nbsp;
+<div class="panel top-margin-sap" style="font-size: 18px; font-weight: 500">
+  <p><%= link_to @place.name, @place.urls.first.full_url %>&nbsp;&nbsp;
+    <a href=<%= @place.urls.first.full_url %> >
+      <span class="glyphicon glyphicon-globe"></span>
+    </a>
+  </p>
   <%= @place.description %>
 </div>
 
