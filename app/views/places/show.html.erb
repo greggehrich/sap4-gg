@@ -1,23 +1,59 @@
-<div class="panel top-margin-sap" style="font-size: 18px; font-weight: 500">
-  <p><%= link_to @place.name, @place.urls.first.full_url %>&nbsp;&nbsp;
-    <a href=<%= @place.urls.first.full_url %> >
-      <span class="glyphicon glyphicon-globe"></span>
-    </a>
-  </p>
-  <%= @place.description %>
+<div class="panel top-margin-sap" >
+  <div style="font-size: 18px; font-weight: 500">
+		<% @place_url = @place.urls.where(url_type: 'Owner').pluck("full_url") %>
+		<% @place_url = @place.urls.where(url_type: 'Owner').pluck("full_url") %>
+	  <p><%= link_to @place.name, @place_url[0] %>&nbsp;&nbsp;
+	    <a href=<%= @place.urls.first.full_url %> >
+	      <span class="glyphicon glyphicon-globe"></span>
+	    </a>
+	  </p>
+	</div>
+
+  <div class="container" style="margin-left: -15px">
+    <div class="row" style="padding-bottom: 6px; font-weight: 300">
+      <div class="col-lg-5 col-md-7 col-sm-7 col-xs-12">
+
+        <%= @place.description %><br>
+				<div style="font-weight: 500; line-height:2.2em" >
+				  <% if @location %>
+				    <%= @location.address1 %>&nbsp;&nbsp;
+				    <%= @location.city %>,&nbsp;
+				    <%= @location.state %>&nbsp;&nbsp;
+				    <% if @location.zip_code %>
+				      <%= @location.zip_code.postal_code %>&nbsp;&nbsp;
+				    <% end %>
+					<% end %>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+  <div class="container" style="margin-left: -15px">
+    <div class="row" style="padding-bottom: 6px">
+      <div class="col-lg-1 col-md-2 col-sm-3 col-xs-3">
+        Category
+      </div>
+      <div class="col-lg-10">
+        <% if @place.place_categories.count > 0 %>
+          <ul>
+            <% @place.place_categories.each do |category| %>
+              <li><%=  category.name %></li>
+            <% end %>
+          </ul>
+        <% else %>
+          <p style="color: #D9D9D9; display: inline">(no category)</p>
+        <% end %>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="panel">
-  <h4>Categories</h4>
-  <ul>
-    <% @place.place_categories.each do |category| %>
-      <li><%=  category.name %></li>
-    <% end %>
-  </ul>
-</div>
 
-<div class="panel">
-  <h4>Stories</h4>
+  <% story_count = @place.stories.count %>
+  <h4>This Place Appears in <%= pluralize(story_count, 'Story') %>&nbsp;&nbsp;
+    <%= link_to "Map View", place_map_path(@place), class: 'btn btn-info' %></h4>
   <ul>
     <% @place.stories.each do |story| %>
       <li><%= link_to story.title, story_path(story) %></li>
@@ -26,27 +62,11 @@
 </div>
 
 <div class="panel">
-  <h4>Location</h4>
-  <% if @location %>
-		<%= @location.address1 %>&nbsp;&nbsp;
-		<%= @location.city %>,&nbsp;
-		<%= @location.state %>&nbsp;&nbsp;
-		<% if @location.zip_code %>
-			<%= @location.zip_code.postal_code %>&nbsp;&nbsp;
-		<% end %>
-    <dl>
-      <dt>Lat :&nbsp;&nbsp;<%= @location.lat %></dt>
-      <dt>Lng :&nbsp;&nbsp;<%= @location.lng %></dt>
-    </dl>
-    <div><%= link_to 'More Location Info', location_path(@location) %>&nbsp;(may or may not be available)</div>
-  <% end %>
-</div>
-
-<div class="panel">
-  <h4>Urls</h4>
+	<% place_cnt = @place.urls.count %>
+  <h4><%= "Link".pluralize(place_cnt) %> for this Place </h4>
   <ul>
     <% @place.urls.each do |url| %>
-      <li><%= url.urlable_type %>&nbsp;Url– &nbsp;<%= url.full_url %></li>
+      <li><%= link_to url.url_type, url.full_url %> website</li>
     <% end %>
   </ul>
 </div>

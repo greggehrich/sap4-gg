@@ -8,8 +8,7 @@
 
 <div class="panel">
 	<div class="container" style="margin-left: -15px">
-	  <div class="row" style="padding-bottom: 6px">
-
+	  <div class="row" style="padding-bottom: 6px; font-weight: 300">
 	    <div class="col-lg-5 col-md-7 col-sm-7 col-xs-12">
 	      <h5><%= @story.editor_tagline %></h5></strong>
 	      <% if @story.mediacorp.try(:title) %>
@@ -29,10 +28,9 @@
 	  </div>
 	</div>
 
-  <div class="container" style="margin-left: -15px">
     <div class="row" style="padding-bottom: 6px">
-      <div class="col-lg-2">
-	      Author
+      <div class="col-lg-1 col-md-2 col-sm-3 col-xs-3">
+        Author
       </div>
       <div class="col-lg-10">
 				<% if @story.authors.count > 0 %>
@@ -46,8 +44,10 @@
 					<p style="color: #D9D9D9; display: inline">(no author)</p>
 				<% end %>
       </div>
+    </div>
 
-      <div class="col-lg-2">
+    <div class="row" style="padding-bottom: 6px">
+      <div class="col-lg-1 col-md-2 col-sm-3 col-xs-3">
         Category
       </div>
       <div class="col-lg-10">
@@ -57,9 +57,9 @@
 				      <li><%= category.name %></li>
 				    <% end %>
 			    </ul>
-			  <% else %>
+		    <% else %>
           <p style="color: #D9D9D9; display: inline">(no category)</p>
-			  <% end %>
+        <% end %>
 			</div>
 		</div>
 	</div>
@@ -67,7 +67,8 @@
 
 <div class="panel">
 	<% place_count = @story.places.count %>
-  <h4><%= pluralize(place_count, 'Place') %> in this Story&nbsp;&nbsp;  <%= link_to "Map View", story_places_map_path(@story), class: 'btn btn-info' %></h4>
+  <h4><%= pluralize(place_count, 'Place') %> in this Story&nbsp;&nbsp;
+    <%= link_to "Map View", story_places_map_path(@story), class: 'btn btn-info' %></h4>
   <ul>
     <% @story.places.each do |place| %>
       <li><%= link_to place.full_name, place_path(place) %></li>
