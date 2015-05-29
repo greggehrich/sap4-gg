@@ -14,7 +14,11 @@
 	      <% if @story.mediacorp.try(:title) %>
 	        <%= @story.mediacorp.title %>.&nbsp;
 	      <% end %>
-	      <%= @story.description %>
+		    <% if @story.try(:description) %>
+	        <%= @story.description %>
+		    <% else %>
+	        <p style="color: #D9D9D9; display: inline">(no description)</p>
+		    <% end %>
 	    </div>
 
 	    <div class="col-lg-2 col-md-5 col-sm-5 col-xs-7 img-left-sap"><br>
@@ -67,7 +71,7 @@
 
 <div class="panel">
 	<% place_count = @story.places.count %>
-  <h4><%= pluralize(place_count, 'Place') %> in this Story&nbsp;&nbsp;
+  <h4>Explore <%= pluralize(place_count, 'Place') %> in this Story&nbsp;&nbsp;
     <%= link_to "Map View", story_places_map_path(@story), class: 'btn btn-info' %></h4>
   <ul>
     <% @story.places.each do |place| %>

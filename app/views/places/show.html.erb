@@ -13,7 +13,12 @@
     <div class="row" style="padding-bottom: 6px; font-weight: 300">
       <div class="col-lg-5 col-md-7 col-sm-7 col-xs-12">
 
-        <%= @place.description %><br>
+        <% if @place.try(:description) %>
+          <%= @place.description %><br>
+	      <% else %>
+	        <p style="color: #D9D9D9; display: inline">(no description)</p>
+	      <% end %>
+
 				<div style="font-weight: 500; line-height:2.2em" >
 				  <% if @location %>
 				    <%= @location.address1 %>&nbsp;&nbsp;
@@ -22,7 +27,9 @@
 				    <% if @location.zip_code %>
 				      <%= @location.zip_code.postal_code %>&nbsp;&nbsp;
 				    <% end %>
-					<% end %>
+					<% else %>
+				    <p style="color: #D9D9D9; display: inline">(no address)</p>
+				<% end %>
 				</div>
 
 			</div>
@@ -52,7 +59,7 @@
 <div class="panel">
 
   <% story_count = @place.stories.count %>
-  <h4>This Place Appears in <%= pluralize(story_count, 'Story') %>&nbsp;&nbsp;
+  <h4>Read about this Place in <%= pluralize(story_count, 'Story') %>&nbsp;&nbsp;
     <%= link_to "Map View", place_map_path(@place), class: 'btn btn-info' %></h4>
   <ul>
     <% @place.stories.each do |story| %>
