@@ -183,7 +183,7 @@ a.iwlayout:hover {color: #1A3380;}
   .map_container{
     position: relative;
     width: 100%;
-    padding-bottom: 120%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+    padding-bottom: 140%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
     //padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
   }
   .map_container .map_canvas{
@@ -202,6 +202,9 @@ a.iwlayout:hover {color: #1A3380;}
   }
   .top-margin-sap {
     margin-top: 3px;
+  }
+  .top-margin-map-sap {
+    margin-top: -10px;
   }
   .nav-sap-select {
     min-height: 35px;
@@ -312,6 +315,9 @@ a.iwlayout:hover {color: #1A3380;}
   .top-margin-sap {
     margin-top: 20px;
   }
+ .top-margin-map-sap {
+    margin-top: 20px;
+  }
   .timer-display {
     font-family: 'Roboto', sans-serif;
     color: #4a4a4a;
@@ -406,6 +412,9 @@ a.iwlayout:hover {color: #1A3380;}
     margin-bottom: 15px;
   }
   .top-margin-sap {
+    margin-top: 30px;
+  }
+  .top-margin-map-sap {
     margin-top: 30px;
   }
   .timer-display {
