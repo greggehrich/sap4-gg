@@ -61,9 +61,9 @@
 
 	    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-7 img-left-sap"><br>
 	      <% if @story.images.first.try(:url) %>
-	        <%= link_to image_tag(@story.images.first.url.full_url, :class => "img-responsive"), story_path(@story), target: '_blank' %>
+	        <%= link_to image_tag(@story.images.first.url.full_url), @story.urls.first.full_url, target: '_blank' %>
 	      <% else %>
-	        <%= link_to image_tag("https://goo.gl/wYN8RE", :class => "img-responsive"), story_path(@story), target: '_blank' %>
+	        <%= link_to image_tag("https://goo.gl/wYN8RE"), @story.urls.first.full_url, target: '_blank' %>
 	      <% end %>
 	    </div>
 
