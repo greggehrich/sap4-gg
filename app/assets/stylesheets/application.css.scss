@@ -157,12 +157,6 @@ a.iwlayout:hover {color: #1A3380;}
   margin-bottom: 3px;
 }
 
-.img-left-sap {
-  text-align: left;
-  img {
-    float: left;
-  }
-}
   //#map_canvas {
   //  margin: 20px 0;
   //  padding: 0;
@@ -175,7 +169,13 @@ a.iwlayout:hover {color: #1A3380;}
 //mobile
 @media (max-width: 768px) {
 
-  .navbar-custom {
+  .img-left-sap {
+    width: 250px;
+    text-align: left;
+    img {
+      float: left;
+    }
+  }.navbar-custom {
     display: none;
     //background-color:#000000;
     //color:#ffffff;
@@ -183,7 +183,7 @@ a.iwlayout:hover {color: #1A3380;}
   .map_container{
     position: relative;
     width: 100%;
-    padding-bottom: 140%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+    padding-bottom: 160%;
     //padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
   }
   .map_container .map_canvas{
@@ -201,10 +201,10 @@ a.iwlayout:hover {color: #1A3380;}
     margin-top: 10px;
   }
   .top-margin-sap {
-    margin-top: 3px;
+    margin-top: 10px;
   }
   .top-margin-map-sap {
-    margin-top: -70px;
+    margin-top: 5px;
   }
   .nav-sap-select {
     min-height: 35px;
@@ -317,10 +317,10 @@ a.iwlayout:hover {color: #1A3380;}
     margin-bottom: 10px;
   }
   .top-margin-sap {
-    margin-top: 20px;
+    margin-top: 75px;
   }
  .top-margin-map-sap {
-    margin-top: 20px;
+    margin-top: 70px;
   }
   .timer-display {
     font-family: 'Roboto', sans-serif;
@@ -420,10 +420,10 @@ a.iwlayout:hover {color: #1A3380;}
     margin-bottom: 15px;
   }
   .top-margin-sap {
-    margin-top: 30px;
+    margin-top: 80px;
   }
   .top-margin-map-sap {
-    margin-top: 30px;
+    margin-top: 80px;
   }
   .timer-display {
     font-family: 'Roboto', sans-serif;

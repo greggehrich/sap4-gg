@@ -9,7 +9,7 @@
 <div class="panel">
 	<div class="container" style="margin-left: -15px">
 	  <div class="row" style="padding-bottom: 6px; font-weight: 300">
-	    <div class="col-lg-5 col-md-7 col-sm-7 col-xs-12">
+	    <div class="col-lg-6 col-md-7 col-sm-7 col-xs-12">
 	      <h5><%= @story.editor_tagline %></h5></strong>
 	      <% if @story.mediacorp.try(:title) %>
 	        <%= @story.mediacorp.title %>.&nbsp;
@@ -19,53 +19,55 @@
 		    <% else %>
 	        <p style="color: #D9D9D9; display: inline">(no description)</p>
 		    <% end %>
+
+	      <div class="row" style="margin-top: 10px;padding-bottom: 6px">
+	        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+	          Author
+	        </div>
+	        <div class="col-lg-10">
+	          <% if @story.authors.count > 0 %>
+	            <ul>
+	              <% @story.authors.each do |author| %>
+	                <li><%= author.first_name %>&nbsp;
+	                  <%= author.last_name %></li>
+	              <% end %>
+	            </ul>
+	          <% else %>
+	            <p style="color: #D9D9D9; display: inline">(no author)</p>
+	          <% end %>
+	        </div>
+	      </div>
+
+	      <div class="row" style="padding-bottom: 6px">
+	        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+	          Category
+	        </div>
+	        <div class="col-lg-10">
+	          <% if @story.story_categories.count > 0 %>
+	            <ul>
+	              <% @story.story_categories.each do |category| %>
+	                <li><%= category.name %></li>
+	              <% end %>
+	            </ul>
+	          <% else %>
+	            <p style="color: #D9D9D9; display: inline">(no category)</p>
+	          <% end %>
+	        </div>
+	      </div>
+
 	    </div>
 
-	    <div class="col-lg-2 col-md-5 col-sm-5 col-xs-7 img-left-sap"><br>
+	    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-7 img-left-sap"><br>
 	      <% if @story.images.first.try(:url) %>
-	        <%= link_to image_tag(@story.images.first.url.full_url, :width =>150, :class => "img-responsive"), story_path(@story), target: '_blank' %>
+	        <%= link_to image_tag(@story.images.first.url.full_url, :class => "img-responsive"), story_path(@story), target: '_blank' %>
 	      <% else %>
-	        <%= link_to image_tag("https://goo.gl/wYN8RE", :width =>150, :class => "img-responsive"), story_path(@story), target: '_blank' %>
+	        <%= link_to image_tag("https://goo.gl/wYN8RE", :class => "img-responsive"), story_path(@story), target: '_blank' %>
 	      <% end %>
 	    </div>
 
 	  </div>
 	</div>
 
-    <div class="row" style="padding-bottom: 6px">
-      <div class="col-lg-1 col-md-2 col-sm-3 col-xs-3">
-        Author
-      </div>
-      <div class="col-lg-10">
-				<% if @story.authors.count > 0 %>
-				  <ul>
-				    <% @story.authors.each do |author| %>
-				      <li><%= author.first_name %>&nbsp;
-				        <%= author.last_name %></li>
-				    <% end %>
-				  </ul>
-				<% else %>
-					<p style="color: #D9D9D9; display: inline">(no author)</p>
-				<% end %>
-      </div>
-    </div>
-
-    <div class="row" style="padding-bottom: 6px">
-      <div class="col-lg-1 col-md-2 col-sm-3 col-xs-3">
-        Category
-      </div>
-      <div class="col-lg-10">
-        <% if @story.story_categories.count > 0 %>
-				  <ul>
-				    <% @story.story_categories.each do |category| %>
-				      <li><%= category.name %></li>
-				    <% end %>
-			    </ul>
-		    <% else %>
-          <p style="color: #D9D9D9; display: inline">(no category)</p>
-        <% end %>
-			</div>
-		</div>
 	</div>
 </div>
 
