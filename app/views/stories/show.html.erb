@@ -59,7 +59,7 @@
 
 	    </div>
 
-	    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-7 img-left-sap"><br>
+	    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-7 img-story-sap"><br>
 	      <% if @story.images.first.try(:url) %>
 	        <%= link_to image_tag(@story.images.first.url.full_url), @story.urls.first.full_url, target: '_blank' %>
 	      <% else %>

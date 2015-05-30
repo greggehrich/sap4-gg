@@ -25,6 +25,11 @@
   background-color: #3D3D3D;  /* change the hover background color */
 }
 
+.navbar-custom {
+  background-color:#000000;
+  color:#ffffff;
+}
+
 a {
   color: inherit;  /* allows font-color to override bootstrap */
   background-color: inherit;
@@ -169,16 +174,12 @@ a.iwlayout:hover {color: #1A3380;}
 //mobile
 @media (max-width: 768px) {
 
-  .img-left-sap {
+  .img-story-sap {
     width: 250px;
     text-align: left;
     img {
       float: left;
     }
-  }.navbar-custom {
-    display: none;
-    //background-color:#000000;
-    //color:#ffffff;
   }
   .map_container{
     position: relative;
@@ -195,16 +196,20 @@ a.iwlayout:hover {color: #1A3380;}
     margin: 0;
     padding: 0;
   }
+
+  .navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+  .navbar {min-height:20px !important}
+
   .logo-nav img{
     width:220px;
     max-width:100%;
-    margin-top: 10px;
+    margin-top: 5px;
   }
   .top-margin-sap {
     margin-top: 10px;
   }
   .top-margin-map-sap {
-    margin-top: 5px;
+    margin-top: 20px;
   }
   .nav-sap-select {
     min-height: 35px;
@@ -292,10 +297,6 @@ a.iwlayout:hover {color: #1A3380;}
 //tablet
 @media (min-width: 769px) and (max-width: 1200px) {
 
-  .navbar-custom {
-    background-color:#000000;
-    color:#ffffff;
-  }
   .map_container{
     position: relative;
     width: 100%;
@@ -317,10 +318,10 @@ a.iwlayout:hover {color: #1A3380;}
     margin-bottom: 10px;
   }
   .top-margin-sap {
-    margin-top: 75px;
+    margin-top: 65px;
   }
  .top-margin-map-sap {
-    margin-top: 70px;
+    margin-top: 60px;
   }
   .timer-display {
     font-family: 'Roboto', sans-serif;
@@ -395,10 +396,6 @@ a.iwlayout:hover {color: #1A3380;}
 //desktop
 @media (min-width: 1200px) {
 
-  .navbar-custom {
-    background-color:#000000;
-    color:#ffffff;
-  }
   .map_container{
     position: relative;
     width: 100%;
@@ -420,10 +417,10 @@ a.iwlayout:hover {color: #1A3380;}
     margin-bottom: 15px;
   }
   .top-margin-sap {
-    margin-top: 80px;
+    margin-top: 70px;
   }
   .top-margin-map-sap {
-    margin-top: 80px;
+    margin-top: 60px;
   }
   .timer-display {
     font-family: 'Roboto', sans-serif;
