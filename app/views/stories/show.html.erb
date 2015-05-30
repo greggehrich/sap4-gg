@@ -1,6 +1,6 @@
 <div class="panel top-margin-sap" style="font-size: 18px; font-weight: 500">
-  <p><%= link_to @story.title, @story.urls.first.full_url %>&nbsp;&nbsp;
-	  <a href=<%= @story.urls.first.full_url %> >
+  <p><%= link_to @story.title, @story.urls.first.full_url, target: '_blank' %>&nbsp;&nbsp;
+	  <a href=<%= @story.urls.first.full_url %> target="_blank">
 	    <span class="glyphicon glyphicon-globe"></span>
 	  </a>
   </p>
