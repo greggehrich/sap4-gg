@@ -152,21 +152,6 @@ a.btn-view, a.btn-view:hover, a.btn-view:visited {
   background: rgba(255, 251, 5, 0.69);
 }
 
-//.map_container{
-//  position: relative;
-//  width: 100%;
-//  padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
-//}
-//.map_container .map_canvas{
-//  position: absolute;
-//  top: 0;
-//  right: 0;
-//  bottom: 0;
-//  left: 0;
-//  margin: 0;
-//  padding: 0;
-//}
-
 a.iwlayout:link {color:#3366FF;text-decoration:underline;}
 a.iwlayout:visited {color:#3366FF;text-decoration:underline;}
 a.iwlayout:hover {color: #1A3380;}
@@ -178,29 +163,36 @@ a.iwlayout:hover {color: #1A3380;}
 }
 
 .img-left-sap {
-  text-align:  left;
+  text-align: left;
   img {
     float: left;
   }
+}
+  //#map_canvas {
+  //  margin: 20px 0;
+  //  padding: 0;
+  //  height: 300px;
+  //  float: left;
+  //  width: 100%;
+  //}
+.map_container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.map_container .map_canvas{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
 }
 
 //mobile
 @media (max-width: 768px) {
 
-  .map_container{
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
-  }
-  .map_container .map_canvas{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-  }
   .logo-nav img{
     width:220px;
     max-width:100%;
