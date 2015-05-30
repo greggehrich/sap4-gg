@@ -175,25 +175,26 @@ a.iwlayout:hover {color: #1A3380;}
   //  float: left;
   //  width: 100%;
   //}
-.map_container{
-  position: relative;
-  width: 100%;
-  padding-bottom: 100%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
-  //padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
-}
-.map_container .map_canvas{
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-}
+
 
 //mobile
 @media (max-width: 768px) {
 
+  .map_container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 120%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+    //padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+  }
+  .map_container .map_canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
   .logo-nav img{
     width:220px;
     max-width:100%;
@@ -287,6 +288,21 @@ a.iwlayout:hover {color: #1A3380;}
 
 //tablet
 @media (min-width: 769px) and (max-width: 1200px) {
+
+  .map_container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+  }
+  .map_container .map_canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
   .nav-sap-select {
     min-height: 35px;
     margin-top: 0px;
@@ -368,6 +384,21 @@ a.iwlayout:hover {color: #1A3380;}
 
 //desktop
 @media (min-width: 1200px) {
+
+  .map_container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+  }
+  .map_container .map_canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
   .nav-sap-select {
     min-height: 40px;
     margin-top: 0px;
