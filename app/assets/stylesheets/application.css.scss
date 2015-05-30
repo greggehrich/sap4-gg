@@ -18,11 +18,6 @@
 @import "bootstrap";
 
 /* override bootstrap header */
-.navbar-custom {
-  background-color:#000000;
-  color:#ffffff;
-}
-
 .navbar-sap .nav > li > a:focus,
 .navbar-sap .nav > li > a:hover {
   color: white;  /* change the hover font color */
@@ -180,6 +175,11 @@ a.iwlayout:hover {color: #1A3380;}
 //mobile
 @media (max-width: 768px) {
 
+  .navbar-custom {
+    display: none;
+    //background-color:#000000;
+    //color:#ffffff;
+  }
   .map_container{
     position: relative;
     width: 100%;
@@ -204,7 +204,7 @@ a.iwlayout:hover {color: #1A3380;}
     margin-top: 3px;
   }
   .top-margin-map-sap {
-    margin-top: -25px;
+    margin-top: -70px;
   }
   .nav-sap-select {
     min-height: 35px;
@@ -292,6 +292,10 @@ a.iwlayout:hover {color: #1A3380;}
 //tablet
 @media (min-width: 769px) and (max-width: 1200px) {
 
+  .navbar-custom {
+    background-color:#000000;
+    color:#ffffff;
+  }
   .map_container{
     position: relative;
     width: 100%;
@@ -391,6 +395,10 @@ a.iwlayout:hover {color: #1A3380;}
 //desktop
 @media (min-width: 1200px) {
 
+  .navbar-custom {
+    background-color:#000000;
+    color:#ffffff;
+  }
   .map_container{
     position: relative;
     width: 100%;
