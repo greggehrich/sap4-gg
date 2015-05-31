@@ -25,7 +25,7 @@
 
     <div class="container left-margin-zero-sap">
       <div class="row" style="padding-bottom: 6px">
-        <div class="col-xs-4 col-sm-3 col-md-2" style="margin-right: auto;">
+        <div class="col-xs-5 col-sm-3 col-md-2" style="margin-right: auto;">
 	        <% if story.images.first.try(:url) %>
 			      <%= link_to image_tag(story.images.first.url.full_url, :width =>2000), story_path(story), target: '_blank' %>
 					<% else %>
