@@ -1,4 +1,4 @@
-<div class="panel top-margin-sap" >
+<div class="panel top-margin-sap" style="padding-bottom: 0px; padding-right: 5px" >
 
   <div class="container left-margin-zero-sap">
     <div class="row">
@@ -11,7 +11,7 @@
           <%= text_field_tag :search, params[:search], placeholder: "Enter Title" %>&nbsp;
           <%= submit_tag 'Search', class: 'btn btn-sm btn-primary' %>
         <% end %>
-        <%= link_to 'Clear Search', stories_path %>
+        <p style="font-size: .8em; line-height: 80%">&nbsp;<%= link_to 'clear search', stories_path %></p>
       </div>
 
     </div>
