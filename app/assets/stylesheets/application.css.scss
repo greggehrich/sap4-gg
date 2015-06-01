@@ -175,7 +175,8 @@ a.iwlayout:hover {color: #1A3380;}
 @media (max-width: 768px) {
 
   .search-text {
-    font-size: 1.2em;
+    font-size: .2em;
+    display: none;
   }
   .img-story-sap {
     width: 250px;
