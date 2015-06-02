@@ -1,4 +1,4 @@
-<div class="panel top-margin-sap" >
+<div class="panel top-margin-sap right-padding-zero-sap" >
   <div style="font-size: 18px; font-weight: 500">
 		<% @place_url = @place.urls.where(url_type: 'Owner').pluck("full_url") %>
 		<% @place_url = @place.urls.where(url_type: 'Owner').pluck("full_url") %>
@@ -43,7 +43,7 @@
       </div>
       <div class="col-xs-10 col-sm-11 col-md-11">
         <% if @place.place_categories.count > 0 %>
-          <ul>
+          <ul style="padding-left: 20px;">
             <% @place.place_categories.each do |category| %>
               <li><%=  category.name %></li>
             <% end %>
@@ -56,12 +56,12 @@
   </div>
 </div>
 
-<div class="panel">
+<div class="panel right-padding-zero-sap">
 
   <% story_count = @place.stories.count %>
   <h4>Read about this Place in <%= pluralize(story_count, 'Story') %>&nbsp;&nbsp;
     <%= link_to "Map View", place_map_path(@place), class: 'btn btn-info' %></h4>
-  <ul>
+  <ul style="padding-left: 20px;">
     <% @place.stories.each do |story| %>
       <li><%= link_to story.title, story_path(story) %></li>
     <% end %>
@@ -72,7 +72,7 @@
   <% place_cnt = @place.urls.count %>
   <div class="panel">
 		<h4>External <%= "Link".pluralize(place_cnt) %> for this Place </h4>
-		  <ul>
+		  <ul style="padding-left: 20px;">
 		    <% @place.urls.each do |url| %>
 		      <li><%= link_to url.url_type + ' website', url.full_url, target: '_blank' %></li>
 		    <% end %>

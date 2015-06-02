@@ -1,4 +1,4 @@
-<div class="panel top-margin-sap" style="font-size: 18px; font-weight: 500">
+<div class="panel top-margin-sap  right-padding-zero-sap" style="font-size: 18px; font-weight: 500">
   <p style="margin-bottom: 0px"><%= link_to @story.title, @story.urls.first.full_url, target: '_blank' %>&nbsp;&nbsp;
 	  <a href=<%= @story.urls.first.full_url %> target="_blank">
 	    <span class="glyphicon glyphicon-globe"></span>
@@ -6,7 +6,7 @@
   </p>
 </div>
 
-<div class="panel">
+<div class="panel  right-padding-zero-sap">
 	<div class="container" style="margin-left: -15px">
 	  <div class="row" style="padding-bottom: 6px; font-weight: 300">
 	    <div class="col-lg-6 col-md-7 col-sm-7 col-xs-12">
@@ -28,7 +28,7 @@
 	        </div>
 	        <div class="col-xs-9 col-sm-9 col-md-11">
 	          <% if @story.authors.count > 0 %>
-	            <ul>
+	            <ul style="padding-left: 20px;">
 	              <% @story.authors.each do |author| %>
 	                <li><%= author.first_name %>&nbsp;<%= author.last_name %></li>
 	              <% end %>
@@ -45,7 +45,7 @@
 	        </div>
 	        <div class="col-xs-9 col-sm-9 col-md-11">
 	          <% if @story.story_categories.count > 0 %>
-	            <ul>
+	            <ul style="padding-left: 20px;">
 	              <% @story.story_categories.each do |category| %>
 	                <li><%= category.name %></li>
 	              <% end %>
@@ -69,11 +69,11 @@
 	</div>
 </div>
 
-<div class="panel">
+<div class="panel  right-padding-zero-sap">
 	<% place_count = @story.places.count %>
   <h4>Explore <%= pluralize(place_count, 'Place') %> in this Story&nbsp;&nbsp;
     <%= link_to "Map View", story_places_map_path(@story), class: 'btn btn-info' %></h4>
-  <ul>
+  <ul style="padding-left: 20px;">
     <% @story.places.each do |place| %>
       <li><%= link_to place.full_name, place_path(place) %></li>
     <% end %>
