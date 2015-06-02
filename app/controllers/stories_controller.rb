@@ -10,19 +10,19 @@ class StoriesController < ApplicationController
 
   # this show will eventually go away
   def show
-    @story = Story.find(params[:id])
+    @story = Story.where(ready_for_display: true).find(params[:id])
     @places = @story.places
 
   end
 
   def story_places_list
-    @story = Story.find(params[:id])
+    @story = Story.where(ready_for_display: true).find(params[:id])
     @places = @story.places
 
   end
 
   def story_places_map
-    @story = Story.find(params[:id])
+    @story = Story.where(ready_for_display: true).find(params[:id])
     @places = @story.places
 
     # the hash holds all the markers for the map

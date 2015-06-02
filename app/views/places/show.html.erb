@@ -58,26 +58,24 @@
 
 <div class="panel right-padding-zero-sap">
 
-  <% story_count = @place.stories.count %>
+  <% story_count = @place.stories.where(ready_for_display: true).count %>
   <h4>Read about this Place in <%= pluralize(story_count, 'Story') %>&nbsp;&nbsp;
     <%= link_to "Map View", place_map_path(@place), class: 'btn btn-info' %></h4>
   <ul style="padding-left: 20px;">
-    <% @place.stories.each do |story| %>
+    <% @place.stories.where(ready_for_display: true).each do |story| %>
       <li><%= link_to story.title, story_path(story) %></li>
     <% end %>
   </ul>
 </div>
 
-<% if @place_urls %>
-  <% place_cnt = @place.urls.count %>
-  <div class="panel">
-		<h4>External <%= "Link".pluralize(place_cnt) %> for this Place </h4>
-		  <ul style="padding-left: 20px;">
-		    <% @place.urls.each do |url| %>
-		      <li><%= link_to url.url_type + ' website', url.full_url, target: '_blank' %></li>
-		    <% end %>
-		  </ul>
-	</div>
-<% end %>
+<% place_cnt = @place.urls.count %>
+<div class="panel">
+	<h4>External <%= "Link".pluralize(place_cnt) %> for this Place </h4>
+	  <ul style="padding-left: 20px;">
+	    <% @place.urls.each do |url| %>
+	      <li><%= link_to url.url_type + ' website', url.full_url, target: '_blank' %></li>
+	    <% end %>
+	  </ul>
+</div>
 
 <%= link_to 'Back to Places Index', places_path %>

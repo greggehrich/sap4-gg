@@ -56,7 +56,7 @@ ActiveRecord::Schema.define(version: 20150529173507) do
 
   add_index "images", ["image_type"], name: "index_images_on_image_type", using: :btree
 
-  create_table "locations", force: :cascade do |t|
+  create_tale "locations", force: :cascade do |t|
     t.boolean  "needs_review"
     t.string   "lat",          null: false
     t.string   "lng",          null: false
