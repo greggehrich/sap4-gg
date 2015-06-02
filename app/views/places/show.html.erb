@@ -1,12 +1,14 @@
 <div class="panel top-margin-sap" >
   <div style="font-size: 18px; font-weight: 500">
-		<% @place_url = @place.urls.where(url_type: 'Owner').pluck("full_url") %>
-		<% @place_url = @place.urls.where(url_type: 'Owner').pluck("full_url") %>
-	  <p><%= link_to @place.name, @place_url[0], target: '_blank' %>&nbsp;&nbsp;
-	    <a href=<%= @place.urls.first.full_url %>  target="_blank" >
-	      <span class="glyphicon glyphicon-globe"></span>
-	    </a>
-	  </p>
+	  <% if @place_url %>
+			<% @place_url = @place.urls.where(url_type: 'Owner').pluck("full_url") %>
+			<% @place_url = @place.urls.where(url_type: 'Owner').pluck("full_url") %>
+		  <p><%= link_to @place.name, @place_url[0], target: '_blank' %>&nbsp;&nbsp;
+		    <a href=<%= @place.urls.first.full_url %>  target="_blank" >
+		      <span class="glyphicon glyphicon-globe"></span>
+		    </a>
+		  </p>
+	  <% end %>
 	</div>
 
   <div class="container" style="margin-left: -15px">
