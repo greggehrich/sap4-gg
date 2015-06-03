@@ -54,19 +54,21 @@
       </div>
     </div>
   </div>
+	<%= link_to "Map View", place_map_path(@place), class: 'btn btn-info' %></h4>
+
 </div>
 
-<div class="panel right-padding-zero-sap">
-
-  <% story_count = @place.stories.where(ready_for_display: true).count %>
-  <h4>Read about this Place in <%= pluralize(story_count, 'Story') %>&nbsp;&nbsp;
-    <%= link_to "Map View", place_map_path(@place), class: 'btn btn-info' %></h4>
-  <ul style="padding-left: 20px;">
-    <% @place.stories.where(ready_for_display: true).each do |story| %>
-      <li><%= link_to story.title, story_path(story) %></li>
-    <% end %>
-  </ul>
-</div>
+<% story_count = @place.stories.where(ready_for_display: true).count %>
+<% if story_count != 0 %>
+	<div class="panel right-padding-zero-sap">
+	  <h4>Read about this Place in <%= pluralize(story_count, 'Story') %></h4>
+	  <ul style="padding-left: 20px;">
+	    <% @place.stories.where(ready_for_display: true).each do |story| %>
+	      <li><%= link_to story.title, story_path(story) %></li>
+	    <% end %>
+	  </ul>
+	</div>
+<% end %>
 
 <% place_cnt = @place.urls.count %>
 <div class="panel">
