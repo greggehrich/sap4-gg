@@ -27,6 +27,7 @@
 				    <% if @location.zip_code %>
 				      <%= @location.zip_code.postal_code %>&nbsp;&nbsp;
 				    <% end %>
+				    <%= link_to "Map View", place_map_path(@place), class: 'btn btn-info' %>
 					<% else %>
 				    <p style="color: #D9D9D9; display: inline">(no address)</p>
 				<% end %>
@@ -54,7 +55,6 @@
       </div>
     </div>
   </div>
-	<%= link_to "Map View", place_map_path(@place), class: 'btn btn-info' %></h4>
 
 </div>
 
