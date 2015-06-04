@@ -1,23 +1,56 @@
-<div class="authform">
-  <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :role => 'form'}) do |f| %>
-    <h3>Sign up</h3>
-    <%= devise_error_messages! %>
-    <div class="form-group">
-      <%= f.label :name %>
-      <%= f.text_field :name, :autofocus => true, class: 'form-control' %>
+<div class="container" style="padding-top: 2%">
+  <div class="panel panel-default">
+    <div class="panel-body" style="padding-left: 4%; padding-right: 4%">
+
+			<span style="font-size: 2em"><strong>Sign up</strong></span><span style="font-size: 1.3em">&nbsp;&nbsp;&nbsp;(and get access to our curated "Editor Picks")</span><hr>
+
+      <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= devise_error_messages! %>
+
+			  <div class="form-inputs">
+			    <p style="color: gray; line-height: 80%">So we don't have to say "hey you"</p>
+			    <table>
+			      <tr>
+			        <td style="padding-bottom: 10px; font-size: 110%">First Name&nbsp;&nbsp;</td>
+							<td style="padding-bottom: 10px"><%= f.text_field :first_name, required: true, autofocus: true, maxlength: 20 %></td>
+			      </tr>
+				    <tr>
+				      <td style="font-size: 110%">Last Name</td>
+					    <td><%= f.text_field :last_name, maxlength: 20 %></td>
+					  </tr>
+			    </table><br>
+			    <p style="color: gray; margin-bottom: -16px">To show you more of your favorite places, enter cities or metro area preferences</p>
+				  <table>
+					  <tr>
+					    <td style="padding-bottom: 10px; font-size: 110%">Cities</td>
+						  <td style="padding-bottom: 10px"><%= f.text_area :city_preference, placeholder: "City1, City2, City3, etc", cols: 80 %>&nbsp;&nbsp;</td>
+						</tr>
+					  <tr>
+					    <td style="padding-bottom: 10px; font-size: 110%">Email</td>
+						  <td style="padding-bottom: 10px"><%= f.text_field :email, required: true, maxlength: 50 %>&nbsp;&nbsp;</td>
+						</tr>
+					  <tr>
+					    <td style="padding-bottom: 10px; font-size: 110%">Password</td>
+					    <% if @minimum_password_length %>
+					      <% mpl = @minimum_password_length.to_s + " characters minimum" %>
+					    <% end %><br />
+						  <td style="padding-bottom: 10px"><%= f.password_field :password, required: true, maxlength: 50, placeholder: mpl %>&nbsp;&nbsp;</td>
+						</tr>
+					  <tr>
+					    <td style="padding-bottom: 10px; font-size: 110%">Confirm Password&nbsp;&nbsp;</td>
+						  <td style="padding-bottom: 10px"><%= f.password_field :password_confirmation, required: true, maxlength: 50 %></td>
+					  </tr>
+					</table>
+			  </div><br>
+
+			  <div class="form-actions">
+			    <button type="submit" class="btn btn-primary">Register</button><br>
+			  </div><hr>
+        <p style="color: #B3B3B3; line-height: 110%">We use software that shows us how you interact with our website so that we can make improvements that provide you with the best customer experience. By signing up you agree to this tracking.</p>
+    <% end %>
+
+			<!--%= render "devise/shared/links" %-->
+
     </div>
-    <div class="form-group">
-      <%= f.label :email %>
-      <%= f.email_field :email, class: 'form-control' %>
-    </div>
-    <div class="form-group">
-      <%= f.label :password %>
-      <%= f.password_field :password, class: 'form-control' %>
-    </div>
-    <div class="form-group">
-      <%= f.label :password_confirmation %>
-      <%= f.password_field :password_confirmation, class: 'form-control' %>
-    </div>
-     <%= f.submit 'Sign up', :class => 'button right' %>
-  <% end %>
+  </div>
 </div>

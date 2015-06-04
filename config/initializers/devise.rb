@@ -5,12 +5,17 @@ Devise.setup do |config|
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
   # config.secret_key = '286be6906c3200e69870e75baa1d0e13c41912a65a0def430bc8231e954cd22f36041d80c06c7dd196307571638d81c438edb302e78fbebdf3b3130e0087ea80'
+  config.secret_key = ENV['DEVISE_SECRET_KEY'] if Rails.env.production?
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = 'no-reply@' + Rails.application.secrets.domain_name
+
+  # from sap3-gg app
+  config.mailer_sender = 'contactus@storiesaboutplaces.com'
+  # original
+  # config.mailer_sender = 'no-reply@' + Rails.application.secrets.domain_name
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'

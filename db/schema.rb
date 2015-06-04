@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150529173507) do
+ActiveRecord::Schema.define(version: 20150604200253) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -56,7 +56,7 @@ ActiveRecord::Schema.define(version: 20150529173507) do
 
   add_index "images", ["image_type"], name: "index_images_on_image_type", using: :btree
 
-  create_tale "locations", force: :cascade do |t|
+  create_table "locations", force: :cascade do |t|
     t.boolean  "needs_review"
     t.string   "lat",          null: false
     t.string   "lng",          null: false
@@ -269,6 +269,7 @@ ActiveRecord::Schema.define(version: 20150529173507) do
     t.string   "unconfirmed_email"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "city_preference"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree

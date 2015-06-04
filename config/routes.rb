@@ -15,4 +15,5 @@ Rails.application.routes.draw do
   match 'visitors/index' => 'visitors#index', via: [:get]
 
   root to: 'visitors#index'
+
 end

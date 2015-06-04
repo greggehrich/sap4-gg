@@ -9,14 +9,20 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'devise_invitable'
+gem 'pundit'
 gem 'pg'
 gem 'puma'
-gem 'pundit'
-gem 'sendgrid'
 gem 'will_paginate'
 gem 'awesome_print'
 gem 'gmaps4rails'
 gem 'underscore-rails'
+gem 'high_voltage'
+gem 'fastimage'
+
+# mail stuff
+gem 'sendgrid'
+gem 'mail'
+gem 'figaro'
 
 group :development do
   gem 'better_errors'
