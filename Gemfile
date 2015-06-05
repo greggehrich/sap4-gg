@@ -18,6 +18,7 @@ gem 'gmaps4rails'
 gem 'underscore-rails'
 gem 'high_voltage'
 gem 'fastimage'
+gem 'pry'
 
 # mail stuff
 gem 'sendgrid'

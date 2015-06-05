@@ -411,6 +411,9 @@ a.iwlayout:hover {color: #1A3380;}
 //desktop
 @media (min-width: 1200px) {
 
+  .logo-pad {
+    padding-top: 2px;
+  }
   .search-text {
     font-size: 1.4em;
   }

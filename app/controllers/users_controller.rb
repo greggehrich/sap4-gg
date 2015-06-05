@@ -4,7 +4,9 @@ class UsersController < ApplicationController
 
   def index
     @users = User.all
+    # binding.pry
     authorize User
+    # binding.pry
   end
 
   def show
