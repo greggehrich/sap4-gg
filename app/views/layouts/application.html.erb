@@ -19,7 +19,10 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <header>
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+
+  <header>
       <%= render 'layouts/navigation' %>
     </header>
     <main role="main">
