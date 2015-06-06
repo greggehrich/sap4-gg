@@ -3,7 +3,7 @@ class Story < ActiveRecord::Base
   # TODO: no validations!
 
   has_many :urls, as: :urlable, dependent: :destroy
-
+  has_many :usersavedstories
   has_many :story_place_assignments
   has_many :places, through: :story_place_assignments
 

@@ -16,3 +16,14 @@
 //= require underscore
 //= require gmaps/google
 //= require_tree .
+
+var Utils = function(){
+
+    return {
+        flashMessage: function(msg, status){
+            var myHtml = '<div class="alert alert-' + status + '">' + msg + '</div>';
+            return myHtml;
+        }
+    }
+
+}();
