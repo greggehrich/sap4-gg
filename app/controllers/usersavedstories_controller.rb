@@ -1,11 +1,7 @@
 class UsersavedstoriesController < ApplicationController
 
   def my_stories
-    if user_signed_in?
-      @my_stories = Story.select("stories.story_year, stories.story_month, stories.story_date, urls.*, \
-          usersavedstories.created_at as uss_created_at").joins(:usersavedstories). \
-          joins(:urls).where("usersavedstories.user_id = #{current_user.id.to_i}").order("uss_created_at DESC")
-    end
+    @my_stories = Usersavedstory.where(user_id: current_user.id) if user_signed_in?
   end
 
   def destroy

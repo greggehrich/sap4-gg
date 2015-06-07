@@ -9,9 +9,9 @@
 
 						      <div class="pull-left">
 						        <% if story.images.first.try(:url) %>
-						          <%= link_to image_tag(story.images.first.url.full_url, :width =>1000, :class => "img-responsive"), story_path(story), target: '_blank' %>
+						          <%= link_to image_tag(story.images.first.url.full_url, :width =>1000, :class => "img-responsive"), story_path(story) %>
 						        <% else %>
-						          <%= link_to image_tag("https://goo.gl/0uAmvS", :width =>1000, :class => "img-responsive"), story_path(story), target: '_blank' %>
+						          <%= link_to image_tag("https://goo.gl/0uAmvS", :width =>1000, :class => "img-responsive"), story_path(story) %>
 						        <% end %>
 						      </div>
 
