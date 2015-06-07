@@ -1,7 +1,7 @@
 class UsersavedstoriesController < ApplicationController
 
   def my_stories
-    @my_stories = Usersavedstory.where(user_id: current_user.id) if user_signed_in?
+    @my_stories = Usersavedstory.where(user_id: current_user.id).order("id DESC") if user_signed_in?
   end
 
   def destroy

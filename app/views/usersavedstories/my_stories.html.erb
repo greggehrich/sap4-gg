@@ -7,8 +7,7 @@
 			  <thead>
 			  <tr>
 			    <th><p class="hidden-xs" style="display: inline">Saved</p>&nbsp;</th>
-			    <th><p class="hidden-xs" style="display: inline">Published</p>&nbsp;</th>
-			    <th><p style="display: inline">Story Title</p></th>
+			    <th><p style="display: inline">Story</p></th>
 			    <th colspan="4"></th>
 			  </tr>
 			  </thead>
@@ -17,7 +16,12 @@
 			    <% @my_stories.each do |s| %>
 				    <tr>
 				      <td><%= s.created_at.in_time_zone("Pacific Time (US & Canada)").try(:strftime, "%b %d, %Y") %> </td>
-				      <td><%= s.story.title %> </td>
+				      <td>
+				        <% if s.story.mediacorp.try(:title) %>
+				          <em><p style="display: inline" class="text-muted"><%= s.story.mediacorp.title %>.</p></em>&nbsp
+					      <% end %>
+				        <%= s.story.title %>
+				      </td>
 				      <td style="line-height: 1.0">&nbsp;<%= link_to 'View Story', s.story.urls.first.full_url, target: "_blank", class: 'btn btn-info btn-sm btn-view', id: 'btn-view-link' %>&nbsp;</td>
 				      <td style="line-height: 1.0">&nbsp;<%= button_to 'Forget', destroy_usersavedstories_path(s.story_id), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger btn-forget' %>&nbsp;</td>
 				    </tr>
