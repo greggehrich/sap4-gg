@@ -13,6 +13,8 @@ class Place < ActiveRecord::Base
   belongs_to :location
   belongs_to :parent, class_name: 'Place', foreign_key: :parent_id
 
+  has_many :usersavedplaces
+
   def is_parent?
     location_id == 0
   end

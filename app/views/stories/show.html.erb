@@ -61,7 +61,7 @@
 	      <% if @story.images.first.try(:url) %>
 	        <%= link_to image_tag(@story.images.first.url.full_url), @story.urls.first.full_url, target: '_blank' %>
 	      <% else %>
-	        <%= link_to image_tag("https://goo.gl/wYN8RE"), @story.urls.first.full_url, target: '_blank' %>
+	        <%= link_to image_tag("http://media-cdn.tripadvisor.com/media/photo-s/04/26/a1/73/family-restuarant.jpg"), @story.urls.first.full_url, target: '_blank' %>
 	      <% end %>
 	    </div>
 
@@ -72,7 +72,7 @@
 <div class="panel  right-padding-zero-sap">
 	<% place_count = @story.places.count %>
   <h4>Explore <%= pluralize(place_count, 'Place') %> in this Story&nbsp;&nbsp;
-    <%= link_to "Map View", story_places_map_path(@story), class: 'btn btn-info btn-sm' %></h4>
+    <%= link_to "Map View", story_places_map_path(@story), class: 'btn btn-info btn-smfe' %></h4>
   <ul style="padding-left: 20px;">
     <% @story.places.each do |place| %>
       <li><%= link_to place.full_name, place_path(place) %></li>

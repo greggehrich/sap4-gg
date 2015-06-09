@@ -3,11 +3,11 @@
     <div class="panel-body panel-sap">
 
 			<table class="table table-condensed">
-				<caption style="font-size: 1.22em; font-weight: 400; text-align: center; padding: 0">My Saved Stories</caption>
+				<caption style="font-size: 1.22em; font-weight: 400; text-align: center; padding: 0">My Saved Stories and Places</caption>
 			  <thead>
 			  <tr>
 			    <th><p class="hidden-xs" style="display: inline">Saved</p>&nbsp;</th>
-			    <th><p style="display: inline">Story</p></th>
+			    <th><p style="display: inline">Story with Places</p></th>
 			    <th colspan="4"></th>
 			  </tr>
 			  </thead>
@@ -19,11 +19,18 @@
 				      <td>
 				        <%= link_to s.story.title,  "stories/" + s.story_id.to_s %>
 				        <% if s.story.mediacorp.try(:title) %>
-				          <em><p style="display: inline; font-size: .9em" class="text-muted">...by <%= s.story.mediacorp.title %></p></em>&nbsp
+				          <em><p style="display: inline; font-size: .9em" class="text-muted">&nbsp;&nbsp; by <%= s.story.mediacorp.title %></p></em><br>
 				        <% end %>
+					      <p style="font-size: .5em"></p>
+					      <p style="display: inline" >
+					        <% s.usersavedplaces.each do |usp| %>
+					          <% if usp.place.try(:name) %>
+							      <%= link_to usp.place.name, "places/" + usp.place.id.to_s if usp.place.try(:name) %>&nbsp;
+							      <em><p class="text-muted" style="display: inline; font-size: .9em"> in <%= usp.place.location.city %><br></p></em>
+						        <% end %>
+					        <% end %>
+					      </p>
 				      </td>
-				      <td style="line-height: 1.0">&nbsp;<%= link_to 'Places', s.story.urls.first.full_url, target: "_blank", class: 'btn btn-info btn-sm btn-view', id: 'btn-view-link' %>&nbsp;</td>
-				      <td style="line-height: 1.0">&nbsp;<%= link_to 'View Story', s.story.urls.first.full_url, target: "_blank", class: 'btn btn-info btn-sm btn-view', id: 'btn-view-link' %>&nbsp;</td>
 				      <td style="line-height: 1.0">&nbsp;<%= button_to 'Forget', destroy_usersavedstories_path(s.story_id), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger btn-forget' %>&nbsp;</td>
 				    </tr>
 			    <% end %>

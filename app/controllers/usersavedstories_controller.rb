@@ -4,6 +4,10 @@ class UsersavedstoriesController < ApplicationController
     @my_stories = Usersavedstory.where(user_id: current_user.id).order("id DESC") if user_signed_in?
   end
 
+  def my_storiesandplaces
+    @my_stories = Usersavedstory.where(user_id: current_user.id).order("id DESC") if user_signed_in?
+  end
+
   def destroy
     if user_signed_in?
       user_saved_story = Usersavedstory.where(story_id: params[:id], user_id: current_user.id).first

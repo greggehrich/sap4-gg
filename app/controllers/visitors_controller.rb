@@ -14,11 +14,26 @@ class VisitorsController < ApplicationController
           user_saved_story = Usersavedstory.new
           user_saved_story.user_id = current_user.id.to_i
           user_saved_story.story_id = params[:id].to_i
-          if user_saved_story.save
+
+          user_saved_story_success = true if user_saved_story.save
+
+          @story = Story.find(params[:id])
+          @places_for_this_story = @story.places
+          @places_for_this_story.each do |story_places|
+            user_saved_place = Usersavedplace.new
+            user_saved_place.user_id = current_user.id.to_i
+            user_saved_place.usersavedstory_id = Usersavedstory.last.id
+            user_saved_place.place_id = story_places.id
+            user_saved_place.save
+            # binding.pry
+          end
+
+          if user_saved_story_success
             render json: {success: true}
           else
             render json: {success: false}
           end
+
         end
       end
     end
