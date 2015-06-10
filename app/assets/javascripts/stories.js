@@ -9,7 +9,7 @@ var Stories = function(){
     var storyDiv = myLink.closest('.story_div')
     var storyId = myLink.attr('data-story-id');
     var failMsg = Utils.flashMessage('There was a problem saving your story', 'danger');
-    var successMsg = Utils.flashMessage('Story has been saved', 'success');
+    var successMsg = Utils.flashMessage('Story and places have been saved', 'success');
     $.ajax({
       method: 'POST',
       url: '/visitors/save_story/' + storyId + '.json'
@@ -17,7 +17,7 @@ var Stories = function(){
     .done(function(data){
       if(data.success == true){
         myLink.after(successMsg);
-        myLink.replaceWith('<a href="javascript:void(0)" class="forget_story_link" data-story-id=' + storyId + '>FORGET THIS STORY</a>');
+        myLink.replaceWith('<a href="javascript:void(0)" class="forget_story_link" data-story-id=' + storyId + '>FORGET THIS STORY AND PLACES</a>');
         $('.forget_story_link').on('click', forgetStory);
       }
       else {
@@ -44,7 +44,7 @@ var Stories = function(){
     var myLink = $(this);
     var storyDiv = myLink.closest('.story_div')
     var storyId = myLink.attr('data-story-id');
-    var successMsg = Utils.flashMessage('Story has been forgotten', 'success');
+    var successMsg = Utils.flashMessage('Story and places have been forgotten', 'success');
     var failMsg = Utils.flashMessage('There was an error forgetting your Story', 'danger');
     $.ajax({
       method: 'POST',
@@ -53,7 +53,7 @@ var Stories = function(){
     .done(function(data){
       if(data.success == true){
         myLink.after(successMsg);
-        myLink.replaceWith('<a href="javascript:void(0)" class="save_story_link" data-story-id=' + storyId + '>SAVE STORY</a>');
+        myLink.replaceWith('<a href="javascript:void(0)" class="save_story_link" data-story-id=' + storyId + '>SAVE THIS STORY AND PLACES</a>');
         $('.save_story_link').on('click', saveStory);
       }
       else{

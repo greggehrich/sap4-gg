@@ -12,7 +12,7 @@ class UsersavedstoriesController < ApplicationController
     if user_signed_in?
       user_saved_story = Usersavedstory.where(story_id: params[:id], user_id: current_user.id).first
       user_saved_story.destroy
-      redirect_to '/my_stories'
+      redirect_to '/my_storiesandplaces'
     end
   end
 

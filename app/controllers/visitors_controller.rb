@@ -43,12 +43,24 @@ class VisitorsController < ApplicationController
     respond_to do |format|
       format.json do
         if user_signed_in?
+
           user_saved_story = Usersavedstory.where(story_id: params[:id], user_id: current_user.id).first
-          if user_saved_story && user_saved_story.destroy
+          usersavedstory_id = user_saved_story.id
+          user_destroy_story_success = true if user_saved_story && user_saved_story.destroy
+
+          # if Usersavedplace.where(usersavedstory_id: usersavedstory_id)
+          #   places_for_this_story = Usersavedplace.where(usersavedstory_id: usersavedstory_id)
+          #   places_for_this_story.each do |usp|
+          #     usp.destroy
+          #   end
+          # end
+
+          if user_destroy_story_success
             render json: {success: true}
           else
             render json: {success: false}
           end
+
         end
       end
     end
