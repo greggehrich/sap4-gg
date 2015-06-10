@@ -1,9 +1,14 @@
 <div class="panel top-margin-sap  right-padding-zero-sap" style="font-size: 18px; font-weight: 500">
-  <p style="margin-bottom: 0px"><%= link_to @story.title, @story.urls.first.full_url, target: '_blank' %>&nbsp;&nbsp;
+  <p style="display: inline; margin-bottom: 0px"><%= link_to @story.title, @story.urls.first.full_url, target: '_blank' %>&nbsp;&nbsp;
 	  <a href=<%= @story.urls.first.full_url %> target="_blank">
 	    <span class="glyphicon glyphicon-globe"></span>
 	  </a>
-  </p>
+  </p>&nbsp;&nbsp;
+	<% if @saved_story_count < 1 %>
+	  <p style="display: inline; line-height: 1.0"><%= link_to 'Save Story', save_story_show_path(@story.id), class: 'btn btn-success btn-sm' %>&nbsp;</p>
+	<% else %>
+    <p style="display: inline; line-height: 1.0"><%= link_to 'Forget Story', forget_story_show_path(@story.id), class: 'btn btn-danger btn-sm' %>&nbsp;</p>
+  <% end %>
 </div>
 
 <div class="panel  right-padding-zero-sap">
@@ -72,7 +77,7 @@
 <div class="panel  right-padding-zero-sap">
 	<% place_count = @story.places.count %>
   <h4>Explore <%= pluralize(place_count, 'Place') %> in this Story&nbsp;&nbsp;
-    <%= link_to "Map View", story_places_map_path(@story), class: 'btn btn-info btn-smfe' %></h4>
+    <%= link_to "Map View", story_places_map_path(@story), class: 'btn btn-info btn-sm' %></h4>
   <ul style="padding-left: 20px;">
     <% @story.places.each do |place| %>
       <li><%= link_to place.full_name, place_path(place) %></li>

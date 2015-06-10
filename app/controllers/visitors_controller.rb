@@ -48,13 +48,6 @@ class VisitorsController < ApplicationController
           usersavedstory_id = user_saved_story.id
           user_destroy_story_success = true if user_saved_story && user_saved_story.destroy
 
-          # if Usersavedplace.where(usersavedstory_id: usersavedstory_id)
-          #   places_for_this_story = Usersavedplace.where(usersavedstory_id: usersavedstory_id)
-          #   places_for_this_story.each do |usp|
-          #     usp.destroy
-          #   end
-          # end
-
           if user_destroy_story_success
             render json: {success: true}
           else

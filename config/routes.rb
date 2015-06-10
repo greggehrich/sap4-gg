@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   match '/my_storiesandplaces' => 'usersavedstories#my_storiesandplaces', via: [:get, :post]
   match '/usersavedstories/:id' => 'usersavedstories#destroy', via: [:delete], as: :destroy_usersavedstories
   match '/my_savedplaces' => 'usersavedplaces#index', via: [:get, :post]
+  match '/story/save_story_show/:id' => 'stories#save_story_show', via: [:get, :post], as: :save_story_show
+  match '/story/forget_story_show/:id' => 'stories#forget_story_show', via: [:get, :post], as: :forget_story_show
 
   post '/visitors/save_story/:id', to: 'visitors#save_story', as: :save_story
   post '/visitors/forget_story/:id', to: 'visitors#forget_story', as: :forget_story
