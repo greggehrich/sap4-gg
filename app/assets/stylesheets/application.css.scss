@@ -174,14 +174,12 @@ a.iwlayout:hover {color: #1A3380;}
 //mobile
 @media (max-width: 768px) {
 
-  .search-text {
-    font-size: .2em;
-    display: none;
-  }
+  //.search-text {
+  //  font-size: .2em;
+  //  display: none;
+  //}
   .left-margin-zero-sap {
     margin-left: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
   }
   .right-padding-zero-sap {
     padding-right: 0px;
@@ -216,6 +214,7 @@ a.iwlayout:hover {color: #1A3380;}
     width:220px;
     max-width:100%;
     margin-top: 5px;
+    margin-left: 15px;
   }
   .top-margin-sap {
     margin-top: 50px;
@@ -309,8 +308,13 @@ a.iwlayout:hover {color: #1A3380;}
 //tablet
 @media (min-width: 769px) and (max-width: 1200px) {
 
-  .search-text {
-    font-size: 1.4em;
+  //.search-text {
+  //  font-size: 1.4em;
+  //}
+  .logo-nav img{
+    width:320px;
+    max-width:100%;
+    margin-top: 5px;
   }
   .map_container{
     position: relative;
@@ -331,6 +335,9 @@ a.iwlayout:hover {color: #1A3380;}
     margin-top: 0px;
     margin-right: 20px;
     margin-bottom: 10px;
+  }
+  .left-margin-zero-sap {
+    margin-left: 0px;
   }
   .top-margin-sap {
     margin-top: 65px;
@@ -414,9 +421,9 @@ a.iwlayout:hover {color: #1A3380;}
   .logo-pad {
     padding-top: 2px;
   }
-  .search-text {
-    font-size: 1.4em;
-  }
+  //.search-text {
+  //  font-size: 1.4em;
+  //}
   .map_container{
     position: relative;
     width: 100%;

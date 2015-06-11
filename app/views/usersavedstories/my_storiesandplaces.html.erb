@@ -26,7 +26,7 @@
 					        <% s.usersavedplaces.each do |usp| %>
 					          <% if usp.place.try(:name) %>
 							      <%= link_to usp.place.name, "places/" + usp.place.id.to_s if usp.place.try(:name) %>&nbsp;
-							      <em><p class="text-muted" style="display: inline; font-size: .9em"> in <%= usp.place.location.city %><br></p></em>
+							      <em><p class="text-muted" style="display: inline; font-size: .9em"> in <%= usp.place.location.city %>, <%= usp.place.location.state %><br></p></em>
 						        <% end %>
 					        <% end %>
 					      </p>
