@@ -5,7 +5,15 @@ class UsersavedstoriesController < ApplicationController
   end
 
   def my_storiesandplaces
-    @my_stories = Usersavedstory.where(user_id: current_user.id).order("id DESC") if user_signed_in?
+
+    if user_signed_in?
+      page = params[:page] ? params[:page] : 1
+      @my_stories = Usersavedstory.joins(:story).where(stories: { ready_for_display: true }, user_id: current_user.id).paginate(per_page: 50, page: page)
+      @my_stories = @my_stories.order("usersavedstories.id DESC")
+      @my_stories = @my_stories.where(["title ILIKE ?", "%#{params[:search]}%"]) if params[:search]
+    end
+
+    # @my_stories = Usersavedstory.where(user_id: current_user.id).order("id DESC") if user_signed_in?
   end
 
   def destroy
