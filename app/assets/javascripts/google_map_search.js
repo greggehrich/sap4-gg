@@ -23,20 +23,16 @@ var GoogleMapSearch = function(){
   }
 
   var findAndDrawFavoritePlaces = function(map){
-    $.ajax({
-      url: '/map/favorite_place_locations.json',
-      method: 'GET'
-    }).done(function(data){
-      $(data).each(function(idx, coords){
-        var latLng = new google.maps.LatLng(coords.lat, coords.lng);
-        if(map.getBounds().contains(latLng)){
-          var marker = new google.maps.Marker({
-            position: latLng,
-            map: map,
-            title: coords.name
-          });
-        }
-      });
+    var favePlaces = JSON.parse($('#favorite_places_json').html());
+    $(favePlaces).each(function(idx, place){
+      var latLng = new google.maps.LatLng(place.lat, place.lng);
+      if(map.getBounds().contains(latLng)){
+        var marker = new google.maps.Marker({
+          position: latLng,
+          map: map,
+          title: place.name
+        });
+      }
     });
   }
 

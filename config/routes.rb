@@ -3,11 +3,7 @@ Rails.application.routes.draw do
   resources :locations
   resources :places
   resources :stories
-  resources :map, only: [:index] do
-    collection do
-      get 'favorite_place_locations'
-    end
-  end
+  resources :map, only: [:index]
 
   match 'stories/:id/places' => 'stories#story_places_list', via: [:get]
   match 'stories/:id/places/map' => 'stories#story_places_map', via: [:get], as: 'story_places_map'
