@@ -6,6 +6,10 @@ class MapController < ApplicationController
     @favorite_places_json = current_user.favorite_place_coords.to_json
   end
 
+  def index_test
+
+  end
+
   def show
 
   end

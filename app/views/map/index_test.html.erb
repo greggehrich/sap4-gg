@@ -1,0 +1,14 @@
+<div class="panel top-margin-sap" style="padding-bottom: 0px; padding-right: 5px" >
+  <p class="search-text" style="font-size: 1.4em; display: inline">Search All Stories</p>&nbsp;&nbsp;
+  <p style="font-size: 1.1em; display: inline"> <%= link_to "(or just My Stories)", my_storiesandplaces_path %></p>
+  <div class="container left-margin-zero-sap">
+    <div class="row" style="padding-top: 5px">
+      <%= form_tag nil, method: :get do %>
+        <%= text_field_tag :search, params[:search], placeholder: "Enter Saved Story Title" %>&nbsp;
+        <%= submit_tag 'Search', class: 'btn btn-sm btn-primary' %>
+      <% end %>
+      <p style="font-size: .8em; line-height: 80%">&nbsp;<%= link_to 'clear search', stories_path %></p>
+
+    </div>
+  </div>
+</div>
