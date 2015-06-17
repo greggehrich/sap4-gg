@@ -171,7 +171,7 @@ a.iwlayout:hover {color: #1A3380;}
   //}
 
 
-//mobile
+//mobile  col-xs-x
 @media (max-width: 768px) {
 
   //.search-text {
@@ -305,7 +305,7 @@ a.iwlayout:hover {color: #1A3380;}
 
 }
 
-//tablet
+//tablet col-sm-x
 @media (min-width: 769px) and (max-width: 1200px) {
 
   //.search-text {
@@ -415,7 +415,7 @@ a.iwlayout:hover {color: #1A3380;}
 
 }
 
-//desktop
+//desktop  col-md-x
 @media (min-width: 1200px) {
 
   .logo-pad {

@@ -1,6 +1,6 @@
 class MapController < ApplicationController
 
-  layout false
+  # layout false
 
   def index
     @favorite_places_json = current_user.favorite_place_coords.to_json
