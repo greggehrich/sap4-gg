@@ -13,14 +13,13 @@
     <div class="row" style="padding-top: 5px">
 
       <form action="javascript:void(0)" method="GET" class="form-inline map_search_form" data-user-id="1">
-        <div class="form-group col-lg-2 col-md-2 col-sm-3 col-xs-3" style="display: inline; padding: 2px 0 3px 0">
+        <div class="form-group col-lg-2 col-md-2 col-sm-3 col-xs-6" style="display: inline; padding: 2px 0 3px 0">
           <input type="text" name="search" class="form-control" placeholder="Enter Location" autofocus />
-          <div style="font-size: .8em">&nbsp;&nbsp;<%= link_to "or See Places Nearby You", my_places_path %></div>
-        </div>
-        <button type="submit" class="btn btn-info btn-sm" style="margin-top: 5px">Search</button>&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>&nbsp;&nbsp;&nbsp;
+        <button type="submit" class="btn btn-info btn-sm" style="margin-top: 5px">Search</button>
       </form>
-
     </div>
+    <div class="search-header"><%= link_to "or See Places Nearby You", my_places_path %></div>
   </div>
 </div>
 

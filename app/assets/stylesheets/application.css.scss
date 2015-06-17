@@ -174,10 +174,11 @@ a.iwlayout:hover {color: #1A3380;}
 //mobile  col-xs-x
 @media (max-width: 768px) {
 
-  //.search-text {
-  //  font-size: .2em;
-  //  display: none;
-  //}
+  .search-header {
+    font-size: .8em;
+    margin-left: -10px;
+    margin-top: -15px;
+  }
   .left-margin-zero-sap {
     margin-left: 0px;
   }
@@ -308,9 +309,10 @@ a.iwlayout:hover {color: #1A3380;}
 //tablet col-sm-x
 @media (min-width: 769px) and (max-width: 1200px) {
 
-  //.search-text {
-  //  font-size: 1.4em;
-  //}
+  .search-header {
+    font-size: .8em;
+    margin-left: -10px;
+  }
   .logo-nav img{
     width:320px;
     max-width:100%;
@@ -421,9 +423,10 @@ a.iwlayout:hover {color: #1A3380;}
   .logo-pad {
     padding-top: 2px;
   }
-  //.search-text {
-  //  font-size: 1.4em;
-  //}
+  .search-header {
+    font-size: .8em;
+    margin-left: -10px;
+  }
   .map_container{
     position: relative;
     width: 100%;
