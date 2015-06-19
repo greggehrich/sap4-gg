@@ -22,7 +22,8 @@ class MapController < ApplicationController
       marker.lat pl.place.location.lat
       marker.lng pl.place.location.lng
       name = pl.place.name.present? ? pl.place.name : ''
-      marker.infowindow '<a class="iwlayout" href=' + place_path(pl) + '>' + name + '</a>'
+      marker.infowindow '<a class="iwlayout" href=' + place_path(pl.place_id) + '>' + name + '</a>'
+      # binding.pry
     end
 
   end
