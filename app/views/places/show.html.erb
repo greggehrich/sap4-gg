@@ -87,7 +87,7 @@
 	<h4>External <%= "Link".pluralize(place_cnt) %> for this Place </h4>
 	  <ul style="padding-left: 20px;">
 	    <% @place.urls.each do |url| %>
-	      <li><%= link_to url.url_type + ' website', url.full_url, target: '_blank' %></li>
+	      <li><%= link_to url.url_type = 'Owner' ? 'Business Website' : url.url_type, url.full_url, target: '_blank' %></li>
 	    <% end %>
 	  </ul>
 </div>
