@@ -14,8 +14,6 @@ class Place < ActiveRecord::Base
   belongs_to :location
   belongs_to :parent, class_name: 'Place', foreign_key: :parent_id
 
-
-
   def is_parent?
     location_id == 0
   end
