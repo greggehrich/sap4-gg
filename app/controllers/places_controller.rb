@@ -9,6 +9,7 @@ class PlacesController < ApplicationController
   def show
     @place = Place.find(params[:id])
     @location = @place.location
+
   end
 
   def place_map

@@ -64,7 +64,19 @@
 	  <h4>Read about this Place in <%= pluralize(story_count, 'Story') %></h4>
 	  <ul style="padding-left: 20px;">
 	    <% @place.stories.where(ready_for_display: true).each do |story| %>
-	      <li><%= link_to story.title, story_path(story) %></li>
+	      <li style="display: inline; line-height: 2em" >
+	      <% if user_signed_in? %>
+	        <% @saved_story_count = Usersavedstory.where(story_id: story, user_id: current_user.id.to_i).count %>
+	        <% if @saved_story_count < 1 %>
+	          <p style="display: inline"><%= link_to 'Save Story', save_story_show_path(story),
+                           class: 'btn btn-success btn-xs', style: 'padding: 2px 9px' %>&nbsp;</p> </li>
+	        <% else %>
+	          <p style="display: inline"><%= link_to 'Forget Story', forget_story_show_path(story),
+                           class: 'btn btn-danger btn-xs', style: 'padding: 2px 5px' %>&nbsp;</p> </li>
+	        <% end %>
+	      <% end %>&nbsp;&nbsp;
+	      <%= link_to story.title, story_path(story) %><br>
+
 	    <% end %>
 	  </ul>
 	</div>

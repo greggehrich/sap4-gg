@@ -45,7 +45,8 @@ class StoriesController < ApplicationController
       #   render json: {success: false}
       # end
 
-    redirect_to '/stories/' + params[:id].to_s
+    redirect_to :back
+    # redirect_to '/stories/' + params[:id].to_s
     end
   end
 
@@ -54,7 +55,9 @@ class StoriesController < ApplicationController
 
       user_saved_story = Usersavedstory.where(story_id: params[:id], user_id: current_user.id).first
       user_saved_story.destroy
-      redirect_to '/stories/' + params[:id].to_s
+
+      redirect_to :back
+      # redirect_to '/stories/' + params[:id].to_s
     end
   end
 
