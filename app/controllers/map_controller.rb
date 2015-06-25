@@ -29,7 +29,7 @@ class MapController < ApplicationController
   end
 
   def all_places
-    @all_nearby_places = Location.near('San Diego').joins(:places)
+    @all_nearby_places = Location.near('San Diego',50).joins(:places)
 
     # the hash holds all the markers for the map
     @all_places_hash = Gmaps4rails.build_markers(@all_nearby_places) do |pl, marker|
