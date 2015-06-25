@@ -28,6 +28,19 @@ class MapController < ApplicationController
 
   end
 
+  def all_places
+    @all_nearby_places = Location.near('San Diego').joins(:places)
+
+    # the hash holds all the markers for the map
+    @all_places_hash = Gmaps4rails.build_markers(@all_nearby_places) do |pl, marker|
+      marker.lat pl.lat
+      marker.lng pl.lng
+      name = pl.places.name.present? ? pl.places.name : ''
+      marker.infowindow '<a class="iwlayout" href=' + place_path(pl.places.first.id) + '>' + name + '</a>'
+    end
+  # binding.pry
+  end
+
   # Using AJAX call in case you do not want to eager load
   # def favorite_place_locations
   #   respond_to do |format|

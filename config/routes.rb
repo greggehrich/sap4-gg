@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   match 'stories/:id/places/map' => 'stories#story_places_map', via: [:get], as: 'story_places_map'
   match 'places/:id/map' => 'places#place_map', via: [:get], as: 'place_map'
   match 'my_places' => 'map#my_places', via: [:get], as: 'my_places'
+  match 'all_places' => 'map#all_places', via: [:get], as: 'all_places'
   match 'index_test' => 'map#index_test', via: [:get], as: 'index_test'
   # match 'map2' => 'map#show', via: [:get], as: 'map2'
   match '/my_stories' => 'usersavedstories#my_stories', via: [:get, :post]
