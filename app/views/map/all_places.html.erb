@@ -32,11 +32,11 @@
 				height: 36
 			}
 		});
-		// add pins for all nearby places in the db
+		// add pins for my save places
 		markers = handler.addMarkers(<%=raw @all_places_hash.to_json %>);
 		// display map
 		handler.map.centerOn(marker);
-		handler.getMap().setZoom(10);
+		handler.getMap().setZoom(13);
 //		google.maps.event.trigger(map, "resize");
 	};
 </script>
