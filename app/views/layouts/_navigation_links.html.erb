@@ -54,8 +54,7 @@
     <ul class="dropdown-menu" role="menu" style="margin-left: -47px">
       <li><%= link_to 'My Stories', my_storiesandplaces_path %></li>
       <li class="divider"></li>
-      <li><%= link_to 'Nearby Saved Places', my_places_path %></li>
-      <li><%= link_to 'Search Saved Places', map_index_path %></li>
+      <li><%= link_to 'Search Places Map', map_index_path %></li>
       <li><%= link_to 'Edit Acct', edit_user_registration_path %></li>
       <li class="divider"></li>
       <li><%= link_to 'Log out', destroy_user_session_path, :method=>'delete' %></li>
@@ -64,6 +63,3 @@
     <button type="button" class="btn btn-default navbar-btn btn-primary" data-toggle="modal" data-target="#responsive">Login/Sign Up</button>
   <% end %>
 </li>
-
-
-
