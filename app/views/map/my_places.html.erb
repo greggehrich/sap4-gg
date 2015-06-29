@@ -12,18 +12,44 @@
 <div id="currentplusfavs" style='width: 100%; height: 800px;'></div>
 
 <script type="text/javascript">
-
 	var handler = Gmaps.build('Google');
-	handler.buildMap({
-						internal: {id: 'currentplusfavs'}
-					},
-					function(){
-		if(navigator.geolocation)
-			navigator.geolocation.getCurrentPosition(displayOnMap);
-	});
+	var providerAtts;
+	if(navigator.geolocation){
+		navigator.geolocation.getCurrentPosition(function(position){
+			var coords = position.coords;
+			providerAtts = {
+				center:	new google.maps.LatLng(coords.latitude, coords.longitude),
+				zoom: 10
+			}
+			handler.buildMap({
+				internal: {id: 'currentplusfavs'},
+				provider: providerAtts
+			});
+		}, function(error){
+			// it's possible the user denied access to geolocation even if it is enabled
+			providerAtts = {
+				center:	new google.maps.LatLng(41.850033, -87.6500523),
+				zoom: 5
+			}
+			handler.buildMap({
+				internal: {id: 'currentplusfavs'},
+				provider: providerAtts
+			});
+		});
+	}
+	else {
+		providerAtts = {
+			center:	new google.maps.LatLng(41.850033, -87.6500523),
+			zoom: 5
+		}
+		handler.buildMap({
+			internal: {id: 'currentplusfavs'},
+			provider: providerAtts
+		});
+	}
 
-	function displayOnMap(position){
-		var marker = handler.addMarker({  // add current location pin
+	function displayOnMap(){
+		var currentLocationMarker = handler.addMarker({  // add current location pin
 			lat: position.coords.latitude,
 			lng: position.coords.longitude,
 			picture: {
@@ -35,17 +61,8 @@
 		// add pins for my save places
 		markers = handler.addMarkers(<%=raw @my_places_hash.to_json %>);
 		// display map
-		handler.map.centerOn(marker);
-		handler.getMap().setZoom(10);
+		handler.map.centerOn(currentLocationMarker);
+//		handler.getMap().setZoom(10);
 //		google.maps.event.trigger(map, "resize");
 	};
 </script>
-
-
-
-
-
-
-
-
-
