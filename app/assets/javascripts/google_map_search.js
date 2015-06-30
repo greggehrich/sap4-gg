@@ -12,10 +12,11 @@ var GoogleMapSearch = function(){
   var yellowPin = 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png';
   var purplePin = 'http://maps.google.com/mapfiles/ms/icons/purple-dot.png';
   var whitePin = '/assets/white-map-pin.png';
+  var currentLocationPin = 'http://maps.google.com/mapfiles/kml/pal4/icon58.png';
 
   var initializeMap = function(){
     var mapDiv = _getMapDiv();
-    if(navigator.geolocation){
+    if(false){
   		navigator.geolocation.getCurrentPosition(
         function(position){
           currentLat = position.coords.latitude;
@@ -26,18 +27,12 @@ var GoogleMapSearch = function(){
           });
         },
         function(error){// it's possible that the user is not allowing geolocation, even though it's available
-          var map = _getEmptyUsMap();
-          google.maps.event.addListener(map, 'idle', function(){
-            drawUsMap(map);
-          });
+          mapDefaultUserZipCode();
         }
       );
     }
   	else {// gelocation is not available
-      var map = _getEmptyUsMap();
-      google.maps.event.addListener(map, 'idle', function(){
-        drawUsMap(map);
-      });
+      mapDefaultUserZipCode();
     }
   }
 
@@ -141,25 +136,44 @@ var GoogleMapSearch = function(){
     }
   }
 
-  var drawUsMap = function(map){
-    if(_getMapDiv().attr('all-places') != 'true'){
-      drawUsMapWithFavoritePlaces(map);
-    }
-    _hideLoadDiv();
+  // var drawUsMap = function(map){
+  //   if(_getMapDiv().attr('all-places') != 'true'){
+  //     drawUsMapWithFavoritePlaces(map);
+  //   }
+  //   _hideLoadingDiv();
+  // }
+
+  // var drawUsMapWithFavoritePlaces = function(map){
+  //   var favePlaces = JSON.parse($('#favorite_places_json').html());
+  //   $(favePlaces).each(function(idx, place){
+  //     var latLng = new google.maps.LatLng(place.lat, place.lng);
+  //     if(map.getBounds().contains(latLng)){
+  //       var marker = new google.maps.Marker({
+  //         position: latLng,
+  //         map: map,
+  //         title: place.name
+  //       });
+  //     }
+  //   });
+  // }
+
+  var mapDefaultUserZipCode = function(){
+    geocoder = new google.maps.Geocoder();
+    geocoder.geocode({'address': _getUserZipcode()}, function(results, status){
+      currentLat = results[0].geometry.location.lat();
+      currentLng = results[0].geometry.location.lng();
+      var map = _getGoogleMap(currentLat, currentLng);
+      _setCurrentLocationPin(map);
+      google.maps.event.addListener(map, 'idle', function(){
+        drawMap(map);
+        _hideLoadingDiv();
+      });
+    });
   }
 
-  var drawUsMapWithFavoritePlaces = function(map){
-    var favePlaces = JSON.parse($('#favorite_places_json').html());
-    $(favePlaces).each(function(idx, place){
-      var latLng = new google.maps.LatLng(place.lat, place.lng);
-      if(map.getBounds().contains(latLng)){
-        var marker = new google.maps.Marker({
-          position: latLng,
-          map: map,
-          title: place.name
-        });
-      }
-    });
+
+  var _getUserZipcode = function(){
+    return $('#map_container_div').attr('data-user-zip-code');
   }
 
   var _getGoogleMap = function(lat, lng, opts){
@@ -173,6 +187,7 @@ var GoogleMapSearch = function(){
     return map;
   }
 
+
   var _setCurrentLocationPin = function(map){
     if((typeof currentLat == 'undefined') || (typeof currentLng == 'undefined')){
       return;
@@ -182,7 +197,8 @@ var GoogleMapSearch = function(){
       position: latLng,
       map: map,
       title: 'Current Location',
-      zIndex: 1000
+      zIndex: 1000,
+      icon: currentLocationPin
     });
   }
 
