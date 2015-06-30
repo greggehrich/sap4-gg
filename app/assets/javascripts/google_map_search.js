@@ -16,7 +16,7 @@ var GoogleMapSearch = function(){
 
   var initializeMap = function(){
     var mapDiv = _getMapDiv();
-    if(false){
+    if(navigator.geolocation){
   		navigator.geolocation.getCurrentPosition(
         function(position){
           currentLat = position.coords.latitude;
