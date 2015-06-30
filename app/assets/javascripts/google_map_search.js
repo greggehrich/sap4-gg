@@ -4,7 +4,7 @@ $(function(){
 
 var GoogleMapSearch = function(){
 
-  var currentLat, currentLng;
+  var map, currentLat, currentLng;
 
   var bluePin = 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png';
   var greenPin = 'http://maps.google.com/mapfiles/ms/icons/green-dot.png';
@@ -21,7 +21,7 @@ var GoogleMapSearch = function(){
         function(position){
           currentLat = position.coords.latitude;
           currentLng = position.coords.longitude;
-          var map = _getGoogleMap(currentLat, currentLng);
+          map = _getGoogleMap(currentLat, currentLng);
           google.maps.event.addListener(map, 'idle', function(){
             drawMap(map);
           });
@@ -36,23 +36,27 @@ var GoogleMapSearch = function(){
     }
   }
 
-  var drawMapFromAddress = function(address){
+  var drawMapFromSearch = function(address){
     _showLoadingDiv();
+    _clearNearbyAllPlacesDataCache();
     var myForm = $(this);
     var address = myForm.find('input[name=search]').val();
-    if(address){
+    if(address){ // new map
       geocoder = new google.maps.Geocoder();
       geocoder.geocode({'address': address}, function(results, status){
         var lat = results[0].geometry.location.lat();
         var lng = results[0].geometry.location.lng();
-        var map = _getGoogleMap(lat, lng);
+        map = _getGoogleMap(lat, lng);
         google.maps.event.addListener(map, 'idle', function(){
           drawMap(map);
         });
       });
     }
-    else {
-      initializeMap();
+    else { // use existing map
+      drawMap(map);
+      google.maps.event.addListener(map, 'idle', function(){
+        drawMap(map);
+      });
     }
   }
 
@@ -82,25 +86,38 @@ var GoogleMapSearch = function(){
     });
   }
 
-  // only accessible with search text
   var findAndDrawAllPlaces = function(map){
-    var locationText = $('input[name="search"]').val();
-    $.ajax({
-      url: '/map/all_nearby_places.json',
-      method: 'GET',
-      data: {location_text: locationText}
-    }).done(function(data){
+    var latLng = map.getCenter();
+    var locationCoordsText = latLng.lat() + ',' + latLng.lng();
+    var nearbyAllPlacesElm = $('#nearby_all_places_json');
+    if(nearbyAllPlacesElm.length > 0){
+      var data = JSON.parse(nearbyAllPlacesElm.html());
       _setCurrentLocationPin(map);
-      $(data).each(function(idx, place){
-        var latLng = new google.maps.LatLng(place.lat, place.lng);
-        if(map.getBounds().contains(latLng)){
-          var marker = new google.maps.Marker({
-            position: latLng,
-            map: map,
-            title: place.name,
-            icon: _choosePinColor(place.base_category)
-          });
-        }
+      _drawNearybyAllPlacesPins(data, map);
+    }
+    else {
+      $.ajax({
+        url: '/map/all_nearby_places.json',
+        method: 'GET',
+        data: {location_coords_text: locationCoordsText}
+      }).done(function(data){
+        _cacheNearbyAllPlacesData(data);
+        _setCurrentLocationPin(map);
+        _drawNearybyAllPlacesPins(data, map);
+      });
+    }
+  }
+
+  var mapDefaultUserZipCode = function(){
+    geocoder = new google.maps.Geocoder();
+    geocoder.geocode({'address': _getUserZipcode()}, function(results, status){
+      currentLat = results[0].geometry.location.lat();
+      currentLng = results[0].geometry.location.lng();
+      map = _getGoogleMap(currentLat, currentLng);
+      _setCurrentLocationPin(map);
+      google.maps.event.addListener(map, 'idle', function(){
+        drawMap(map);
+        _hideLoadingDiv();
       });
     });
   }
@@ -113,26 +130,6 @@ var GoogleMapSearch = function(){
     }
     else {
       mapDiv.removeAttr('all-places');
-    }
-  }
-
-  var enableAllPlaces = function(){
-    var myInput = $(this);
-    if(myInput.val().length > 0){
-      var allPlacesRadioButton = $('#all_places_radio_btn');
-      allPlacesRadioButton.removeAttr('disabled');
-      allPlacesRadioButton.siblings('span').removeClass('text-muted');
-    }
-  }
-
-  var disableAllPlaces = function(){
-    var myInput = $(this);
-    if(myInput.val().length < 1){
-      var allPlacesRadioButton = $('#all_places_radio_btn');
-      allPlacesRadioButton.attr('disabled', true)
-      allPlacesRadioButton.prop('checked', false);
-      allPlacesRadioButton.siblings('span').addClass('text-muted');
-      _getMapDiv().removeAttr('all-places');
     }
   }
 
@@ -157,20 +154,27 @@ var GoogleMapSearch = function(){
   //   });
   // }
 
-  var mapDefaultUserZipCode = function(){
-    geocoder = new google.maps.Geocoder();
-    geocoder.geocode({'address': _getUserZipcode()}, function(results, status){
-      currentLat = results[0].geometry.location.lat();
-      currentLng = results[0].geometry.location.lng();
-      var map = _getGoogleMap(currentLat, currentLng);
-      _setCurrentLocationPin(map);
-      google.maps.event.addListener(map, 'idle', function(){
-        drawMap(map);
-        _hideLoadingDiv();
-      });
+  var _drawNearybyAllPlacesPins = function(data, map){
+    $(data).each(function(idx, place){
+      var latLng = new google.maps.LatLng(place.lat, place.lng);
+      if(map.getBounds().contains(latLng)){
+        var marker = new google.maps.Marker({
+          position: latLng,
+          map: map,
+          title: place.name,
+          icon: _choosePinColor(place.base_category)
+        });
+      }
     });
   }
 
+  var _cacheNearbyAllPlacesData = function(data){
+    $('body').prepend('<script type="text/javascript" id="nearby_all_places_json">' + JSON.stringify(data) + '</script>');
+  }
+
+  var _clearNearbyAllPlacesDataCache = function(){
+    $('#nearby_all_places_json').remove();
+  }
 
   var _getUserZipcode = function(){
     return $('#map_container_div').attr('data-user-zip-code');
@@ -186,7 +190,6 @@ var GoogleMapSearch = function(){
     _setCurrentLocationPin(map);
     return map;
   }
-
 
   var _setCurrentLocationPin = function(map){
     if((typeof currentLat == 'undefined') || (typeof currentLng == 'undefined')){
@@ -217,14 +220,14 @@ var GoogleMapSearch = function(){
     }
   }
 
-  var _getEmptyUsMap = function(){
-    var mapOptions = {
-      zoom: 5,
-      center: new google.maps.LatLng(37.09024, -95.712891)
-    }
-    map = new google.maps.Map(_getMapDiv()[0], mapOptions);
-    return map;
-  }
+  // var _getEmptyUsMap = function(){
+  //   var mapOptions = {
+  //     zoom: 5,
+  //     center: new google.maps.LatLng(37.09024, -95.712891)
+  //   }
+  //   map = new google.maps.Map(_getMapDiv()[0], mapOptions);
+  //   return map;
+  // }
 
   var _getMapDiv = function(){
     return $('#map_canvas');
@@ -242,9 +245,7 @@ var GoogleMapSearch = function(){
 
     init:function(){
       initializeMap();
-      $('input[name="search"]').on('keyup', enableAllPlaces);
-      $('input[name="search"]').on('blur', disableAllPlaces);
-      $('.map_search_form').on('submit', drawMapFromAddress);
+      $('.map_search_form').on('submit', drawMapFromSearch);
       $('input[name=places_options]').on('click', toggleAllOrFavoritePlaces);
     }
 
