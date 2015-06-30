@@ -4,12 +4,23 @@ $(function(){
 
 var GoogleMapSearch = function(){
 
+  var currentLat, currentLng;
+
+  var bluePin = 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png';
+  var greenPin = 'http://maps.google.com/mapfiles/ms/icons/green-dot.png';
+  var redPin = 'http://maps.google.com/mapfiles/ms/icons/red-dot.png';
+  var yellowPin = 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png';
+  var purplePin = 'http://maps.google.com/mapfiles/ms/icons/purple-dot.png';
+  var whitePin = '/assets/white-map-pin.png';
+
   var initializeMap = function(){
     var mapDiv = _getMapDiv();
     if(navigator.geolocation){
   		navigator.geolocation.getCurrentPosition(
         function(position){
-          var map = _getGoogleMap(position.coords.latitude, position.coords.longitude);
+          currentLat = position.coords.latitude;
+          currentLng = position.coords.longitude;
+          var map = _getGoogleMap(currentLat, currentLng);
           google.maps.event.addListener(map, 'idle', function(){
             drawMap(map);
           });
@@ -61,6 +72,7 @@ var GoogleMapSearch = function(){
   }
 
   var findAndDrawFavoritePlaces = function(map){
+    _setCurrentLocationPin(map)
     var favePlaces = JSON.parse($('#favorite_places_json').html());
     $(favePlaces).each(function(idx, place){
       var latLng = new google.maps.LatLng(place.lat, place.lng);
@@ -68,7 +80,8 @@ var GoogleMapSearch = function(){
         var marker = new google.maps.Marker({
           position: latLng,
           map: map,
-          title: place.name
+          title: place.name,
+          icon: _choosePinColor(place.base_category)
         });
       }
     });
@@ -82,13 +95,15 @@ var GoogleMapSearch = function(){
       method: 'GET',
       data: {location_text: locationText}
     }).done(function(data){
+      _setCurrentLocationPin(map);
       $(data).each(function(idx, place){
         var latLng = new google.maps.LatLng(place.lat, place.lng);
         if(map.getBounds().contains(latLng)){
           var marker = new google.maps.Marker({
             position: latLng,
             map: map,
-            title: place.name
+            title: place.name,
+            icon: _choosePinColor(place.base_category)
           });
         }
       });
@@ -154,7 +169,36 @@ var GoogleMapSearch = function(){
     }
     mapOptions = $.extend({}, mapOptions, opts || {});
     map = new google.maps.Map(_getMapDiv()[0], mapOptions);
+    _setCurrentLocationPin(map);
     return map;
+  }
+
+  var _setCurrentLocationPin = function(map){
+    if((typeof currentLat == 'undefined') || (typeof currentLng == 'undefined')){
+      return;
+    }
+    var latLng = new google.maps.LatLng(currentLat, currentLng);
+    var marker = new google.maps.Marker({
+      position: latLng,
+      map: map,
+      title: 'Current Location',
+      zIndex: 1000
+    });
+  }
+
+  var _choosePinColor = function(cat){
+    if(cat == 'Food/Drink'){
+      return greenPin;
+    }
+    else if(cat == 'Attraction'){
+      return redPin;
+    }
+    else if(cat == 'Lodging'){
+      return bluePin;
+    }
+    else {
+      return whitePin;
+    }
   }
 
   var _getEmptyUsMap = function(){

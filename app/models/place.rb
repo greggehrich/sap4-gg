@@ -26,6 +26,14 @@ class Place < ActiveRecord::Base
     parent_id.present?
   end
 
+  def get_parent_categories
+    parent_cats = []
+    place_categories.each do |pc|
+      parent_cats << pc.get_base_category
+    end
+    parent_cats
+  end
+
   private
 
   def parent_full_name

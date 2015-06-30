@@ -9,9 +9,10 @@ class Location < ActiveRecord::Base
 
   def self.nearby_places(area_text, distance = 50)
     res = []
-    Location.near(area_text, distance).includes(:places).each do |l|
+    Location.near(area_text, distance).includes(:places => {:place_categories => :parent}).each do |l|
       l.places.each do |p|
-        res << {name: p.name, lat: l.lat, lng: l.lng}
+        base_cat = p.get_parent_categories.first ? p.get_parent_categories.first.name : 'other'
+        res << {name: p.name, base_category: base_cat, lat: l.lat, lng: l.lng}
       end
     end
     res

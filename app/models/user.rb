@@ -14,12 +14,17 @@ class User < ActiveRecord::Base
 
   def favorite_place_coords
     res = []
-    stories.includes(:places => :location).each do |s|
+    stories.includes(:places => [{:place_categories => :parent}, :location]).each do |s|
       s.places.each do |p|
-        res << {name: p.name, lat: p.location.lat, lng: p.location.lng}
+        base_cat = p.get_parent_categories.first.name ? p.get_parent_categories.first.name : 'other'
+        res << {name: p.name, base_category: base_cat, lat: p.location.lat, lng: p.location.lng}
       end
     end
     res
+  end
+
+  def get_zip_code
+    '92101' # TEMP stubbing this method out
   end
 
 end
