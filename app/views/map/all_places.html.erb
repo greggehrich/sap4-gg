@@ -5,8 +5,8 @@
 </style>
 
 <div class="panel top-margin-sap right-padding-zero-sap" >
-	<%= link_to 'My Places Nearby', my_places_path %> &nbsp;&nbsp;
-  <strong>All Places Nearby</strong>
+	<%= link_to 'My Places', my_places_path %> &nbsp;&nbsp;
+  <strong>All Places</strong>
 </div>
 
 <div id="currentplusfavs" style='width: 100%; height: 800px;'></div>
@@ -36,7 +36,7 @@
 		markers = handler.addMarkers(<%=raw @all_places_hash.to_json %>);
 		// display map
 		handler.map.centerOn(marker);
-		handler.getMap().setZoom(13);
+		handler.getMap().setZoom(10);
 //		google.maps.event.trigger(map, "resize");
 	};
 </script>
