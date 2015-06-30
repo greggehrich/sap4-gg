@@ -11,6 +11,7 @@ class Location < ActiveRecord::Base
     res = []
     Location.near(area_text, distance).includes(:places => {:place_categories => :parent}).each do |l|
       l.places.each do |p|
+        next unless p.name.present?
         base_cat = p.get_parent_categories.first ? p.get_parent_categories.first.name : 'other'
         res << {name: p.name, base_category: base_cat, lat: l.lat, lng: l.lng}
       end
