@@ -1,16 +1,15 @@
-class Place < ActiveRecord::Base
 
   validates :location_id, presence: true
 
   has_many :urls, as: :urlable, dependent: :destroy
 
-  has_many :story_place_assignments
+  has_many :story_place_assignments, dependent: :destroy
   has_many :stories, through: :story_place_assignments
 
-  has_many :place_category_assignments
+  has_many :place_category_assignments, dependent: :destroy
   has_many :place_categories, through: :place_category_assignments
 
-  has_many :usersavedplaces
+  has_many :usersavedplaces, dependent: :destroy
   belongs_to :location
   belongs_to :parent, class_name: 'Place', foreign_key: :parent_id
 
@@ -27,11 +26,7 @@ class Place < ActiveRecord::Base
   end
 
   def get_parent_categories
-    parent_cats = []
-    place_categories.each do |pc|
-      parent_cats << pc.get_base_category
-    end
-    parent_cats
+    place_categories.map{|pc| pc.get_base_category}
   end
 
   private

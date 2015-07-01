@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  has_many :usersavedstories
+  has_many :usersavedstories, dependent: :destroy
   has_many :stories, through: :usersavedstories
 
   # devise :database_authenticatable, :registerable, :recoverable, :rememberable, :trackable, :validatable
@@ -12,12 +12,14 @@ class User < ActiveRecord::Base
     self.role ||= :user
   end
 
+  # TODO: right we are just using all the places associated with a favorited story
+  #       i think the goal is to use the usersavedplaces association once that is being used
   def favorite_place_coords
     res = []
     stories.includes(:places => [{:place_categories => :parent}, :location]).each do |s|
       s.places.each do |p|
         next unless p.name.present?
-        base_cat = p.get_parent_categories.first.name ? p.get_parent_categories.first.name : 'other'
+        base_cat = p.get_parent_categories.first ? p.get_parent_categories.first.name : 'other'
         res << {name: p.name, base_category: base_cat, lat: p.location.lat, lng: p.location.lng}
       end
     end
