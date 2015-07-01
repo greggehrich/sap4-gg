@@ -180,6 +180,7 @@ var GoogleMapSearch = function(){
     $.each(currentMarkers, function(idx, marker){
       marker.setMap(null);
     });
+    currentMarkers = [];
   }
 
   var _cacheNearbyAllPlacesData = function(data){
