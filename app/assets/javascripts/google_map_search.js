@@ -230,7 +230,7 @@ var GoogleMapSearch = function(){
       return bluePin;
     }
     else {
-      return whitePin;
+      return yellowPin;
     }
   }
 
