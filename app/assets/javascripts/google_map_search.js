@@ -5,6 +5,7 @@ $(function(){
 var GoogleMapSearch = function(){
 
   var map, currentLat, currentLng;
+  var currentMarkers = [];
 
   var bluePin = 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png';
   var greenPin = 'http://maps.google.com/mapfiles/ms/icons/green-dot.png';
@@ -52,7 +53,8 @@ var GoogleMapSearch = function(){
         });
       });
     }
-    else { // use existing map
+    else {
+      _clearAllMarkers(currentMarkers);
       drawMap(map);
       google.maps.event.addListener(map, 'idle', function(){
         drawMap(map);
@@ -82,6 +84,7 @@ var GoogleMapSearch = function(){
           title: place.name,
           icon: _choosePinColor(place.base_category)
         });
+        currentMarkers.push(marker);
       }
     });
   }
@@ -91,11 +94,14 @@ var GoogleMapSearch = function(){
     var locationCoordsText = latLng.lat() + ',' + latLng.lng();
     var nearbyAllPlacesElm = $('#nearby_all_places_json');
     if(nearbyAllPlacesElm.length > 0){
+      _showLoadingPlacesDiv();
       var data = JSON.parse(nearbyAllPlacesElm.html());
       _setCurrentLocationPin(map);
       _drawNearybyAllPlacesPins(data, map);
+      _hideLoadingPlacesDiv();
     }
     else {
+      _showLoadingPlacesDiv();
       $.ajax({
         url: '/map/all_nearby_places.json',
         method: 'GET',
@@ -104,6 +110,7 @@ var GoogleMapSearch = function(){
         _cacheNearbyAllPlacesData(data);
         _setCurrentLocationPin(map);
         _drawNearybyAllPlacesPins(data, map);
+        _hideLoadingPlacesDiv();
       });
     }
   }
@@ -164,7 +171,14 @@ var GoogleMapSearch = function(){
           title: place.name,
           icon: _choosePinColor(place.base_category)
         });
+        currentMarkers.push(marker);
       }
+    });
+  }
+
+  var _clearAllMarkers = function(){
+    $.each(currentMarkers, function(idx, marker){
+      marker.setMap(null);
     });
   }
 
@@ -239,6 +253,14 @@ var GoogleMapSearch = function(){
 
   var _showLoadingDiv = function(){
     $('.loading_div').show();
+  }
+
+  var _showLoadingPlacesDiv = function(){
+      $('.loading_places_div').removeClass('hidden');
+  }
+
+  var _hideLoadingPlacesDiv = function(){
+      $('.loading_places_div').addClass('hidden');
   }
 
   return {
