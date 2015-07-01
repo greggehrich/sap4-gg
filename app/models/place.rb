@@ -1,4 +1,5 @@
-
+class Place < ActiveRecord::Base
+  
   validates :location_id, presence: true
 
   has_many :urls, as: :urlable, dependent: :destroy
