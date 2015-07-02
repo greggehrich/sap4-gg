@@ -17,7 +17,7 @@ var Stories = function(){
     .done(function(data){
       if(data.success == true){
         myLink.after(successMsg);
-        myLink.replaceWith('<a href="javascript:void(0)" class="forget_story_link" data-story-id=' + storyId + '>FORGET THIS STORY AND PLACES</a>');
+        myLink.replaceWith('<a href="javascript:void(0)" class="forget_story_link" data-story-id=' + storyId + '>FORGET THESE PLACES ON MY MAP</a>');
         $('.forget_story_link').on('click', forgetStory);
       }
       else {
@@ -53,7 +53,7 @@ var Stories = function(){
     .done(function(data){
       if(data.success == true){
         myLink.after(successMsg);
-        myLink.replaceWith('<a href="javascript:void(0)" class="save_story_link" data-story-id=' + storyId + '>SAVE THIS STORY AND PLACES</a>');
+        myLink.replaceWith('<a href="javascript:void(0)" class="save_story_link" data-story-id=' + storyId + '>SAVE PLACES TO MY MAP</a>');
         $('.save_story_link').on('click', saveStory);
       }
       else{
