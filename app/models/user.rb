@@ -1,4 +1,9 @@
 class User < ActiveRecord::Base
+
+  validates :zip_preference, presence: true
+  validates_format_of :zip_preference, :with => /\A\d{5}\z/, :message => "should be in the form 12345"
+  # validates_format_of :zip_preference, :with => /^\d{5}$/
+
   has_many :usersavedstories, dependent: :destroy
   has_many :stories, through: :usersavedstories
 
@@ -26,8 +31,8 @@ class User < ActiveRecord::Base
     res
   end
 
-  def get_zip_code
-    '92101' # TEMP stubbing this method out
-  end
+  # def get_zip_code
+  #   '92101' # TEMP stubbing this method out
+  # end
 
 end

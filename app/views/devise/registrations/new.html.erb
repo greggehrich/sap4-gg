@@ -26,6 +26,10 @@
 						  <td style="padding-bottom: 10px"><%= f.text_area :city_preference, placeholder: "City1, City2, City3, etc", cols: 80 %>&nbsp;&nbsp;</td>
 						</tr>
 					  <tr>
+					    <td style="padding-bottom: 10px; font-size: 110%">Your Zip</td>
+						  <td style="padding-bottom: 10px"><%= f.text_field :zip_preference, placeholder: "5 digit zip", maxlength: 5 %>&nbsp;&nbsp;</td>
+						</tr>
+					  <tr>
 					    <td style="padding-bottom: 10px; font-size: 110%">Email</td>
 						  <td style="padding-bottom: 10px"><%= f.text_field :email, required: true, maxlength: 50 %>&nbsp;&nbsp;</td>
 						</tr>
