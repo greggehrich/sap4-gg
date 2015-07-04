@@ -51,7 +51,7 @@
                   <% if user_signed_in? %>
                     <% if story_saved?(story.id,current_user.id) %>
                       <p class="story-actions-links story-actions" id="forget_story">
-                        <%= link_to "FORGET THESE PLACES ON MY MAP", "javascript:void(0)", class: 'forget_story_link', 'data-story-id' => story.id %>
+                        <%= link_to "TAKE THESE PLACES OFF MY MAP", "javascript:void(0)", class: 'forget_story_link', 'data-story-id' => story.id %>
                       </p>
                     <% else %>
                       <p class="story-actions-links story-actions" id="save_story">

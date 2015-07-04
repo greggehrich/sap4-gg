@@ -17,7 +17,7 @@ var Stories = function(){
     .done(function(data){
       if(data.success == true){
         myLink.after(successMsg);
-        myLink.replaceWith('<a href="javascript:void(0)" class="forget_story_link" data-story-id=' + storyId + '>FORGET THESE PLACES ON MY MAP</a>');
+        myLink.replaceWith('<a href="javascript:void(0)" class="forget_story_link" data-story-id=' + storyId + '>TAKE THESE PLACES OFF MY MAP</a>');
         $('.forget_story_link').on('click', forgetStory);
       }
       else {
@@ -44,8 +44,8 @@ var Stories = function(){
     var myLink = $(this);
     var storyDiv = myLink.closest('.story_div')
     var storyId = myLink.attr('data-story-id');
-    var successMsg = Utils.flashMessage('These places are removed from your map', 'success');
-    var failMsg = Utils.flashMessage('There was an error forgetting your Story', 'danger');
+    var successMsg = Utils.flashMessage('These places are now off your map', 'success');
+    var failMsg = Utils.flashMessage('There was an error taking these places off your map', 'danger');
     $.ajax({
       method: 'POST',
       url: '/visitors/forget_story/' + storyId + '.json'
