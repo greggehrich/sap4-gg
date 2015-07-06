@@ -1,0 +1,1008 @@
+2015-07-05T17:59:29.867589+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (10.8ms)
+2015-07-05T17:59:29.867846+00:00 app[web.1]: Completed 200 OK in 12ms (Views: 2.4ms | ActiveRecord: 9.1ms)
+2015-07-05T17:59:29.855451+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T17:59:34.883616+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=32bb22ba-ca1f-40b2-ba3a-2103d68bb6bb fwd="76.176.36.190" dyno=web.1 connect=1ms service=16ms status=200 bytes=779
+2015-07-05T17:59:34.875576+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 17:59:34 +0000
+2015-07-05T17:59:34.886300+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (6.2ms)
+2015-07-05T17:59:34.886376+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (6.5ms)
+2015-07-05T17:59:34.886617+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 2.2ms | ActiveRecord: 4.9ms)
+2015-07-05T17:59:34.878770+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T17:59:36.896702+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=d0a400fd-46a8-41f8-aef0-8123b8699dfd fwd="76.176.36.190" dyno=web.1 connect=1ms service=12ms status=200 bytes=779
+2015-07-05T17:59:36.889141+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 17:59:36 +0000
+2015-07-05T17:59:36.896582+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.7ms)
+2015-07-05T17:59:36.897019+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 2.4ms)
+2015-07-05T17:59:36.891538+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T17:59:36.896748+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (4.1ms)
+2015-07-05T17:59:57.860569+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (2.8ms)
+2015-07-05T17:59:57.854279+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 17:59:57 +0000
+2015-07-05T17:59:57.860698+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.1ms)
+2015-07-05T17:59:57.860893+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 1.7ms)
+2015-07-05T17:59:57.856487+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T17:59:57.862406+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=ce37f0bd-fd8b-479a-b5b4-50cbdadd2068 fwd="76.176.36.190" dyno=web.1 connect=0ms service=9ms status=200 bytes=779
+2015-07-05T17:59:59.988936+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=c9b729f8-abe7-45e2-afdb-efa538ba54fd fwd="76.176.36.190" dyno=web.1 connect=0ms service=34ms status=304 bytes=399
+2015-07-05T17:59:59.959719+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 17:59:59 +0000
+2015-07-05T17:59:59.981000+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (15.9ms)
+2015-07-05T17:59:59.981399+00:00 app[web.1]: Completed 200 OK in 18ms (Views: 12.0ms | ActiveRecord: 4.7ms)
+2015-07-05T17:59:59.980875+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (15.5ms)
+2015-07-05T17:59:59.963769+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:00:05.878702+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=c8251f13-2d14-420e-bca7-b223faae041c fwd="76.176.36.190" dyno=web.1 connect=1ms service=27ms status=304 bytes=399
+2015-07-05T18:00:05.855717+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:00:05 +0000
+2015-07-05T18:00:05.871521+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (9.9ms)
+2015-07-05T18:00:05.871662+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (10.4ms)
+2015-07-05T18:00:05.871959+00:00 app[web.1]: Completed 200 OK in 12ms (Views: 2.8ms | ActiveRecord: 8.4ms)
+2015-07-05T18:00:05.859953+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:00:06.935858+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=3f068e45-2538-471e-8229-b84cfe5f6c5b fwd="76.176.36.190" dyno=web.1 connect=2ms service=27ms status=304 bytes=399
+2015-07-05T18:00:06.931415+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:00:06 +0000
+2015-07-05T18:00:06.938147+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.3ms)
+2015-07-05T18:00:06.938708+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 1.9ms)
+2015-07-05T18:00:06.933500+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:00:06.938349+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.7ms)
+2015-07-05T18:00:24.341139+00:00 heroku[router]: at=info method=GET path="/stories/scrape" host=www.storiesaboutplaces.com request_id=25d99657-d18b-4375-b2d6-c6dfb32cf48d fwd="76.176.36.190" dyno=web.1 connect=0ms service=80ms status=200 bytes=9658
+2015-07-05T18:00:24.263658+00:00 app[web.1]: Started GET "/stories/scrape" for 76.176.36.190 at 2015-07-05 18:00:24 +0000
+2015-07-05T18:00:24.310698+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (1.0ms)
+2015-07-05T18:00:24.301413+00:00 app[web.1]:   Rendered stories/scrape.html.erb within layouts/application (2.3ms)
+2015-07-05T18:00:24.308948+00:00 app[web.1]:   Rendered devise/shared/_links.html.erb (0.3ms)
+2015-07-05T18:00:24.309394+00:00 app[web.1]:   Rendered layouts/_navigation.html.erb (4.2ms)
+2015-07-05T18:00:24.309564+00:00 app[web.1]:   Rendered layouts/_messages.html.erb (0.1ms)
+2015-07-05T18:00:24.276363+00:00 app[web.1]: Processing by StoriesController#scrape as HTML
+2015-07-05T18:00:24.309310+00:00 app[web.1]:   Rendered layouts/_login_modal.erb (2.1ms)
+2015-07-05T18:00:24.307059+00:00 app[web.1]:   Rendered layouts/_navigation_links.html.erb (1.4ms)
+2015-07-05T18:00:24.325517+00:00 app[web.1]: Completed 200 OK in 47ms (Views: 28.0ms | ActiveRecord: 2.4ms)
+2015-07-05T18:00:24.725623+00:00 heroku[router]: at=info method=POST path="/ahoy/visits" host=www.storiesaboutplaces.com request_id=926d2ca9-bf20-496b-a75b-cce8430c63d3 fwd="76.176.36.190" dyno=web.1 connect=1ms service=269ms status=200 bytes=934
+2015-07-05T18:00:26.228697+00:00 app[web.1]: Started POST "/stories/new" for 76.176.36.190 at 2015-07-05 18:00:26 +0000
+2015-07-05T18:00:26.251005+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/SBxizie8BYuceCrofGvvY6pKvCJu+/qxPONf9V6iC8=", "source_url_pre"=>"http://www.fodors.com/news/food-lovers-guide-to-maui-11398.html", "data_entry_begin_time"=>"2015-07-05 18:00:24 +0000"}
+2015-07-05T18:00:26.239934+00:00 app[web.1]: Processing by StoriesController#new as HTML
+2015-07-05T18:00:27.915202+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=c4a184b9-c0c6-4686-b74c-519cadeac099 fwd="76.176.36.190" dyno=web.1 connect=0ms service=60ms status=304 bytes=399
+2015-07-05T18:00:27.907187+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (30.7ms)
+2015-07-05T18:00:27.907073+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (30.3ms)
+2015-07-05T18:00:27.907460+00:00 app[web.1]: Completed 200 OK in 32ms (Views: 2.4ms | ActiveRecord: 28.9ms)
+2015-07-05T18:00:27.869960+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:00:27 +0000
+2015-07-05T18:00:27.875354+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:00:28.665780+00:00 heroku[router]: at=info method=POST path="/stories/new" host=www.storiesaboutplaces.com request_id=7551af68-e060-4d92-82c0-93921ce395bc fwd="76.176.36.190" dyno=web.1 connect=2ms service=2444ms status=200 bytes=34020
+2015-07-05T18:00:28.637438+00:00 app[web.1]:   Rendered stories/_form.html.erb (83.3ms)
+2015-07-05T18:00:28.637538+00:00 app[web.1]:   Rendered stories/new.html.erb within layouts/application (89.3ms)
+2015-07-05T18:00:28.640856+00:00 app[web.1]:   Rendered layouts/_navigation_links.html.erb (1.4ms)
+2015-07-05T18:00:28.650904+00:00 app[web.1]:   Rendered layouts/_login_modal.erb (9.9ms)
+2015-07-05T18:00:28.650967+00:00 app[web.1]:   Rendered layouts/_navigation.html.erb (12.2ms)
+2015-07-05T18:00:28.651296+00:00 app[web.1]:   Rendered layouts/_messages.html.erb (0.2ms)
+2015-07-05T18:00:28.653152+00:00 app[web.1]: Completed 200 OK in 2402ms (Views: 120.0ms | ActiveRecord: 19.9ms)
+2015-07-05T18:00:28.652751+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (1.2ms)
+2015-07-05T18:00:28.650380+00:00 app[web.1]:   Rendered devise/shared/_links.html.erb (7.6ms)
+2015-07-05T18:00:29.867464+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:00:29 +0000
+2015-07-05T18:00:29.927632+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (30.3ms)
+2015-07-05T18:00:29.927751+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (30.8ms)
+2015-07-05T18:00:29.928024+00:00 app[web.1]: Completed 200 OK in 58ms (Views: 6.7ms | ActiveRecord: 24.8ms)
+2015-07-05T18:00:29.870382+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:00:29.933464+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=dfdd3faf-2c9a-481f-aa7a-706721fd663a fwd="76.176.36.190" dyno=web.1 connect=12ms service=69ms status=304 bytes=399
+2015-07-05T18:00:36.865869+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:00:36 +0000
+2015-07-05T18:00:36.873348+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.4ms)
+2015-07-05T18:00:36.873534+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.8ms)
+2015-07-05T18:00:36.873961+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 2.2ms)
+2015-07-05T18:00:36.871385+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=bca9356d-565b-4825-9b4d-268fbcb457f8 fwd="76.176.36.190" dyno=web.1 connect=1ms service=11ms status=200 bytes=779
+2015-07-05T18:00:36.868328+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:00:37.199320+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=674a2b8e-8c3d-45a9-985b-7658df73327a fwd="76.176.36.190" dyno=web.1 connect=2ms service=24ms status=200 bytes=779
+2015-07-05T18:00:37.175632+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:00:37 +0000
+2015-07-05T18:00:37.195530+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (9.9ms)
+2015-07-05T18:00:37.195611+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (10.2ms)
+2015-07-05T18:00:37.195859+00:00 app[web.1]: Completed 200 OK in 14ms (Views: 2.5ms | ActiveRecord: 8.4ms)
+2015-07-05T18:00:37.182313+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:00:57.874042+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=d47e285d-8b79-4b1f-86a9-2eb7df1a962d fwd="76.176.36.190" dyno=web.1 connect=2ms service=17ms status=200 bytes=779
+2015-07-05T18:00:57.860345+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:00:57 +0000
+2015-07-05T18:00:57.872399+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (5.9ms)
+2015-07-05T18:00:57.872521+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (6.4ms)
+2015-07-05T18:00:57.872720+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 2.3ms | ActiveRecord: 4.7ms)
+2015-07-05T18:00:57.865077+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:00:58.957116+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=abbcab85-e7f3-40b0-a140-3ffd13b2fec0 fwd="76.176.36.190" dyno=web.1 connect=2ms service=20ms status=200 bytes=779
+2015-07-05T18:00:58.938074+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:00:58 +0000
+2015-07-05T18:00:58.945572+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.7ms)
+2015-07-05T18:00:58.945629+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (4.1ms)
+2015-07-05T18:00:58.945968+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 2.3ms)
+2015-07-05T18:00:58.940170+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:00:59.895113+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=2084d98d-73e6-4fd5-8fe3-356dd041b969 fwd="76.176.36.190" dyno=web.1 connect=1ms service=28ms status=304 bytes=399
+2015-07-05T18:00:59.901367+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:00:59 +0000
+2015-07-05T18:00:59.901371+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:00:59.901383+00:00 app[web.1]: Completed 200 OK in 12ms (Views: 3.1ms | ActiveRecord: 7.9ms)
+2015-07-05T18:00:59.901379+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (9.9ms)
+2015-07-05T18:00:59.901381+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (10.3ms)
+2015-07-05T18:01:07.060187+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:01:07 +0000
+2015-07-05T18:01:07.064414+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:01:07.090043+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (17.7ms)
+2015-07-05T18:01:07.090188+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (24.6ms)
+2015-07-05T18:01:07.090476+00:00 app[web.1]: Completed 200 OK in 26ms (Views: 20.4ms | ActiveRecord: 4.9ms)
+2015-07-05T18:01:07.089531+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=451d2131-ae2d-4490-8699-7549621c6cc2 fwd="76.176.36.190" dyno=web.1 connect=3ms service=35ms status=304 bytes=399
+2015-07-05T18:01:07.900113+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=17f3e5cb-dbad-41c8-b8c0-5d7b28ac199b fwd="76.176.36.190" dyno=web.1 connect=4ms service=33ms status=304 bytes=399
+2015-07-05T18:01:07.883791+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:01:07 +0000
+2015-07-05T18:01:07.895651+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (7.1ms)
+2015-07-05T18:01:07.895656+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (7.4ms)
+2015-07-05T18:01:07.895847+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 2.2ms | ActiveRecord: 5.9ms)
+2015-07-05T18:01:07.886951+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:01:28.065899+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=f675d419-8cf3-4f48-b333-03d0dae0539b fwd="76.176.36.190" dyno=web.1 connect=0ms service=56ms status=304 bytes=399
+2015-07-05T18:01:28.012046+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:01:28 +0000
+2015-07-05T18:01:28.063
+727+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (25.3ms)
+2015-07-05T18:01:28.063822+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (25.7ms)
+2015-07-05T18:01:28.064131+00:00 app[web.1]: Completed 200 OK in 27ms (Views: 2.8ms | ActiveRecord: 23.7ms)
+2015-07-05T18:01:28.036858+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:01:28.902846+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=f39f9569-8b79-47ab-8238-ee60fdf9e0b0 fwd="76.176.36.190" dyno=web.1 connect=1ms service=58ms status=304 bytes=399
+2015-07-05T18:01:28.855280+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:01:28 +0000
+2015-07-05T18:01:28.903794+00:00 app[web.1]: Completed 200 OK in 19ms (Views: 2.5ms | ActiveRecord: 12.7ms)
+2015-07-05T18:01:28.903535+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (14.6ms)
+2015-07-05T18:01:28.903491+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (14.2ms)
+2015-07-05T18:01:28.884483+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:01:29.921487+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=471de19b-30fa-40cb-8543-d9286cdff8ee fwd="76.176.36.190" dyno=web.1 connect=0ms service=60ms status=304 bytes=399
+2015-07-05T18:01:29.864123+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:01:29 +0000
+2015-07-05T18:01:29.919596+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (41.8ms)
+2015-07-05T18:01:29.919641+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (42.4ms)
+2015-07-05T18:01:29.919921+00:00 app[web.1]: Completed 200 OK in 44ms (Views: 2.8ms | ActiveRecord: 40.1ms)
+2015-07-05T18:01:29.876183+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:01:36.946384+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:01:36 +0000
+2015-07-05T18:01:37.039904+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (82.0ms)
+2015-07-05T18:01:37.039908+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (82.3ms)
+2015-07-05T18:01:37.040040+00:00 app[web.1]: Completed 200 OK in 84ms (Views: 2.7ms | ActiveRecord: 80.2ms)
+2015-07-05T18:01:36.956370+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:01:37.038457+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=d8d0d31b-ff72-4ed4-9d0a-c880c0d17873 fwd="76.176.36.190" dyno=web.1 connect=1ms service=112ms status=200 bytes=779
+2015-07-05T18:01:38.915252+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=9969f661-c7d2-4c58-9357-6b57a16394b6 fwd="76.176.36.190" dyno=web.1 connect=3ms service=63ms status=200 bytes=779
+2015-07-05T18:01:38.902536+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (6.2ms)
+2015-07-05T18:01:38.875455+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:01:38 +0000
+2015-07-05T18:01:38.902620+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (6.6ms)
+2015-07-05T18:01:38.916654+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 16.0ms | ActiveRecord: 4.8ms)
+2015-07-05T18:01:38.878089+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:01:57.906028+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:01:57 +0000
+2015-07-05T18:01:57.987662+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (34.7ms)
+2015-07-05T18:01:57.987733+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (35.0ms)
+2015-07-05T18:01:57.988059+00:00 app[web.1]: Completed 200 OK in 37ms (Views: 8.4ms | ActiveRecord: 27.3ms)
+2015-07-05T18:01:57.920148+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:01:57.990787+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=d39a3943-b91f-43f0-94fe-93d3becf5e64 fwd="76.176.36.190" dyno=web.1 connect=0ms service=85ms status=200 bytes=779
+2015-07-05T18:01:58.931788+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:01:58 +0000
+2015-07-05T18:01:59.094871+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (96.2ms)
+2015-07-05T18:01:59.094947+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (96.8ms)
+2015-07-05T18:01:59.111014+00:00 app[web.1]: Completed 200 OK in 109ms (Views: 75.7ms | ActiveRecord: 21.8ms)
+2015-07-05T18:01:59.106205+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=9b476902-1cb4-4029-b7a2-4db51248a8ac fwd="76.176.36.190" dyno=web.1 connect=0ms service=261ms status=200 bytes=779
+2015-07-05T18:01:58.996761+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:02:00.015674+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=a0ebc5d3-f794-4330-a676-7bc3e4d4c9bb fwd="76.176.36.190" dyno=web.1 connect=0ms service=19ms status=304 bytes=399
+2015-07-05T18:01:59.997727+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:01:59 +0000
+2015-07-05T18:02:00.011301+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (5.7ms)
+2015-07-05T18:02:00.011961+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 2.3ms | ActiveRecord: 4.5ms)
+2015-07-05T18:02:00.004029+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:02:00.011533+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (6.1ms)
+2015-07-05T18:02:06.968211+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=49026c1c-425b-4c0a-8f53-a722b1c26682 fwd="76.176.36.190" dyno=web.1 connect=2ms service=65ms status=304 bytes=399
+2015-07-05T18:02:06.907637+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:02:06 +0000
+2015-07-05T18:02:06.956110+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (35.2ms)
+2015-07-05T18:02:06.963357+00:00 app[web.1]: Completed 200 OK in 44ms (Views: 10.3ms | ActiveRecord: 32.9ms)
+2015-07-05T18:02:06.916359+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:02:06.959152+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (38.6ms)
+2015-07-05T18:02:10.043145+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=94ca4071-f7bb-4c94-b0a3-66630b2b4411 fwd="76.176.36.190" dyno=web.1 connect=4ms service=61ms status=304 bytes=399
+2015-07-05T18:02:09.991597+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:02:09 +0000
+2015-07-05T18:02:10.030104+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (32.1ms)
+2015-07-05T18:02:10.030021+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (31.7ms)
+2015-07-05T18:02:10.030435+00:00 app[web.1]: Completed 200 OK in 33ms (Views: 2.5ms | ActiveRecord: 30.2ms)
+2015-07-05T18:02:09.996843+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:02:27.869808+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:02:27 +0000
+2015-07-05T18:02:27.911509+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (29.7ms)
+2015-07-05T18:02:27.918277+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 28.1ms | ActiveRecord: 9.0ms)
+2015-07-05T18:02:27.876258+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:02:27.917829+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (33.3ms)
+2015-07-05T18:02:27.921310+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=5474a463-564f-4a55-b9c3-289a52b89020 fwd="76.176.36.190" dyno=web.1 connect=0ms service=54ms status=304 bytes=399
+2015-07-05T18:02:28.914677+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=90f22667-81f8-45f7-9d09-95ed78dafc85 fwd="76.176.36.190" dyno=web.1 connect=9ms service=65ms status=304 bytes=399
+2015-07-05T18:02:28.855491+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:02:28 +0000
+2015-07-05T18:02:28.900730+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (35.2ms)
+2015-07-05T18:02:28.915108+00:00 app[web.1]: Completed 200 OK in 51ms (Views: 8.3ms | ActiveRecord: 27.9ms)
+2015-07-05T18:02:28.864154+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:02:28.900902+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (35.6ms)
+2015-07-05T18:02:29.949964+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=93f33682-5790-4d87-8803-e79552b63267 fwd="76.176.36.190" dyno=web.1 connect=0ms service=72ms status=304 bytes=399
+2015-07-05T18:02:29.904682+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:02:29 +0000
+2015-07-05T18:02:29.947690+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (38.7ms)
+2015-07-05T18:02:29.947809+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (39.1ms)
+2015-07-05T18:02:29.948095+00:00 app[web.1]: Completed 200 OK in 40ms (Views: 2.7ms | ActiveRecord: 37.1ms)
+2015-07-05T18:02:29.907548+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:02:36.933930+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=ec067980-f4bd-496f-ad14-bc340a436eac fwd="76.176.36.190" dyno=web.1 connect=1ms service=30ms status=200 bytes=779
+2015-07-05T18:02:36.907636+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:02:36 +0000
+2015-07-05T18:02:36.928122+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (10.5ms)
+2015-07-05T18:02:36.934254+00:00 app[web.1]: Completed 200 OK in 18ms (Views: 8.2ms | ActiveRecord: 9.0ms)
+2015-07-05T18:02:36.928248+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (10.9ms)
+2015-07-05T18:02:36.916097+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:02:40.942999+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=c7ea2549-1435-42df-ad86-87b41400264c fwd="76.176.36.190" dyno=web.1 connect=1ms service=48ms status=200 bytes=779
+2015-07-05T18:02:40.903751+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:02:40 +0000
+2015-07-05T18:02:40.944655+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (20.7ms)
+2015-07-05T18:02:40.944802+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (21.1ms)
+2015-07-05T18:02:40.945123+00:00 app[web.1]: Completed 200 OK in 28ms (Views: 10.9ms | ActiveRecord: 16.0ms)
+2015-07-05T18:02:40.917331+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:02:47.792227+00:00 app[web.1]: Started POST "/stories" for 76.176.36.190 at 2015-07-05 18:02:47 +0000
+2015-07-05T18:02:47.855562+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/SBxizie8BYuceCrofGvvY6pKvCJu+/qxPONf9V6iC8=", "story"=>{"urls_attributes"=>{"0"=>{"url_full"=>"http://www.fodors.com/news/food-lovers-guide-to-maui-11398.html", "url_domain"=>"fodors.com", "url_type"=>"Media", "url_title"=>"Food Lover's Guide to Maui", "url_desc"=>"Hawaii has a lot to offer food lovers, and Maui in particular is undergoing a culinary renaissance. Now more than ever, there are farms, festivals, food trucks, and fine dining that will delight foodies of all stripes.", "url_keywords"=>"", "raw_url_title_scrape"=>"Food Lover's Guide to Maui | \r\n\t\t\tFodor's", "raw_url_desc_scrape"=>"Now more than ever, there are farms, festivals, food trucks, and fine dining that will delight foodies of all stripes.", "raw_url_keywords_scrape"=>"", "images_attributes"=>{"0"=>{"image_data"=>"{\"src_url\":\"http://www.fodors.com/ee/images/article/food-lovers-guide-to-maui-intro.jpg\",\"alt_text\":\"Loco moco\",\"image_width\":452,\"image_height\":300}", "manual_url"=>"", "image_width"=>"", "image_height"=>"", "manual_enter"=>""}}}}, "editor_tagline"=>"Lots of comfort food, and new combinations too", "location_ids"=>["", "5"], "place_category_ids"=>["", "2", "4"], "story_category_ids"=>[""], "scraped_type"=>"article", "story_type"=>"Guide", "author"=>"Amy Sherman", "outside_usa"=>"0", "story_year"=>"2015", "story_month"=>"6", "story_date"=>"30", "sap_publish_date(1i)"=>"", "sap_publish_date(2i)"=>"", "sap_publish_date(3i)"=>"", "sap_publish_date(4i)"=>"", "sap_publish_date(5i)"=>"", "raw_author_scrape"=>"", "data_entry_begin_time"=>"2015-07-05 18:00:24 +0000", "raw_story_year_scrape"=>"2015", "raw_story_month_scrape"=>"6", "raw_story_date_scrape"=>"30", "data_entry_user"=>"1"}, "name_display"=>"Fodor's", "image_src_cache"=>{"0"=>"http://www.fodors.com/ee/images/article/food-lovers-guide-to-maui-intro.jpg", "1"=>"http://www.fodors.com/ee/images/article/food-lovers-guide-to-maui-poi-by-the-pound.jpg", "2"=>"http://www.fodors.com/ee/images/article/food-lovers-guide-to-maui-maui-fresh-streatery.jpg", "3"=>"http://www.fodors.com/ee/images/article/food-lovers-guide-to-maui-star-noodle.jpg", "4"=>"http://www.fodors.com/ee/images/article/food-lovers-guide-to-maui-ocean-vodka.jpg"}, "image_alt_text_cache"=>{"0"=>"Loco moco", "1"=>"Poi by the pound", "2"=>"Maui fresh streatery", "3"=>"Star noodle", "4"=>"Ocean vodka"}, "commit"=>"Save"}
+2015-07-05T18:02:47.855281+00:00 app[web.1]: Processing by StoriesController#create as HTML
+2015-07-05T18:02:48.683772+00:00 app[web.1]: Redirected to http://www.storiesaboutplaces.com/stories/story_proof/1660
+2015-07-05T18:02:48.683917+00:00 app[web.1]: Completed 302 Found in 828ms (ActiveRecord: 336.6ms)
+2015-07-05T18:02:48.783301+00:00 app[web.1]: Started GET "/stories/story_proof/1660" for 76.176.36.190 at 2015-07-05 18:02:48 +0000
+2015-07-05T18:02:48.683058+00:00 heroku[router]: at=info method=POST path="/stories" host=www.storiesaboutplaces.com request_id=ef958275-992d-4399-8f74-07a56f072c6c fwd="76.176.36.190" dyno=web.1 connect=2ms service=1017ms status=302 bytes=1206
+2015-07-05T18:02:48.795751+00:00 app[web.1]: Processing by StoriesController#story_proof as HTML
+2015-07-05T18:02:48.795763+00:00 app[web.1]:   Parameters: {"id"=>"1660"}
+2015-07-05T18:02:49.322655+00:00 heroku[router]: at=info method=GET path="/stories/story_proof/1660" host=www.storiesaboutplaces.com request_id=11ace776-edda-45f8-be10-b28844fa1ec3 fwd="76.176.36.190" dyno=web.1 connect=0ms service=547ms status=200 bytes=9955
+2015-07-05T18:02:49.285469+00:00 app[web.1]:   Rendered devise/shared/_links.html.erb (0.4ms)
+2015-07-05T18:02:49.260511+00:00 app[web.1]:   Rendered stories/story_proof.html.erb within layouts/application (387.7ms)
+2015-07-05T18:02:49.304510+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (18.1ms)
+2015-07-05T18:02:49.267460+00:00 app[web.1]:   Rendered layouts/_navigation_links.html.erb (5.6ms)
+2015-07-05T18:02:49.285941+00:00 app[web.1]:   Rendered layouts/_navigation.html.erb (24.5ms)
+2015-07-05T18:02:49.285887+00:00 app[web.1]:   Rendered layouts/_login_modal.erb (2.7ms)
+2015-07-05T18:02:49.286229+00:00 app[web.1]:   Rendered layouts/_messages.html.erb (0.1ms)
+2015-07-05T18:02:49.311284+00:00 app[web.1]: Completed 200 OK in 515ms (Views: 458.8ms | ActiveRecord: 28.5ms)
+2015-07-05T18:02:57.863957+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:02:57 +0000
+2015-07-05T18:02:57.887649+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (18.1ms)
+2015-07-05T18:02:57.903083+00:00 app[web.1]: Completed 200 OK in 35ms (Views: 14.3ms | ActiveRecord: 16.3ms)
+2015-07-05T18:02:57.868002+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:02:57.899151+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (29.8ms)
+2015-07-05T18:02:57.904672+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=62b05609-ddbb-4b23-8ab2-ff8946cfb868 fwd="76.176.36.190" dyno=web.1 connect=0ms service=44ms status=200 bytes=779
+2015-07-05T18:02:59.885218+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=de9bce30-c1d1-4282-a4ad-76461a061ce2 fwd="76.176.36.190" dyno=web.1 connect=1ms service=24ms status=304 bytes=399
+2015-07-05T18:02:59.863113+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:02:59 +0000
+2015-07-05T18:02:59.883653+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (14.1ms)
+2015-07-05T18:02:59.883748+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (14.5ms)
+2015-07-05T18:02:59.884011+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 2.7ms | ActiveRecord: 12.5ms)
+2015-07-05T18:02:59.868027+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:03:06.939408+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=50771169-539c-4948-bcb9-7e9c533af19e fwd="76.176.36.190" dyno=web.1 connect=1ms service=25ms status=304 bytes=399
+2015-07-05T18:03:06.922580+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:03:06 +0000
+2015-07-05T18:03:06.937798+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (8.3ms)
+2015-07-05T18:03:06.939891+00:00 app[web.1]: Completed 200 OK in 12ms (Views: 5.5ms | ActiveRecord: 5.5ms)
+2015-07-05T18:03:06.939498+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (8.7ms)
+2015-07-05T18:03:06.932207+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:03:11.897896+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=3b48f141-d669-4eef-a4be-d50f5cdfc9c7 fwd="76.176.36.190" dyno=web.1 connect=1ms service=30ms status=304 bytes=399
+2015-07-05T18:03:11.899431+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (10.1ms)
+2015-07-05T18:03:11.884594+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:03:11 +0000
+2015-07-05T18:03:11.899809+00:00 app[web.1]: Completed 200 OK in 12ms (Views: 2.4ms | ActiveRecord: 8.7ms)
+2015-07-05T18:03:11.899542+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (10.4ms)
+2015-07-05T18:03:11.887995+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:03:19.499639+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=cc2b1160-29a5-4d17-ab66-ce6149881174 fwd="76.176.36.190" dyno=web.1 connect=3ms service=40ms status=200 bytes=779
+2015-07-05T18:03:19.463285+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:03:19 +0000
+2015-07-05T18:03:19.500502+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (27.7ms)
+2015-07-05T18:03:19.500594+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (28.1ms)
+2015-07-05T18:03:19.500897+00:00 app[web.1]: Completed 200 OK in 30ms (Views: 2.7ms | ActiveRecord: 26.0ms)
+2015-07-05T18:03:19.471258+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:03:23.826893+00:00 heroku[scheduler.7400]: State changed from up to complete
+2015-07-05T18:03:23.811668+00:00 heroku[scheduler.7400]: Process exited with status 0
+2015-07-05T18:03:27.894354+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=f9cb1c45-c8ff-4266-9b3c-0cfd5f7ca008 fwd="76.176.36.190" dyno=web.1 connect=0ms service=30ms status=304 bytes=399
+2015-07-05T18:03:27.867951+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:03:27.887030+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (17.6ms)
+2015-07-05T18:03:27.883697+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (14.0ms)
+2015-07-05T18:03:27.864365+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:03:27 +0000
+2015-07-05T18:03:27.887441+00:00 app[web.1]: Completed 200 OK in 19ms (Views: 5.9ms | ActiveRecord: 12.4ms)
+2015-07-05T18:03:29.879544+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=1fdb5cd5-1c46-4351-9eef-fb2805f4c210 fwd="76.176.36.190" dyno=web.1 connect=1ms service=24ms status=304 bytes=399
+2015-07-05T18:03:29.859511+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:03:29 +0000
+2015-07-05T18:03:29.894764+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (7.1ms)
+2015-07-05T18:03:29.894756+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (6.7ms)
+2015-07-05T18:03:29.894766+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 2.6ms | ActiveRecord: 5.1ms)
+2015-07-05T18:03:29.863238+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:03:37.045266+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=2bddd783-4389-4a6f-94a9-ea6d5196f259 fwd="76.176.36.190" dyno=web.1 connect=2ms service=14ms status=200 bytes=779
+2015-07-05T18:03:37.035523+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:03:37 +0000
+2015-07-05T18:03:37.042715+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.4ms)
+2015-07-05T18:03:37.042891+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.8ms)
+2015-07-05T18:03:37.043093+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 2.1ms)
+2015-07-05T18:03:37.037534+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:03:42.879848+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=f697ba2d-5c7f-4f52-ab5a-9c184bb23a68 fwd="76.176.36.190" dyno=web.1 connect=1ms service=20ms status=200 bytes=779
+2015-07-05T18:03:42.867674+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:03:42 +0000
+2015-07-05T18:03:42.882161+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (9.1ms)
+2015-07-05T18:03:42.882076+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (8.7ms)
+2015-07-05T18:03:42.882516+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 3.2ms | ActiveRecord: 6.6ms)
+2015-07-05T18:03:42.871910+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:03:49.483437+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:03:49 +0000
+2015-07-05T18:03:49.512301+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (14.3ms)
+2015-07-05T18:03:49.512925+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 3.0ms | ActiveRecord: 12.5ms)
+2015-07-05T18:03:49.512498+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (14.7ms)
+2015-07-05T18:03:49.513720+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=aea3f4e9-7399-46d6-b2c1-568241ca4398 fwd="76.176.36.190" dyno=web.1 connect=0ms service=36ms status=200 bytes=779
+2015-07-05T18:03:49.496804+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:03:58.043028+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:03:58 +0000
+2015-07-05T18:03:58.095559+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (24.9ms)
+2015-07-05T18:03:58.095599+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (25.3ms)
+2015-07-05T18:03:58.095868+00:00 app[web.1]: Completed 200 OK in 27ms (Views: 14.3ms | ActiveRecord: 11.8ms)
+2015-07-05T18:03:58.069030+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:03:58.108713+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=44abefd5-22c1-41fe-b9ed-a1e57ece80c3 fwd="76.176.36.190" dyno=web.1 connect=0ms service=74ms status=200 bytes=779
+2015-07-05T18:03:59.882203+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:03:59 +0000
+2015-07-05T18:03:59.939459+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (43.2ms)
+2015-07-05T18:03:59.939514+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (43.6ms)
+2015-07-05T18:03:59.939791+00:00 app[web.1]: Completed 200 OK in 45ms (Views: 4.7ms | ActiveRecord: 39.5ms)
+2015-07-05T18:03:59.895212+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:03:59.941365+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=8ed27d2a-bcf4-4bc0-aa8a-827fa6107ead fwd="76.176.36.190" dyno=web.1 connect=2ms service=63ms status=304 bytes=399
+2015-07-05T18:04:06.966930+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=47e889c6-5e64-4858-8e70-3b69338f066c fwd="76.176.36.190" dyno=web.1 connect=1ms service=51ms status=304 bytes=399
+2015-07-05T18:04:06.924537+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:04:06 +0000
+2015-07-05T18:04:06.967646+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (33.7ms)
+2015-07-05T18:04:06.967702+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (34.2ms)
+2015-07-05T18:04:06.968040+00:00 app[web.1]: Completed 200 OK in 36ms (Views: 28.4ms | ActiveRecord: 6.7ms)
+2015-07-05T18:04:06.932080+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:04:10.099488+00:00 heroku[api]: Starting process with command `bundle exec rake schedule_story:check_pub_time` by scheduler@addons.heroku.com
+2015-07-05T18:04:13.897887+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=5296e3ef-6bf7-4f09-ba01-945d9f7d0709 fwd="76.176.36.190" dyno=web.1 connect=1ms service=31ms status=304 bytes=399
+2015-07-05T18:04:13.875352+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:04:13 +0000
+2015-07-05T18:04:13.899441+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (22.2ms)
+2015-07-05T18:04:13.875713+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:04:13.900016+00:00 app[web.1]: Completed 200 OK in 24ms (Views: 4.1ms | ActiveRecord: 19.3ms)
+2015-07-05T18:04:13.899574+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (22.6ms)
+2015-07-05T18:04:15.098224+00:00 heroku[scheduler.4742]: Starting process with command `bundle exec rake schedule_story:check_pub_time`
+2015-07-05T18:04:15.658408+00:00 heroku[scheduler.4742]: State changed from starting to up
+2015-07-05T18:04:20.492533+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:04:20.489149+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:04:20 +0000
+2015-07-05T18:04:20.511940+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (10.6ms)
+2015-07-05T18:04:20.512291+00:00 app[web.1]: Completed 200 OK in 14ms (Views: 4.5ms | ActiveRecord: 9.1ms)
+2015-07-05T18:04:20.512020+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (10.9ms)
+2015-07-05T18:04:20.517111+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=05c5559c-5f35-4254-b867-57713efb940f fwd="76.176.36.190" dyno=web.1 connect=3ms service=30ms status=304 bytes=399
+2015-07-05T18:04:27.872646+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=13b75dcc-9afc-4347-8575-9decd6801a1b fwd="76.176.36.190" dyno=web.1 connect=0ms service=8ms status=304 bytes=399
+2015-07-05T18:04:27.864811+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:04:27 +0000
+2015-07-05T18:04:27.871321+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.0ms)
+2015-07-05T18:04:27.871607+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 1.8ms)
+2015-07-05T18:04:27.871407+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.3ms)
+2015-07-05T18:04:27.867014+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:04:29.057920+00:00 heroku[router]: at=info method=GET path="/stories/scrape" host=www.storiesaboutplaces.com request_id=e92e024f-bcdc-445b-9f1a-4af729a1829a fwd="76.176.36.190" dyno=web.1 connect=0ms service=21ms status=200 bytes=9621
+2015-07-05T18:04:29.033724+00:00 app[web.1]: Started GET "/stories/scrape" for 76.176.36.190 at 2015-07-05 18:04:29 +0000
+2015-07-05T18:04:29.043340+00:00 app[web.1]:   Rendered stories/scrape.html.erb within layouts/application (1.4ms)
+2015-07-05T18:04:29.048033+00:00 app[web.1]:   Rendered devise/shared/_links.html.erb (0.3ms)
+2015-07-05T18:04:29.050410+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (1.2ms)
+2015-07-05T18:04:29.048649+00:00 app[web.1]:   Rendered layouts/_navigation.html.erb (4.2ms)
+2015-07-05T18:04:29.036401+00:00 app[web.1]: Processing by StoriesController#scrape as HTML
+2015-07-05T18:04:29.048554+00:00 app[web.1]:   Rendered layouts/_login_modal.erb (2.2ms)
+2015-07-05T18:04:29.046141+00:00 app[web.1]:   Rendered layouts/_navigation_lin
+ks.html.erb (1.3ms)
+2015-07-05T18:04:29.050759+00:00 app[web.1]: Completed 200 OK in 13ms (Views: 9.1ms | ActiveRecord: 1.4ms)
+2015-07-05T18:04:29.049029+00:00 app[web.1]:   Rendered layouts/_messages.html.erb (0.2ms)
+2015-07-05T18:04:29.962485+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:04:29.996173+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (32.4ms)
+2015-07-05T18:04:29.996356+00:00 app[web.1]: Completed 200 OK in 34ms (Views: 29.0ms | ActiveRecord: 4.0ms)
+2015-07-05T18:04:29.958317+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:04:29 +0000
+2015-07-05T18:04:29.995965+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (32.0ms)
+2015-07-05T18:04:29.998528+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=23738af0-3727-4a28-bd59-c9f389289486 fwd="76.176.36.190" dyno=web.1 connect=1ms service=40ms status=304 bytes=399
+2015-07-05T18:04:31.275719+00:00 app[web.1]: Started POST "/stories/new" for 76.176.36.190 at 2015-07-05 18:04:31 +0000
+2015-07-05T18:04:31.289688+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/SBxizie8BYuceCrofGvvY6pKvCJu+/qxPONf9V6iC8=", "source_url_pre"=>"http://intelligenttravel.nationalgeographic.com/2015/07/02/american-glamping-three-great-finds/", "data_entry_begin_time"=>"2015-07-05 18:04:29 +0000"}
+2015-07-05T18:04:31.281797+00:00 app[web.1]: Processing by StoriesController#new as HTML
+2015-07-05T18:04:34.170705+00:00 heroku[router]: at=info method=POST path="/stories/new" host=www.storiesaboutplaces.com request_id=fb949c40-97d9-46ac-9850-0af15013aad2 fwd="76.176.36.190" dyno=web.1 connect=1ms service=2895ms status=200 bytes=32797
+2015-07-05T18:04:34.113142+00:00 app[web.1]:   Rendered stories/_form.html.erb (166.7ms)
+2015-07-05T18:04:34.113258+00:00 app[web.1]:   Rendered stories/new.html.erb within layouts/application (168.1ms)
+2015-07-05T18:04:34.117540+00:00 app[web.1]:   Rendered layouts/_navigation_links.html.erb (2.8ms)
+2015-07-05T18:04:34.133555+00:00 app[web.1]:   Rendered layouts/_navigation.html.erb (19.2ms)
+2015-07-05T18:04:34.133476+00:00 app[web.1]:   Rendered layouts/_login_modal.erb (15.8ms)
+2015-07-05T18:04:34.133853+00:00 app[web.1]:   Rendered layouts/_messages.html.erb (0.1ms)
+2015-07-05T18:04:34.152421+00:00 app[web.1]: Completed 200 OK in 2855ms (Views: 178.3ms | ActiveRecord: 49.7ms)
+2015-07-05T18:04:34.132917+00:00 app[web.1]:   Rendered devise/shared/_links.html.erb (0.4ms)
+2015-07-05T18:04:34.145272+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (11.1ms)
+2015-07-05T18:04:36.944708+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=ebaab2b9-9a75-4b17-b742-36c510f8716e fwd="76.176.36.190" dyno=web.1 connect=4ms service=14ms status=200 bytes=779
+2015-07-05T18:04:36.938869+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:04:36 +0000
+2015-07-05T18:04:36.947180+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (5.1ms)
+2015-07-05T18:04:36.947273+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (5.5ms)
+2015-07-05T18:04:36.947494+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 2.2ms | ActiveRecord: 3.8ms)
+2015-07-05T18:04:36.940679+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:04:44.885821+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=c6147560-46ee-450e-ad3b-ddb2a6a61641 fwd="76.176.36.190" dyno=web.1 connect=1ms service=11ms status=200 bytes=779
+2015-07-05T18:04:44.879313+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:04:44 +0000
+2015-07-05T18:04:44.887037+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.5ms)
+2015-07-05T18:04:44.887143+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.8ms)
+2015-07-05T18:04:44.887342+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 2.1ms)
+2015-07-05T18:04:44.882017+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:04:57.881843+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=de2fab05-06e2-4ce3-9602-3746da4f15c1 fwd="76.176.36.190" dyno=web.1 connect=1ms service=21ms status=200 bytes=779
+2015-07-05T18:04:57.864404+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:04:57 +0000
+2015-07-05T18:04:57.880187+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (7.8ms)
+2015-07-05T18:04:57.880296+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (8.1ms)
+2015-07-05T18:04:57.880502+00:00 app[web.1]: Completed 200 OK in 10ms (Views: 2.9ms | ActiveRecord: 5.9ms)
+2015-07-05T18:04:57.870757+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:04:59.888944+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=4aa4615b-91b2-4073-9879-35fdcff71814 fwd="76.176.36.190" dyno=web.1 connect=0ms service=28ms status=304 bytes=399
+2015-07-05T18:04:59.863996+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:04:59 +0000
+2015-07-05T18:04:59.886485+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (18.4ms)
+2015-07-05T18:04:59.887315+00:00 app[web.1]: Completed 200 OK in 21ms (Views: 17.7ms | ActiveRecord: 2.2ms)
+2015-07-05T18:04:59.866217+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:04:59.886916+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (19.0ms)
+2015-07-05T18:05:04.319361+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=ec0bee28-8761-44be-bb92-fa3594959f34 fwd="76.176.36.190" dyno=web.1 connect=1ms service=15ms status=200 bytes=779
+2015-07-05T18:05:04.303965+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:05:04 +0000
+2015-07-05T18:05:04.311699+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (4.4ms)
+2015-07-05T18:05:04.311786+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (4.7ms)
+2015-07-05T18:05:04.312017+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 3.2ms)
+2015-07-05T18:05:04.306024+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:05:06.940198+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=83eb71da-7aac-46a9-9b6a-851a95aa3dd9 fwd="76.176.36.190" dyno=web.1 connect=1ms service=20ms status=304 bytes=399
+2015-07-05T18:05:06.926262+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:05:06 +0000
+2015-07-05T18:05:06.941916+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (7.8ms)
+2015-07-05T18:05:06.942010+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (8.1ms)
+2015-07-05T18:05:06.942234+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 2.1ms | ActiveRecord: 6.6ms)
+2015-07-05T18:05:06.932833+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:05:15.898718+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=7dc82cee-c324-4bb5-a6a8-0a4957ce642e fwd="76.176.36.190" dyno=web.1 connect=1ms service=18ms status=304 bytes=399
+2015-07-05T18:05:15.886145+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:05:15 +0000
+2015-07-05T18:05:15.901328+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (4.1ms)
+2015-07-05T18:05:15.901427+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (4.4ms)
+2015-07-05T18:05:15.901629+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 2.9ms)
+2015-07-05T18:05:15.895439+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:05:27.863321+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:05:27 +0000
+2015-07-05T18:05:27.872405+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.8ms)
+2015-07-05T18:05:27.872480+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (4.1ms)
+2015-07-05T18:05:27.872690+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 2.6ms)
+2015-07-05T18:05:27.866003+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:05:27.880475+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=d76781bc-a44f-4ce3-bd4d-1eb1d05d9b90 fwd="76.176.36.190" dyno=web.1 connect=1ms service=17ms status=304 bytes=399
+2015-07-05T18:05:29.884349+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=d25c148e-b1c1-4326-809f-d69f60f03668 fwd="76.176.36.190" dyno=web.1 connect=1ms service=21ms status=304 bytes=399
+2015-07-05T18:05:29.866804+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:05:29.864445+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:05:29 +0000
+2015-07-05T18:05:29.879641+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (10.2ms)
+2015-07-05T18:05:29.879499+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (9.8ms)
+2015-07-05T18:05:29.879898+00:00 app[web.1]: Completed 200 OK in 13ms (Views: 2.3ms | ActiveRecord: 8.5ms)
+2015-07-05T18:05:34.315062+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=67775c06-68cf-427d-9f25-1bc826ad6a1b fwd="76.176.36.190" dyno=web.1 connect=0ms service=14ms status=200 bytes=779
+2015-07-05T18:05:34.300580+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:05:34 +0000
+2015-07-05T18:05:34.308396+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.7ms)
+2015-07-05T18:05:34.311070+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 1.8ms)
+2015-07-05T18:05:34.302613+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:05:34.310690+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (6.2ms)
+2015-07-05T18:05:37.084462+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=416429a2-3a4f-4114-8ddf-cc6b6fa2545e fwd="76.176.36.190" dyno=web.1 connect=1ms service=19ms status=200 bytes=779
+2015-07-05T18:05:37.071651+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:05:37 +0000
+2015-07-05T18:05:37.080536+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.3ms)
+2015-07-05T18:05:37.081095+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 1.9ms)
+2015-07-05T18:05:37.076013+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:05:37.080731+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.6ms)
+2015-07-05T18:05:46.871647+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=908c7bb5-e71b-4c98-9db8-cce95ce1c9b1 fwd="76.176.36.190" dyno=web.1 connect=1ms service=10ms status=200 bytes=779
+2015-07-05T18:05:46.866158+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:05:46 +0000
+2015-07-05T18:05:46.873351+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.3ms)
+2015-07-05T18:05:46.868613+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:05:46.873514+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.8ms)
+2015-07-05T18:05:46.873724+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 2.1ms)
+2015-07-05T18:05:57.894997+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=297d7e3f-04bf-4fc4-a3e1-3dbb15235d64 fwd="76.176.36.190" dyno=web.1 connect=1ms service=31ms status=200 bytes=779
+2015-07-05T18:05:57.863862+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:05:57 +0000
+2015-07-05T18:05:57.882624+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (10.4ms)
+2015-07-05T18:05:57.883262+00:00 app[web.1]: Completed 200 OK in 12ms (Views: 2.5ms | ActiveRecord: 9.0ms)
+2015-07-05T18:05:57.867375+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:05:57.882876+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (10.8ms)
+2015-07-05T18:05:59.923472+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=9a5bfc0f-416b-4f3f-a760-694eb952b410 fwd="76.176.36.190" dyno=web.1 connect=1ms service=14ms status=304 bytes=399
+2015-07-05T18:05:59.919837+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (6.5ms)
+2015-07-05T18:05:59.908391+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:05:59 +0000
+2015-07-05T18:05:59.919842+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (6.9ms)
+2015-07-05T18:05:59.919844+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 2.4ms | ActiveRecord: 5.3ms)
+2015-07-05T18:05:59.911499+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:06:04.339468+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=1f637f21-a9c0-4f08-9dd1-430f85375ef9 fwd="76.176.36.190" dyno=web.1 connect=11ms service=26ms status=304 bytes=399
+2015-07-05T18:06:04.317500+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:06:04 +0000
+2015-07-05T18:06:04.335446+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (14.2ms)
+2015-07-05T18:06:04.336090+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 2.7ms | ActiveRecord: 12.7ms)
+2015-07-05T18:06:04.319915+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:06:04.335682+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (14.6ms)
+2015-07-05T18:06:06.948408+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=c32912cd-b29b-4014-8019-4508e7a03668 fwd="76.176.36.190" dyno=web.1 connect=1ms service=10ms status=304 bytes=399
+2015-07-05T18:06:06.943817+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:06:06 +0000
+2015-07-05T18:06:06.950317+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.1ms)
+2015-07-05T18:06:06.950626+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 1.9ms)
+2015-07-05T18:06:06.950442+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.4ms)
+2015-07-05T18:06:06.945972+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:06:18.017129+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (24.1ms)
+2015-07-05T18:06:18.017227+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (24.4ms)
+2015-07-05T18:06:17.979771+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:06:17 +0000
+2015-07-05T18:06:18.017504+00:00 app[web.1]: Completed 200 OK in 35ms (Views: 3.7ms | ActiveRecord: 21.4ms)
+2015-07-05T18:06:17.982375+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:06:18.022946+00:00
+ heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=c541e408-fa1d-4d70-b4d1-d949f829a0ae fwd="76.176.36.190" dyno=web.1 connect=20ms service=48ms status=304 bytes=399
+2015-07-05T18:06:27.945055+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=5f56158a-f084-4421-9cfb-d75380275386 fwd="76.176.36.190" dyno=web.1 connect=3ms service=20ms status=304 bytes=399
+2015-07-05T18:06:27.927515+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:06:27 +0000
+2015-07-05T18:06:27.943030+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 2.5ms | ActiveRecord: 7.7ms)
+2015-07-05T18:06:27.942425+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (9.1ms)
+2015-07-05T18:06:27.931828+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:06:27.942634+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (9.5ms)
+2015-07-05T18:06:30.024980+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=a1c66d49-cf19-40da-b1ca-784d9787adfe fwd="76.176.36.190" dyno=web.1 connect=0ms service=10ms status=304 bytes=399
+2015-07-05T18:06:30.015713+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:06:30 +0000
+2015-07-05T18:06:30.016937+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:06:30.021649+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.4ms)
+2015-07-05T18:06:30.021480+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.1ms)
+2015-07-05T18:06:30.022000+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 2.0ms)
+2015-07-05T18:06:34.321353+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=51c08dc2-7c85-403d-8d38-c2a41b23a2ea fwd="76.176.36.190" dyno=web.1 connect=1ms service=16ms status=200 bytes=779
+2015-07-05T18:06:34.305978+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:06:34 +0000
+2015-07-05T18:06:34.315706+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (4.1ms)
+2015-07-05T18:06:34.315885+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (4.4ms)
+2015-07-05T18:06:34.316275+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 2.2ms | ActiveRecord: 2.9ms)
+2015-07-05T18:06:34.310357+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:06:36.955543+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=8df28aa8-e827-4dad-a476-a080e31ff6ee fwd="76.176.36.190" dyno=web.1 connect=0ms service=19ms status=200 bytes=779
+2015-07-05T18:06:36.943675+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:06:36 +0000
+2015-07-05T18:06:36.953786+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (4.2ms)
+2015-07-05T18:06:36.953856+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (4.5ms)
+2015-07-05T18:06:36.954097+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 2.7ms)
+2015-07-05T18:06:36.948056+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:06:48.921230+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=57c08605-4968-4f34-8832-563ae7065268 fwd="76.176.36.190" dyno=web.1 connect=1ms service=24ms status=200 bytes=779
+2015-07-05T18:06:48.903494+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:06:48 +0000
+2015-07-05T18:06:48.925610+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (10.2ms)
+2015-07-05T18:06:49.005665+00:00 app[web.1]: Started POST "/stories" for 76.176.36.190 at 2015-07-05 18:06:49 +0000
+2015-07-05T18:06:48.925615+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (10.6ms)
+2015-07-05T18:06:48.925617+00:00 app[web.1]: Completed 200 OK in 12ms (Views: 2.2ms | ActiveRecord: 9.0ms)
+2015-07-05T18:06:48.907948+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:06:49.012466+00:00 app[web.1]: Processing by StoriesController#create as HTML
+2015-07-05T18:06:49.012619+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/SBxizie8BYuceCrofGvvY6pKvCJu+/qxPONf9V6iC8=", "story"=>{"urls_attributes"=>{"0"=>{"url_full"=>"http://intelligenttravel.nationalgeographic.com/2015/07/02/american-glamping-three-great-finds/", "url_domain"=>"intelligenttravel.nationalgeographic.com", "url_type"=>"Media", "url_title"=>"American Glamping: Three Great Finds", "url_desc"=>"Lodge in nature without sacrificing comfort.", "url_keywords"=>"", "raw_url_title_scrape"=>"American Glamping: Three Great Finds – Intelligent Travel", "raw_url_desc_scrape"=>"Lodge in nature without sacrificing comfort. > Treehouse Point B&B (Fall City, Washington) Backdrop: The western foothills of the Cascade Mountains,", "raw_url_keywords_scrape"=>"", "images_attributes"=>{"0"=>{"image_data"=>"{\"src_url\":\"http://intelligenttravel.nationalgeographic.com/files/2015/07/hedges-lodge-porch.jpg\",\"alt_text\":\"A lakeside porch at the hedges (photograph by terry wild stock)\",\"image_width\":590,\"image_height\":422}", "manual_url"=>"", "image_width"=>"", "image_height"=>"", "manual_enter"=>""}}}}, "editor_tagline"=>"A treehouse, sure, but have you stayed in a yurt before?", "location_ids"=>["", "7", "4", "10"], "place_category_ids"=>["", "3"], "story_category_ids"=>["", "3"], "scraped_type"=>"", "story_type"=>"Magazine", "author"=>"", "outside_usa"=>"0", "story_year"=>"2015", "story_month"=>"7", "story_date"=>"2", "sap_publish_date(1i)"=>"", "sap_publish_date(2i)"=>"", "sap_publish_date(3i)"=>"", "sap_publish_date(4i)"=>"", "sap_publish_date(5i)"=>"", "raw_author_scrape"=>"", "data_entry_begin_time"=>"2015-07-05 18:04:29 +0000", "raw_story_year_scrape"=>"2015", "raw_story_month_scrape"=>"7", "raw_story_date_scrape"=>"2", "data_entry_user"=>"1"}, "name_display"=>"National Geographic", "image_src_cache"=>{"0"=>"http://intelligenttravel.nationalgeographic.com/files/2012/12/beyond_the_guidebook.png", "1"=>"http://intelligenttravel.nationalgeographic.com/files/2015/05/treehouse-point-590-590x393.jpg", "2"=>"http://intelligenttravel.nationalgeographic.com/files/2015/07/hedges-lodge-porch.jpg", "3"=>"http://intelligenttravel.nationalgeographic.com/files/2015/07/kestrel-camp-montana.jpg"}, "image_alt_text_cache"=>{"0"=>"", "1"=>"", "2"=>"A lakeside porch at the hedges (photograph by terry wild stock)", "3"=>"Canvas yurts at montana's kestrel camp (photograph by the american prairie reserve)"}, "commit"=>"Save"}
+2015-07-05T18:06:49.266102+00:00 heroku[router]: at=info method=POST path="/stories" host=www.storiesaboutplaces.com request_id=a6a3127b-ef98-415f-bd80-0df264f0cb74 fwd="76.176.36.190" dyno=web.1 connect=0ms service=356ms status=302 bytes=1206
+2015-07-05T18:06:49.412180+00:00 heroku[router]: at=info method=GET path="/stories/story_proof/1661" host=www.storiesaboutplaces.com request_id=9c8d0745-5bcf-4bda-b44a-f7860f4b4aac fwd="76.176.36.190" dyno=web.1 connect=4ms service=51ms status=200 bytes=9781
+2015-07-05T18:06:49.262046+00:00 app[web.1]: Redirected to http://www.storiesaboutplaces.com/stories/story_proof/1661
+2015-07-05T18:06:49.262147+00:00 app[web.1]: Completed 302 Found in 249ms (ActiveRecord: 114.8ms)
+2015-07-05T18:06:49.368411+00:00 app[web.1]: Started GET "/stories/story_proof/1661" for 76.176.36.190 at 2015-07-05 18:06:49 +0000
+2015-07-05T18:06:49.374938+00:00 app[web.1]:   Parameters: {"id"=>"1661"}
+2015-07-05T18:06:49.399957+00:00 app[web.1]:   Rendered layouts/_navigation_links.html.erb (1.1ms)
+2015-07-05T18:06:49.403146+00:00 app[web.1]:   Rendered layouts/_login_modal.erb (2.9ms)
+2015-07-05T18:06:49.403232+00:00 app[web.1]:   Rendered layouts/_navigation.html.erb (4.7ms)
+2015-07-05T18:06:49.403670+00:00 app[web.1]:   Rendered layouts/_messages.html.erb (0.2ms)
+2015-07-05T18:06:49.405280+00:00 app[web.1]: Completed 200 OK in 30ms (Views: 12.1ms | ActiveRecord: 8.7ms)
+2015-07-05T18:06:49.371774+00:00 app[web.1]: Processing by StoriesController#story_proof as HTML
+2015-07-05T18:06:49.397286+00:00 app[web.1]:   Rendered stories/story_proof.html.erb within layouts/application (5.7ms)
+2015-07-05T18:06:49.401873+00:00 app[web.1]:   Rendered devise/shared/_links.html.erb (0.2ms)
+2015-07-05T18:06:49.404942+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (1.0ms)
+2015-07-05T18:06:57.884681+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=8b728eb9-938d-4278-9879-d6350aa84aa9 fwd="76.176.36.190" dyno=web.1 connect=11ms service=10ms status=200 bytes=779
+2015-07-05T18:06:57.875492+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:06:57 +0000
+2015-07-05T18:06:57.882737+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.3ms)
+2015-07-05T18:06:57.882822+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.6ms)
+2015-07-05T18:06:57.883047+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 1.9ms)
+2015-07-05T18:06:57.877999+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:06:59.917902+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=14ab1597-367f-4e16-a99f-bb363ef86626 fwd="76.176.36.190" dyno=web.1 connect=1ms service=11ms status=304 bytes=399
+2015-07-05T18:06:59.907967+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:06:59 +0000
+2015-07-05T18:06:59.915719+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.3ms)
+2015-07-05T18:06:59.915806+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.6ms)
+2015-07-05T18:06:59.916070+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 2.1ms)
+2015-07-05T18:06:59.909961+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:07:06.959456+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:07:06 +0000
+2015-07-05T18:07:07.004105+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (27.6ms)
+2015-07-05T18:07:07.015089+00:00 app[web.1]: Completed 200 OK in 42ms (Views: 17.3ms | ActiveRecord: 21.9ms)
+2015-07-05T18:07:06.964118+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:07:07.014652+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (38.3ms)
+2015-07-05T18:07:07.018048+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=d742c6ad-f86e-4aa2-9bf6-8e84e7a01906 fwd="76.176.36.190" dyno=web.1 connect=1ms service=69ms status=304 bytes=399
+2015-07-05T18:07:19.891412+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:07:19 +0000
+2015-07-05T18:07:19.903358+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (6.1ms)
+2015-07-05T18:07:19.903943+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 2.3ms | ActiveRecord: 4.9ms)
+2015-07-05T18:07:19.903564+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (6.5ms)
+2015-07-05T18:07:19.895798+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:07:19.915045+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=99b5bf5c-1430-447d-b144-1b864a1c863e fwd="76.176.36.190" dyno=web.1 connect=10ms service=33ms status=304 bytes=399
+2015-07-05T18:07:20.355399+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:07:20 +0000
+2015-07-05T18:07:20.373439+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (12.6ms)
+2015-07-05T18:07:20.373901+00:00 app[web.1]: Completed 200 OK in 14ms (Views: 2.7ms | ActiveRecord: 11.0ms)
+2015-07-05T18:07:20.359398+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:07:20.373619+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (13.0ms)
+2015-07-05T18:07:20.389964+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=8bb341fd-762b-4191-a62e-7109c22daf91 fwd="76.176.36.190" dyno=web.1 connect=0ms service=34ms status=304 bytes=399
+2015-07-05T18:07:25.665207+00:00 heroku[router]: at=info method=GET path="/stories/scrape" host=www.storiesaboutplaces.com request_id=d1ecc5d2-010e-415a-aea4-4da91e325272 fwd="76.176.36.190" dyno=web.1 connect=2ms service=29ms status=200 bytes=9621
+2015-07-05T18:07:25.634308+00:00 app[web.1]: Started GET "/stories/scrape" for 76.176.36.190 at 2015-07-05 18:07:25 +0000
+2015-07-05T18:07:25.642902+00:00 app[web.1]:   Rendered stories/scrape.html.erb within layouts/application (1.2ms)
+2015-07-05T18:07:25.654340+00:00 app[web.1]:   Rendered devise/shared/_links.html.erb (1.7ms)
+2015-07-05T18:07:25.659448+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (3.4ms)
+2015-07-05T18:07:25.655193+00:00 app[web.1]:   Rendered layouts/_navigation.html.erb (9.1ms)
+2015-07-05T18:07:25.636842+00:00 app[web.1]: Processing by StoriesController#scrape as HTML
+2015-07-05T18:07:25.649955+00:00 app[web.1]:   Rendered layouts/_navigation_links.html.erb (3.5ms)
+2015-07-05T18:07:25.655035+00:00 app[web.1]:   Rendered layouts/_login_modal.erb (4.2ms)
+2015-07-05T18:07:25.659699+00:00 app[web.1]: Completed 200 OK in 23ms (Views: 18.4ms | ActiveRecord: 1.8ms)
+2015-07-05T18:07:25.655787+00:00 app[web.1]:   Rendered layouts/_messages.html.erb (0.3ms)
+2015-07-05T18:07:27.917537+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=f3264897-2008-463f-ab79-e4bad0b6f833 fwd="76.176.36.190" dyno=web.1 connect=3ms service=30ms status=304 bytes=399
+2015-07-05T18:07:27.829030+00:00 app[web.1]: Started POST "/stories/new" for 76.176.36.190 at 2015-07-05 18:07:27 +0000
+2015-07-05T18:07:27.832629+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/SBxizie8BYuceCrofGvvY6pKvCJu+/qxPONf9V6iC8=", "source_url_pre"=>"http://www.tripadvisor.com/PressCenter-i7300-c1-Press_Releases.html", "data_entry_begin_time"=>"2015-07-05 18:07:25 +0000"}
+2015-07-05T18:07:27.899124+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:07:27.832373+00:00 app[web.1]: Processing by StoriesController#new as HTML
+2015-07-05T18:07:27.890886+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:07:27 +0000
+2015-07-05T18:07:27.915735+00:00 app[web.1]: Completed 200 OK in 17ms (Views: 6.9ms | ActiveRecord: 6.6ms)
+2015-07-05T18:07:27.915473+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (8.3ms)
+2015-07-05T18:07:27.915367+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (7.9ms)
+2015-07-05T18:07:29.413608+00:00 heroku[router]: at=info method=POST path="/stories/new" host=www.storiesaboutplaces.com request_id=9ca42c91-5f54-4dee-b099-c65d55e58c72 fwd="76.176.36.190" dyno=web.1 connect=0ms service=1583ms status=200 bytes=26630
+2015-07-05T18:07:29.381210+00:00 app[web.1]:   Rendered stories/_form.html.erb (56.7ms)
+2015-07-05T18:07:29.383752+00:00 app[web.1]:   Rendered layouts/_navigation_links.html.erb (1.2ms)
+2015-07-05T18:07:29.392494+00:00 app[web.1]:   Rendered layouts/_login_modal.erb (8.6ms)
+2015-07-05T18:07:29.392569+00:00 app[web.1]:   Rendered layouts/_navigation.html.erb (10.3ms)
+2015-07-05T18:07:29.392804+00:00 app[web.1]:   Rendered layouts/_messages.html.erb (0.1ms)
+2015-07-05T18:07:29.401401+0
+0:00 app[web.1]: Completed 200 OK in 1569ms (Views: 71.7ms | ActiveRecord: 17.6ms)
+2015-07-05T18:07:29.381351+00:00 app[web.1]:   Rendered stories/new.html.erb within layouts/application (58.6ms)
+2015-07-05T18:07:29.390604+00:00 app[web.1]:   Rendered devise/shared/_links.html.erb (4.9ms)
+2015-07-05T18:07:29.401085+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (8.1ms)
+2015-07-05T18:07:29.892033+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=862dc07e-d996-40cc-904e-a0ad5432193b fwd="76.176.36.190" dyno=web.1 connect=2ms service=12ms status=304 bytes=399
+2015-07-05T18:07:29.880404+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:07:29 +0000
+2015-07-05T18:07:29.889935+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (5.0ms)
+2015-07-05T18:07:29.890026+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (5.4ms)
+2015-07-05T18:07:29.890260+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 2.4ms | ActiveRecord: 3.6ms)
+2015-07-05T18:07:29.883279+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:07:36.952396+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=fc9c7948-21b5-4c5c-9431-7ed75f26f821 fwd="76.176.36.190" dyno=web.1 connect=3ms service=11ms status=200 bytes=779
+2015-07-05T18:07:36.947606+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:07:36 +0000
+2015-07-05T18:07:36.954849+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.7ms)
+2015-07-05T18:07:36.955241+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 2.4ms)
+2015-07-05T18:07:36.949706+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:07:36.954998+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (4.2ms)
+2015-07-05T18:07:50.901108+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=4b58c87e-deb2-4822-8edb-1c6ba7983660 fwd="76.176.36.190" dyno=web.1 connect=1ms service=35ms status=200 bytes=779
+2015-07-05T18:07:50.895751+00:00 app[web.1]: Completed 200 OK in 13ms (Views: 7.9ms | ActiveRecord: 4.0ms)
+2015-07-05T18:07:50.889440+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (5.2ms)
+2015-07-05T18:07:50.872684+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:07:50 +0000
+2015-07-05T18:07:50.877715+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:07:50.895145+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (11.1ms)
+2015-07-05T18:07:57.910617+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=1addb3d2-5315-4e30-ba67-c50142f980f2 fwd="76.176.36.190" dyno=web.1 connect=2ms service=26ms status=200 bytes=779
+2015-07-05T18:07:57.886455+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:07:57 +0000
+2015-07-05T18:07:57.907356+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (11.0ms)
+2015-07-05T18:07:57.908128+00:00 app[web.1]: Completed 200 OK in 13ms (Views: 2.6ms | ActiveRecord: 9.7ms)
+2015-07-05T18:07:57.891964+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:07:57.907752+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (11.6ms)
+2015-07-05T18:07:59.522498+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:07:59 +0000
+2015-07-05T18:07:59.540739+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (8.6ms)
+2015-07-05T18:07:59.540845+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (9.0ms)
+2015-07-05T18:07:59.541118+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 3.0ms | ActiveRecord: 6.7ms)
+2015-07-05T18:07:59.528955+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:07:59.555128+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=18681f96-36b6-4e37-ada2-5a74c7d1dbdb fwd="76.176.36.190" dyno=web.1 connect=1ms service=36ms status=200 bytes=779
+2015-07-05T18:07:59.883058+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=b4347d69-bcdd-486a-9832-77d4e9471b70 fwd="76.176.36.190" dyno=web.1 connect=0ms service=8ms status=304 bytes=399
+2015-07-05T18:07:59.881935+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (2.9ms)
+2015-07-05T18:07:59.875748+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:07:59 +0000
+2015-07-05T18:07:59.882025+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.2ms)
+2015-07-05T18:07:59.882232+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 1.7ms)
+2015-07-05T18:07:59.877661+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:08:07.026673+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=9b44f98e-6d50-411d-91a0-84c8407684c4 fwd="76.176.36.190" dyno=web.1 connect=1ms service=16ms status=304 bytes=399
+2015-07-05T18:08:07.014033+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:08:07 +0000
+2015-07-05T18:08:07.023387+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (4.3ms)
+2015-07-05T18:08:07.023947+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 3.1ms)
+2015-07-05T18:08:07.017067+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:08:07.023585+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (4.6ms)
+2015-07-05T18:08:21.905259+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=4fb89c58-476a-4cd8-875d-2b9bde6c9214 fwd="76.176.36.190" dyno=web.1 connect=1ms service=26ms status=304 bytes=399
+2015-07-05T18:08:21.886759+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:08:21 +0000
+2015-07-05T18:08:21.901226+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (6.2ms)
+2015-07-05T18:08:21.908266+00:00 app[web.1]: Completed 200 OK in 15ms (Views: 9.2ms | ActiveRecord: 4.8ms)
+2015-07-05T18:08:21.892391+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:08:21.907943+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (13.2ms)
+2015-07-05T18:08:28.009665+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=8376cac5-bee3-4ea4-ad89-e9231abfb651 fwd="76.176.36.190" dyno=web.1 connect=0ms service=26ms status=304 bytes=399
+2015-07-05T18:08:27.995718+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:08:27 +0000
+2015-07-05T18:08:28.007334+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.8ms)
+2015-07-05T18:08:28.007986+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 2.7ms | ActiveRecord: 2.6ms)
+2015-07-05T18:08:27.998261+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:08:28.007748+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (4.4ms)
+2015-07-05T18:08:29.893059+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=4d5a857a-7192-4faf-8095-1c7106ea8046 fwd="76.176.36.190" dyno=web.1 connect=0ms service=26ms status=304 bytes=399
+2015-07-05T18:08:29.891439+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (14.0ms)
+2015-07-05T18:08:29.871504+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:08:29 +0000
+2015-07-05T18:08:29.875899+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:08:29.891983+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 2.6ms | ActiveRecord: 12.7ms)
+2015-07-05T18:08:29.891705+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (14.4ms)
+2015-07-05T18:08:30.384276+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=b74e32a0-30be-402e-be9c-fb4fca061ecd fwd="76.176.36.190" dyno=web.1 connect=1ms service=29ms status=304 bytes=399
+2015-07-05T18:08:30.350707+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:08:30 +0000
+2015-07-05T18:08:30.373402+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (14.5ms)
+2015-07-05T18:08:30.374103+00:00 app[web.1]: Completed 200 OK in 17ms (Views: 3.3ms | ActiveRecord: 12.5ms)
+2015-07-05T18:08:30.356155+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:08:30.373710+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (15.0ms)
+2015-07-05T18:08:36.977942+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:08:36 +0000
+2015-07-05T18:08:37.041382+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (24.4ms)
+2015-07-05T18:08:37.058605+00:00 app[web.1]: Completed 200 OK in 60ms (Views: 36.2ms | ActiveRecord: 22.3ms)
+2015-07-05T18:08:36.980774+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:08:37.056727+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (56.2ms)
+2015-07-05T18:08:37.059115+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=e437add7-dc6f-4335-93bc-6f9c895375b5 fwd="76.176.36.190" dyno=web.1 connect=1ms service=105ms status=200 bytes=779
+2015-07-05T18:08:52.875929+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=df43b1e4-7bb0-4b80-981e-88ba5e2c4b29 fwd="76.176.36.190" dyno=web.1 connect=1ms service=11ms status=200 bytes=779
+2015-07-05T18:08:52.870719+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:08:52 +0000
+2015-07-05T18:08:52.878272+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.5ms)
+2015-07-05T18:08:52.878384+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.9ms)
+2015-07-05T18:08:52.878644+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 2.1ms)
+2015-07-05T18:08:52.873251+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:08:57.921006+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=1b275c59-e754-4039-96db-41d8ba021a99 fwd="76.176.36.190" dyno=web.1 connect=0ms service=46ms status=200 bytes=779
+2015-07-05T18:08:57.876047+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:08:57 +0000
+2015-07-05T18:08:57.918478+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (21.3ms)
+2015-07-05T18:08:57.919006+00:00 app[web.1]: Completed 200 OK in 24ms (Views: 3.5ms | ActiveRecord: 19.2ms)
+2015-07-05T18:08:57.895143+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:08:57.918649+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (21.8ms)
+2015-07-05T18:09:00.037252+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=fd408291-bbd5-4ac6-b2e7-6ba82789fde0 fwd="76.176.36.190" dyno=web.1 connect=0ms service=64ms status=304 bytes=399
+2015-07-05T18:08:59.989384+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:08:59 +0000
+2015-07-05T18:09:00.034321+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (15.7ms)
+2015-07-05T18:09:00.034429+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (16.0ms)
+2015-07-05T18:09:00.034832+00:00 app[web.1]: Completed 200 OK in 18ms (Views: 14.7ms | ActiveRecord: 2.1ms)
+2015-07-05T18:09:00.017141+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:09:01.374272+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=fcf6f3a1-0ef7-4a58-8107-ae1ccd41e0b1 fwd="76.176.36.190" dyno=web.1 connect=0ms service=28ms status=200 bytes=779
+2015-07-05T18:09:01.344147+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:09:01 +0000
+2015-07-05T18:09:01.367599+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (13.8ms)
+2015-07-05T18:09:01.367677+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (14.3ms)
+2015-07-05T18:09:01.367932+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 3.3ms | ActiveRecord: 11.8ms)
+2015-07-05T18:09:01.351488+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:09:06.971828+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=0a010f59-d9ba-4b0b-893c-ff10b7e483da fwd="76.176.36.190" dyno=web.1 connect=1ms service=9ms status=304 bytes=399
+2015-07-05T18:09:06.967690+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:09:06 +0000
+2015-07-05T18:09:06.974193+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.1ms)
+2015-07-05T18:09:06.974466+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 1.9ms)
+2015-07-05T18:09:06.974280+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.4ms)
+2015-07-05T18:09:06.969822+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:09:23.894471+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=4a089437-2db5-441c-b375-92d18af063f3 fwd="76.176.36.190" dyno=web.1 connect=1ms service=20ms status=304 bytes=399
+2015-07-05T18:09:23.882273+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:09:23 +0000
+2015-07-05T18:09:23.889255+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.5ms)
+2015-07-05T18:09:23.889842+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 2.4ms)
+2015-07-05T18:09:23.884265+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:09:23.889454+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.9ms)
+2015-07-05T18:09:27.903958+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=16029676-05f6-4a14-8089-1765da7d41d7 fwd="76.176.36.190" dyno=web.1 connect=0ms service=26ms status=304 bytes=399
+2015-07-05T18:09:27.878282+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:09:27 +0000
+2015-07-05T18:09:27.902355+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (11.1ms)
+2015-07-05T18:09:27.902484+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (11.5ms)
+2015-07-05T18:09:27.902784+00:00 app[web.1]: Completed 200 OK in 21ms (Views: 10.2ms | ActiveRecord: 9.7ms)
+2015-07-05T18:09:27.882121+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:09:29.901789+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:09:29 +0000
+2015-07-05T18:09:29.918914+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (9.2ms)
+2015-07-05T18:09:29.919008+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (9.7ms)
+2015-07-05T18:09:29.919364+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 2.5ms | ActiveRecord: 7.8ms)
+2015-07-05T18:09:29.920612+00:00 heroku[router]: at=info meth
+od=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=67722219-3420-4e10-aba2-e02631bc3ee7 fwd="76.176.36.190" dyno=web.1 connect=17ms service=22ms status=304 bytes=399
+2015-07-05T18:09:29.910272+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:09:32.362043+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=e880cf13-28e1-4d1d-ab12-6dcda0e8c3ed fwd="76.176.36.190" dyno=web.1 connect=0ms service=10ms status=200 bytes=779
+2015-07-05T18:09:32.350962+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:09:32 +0000
+2015-07-05T18:09:32.358077+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.5ms)
+2015-07-05T18:09:32.358556+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 2.0ms)
+2015-07-05T18:09:32.353152+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:09:32.358308+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.9ms)
+2015-07-05T18:09:36.972276+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=7380ad41-661e-4db1-9504-8c5a519e80eb fwd="76.176.36.190" dyno=web.1 connect=1ms service=22ms status=200 bytes=779
+2015-07-05T18:09:36.954281+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:09:36 +0000
+2015-07-05T18:09:36.962849+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (5.1ms)
+2015-07-05T18:09:36.963259+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (5.4ms)
+2015-07-05T18:09:36.963261+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 2.5ms | ActiveRecord: 3.6ms)
+2015-07-05T18:09:36.956420+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:09:55.029190+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=1f254636-780c-4396-b4db-4007d849c4f9 fwd="76.176.36.190" dyno=web.1 connect=1ms service=13ms status=200 bytes=779
+2015-07-05T18:09:55.023529+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:09:55 +0000
+2015-07-05T18:09:55.030071+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (2.9ms)
+2015-07-05T18:09:55.031334+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 1.8ms)
+2015-07-05T18:09:55.025464+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:09:55.031019+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (4.2ms)
+2015-07-05T18:09:57.909414+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=35d1c827-a6f7-44a2-82e5-c4418677e30e fwd="76.176.36.190" dyno=web.1 connect=1ms service=16ms status=200 bytes=779
+2015-07-05T18:09:57.895929+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:09:57 +0000
+2015-07-05T18:09:57.907898+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (6.9ms)
+2015-07-05T18:09:57.907753+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (6.4ms)
+2015-07-05T18:09:57.908131+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 2.4ms | ActiveRecord: 5.1ms)
+2015-07-05T18:09:57.899896+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:09:59.897224+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=cee99783-26a7-467f-ac76-8576a7fc25b8 fwd="76.176.36.190" dyno=web.1 connect=1ms service=19ms status=304 bytes=399
+2015-07-05T18:09:59.879999+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:09:59 +0000
+2015-07-05T18:09:59.893660+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (5.5ms)
+2015-07-05T18:09:59.894574+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 4.6ms | ActiveRecord: 3.8ms)
+2015-07-05T18:09:59.885010+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:09:59.893922+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (6.1ms)
+2015-07-05T18:10:02.410393+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=4ff44dc3-b265-4e0f-abfc-d95b2e2e3797 fwd="76.176.36.190" dyno=web.1 connect=1ms service=46ms status=304 bytes=399
+2015-07-05T18:10:02.368283+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:10:02 +0000
+2015-07-05T18:10:02.398960+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (25.5ms)
+2015-07-05T18:10:02.399050+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (25.9ms)
+2015-07-05T18:10:02.399352+00:00 app[web.1]: Completed 200 OK in 27ms (Views: 2.8ms | ActiveRecord: 23.8ms)
+2015-07-05T18:10:02.374312+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:10:07.110679+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=0fd1586a-f6cf-4a28-a26f-7c85288518bb fwd="76.176.36.190" dyno=web.1 connect=4ms service=27ms status=304 bytes=399
+2015-07-05T18:10:07.087558+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:10:07 +0000
+2015-07-05T18:10:07.104650+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (11.2ms)
+2015-07-05T18:10:07.105318+00:00 app[web.1]: Completed 200 OK in 13ms (Views: 2.6ms | ActiveRecord: 9.7ms)
+2015-07-05T18:10:07.091900+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:10:07.104875+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (11.6ms)
+2015-07-05T18:10:24.440120+00:00 heroku[router]: at=info method=GET path="/feed/" host=www.storiesaboutplaces.com request_id=1f99fb22-7600-4290-adb6-e4196458627a fwd="54.158.89.19" dyno=web.1 connect=1ms service=26ms status=404 bytes=1744
+2015-07-05T18:10:24.416672+00:00 app[web.1]: Started GET "/feed/" for 54.158.89.19 at 2015-07-05 18:10:24 +0000
+2015-07-05T18:10:24.418791+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/feed"):
+2015-07-05T18:10:24.418776+00:00 app[web.1]: 
+2015-07-05T18:10:24.418795+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2015-07-05T18:10:24.418797+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2015-07-05T18:10:24.418799+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/rack/logger.rb:38:in `call_app'
+2015-07-05T18:10:24.418800+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/rack/logger.rb:20:in `block in call'
+2015-07-05T18:10:24.418801+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2015-07-05T18:10:24.418803+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+2015-07-05T18:10:24.418804+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+2015-07-05T18:10:24.418806+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/rack/logger.rb:20:in `call'
+2015-07-05T18:10:24.418807+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/ahoy_matey-1.1.1/lib/ahoy/engine.rb:20:in `call_with_quiet_ahoy'
+2015-07-05T18:10:24.418809+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/request_store-1.1.0/lib/request_store/middleware.rb:8:in `call'
+2015-07-05T18:10:24.418810+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2015-07-05T18:10:24.418812+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2015-07-05T18:10:24.418813+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2015-07-05T18:10:24.418815+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+2015-07-05T18:10:24.418816+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/static.rb:64:in `call'
+2015-07-05T18:10:24.418818+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2015-07-05T18:10:24.418819+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:514:in `call'
+2015-07-05T18:10:24.418820+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/application.rb:144:in `call'
+2015-07-05T18:10:24.418821+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/puma-2.11.1/lib/puma/configuration.rb:82:in `call'
+2015-07-05T18:10:24.418823+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/puma-2.11.1/lib/puma/server.rb:507:in `handle_request'
+2015-07-05T18:10:24.418825+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/puma-2.11.1/lib/puma/server.rb:262:in `block in run'
+2015-07-05T18:10:24.418824+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/puma-2.11.1/lib/puma/server.rb:375:in `process_client'
+2015-07-05T18:10:24.418827+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/puma-2.11.1/lib/puma/thread_pool.rb:104:in `call'
+2015-07-05T18:10:24.418828+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/puma-2.11.1/lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+2015-07-05T18:10:24.418830+00:00 app[web.1]: 
+2015-07-05T18:10:24.418831+00:00 app[web.1]: 
+2015-07-05T18:10:25.963611+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:10:25 +0000
+2015-07-05T18:10:26.074613+00:00 app[web.1]: Completed 200 OK in 97ms (Views: 77.7ms | ActiveRecord: 17.1ms)
+2015-07-05T18:10:26.069768+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (89.3ms)
+2015-07-05T18:10:25.977469+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:10:26.074091+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (93.9ms)
+2015-07-05T18:10:26.078889+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=a9f6acb9-7144-4ce8-b057-1cdcb777bf91 fwd="76.176.36.190" dyno=web.1 connect=1ms service=126ms status=200 bytes=783
+2015-07-05T18:10:27.959471+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=cee88d67-8c61-4b7a-b402-d961f523be23 fwd="76.176.36.190" dyno=web.1 connect=2ms service=71ms status=200 bytes=783
+2015-07-05T18:10:27.889273+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:10:27 +0000
+2015-07-05T18:10:27.926413+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (30.6ms)
+2015-07-05T18:10:27.927147+00:00 app[web.1]: Completed 200 OK in 33ms (Views: 14.6ms | ActiveRecord: 17.4ms)
+2015-07-05T18:10:27.894158+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:10:27.926588+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (31.1ms)
+2015-07-05T18:10:29.888348+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=c82cd3bc-4bb2-4e87-a0e4-76ff0643cb39 fwd="76.176.36.190" dyno=web.1 connect=0ms service=13ms status=304 bytes=399
+2015-07-05T18:10:29.875826+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:10:29 +0000
+2015-07-05T18:10:29.884644+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (5.2ms)
+2015-07-05T18:10:29.884740+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (5.5ms)
+2015-07-05T18:10:29.885008+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 2.2ms | ActiveRecord: 4.0ms)
+2015-07-05T18:10:29.878052+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:10:32.391296+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=493ca877-825d-404e-a9f8-c28871d35266 fwd="76.176.36.190" dyno=web.1 connect=1ms service=29ms status=200 bytes=783
+2015-07-05T18:10:32.363627+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:10:32 +0000
+2015-07-05T18:10:32.380558+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (11.1ms)
+2015-07-05T18:10:32.380696+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (11.5ms)
+2015-07-05T18:10:32.380955+00:00 app[web.1]: Completed 200 OK in 13ms (Views: 2.7ms | ActiveRecord: 9.5ms)
+2015-07-05T18:10:32.367924+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:10:36.986825+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:10:36 +0000
+2015-07-05T18:10:37.003343+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (7.2ms)
+2015-07-05T18:10:37.004069+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 2.4ms | ActiveRecord: 6.0ms)
+2015-07-05T18:10:36.994615+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:10:37.003710+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (7.7ms)
+2015-07-05T18:10:37.013610+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=2d6bc665-7a33-4bba-9a8a-41e9f32e7bfb fwd="76.176.36.190" dyno=web.1 connect=5ms service=31ms status=200 bytes=783
+2015-07-05T18:10:56.906596+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (8.8ms)
+2015-07-05T18:10:56.889557+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:10:56 +0000
+2015-07-05T18:10:56.907520+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 2.8ms | ActiveRecord: 7.4ms)
+2015-07-05T18:10:56.896536+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:10:56.906950+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (9.3ms)
+2015-07-05T18:10:56.913673+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=3c7e961b-d972-43e0-9ff7-4b83c4080727 fwd="76.176.36.190" dyno=web.1 connect=1ms service=29ms status=304 bytes=399
+2015-07-05T18:10:57.954823+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=78ffddc9-7fe1-4719-a8bc-afcbb52ee3f4 fwd="76.176.36.190" dyno=web.1 connect=0ms service=16ms status=304 bytes=399
+2015-07-05T18:10:57.939086+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:10:57 +0000
+2015-07-05T18:10:57.946187+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.0ms)
+2015-07-05T18:10:57.946699+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 1.8ms)
+2015-07-05T18:10:57.941571+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:10:57.946388+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.3ms)
+2015-07-05T18:11:00.059522+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=d662d273-a20b-4965-b825-5cb1887ce08f fwd="76.176.36.190" dyno=web.1 connect=0ms service=23ms status=304 bytes=399
+2015-07-05T18:11:00.039499+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:11:00 +0000
+2015-07-05T18:11:00.047270+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (4.1ms)
+2015-07-05T18:11:00.052128+00:00 app[web.1]: Completed 200 O
+K in 10ms (Views: 6.1ms | ActiveRecord: 3.0ms)
+2015-07-05T18:11:00.041598+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:11:00.051258+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (8.3ms)
+2015-07-05T18:11:02.389987+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=f34eb54d-4883-4592-ae5c-6d82511feae2 fwd="76.176.36.190" dyno=web.1 connect=3ms service=24ms status=304 bytes=399
+2015-07-05T18:11:02.363918+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:11:02 +0000
+2015-07-05T18:11:02.383507+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (8.1ms)
+2015-07-05T18:11:02.383596+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (13.7ms)
+2015-07-05T18:11:02.383874+00:00 app[web.1]: Completed 200 OK in 15ms (Views: 7.6ms | ActiveRecord: 6.7ms)
+2015-07-05T18:11:02.368813+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:11:07.013442+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (12.4ms)
+2015-07-05T18:11:07.015732+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 4.9ms | ActiveRecord: 10.4ms)
+2015-07-05T18:11:06.996501+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:11:06 +0000
+2015-07-05T18:11:07.014462+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (13.1ms)
+2015-07-05T18:11:06.999445+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:11:07.021251+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=22be1cf7-bd4c-42bb-a5c3-fcfd1e93f10e fwd="76.176.36.190" dyno=web.1 connect=3ms service=28ms status=304 bytes=399
+2015-07-05T18:11:24.246435+00:00 heroku[router]: at=info method=POST path="/stories" host=www.storiesaboutplaces.com request_id=1d4bc4f4-67a2-4530-8785-3a304b6f9f35 fwd="76.176.36.190" dyno=web.1 connect=0ms service=134ms status=302 bytes=1206
+2015-07-05T18:11:24.119178+00:00 app[web.1]: Started POST "/stories" for 76.176.36.190 at 2015-07-05 18:11:24 +0000
+2015-07-05T18:11:24.342022+00:00 app[web.1]: Processing by StoriesController#story_proof as HTML
+2015-07-05T18:11:24.366462+00:00 app[web.1]:   Rendered stories/story_proof.html.erb within layouts/application (9.6ms)
+2015-07-05T18:11:24.126028+00:00 app[web.1]: Processing by StoriesController#create as HTML
+2015-07-05T18:11:24.241764+00:00 app[web.1]: Redirected to http://www.storiesaboutplaces.com/stories/story_proof/1662
+2015-07-05T18:11:24.126038+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/SBxizie8BYuceCrofGvvY6pKvCJu+/qxPONf9V6iC8=", "story"=>{"urls_attributes"=>{"0"=>{"url_full"=>"http://www.tripadvisor.com/PressCenter-i7300-c1-Press_Releases.html", "url_domain"=>"tripadvisor.com", "url_type"=>"Media", "url_title"=>"Hot Off The Grill: Tripadvisor Dishes Out America’S Best Burger Restaurants", "url_desc"=>"TripAdvisor®, the world’s largest travel site*, today announced the top burger restaurants in the U.S., based on the millions of reviews and opinions from the TripAdvisor community. From the classic patty with lettuce and tomato, to the unconventional donut burger, these joints serve up mouthwatering creations that are sure to hit the spot.", "url_keywords"=>"attraction, activity, things to do, advice, attractions, vacation, reviews, travel", "raw_url_title_scrape"=>"", "raw_url_desc_scrape"=>"", "raw_url_keywords_scrape"=>"attraction, activity, things to do, advice, attractions, vacation, reviews, travel", "images_attributes"=>{"0"=>{"manual_url"=>"http://www.hopsburgerbar.com/images/1.jpg", "image_width"=>"424", "image_height"=>"383", "manual_enter"=>""}}}}, "editor_tagline"=>"...based on the millions of reviews and opinions...", "location_ids"=>["", "5", "6", "8", "10"], "place_category_ids"=>["", "2"], "story_category_ids"=>["", "6"], "scraped_type"=>"", "story_type"=>"Promotional", "author"=>"", "outside_usa"=>"0", "story_year"=>"2015", "story_month"=>"7", "story_date"=>"1", "sap_publish_date(1i)"=>"", "sap_publish_date(2i)"=>"", "sap_publish_date(3i)"=>"", "sap_publish_date(4i)"=>"", "sap_publish_date(5i)"=>"", "raw_author_scrape"=>"", "data_entry_begin_time"=>"2015-07-05 18:07:25 +0000", "raw_story_year_scrape"=>"2015", "raw_story_month_scrape"=>"7", "raw_story_date_scrape"=>"1", "data_entry_user"=>"1"}, "name_display"=>"TripAdvisor", "image_src_cache"=>{"0"=>"http://static.tacdn.com/img2/tc/2015/TCH-Hotels-dropdown_L_REG.jpg"}, "image_alt_text_cache"=>{"0"=>"Travelers' choice hotel awards"}, "commit"=>"Save"}
+2015-07-05T18:11:24.241905+00:00 app[web.1]: Completed 302 Found in 116ms (ActiveRecord: 68.2ms)
+2015-07-05T18:11:24.339926+00:00 app[web.1]: Started GET "/stories/story_proof/1662" for 76.176.36.190 at 2015-07-05 18:11:24 +0000
+2015-07-05T18:11:24.342402+00:00 app[web.1]:   Parameters: {"id"=>"1662"}
+2015-07-05T18:11:24.372894+00:00 app[web.1]:   Rendered layouts/_navigation_links.html.erb (1.2ms)
+2015-07-05T18:11:24.375374+00:00 app[web.1]:   Rendered layouts/_login_modal.erb (2.3ms)
+2015-07-05T18:11:24.375463+00:00 app[web.1]:   Rendered layouts/_navigation.html.erb (4.7ms)
+2015-07-05T18:11:24.375739+00:00 app[web.1]:   Rendered layouts/_messages.html.erb (0.1ms)
+2015-07-05T18:11:24.382751+00:00 heroku[router]: at=info method=GET path="/stories/story_proof/1662" host=www.storiesaboutplaces.com request_id=3d2034ea-d18a-44ed-af04-10fb237e14c2 fwd="76.176.36.190" dyno=web.1 connect=0ms service=42ms status=200 bytes=10058
+2015-07-05T18:11:24.377378+00:00 app[web.1]: Completed 200 OK in 35ms (Views: 18.8ms | ActiveRecord: 9.6ms)
+2015-07-05T18:11:24.377025+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (1.1ms)
+2015-07-05T18:11:24.374943+00:00 app[web.1]:   Rendered devise/shared/_links.html.erb (0.5ms)
+2015-07-05T18:11:54.529879+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=1437b871-42f6-4d09-aa68-253869c148ed fwd="76.176.36.190" dyno=web.1 connect=2ms service=23ms status=200 bytes=784
+2015-07-05T18:11:54.503376+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:11:54 +0000
+2015-07-05T18:11:54.523221+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (5.6ms)
+2015-07-05T18:11:54.523310+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (6.0ms)
+2015-07-05T18:11:54.523560+00:00 app[web.1]: Completed 200 OK in 18ms (Views: 13.3ms | ActiveRecord: 3.6ms)
+2015-07-05T18:11:54.505887+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:12:25.355364+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=ec0a9587-5830-4118-a0fe-b9008906623a fwd="76.176.36.190" dyno=web.1 connect=1ms service=12ms status=200 bytes=785
+2015-07-05T18:12:25.351292+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (6.1ms)
+2015-07-05T18:12:25.351477+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 4.7ms | ActiveRecord: 2.0ms)
+2015-07-05T18:12:25.347653+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:12:25 +0000
+2015-07-05T18:12:25.347657+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:12:25.351077+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (5.7ms)
+2015-07-05T18:12:37.049632+00:00 heroku[router]: at=info method=GET path="/stories/scrape" host=www.storiesaboutplaces.com request_id=10c636f7-c8e7-4d2b-bd48-2bd5742dcb98 fwd="76.176.36.190" dyno=web.1 connect=1ms service=26ms status=200 bytes=9621
+2015-07-05T18:12:37.024899+00:00 app[web.1]: Processing by StoriesController#scrape as HTML
+2015-07-05T18:12:37.035564+00:00 app[web.1]:   Rendered layouts/_navigation_links.html.erb (1.2ms)
+2015-07-05T18:12:37.037554+00:00 app[web.1]:   Rendered layouts/_login_modal.erb (1.9ms)
+2015-07-05T18:12:37.031794+00:00 app[web.1]:   Rendered stories/scrape.html.erb within layouts/application (2.1ms)
+2015-07-05T18:12:37.022359+00:00 app[web.1]: Started GET "/stories/scrape" for 76.176.36.190 at 2015-07-05 18:12:37 +0000
+2015-07-05T18:12:37.037860+00:00 app[web.1]:   Rendered layouts/_messages.html.erb (0.1ms)
+2015-07-05T18:12:37.039187+00:00 app[web.1]: Completed 200 OK in 14ms (Views: 10.3ms | ActiveRecord: 1.2ms)
+2015-07-05T18:12:37.037222+00:00 app[web.1]:   Rendered devise/shared/_links.html.erb (0.2ms)
+2015-07-05T18:12:37.038994+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (1.0ms)
+2015-07-05T18:12:37.037619+00:00 app[web.1]:   Rendered layouts/_navigation.html.erb (5.0ms)
+2015-07-05T18:12:38.625693+00:00 app[web.1]: Started POST "/stories/new" for 76.176.36.190 at 2015-07-05 18:12:38 +0000
+2015-07-05T18:12:38.627909+00:00 app[web.1]: Processing by StoriesController#new as HTML
+2015-07-05T18:12:38.627933+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/SBxizie8BYuceCrofGvvY6pKvCJu+/qxPONf9V6iC8=", "source_url_pre"=>"http://www.thrillist.com/eat/seattle/from-salare-to-vendemmia-these-are-seattle-s-best-new-restaurants", "data_entry_begin_time"=>"2015-07-05 18:12:37 +0000"}
+2015-07-05T18:12:39.633969+00:00 heroku[router]: at=info method=POST path="/stories/new" host=www.storiesaboutplaces.com request_id=b9c7b481-2973-4a38-ba8d-61b8eb9f8b40 fwd="76.176.36.190" dyno=web.1 connect=1ms service=1008ms status=500 bytes=1669
+2015-07-05T18:12:39.621582+00:00 app[web.1]: Completed 500 Internal Server Error in 993ms
+2015-07-05T18:12:39.622900+00:00 app[web.1]: 
+2015-07-05T18:12:39.622902+00:00 app[web.1]: ArgumentError (invalid byte sequence in UTF-8):
+2015-07-05T18:12:39.622904+00:00 app[web.1]:   lib/screen_scraper.rb:57:in `scrape!'
+2015-07-05T18:12:39.622908+00:00 app[web.1]: 
+2015-07-05T18:12:39.622905+00:00 app[web.1]:   app/controllers/stories_controller.rb:69:in `new'
+2015-07-05T18:12:39.622907+00:00 app[web.1]: 
+2015-07-05T18:13:22.607159+00:00 heroku[scheduler.4742]: Process exited with status 0
+2015-07-05T18:13:22.677072+00:00 heroku[scheduler.4742]: State changed from up to complete
+2015-07-05T18:14:04.793371+00:00 heroku[api]: Starting process with command `bundle exec rake schedule_story:check_pub_time` by scheduler@addons.heroku.com
+2015-07-05T18:14:08.911788+00:00 heroku[scheduler.8416]: Starting process with command `bundle exec rake schedule_story:check_pub_time`
+2015-07-05T18:14:09.493499+00:00 heroku[scheduler.8416]: State changed from starting to up
+2015-07-05T18:23:16.085332+00:00 heroku[scheduler.8416]: State changed from up to complete
+2015-07-05T18:23:16.072736+00:00 heroku[scheduler.8416]: Process exited with status 0
+2015-07-05T18:24:17.568722+00:00 heroku[api]: Starting process with command `bundle exec rake schedule_story:check_pub_time` by scheduler@addons.heroku.com
+2015-07-05T18:24:21.868844+00:00 heroku[scheduler.2172]: Starting process with command `bundle exec rake schedule_story:check_pub_time`
+2015-07-05T18:24:22.545454+00:00 heroku[scheduler.2172]: State changed from starting to up
+2015-07-05T18:30:23.955946+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=08ca7315-3c25-497d-99cd-5179cf5cb2bb fwd="76.176.36.190" dyno=web.1 connect=0ms service=40ms status=200 bytes=779
+2015-07-05T18:30:23.919847+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:30:23 +0000
+2015-07-05T18:30:23.956097+00:00 app[web.1]: Completed 200 OK in 24ms (Views: 3.3ms | ActiveRecord: 19.5ms)
+2015-07-05T18:30:23.955612+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (21.6ms)
+2015-07-05T18:30:24.096435+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:30:23.955708+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (22.0ms)
+2015-07-05T18:30:23.932388+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:30:24.087773+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:30:24 +0000
+2015-07-05T18:30:24.123436+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (25.7ms)
+2015-07-05T18:30:24.123544+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (26.1ms)
+2015-07-05T18:30:24.123844+00:00 app[web.1]: Completed 200 OK in 27ms (Views: 2.6ms | ActiveRecord: 24.1ms)
+2015-07-05T18:30:24.126890+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=f1af6311-187d-4a35-a1d8-ba8d6a127890 fwd="76.176.36.190" dyno=web.1 connect=0ms service=39ms status=200 bytes=779
+2015-07-05T18:30:25.885851+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=87c84059-1e96-4b0b-94fd-d87ac924fccd fwd="76.176.36.190" dyno=web.1 connect=0ms service=40ms status=304 bytes=399
+2015-07-05T18:30:25.849192+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:30:25 +0000
+2015-07-05T18:30:25.885601+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (28.1ms)
+2015-07-05T18:30:25.886155+00:00 app[web.1]: Completed 200 OK in 30ms (Views: 3.3ms | ActiveRecord: 26.1ms)
+2015-07-05T18:30:25.855978+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:30:25.885786+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (28.6ms)
+2015-07-05T18:30:32.871480+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=bffb8e61-cf9b-439c-9c30-ad8e5f71abd3 fwd="76.176.36.190" dyno=web.1 connect=12ms service=30ms status=200 bytes=779
+2015-07-05T18:30:32.838178+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:30:32 +0000
+2015-07-05T18:30:32.846402+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.7ms)
+2015-07-05T18:30:32.846496+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (4.0ms)
+2015-07-05T18:30:32.846797+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 2.3ms)
+2015-07-05T18:30:32.841343+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:30:48.547330+00:00 app[web.1]: Started GET "/" for 76.176.36.190 at 2015-07-05 18:30:48 +0000
+2015-07-05T18:30:48.611272+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (5.9ms)
+2015-07-05T18:30:48.549303+00:00 app[web.1]: Processing by VisitorsController#index as HTML
+2015-07-05T18:30:51.008055+00:00 heroku[router]: at=info method=GET path="/" host=www.storiesaboutplaces.com request_id=108699d7-1fef-42ff-b902-c41c77a63be5 fwd="76.176.36.190" dyno=web.1 connect=1ms service=2465ms status=200 bytes=62641
+2015-07-05T18:30:50.965408+00:00 app[web.1]:   Rendered visitors/index.html.erb within layouts/application (2360.7ms)
+2015-07-05T18:30:50.970037+00:00 app[web.1]:   Rendered devise/shared/_links.html.erb (0.3ms)
+2015-07-05T18:30:50.972642+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (1.1ms)
+2015-07-05T18:30:50.967511+00:00 app[web.1]:   Rendered layouts/_navigation_links.html.erb (0.3ms)
+2015-07-05T18:30:50.970630+00:00 app[web.1]:   Rendered layouts/_login_modal.erb (2.7ms)
+2015-07-05T18:30:50.970751+00:00 app[web.1]:   Rendered layouts/_navigation.html.erb (4.0ms)
+2015-07-05T18:30:50.971174+00:00 app[web.1]:   Rendered layouts/_messages.html.erb (0.1ms)
+2015-07-05T18:30:50.973039+00:00 app[web.1]: Completed 200 OK in 2424ms (Views: 2350.1ms | ActiveRecord: 54.1ms)
+2015-07-05T18:30:51.285410+00:00 heroku[router]: at=info method=GET path="/assets/application-399c8b5583ce4cf752a2f87d981cb45c.js" host=www.storiesaboutplaces.com request_id
+=3b3499f3-2ad3-444b-a5ec-f71501af6c06 fwd="76.176.36.190" dyno=web.1 connect=2ms service=1ms status=304 bytes=29
+2015-07-05T18:30:51.296869+00:00 heroku[router]: at=info method=GET path="/assets/Stories%20About%20Places%20Logo%20for%20dark%20bkgrd%20whitestick-108bce894f8ae296284977f96e1e2b39.png" host=www.storiesaboutplaces.com request_id=e5c3621b-f991-48fb-ad5a-0a45ac9f2b7e fwd="76.176.36.190" dyno=web.1 connect=2ms service=2ms status=304 bytes=29
+2015-07-05T18:30:51.283106+00:00 heroku[router]: at=info method=GET path="/assets/application-2fcc5dfd41f86322dcebca125755bc89.css" host=www.storiesaboutplaces.com request_id=d053bf15-9d4c-4929-9dfb-0467cfbec9b4 fwd="76.176.36.190" dyno=web.1 connect=1ms service=8ms status=304 bytes=29
+2015-07-05T18:30:53.716278+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=48f2dadd-3b88-4ed7-8101-4a158507f4b1 fwd="76.176.36.190" dyno=web.1 connect=0ms service=18ms status=304 bytes=399
+2015-07-05T18:30:53.697922+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:30:53 +0000
+2015-07-05T18:30:53.711378+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (5.9ms)
+2015-07-05T18:30:53.711469+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (6.3ms)
+2015-07-05T18:30:53.711673+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 2.1ms | ActiveRecord: 4.7ms)
+2015-07-05T18:30:53.703946+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:30:54.713788+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=aa5606d2-0daf-4afa-9148-14bd55cbd831 fwd="76.176.36.190" dyno=web.1 connect=0ms service=18ms status=304 bytes=399
+2015-07-05T18:30:54.698888+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:30:54.696864+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:30:54 +0000
+2015-07-05T18:30:54.707580+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (7.2ms)
+2015-07-05T18:30:54.707677+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (7.5ms)
+2015-07-05T18:30:54.707925+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 2.3ms | ActiveRecord: 5.9ms)
+2015-07-05T18:30:55.742029+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:30:55 +0000
+2015-07-05T18:30:55.802153+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (11.0ms)
+2015-07-05T18:30:55.802259+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (11.3ms)
+2015-07-05T18:30:55.802538+00:00 app[web.1]: Completed 200 OK in 18ms (Views: 9.3ms | ActiveRecord: 6.5ms)
+2015-07-05T18:30:55.784017+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:30:55.808420+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=92849361-a67c-47ef-9730-b249521dad77 fwd="76.176.36.190" dyno=web.1 connect=2ms service=71ms status=304 bytes=399
+2015-07-05T18:31:00.234374+00:00 app[web.1]: Started GET "/" for 76.176.36.190 at 2015-07-05 18:31:00 +0000
+2015-07-05T18:31:00.328290+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (7.1ms)
+2015-07-05T18:31:00.237894+00:00 app[web.1]: Processing by VisitorsController#index as HTML
+2015-07-05T18:31:01.646901+00:00 heroku[router]: at=info method=GET path="/" host=www.storiesaboutplaces.com request_id=b3c137b9-0dbf-4e51-80a4-312d40960f4f fwd="76.176.36.190" dyno=web.1 connect=0ms service=1414ms status=200 bytes=62641
+2015-07-05T18:31:01.624339+00:00 app[web.1]:   Rendered visitors/index.html.erb within layouts/application (1303.6ms)
+2015-07-05T18:31:01.632077+00:00 app[web.1]:   Rendered devise/shared/_links.html.erb (0.2ms)
+2015-07-05T18:31:01.633817+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (1.0ms)
+2015-07-05T18:31:01.752205+00:00 heroku[router]: at=info method=GET path="/assets/application-399c8b5583ce4cf752a2f87d981cb45c.js" host=www.storiesaboutplaces.com request_id=6c99bc73-1765-47a9-be71-656302d28182 fwd="76.176.36.190" dyno=web.1 connect=3ms service=4ms status=304 bytes=29
+2015-07-05T18:31:01.626108+00:00 app[web.1]:   Rendered layouts/_navigation_links.html.erb (0.3ms)
+2015-07-05T18:31:01.632435+00:00 app[web.1]:   Rendered layouts/_login_modal.erb (6.2ms)
+2015-07-05T18:31:01.632486+00:00 app[web.1]:   Rendered layouts/_navigation.html.erb (7.0ms)
+2015-07-05T18:31:01.632716+00:00 app[web.1]:   Rendered layouts/_messages.html.erb (0.1ms)
+2015-07-05T18:31:01.634071+00:00 app[web.1]: Completed 200 OK in 1396ms (Views: 1241.3ms | ActiveRecord: 127.0ms)
+2015-07-05T18:31:01.754958+00:00 heroku[router]: at=info method=GET path="/assets/Stories%20About%20Places%20Logo%20for%20dark%20bkgrd%20whitestick-108bce894f8ae296284977f96e1e2b39.png" host=www.storiesaboutplaces.com request_id=9c9c7334-034f-4ad0-9285-60b7c80c7579 fwd="76.176.36.190" dyno=web.1 connect=3ms service=4ms status=304 bytes=29
+2015-07-05T18:31:01.749529+00:00 heroku[router]: at=info method=GET path="/assets/application-2fcc5dfd41f86322dcebca125755bc89.css" host=www.storiesaboutplaces.com request_id=649709ec-b07e-4de5-b60f-480dc45a43f1 fwd="76.176.36.190" dyno=web.1 connect=1ms service=3ms status=304 bytes=29
+2015-07-05T18:31:21.587421+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:31:21 +0000
+2015-07-05T18:31:21.615361+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=09064148-72db-46a7-b802-cb382a9dec02 fwd="76.176.36.190" dyno=web.1 connect=1ms service=32ms status=200 bytes=779
+2015-07-05T18:31:21.612356+00:00 app[web.1]: Completed 200 OK in 17ms (Views: 3.2ms | ActiveRecord: 13.5ms)
+2015-07-05T18:31:21.611664+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (15.4ms)
+2015-07-05T18:31:21.611913+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (15.8ms)
+2015-07-05T18:31:21.593625+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:31:23.722807+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=e0de7c9a-703f-4fac-b3fb-fe7d3b1dee79 fwd="76.176.36.190" dyno=web.1 connect=0ms service=25ms status=200 bytes=779
+2015-07-05T18:31:23.698121+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:31:23 +0000
+2015-07-05T18:31:23.717703+00:00 app[web.1]: Completed 200 OK in 10ms (Views: 2.5ms | ActiveRecord: 6.5ms)
+2015-07-05T18:31:23.717289+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (8.0ms)
+2015-07-05T18:31:23.707706+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:31:23.717457+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (8.3ms)
+2015-07-05T18:31:25.817313+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=5b897591-dcba-474f-a9be-88229b54e067 fwd="76.176.36.190" dyno=web.1 connect=0ms service=120ms status=304 bytes=399
+2015-07-05T18:31:25.731570+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:31:25 +0000
+2015-07-05T18:31:25.803585+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (33.4ms)
+2015-07-05T18:31:25.815350+00:00 app[web.1]: Completed 200 OK in 47ms (Views: 14.4ms | ActiveRecord: 31.4ms)
+2015-07-05T18:31:25.740138+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:31:25.809856+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (39.9ms)
+2015-07-05T18:31:32.726591+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=801c0bdc-b487-4877-83d4-0fc44fa28532 fwd="76.176.36.190" dyno=web.1 connect=1ms service=11ms status=200 bytes=779
+2015-07-05T18:31:32.714815+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:31:32 +0000
+2015-07-05T18:31:32.721785+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.2ms)
+2015-07-05T18:31:32.721891+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.6ms)
+2015-07-05T18:31:32.722093+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 2.0ms)
+2015-07-05T18:31:32.717257+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:31:51.647863+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=f8c791d8-d845-4e54-a42f-ac1fa8e4eb0a fwd="76.176.36.190" dyno=web.1 connect=1ms service=61ms status=304 bytes=399
+2015-07-05T18:31:51.586356+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:31:51 +0000
+2015-07-05T18:31:51.593532+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.5ms)
+2015-07-05T18:31:51.645761+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 2.3ms)
+2015-07-05T18:31:51.593630+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.9ms)
+2015-07-05T18:31:51.588491+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:31:53.709818+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=8c0f9ec5-79b6-45fa-bb9e-b5cb8cbb70e0 fwd="76.176.36.190" dyno=web.1 connect=0ms service=17ms status=304 bytes=399
+2015-07-05T18:31:53.694515+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:31:53 +0000
+2015-07-05T18:31:53.700834+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.0ms)
+2015-07-05T18:31:53.701158+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 1.8ms)
+2015-07-05T18:31:53.700971+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.3ms)
+2015-07-05T18:31:53.696493+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:31:55.714309+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=sap3-gg.herokuapp.com request_id=9485c7a6-257a-4055-b18a-755e4c0dd672 fwd="76.176.36.190" dyno=web.1 connect=0ms service=9ms status=304 bytes=399
+2015-07-05T18:31:55.708113+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:31:55 +0000
+2015-07-05T18:31:55.715038+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.4ms)
+2015-07-05T18:31:55.715137+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.7ms)
+2015-07-05T18:31:55.715367+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 2.1ms)
+2015-07-05T18:31:55.710293+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:32:03.715202+00:00 heroku[router]: at=info method=GET path="/visitors/refresh_timer" host=www.storiesaboutplaces.com request_id=7dfebe71-5733-47af-90d4-d1e2232d2acc fwd="76.176.36.190" dyno=web.1 connect=1ms service=11ms status=304 bytes=399
+2015-07-05T18:32:03.702863+00:00 app[web.1]: Started GET "/visitors/refresh_timer" for 76.176.36.190 at 2015-07-05 18:32:03 +0000
+2015-07-05T18:32:03.711969+00:00 app[web.1]:   Rendered visitors/_countdown.html.erb (3.0ms)
+2015-07-05T18:32:03.707687+00:00 app[web.1]: Processing by VisitorsController#refresh_timer as */*
+2015-07-05T18:32:03.712117+00:00 app[web.1]:   Rendered visitors/refresh_timer.js.erb (3.4ms)
+2015-07-05T18:32:03.712294+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 1.8ms)
