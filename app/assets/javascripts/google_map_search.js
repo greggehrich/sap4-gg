@@ -17,7 +17,7 @@ var GoogleMapSearch = function(){
 
   var initializeMap = function(){
     var mapDiv = _getMapDiv();
-    if($('#search_map_container_div').length > 0) && navigator.geolocation){
+    if(($('#search_map_container_div').length > 0) && navigator.geolocation){
   		navigator.geolocation.getCurrentPosition(
         function(position){
           currentLat = position.coords.latitude;
