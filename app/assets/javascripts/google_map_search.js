@@ -17,7 +17,7 @@ var GoogleMapSearch = function(){
 
   var initializeMap = function(){
     var mapDiv = _getMapDiv();
-    if(navigator.geolocation){
+    if($('#search_map_container_div').length > 0) && navigator.geolocation){
   		navigator.geolocation.getCurrentPosition(
         function(position){
           currentLat = position.coords.latitude;
@@ -192,7 +192,7 @@ var GoogleMapSearch = function(){
   }
 
   var _getUserZipcode = function(){
-    return $('#map_container_div').attr('data-user-zip-code');
+    return $('#search_map_container_div').attr('data-user-zip-code');
   }
 
   var _getGoogleMap = function(lat, lng, opts){
