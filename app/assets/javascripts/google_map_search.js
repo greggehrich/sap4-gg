@@ -78,6 +78,12 @@ var GoogleMapSearch = function(){
     $(favePlaces).each(function(idx, place){
       var latLng = new google.maps.LatLng(place.lat, place.lng);
       if(map.getBounds().contains(latLng)){
+
+        var infoContent = '<a class="iwlayout" href="' + place.place_url + '">' + place.name + '</a>';
+        var infowindow = new google.maps.InfoWindow({
+            content: infoContent
+        });
+
         var marker = new google.maps.Marker({
           position: latLng,
           map: map,
@@ -85,6 +91,11 @@ var GoogleMapSearch = function(){
           icon: _choosePinColor(place.base_category)
         });
         currentMarkers.push(marker);
+
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map,marker);
+        });
+
       }
     });
   }
@@ -165,13 +176,25 @@ var GoogleMapSearch = function(){
     $(data).each(function(idx, place){
       var latLng = new google.maps.LatLng(place.lat, place.lng);
       if(map.getBounds().contains(latLng)){
+
+          var infoContent = '<a class="iwlayout" href="' + place.place_url + '">' + place.name + '</a>';
+          var infowindow = new google.maps.InfoWindow({
+              content: infoContent
+          });
+
         var marker = new google.maps.Marker({
           position: latLng,
           map: map,
           title: place.name,
           icon: _choosePinColor(place.base_category)
         });
+
         currentMarkers.push(marker);
+
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.open(map,marker);
+        });
+
       }
     });
   }

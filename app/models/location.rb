@@ -13,7 +13,7 @@ class Location < ActiveRecord::Base
       l.places.each do |p|
         next unless p.name.present?
         base_cat = p.get_parent_categories.first ? p.get_parent_categories.first.name : 'other'
-        res << {name: p.name, base_category: base_cat, lat: l.lat, lng: l.lng}
+        res << {name: p.name, base_category: base_cat, place_url: '/places/' + p.id.to_s, lat: p.location.lat, lng: p.location.lng}
       end
     end
     res

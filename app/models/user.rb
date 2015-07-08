@@ -25,7 +25,8 @@ class User < ActiveRecord::Base
       s.places.each do |p|
         next unless p.name.present?
         base_cat = p.get_parent_categories.first ? p.get_parent_categories.first.name : 'other'
-        res << {name: p.name, base_category: base_cat, lat: p.location.lat, lng: p.location.lng}
+        res << {name: p.name, base_category: base_cat, place_url: '/places/' + p.id.to_s, lat: p.location.lat, lng: p.location.lng}
+        # binding.pry
       end
     end
     res
