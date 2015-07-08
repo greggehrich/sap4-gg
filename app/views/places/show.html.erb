@@ -46,7 +46,11 @@
         <% if @place.place_categories.count > 0 %>
           <ul style="padding-left: 20px;">
             <% @place.place_categories.each do |category| %>
-              <li><%=  category.name %></li>
+
+              <% category_str = @place.place_categories.first.parent_id.nil? ? nil : PlaceCategory.find(@place.place_categories.first.parent_id).name %>
+              <% subcategory_str = @place.place_categories.first.parent_id.nil? ? nil : @place.place_categories.first.name %>
+
+              <li><%=  category_str.nil? ? subcategory_str : category_str + ' / ' + subcategory_str %></li>
             <% end %>
           </ul>
         <% else %>
