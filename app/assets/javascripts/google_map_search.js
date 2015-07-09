@@ -92,6 +92,10 @@ var GoogleMapSearch = function(){
         });
         currentMarkers.push(marker);
 
+        var mcOptions = {ignoreHidden: true, setGridSize: 50, setMaxZoom: 15, minimumClusterSize: 10};
+        //var markerCluster = new MarkerClusterer(map, currentMarkers);
+        var markerCluster = new MarkerClusterer(map, currentMarkers, mcOptions);
+
         google.maps.event.addListener(marker, 'click', function() {
             infowindow.open(map,marker);
         });
@@ -191,7 +195,10 @@ var GoogleMapSearch = function(){
 
         currentMarkers.push(marker);
 
-        google.maps.event.addListener(marker, 'click', function() {
+        var markerCluster = new MarkerClusterer(map, currentMarkers);
+
+
+          google.maps.event.addListener(marker, 'click', function() {
           infowindow.open(map,marker);
         });
 
