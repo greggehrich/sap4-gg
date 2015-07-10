@@ -195,7 +195,7 @@ var GoogleMapSearch = function(){
 
         currentMarkers.push(marker);
 
-        var markerCluster = new MarkerClusterer(map, currentMarkers);
+        //var markerCluster = new MarkerClusterer(map, currentMarkers);
 
 
           google.maps.event.addListener(marker, 'click', function() {
