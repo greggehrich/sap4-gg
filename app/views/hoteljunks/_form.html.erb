@@ -1,0 +1,21 @@
+<%= form_for(@hoteljunk) do |f| %>
+  <% if @hoteljunk.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@hoteljunk.errors.count, "error") %> prohibited this hoteljunk from being saved:</h2>
+
+      <ul>
+      <% @hoteljunk.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

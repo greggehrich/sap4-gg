@@ -11,7 +11,8 @@
 </div>
 
 <script type="text/javascript">
-	handler = Gmaps.build('Google');
+//	handler = Gmaps.build('Google');
+	handler = Gmaps.build('Google', { markers: { clusterer: {clusterer_gridSize: 60 } } });
 	handler.buildMap({
 						provider: { maxZoom: 15 },
 						internal: {id: 'map_canvas'}

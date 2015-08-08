@@ -4,10 +4,15 @@
 	    <span class="glyphicon glyphicon-globe"></span>
 	  </a>
   </p>&nbsp;&nbsp;
-	<% if @saved_story_count < 1 %>
-	  <p style="display: inline; line-height: 1.0"><%= link_to 'Save Story', save_story_show_path(@story.id), class: 'btn btn-success btn-sm' %>&nbsp;</p>
-	<% else %>
-    <p style="display: inline; line-height: 1.0"><%= link_to 'Forget Story', forget_story_show_path(@story.id), class: 'btn btn-danger btn-sm' %>&nbsp;</p>
+  <% if user_signed_in? %>
+		<% if @saved_story_count < 1 %>
+		  <p style="display: inline; line-height: 1.0"><%= link_to 'Save Story', save_story_show_path(@story.id), class: 'btn btn-success btn-sm' %>&nbsp;</p>
+		<% else %>
+	    <p style="display: inline; line-height: 1.0"><%= link_to 'Forget Story', forget_story_show_path(@story.id), class: 'btn btn-danger btn-sm' %>&nbsp;</p>
+	  <% end %>
+	  <% if current_user.admin? %>
+		  <p style="display: inline; line-height: 1.0"><%= link_to 'Edit Story', edit_story_path(@story.id), class: 'btn btn-success btn-sm' %>&nbsp;</p>
+	  <% end %>
   <% end %>
 </div>
 

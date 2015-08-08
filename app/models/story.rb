@@ -7,6 +7,7 @@ class Story < ActiveRecord::Base
 
   has_many :story_place_assignments, dependent: :destroy
   has_many :places, through: :story_place_assignments
+  accepts_nested_attributes_for :places,  allow_destroy: true
 
   has_many :story_category_assignments, dependent: :destroy
   has_many :story_categories, through: :story_category_assignments

@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :hoteljunks
   resources :locations
   resources :places
   resources :stories

@@ -6,6 +6,7 @@ class Place < ActiveRecord::Base
 
   has_many :story_place_assignments, dependent: :destroy
   has_many :stories, through: :story_place_assignments
+  accepts_nested_attributes_for :stories
 
   has_many :place_category_assignments, dependent: :destroy
   has_many :place_categories, through: :place_category_assignments

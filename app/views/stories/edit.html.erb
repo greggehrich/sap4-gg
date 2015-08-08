@@ -1,0 +1,38 @@
+<br><br><br><br>
+<%= form_for(@story) do |f| %>
+
+  <% if @story.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@story.errors.count, "error") %> prohibited this from being saved:</h2>
+
+      <ul>
+        <% @story.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+	<div class="field">
+	  <%= f.label :title %><br>
+	  <%= f.text_field :title %>
+	</div>
+
+	<h2>Places</h2>
+	<%= f.fields_for :places, @story.places do |story_places| %>
+	  <div class="place_fields">
+	    <div class="field">
+	      <%= story_places.label :name %>
+	      <%= story_places.text_field :name %>
+	      <%= story_places.check_box :_destroy %>
+	      <%= story_places.label :_destroy, 'remove' %>
+	    </div>
+	  </div>
+	<% end %>
+  <div class="actions">
+    <%= f.submit "Save" %>
+  </div>
+<% end %>
+
+<%= link_to 'Show This Story', @story %> |
+<%= link_to 'All Stories', stories_path %>

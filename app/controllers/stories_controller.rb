@@ -1,5 +1,5 @@
 class StoriesController < ApplicationController
-
+  before_action :set_story, only: [:show, :edit, :update, :destroy]
 
   def index
     page = params[:page] ? params[:page] : 1
@@ -18,6 +18,16 @@ class StoriesController < ApplicationController
       # binding.pry
     end
 
+  end
+
+  def edit
+    @story = Story.find(params[:id])
+    # redirect_to :storyplace/edit
+  end
+
+  def update
+    @story.update(story_params)
+    redirect_to story_path
   end
 
   def save_story_show
@@ -63,7 +73,6 @@ class StoriesController < ApplicationController
 
   def story_places_list
     @story = Story.where(ready_for_display: true).find(params[:id])
-    @places = @story.places
 
   end
 
@@ -80,5 +89,15 @@ class StoriesController < ApplicationController
     end
 
   end
+
+  private
+    # Use callbacks to share common setup or constraints between actions.
+    def set_story
+      @story = Story.find(params[:id])
+    end
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def story_params
+      params.require(:story).permit(:title, places_attributes: [ :id, :name, :_destroy ])
+    end
 
 end
