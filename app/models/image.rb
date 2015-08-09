@@ -5,4 +5,6 @@ class Image < ActiveRecord::Base
   has_one :url, as: :urlable, dependent: :destroy
 
   belongs_to :story
+  accepts_nested_attributes_for :story
+
 end

@@ -22,6 +22,7 @@ class StoriesController < ApplicationController
 
   def edit
     @story = Story.find(params[:id])
+    @image = Image.where(story_id: @story)
     # redirect_to :storyplace/edit
   end
 
@@ -97,7 +98,9 @@ class StoriesController < ApplicationController
     end
     # Never trust parameters from the scary internet, only allow the white list through.
     def story_params
-      params.require(:story).permit(:title, places_attributes: [ :id, :name, :_destroy ])
+      params.require(:story).permit(:title, places_attributes: [ :id, :name, :_destroy ],
+                                    images_attributes: [ :id, :image_size_h, :_destroy ],
+                                    url_attributes: [ :id, :_destroy ])
     end
 
 end

@@ -18,6 +18,15 @@
 	  <%= f.text_field :title %>
 	</div>
 
+  <h2>Images</h2>
+  <% f.fields_for :images, @image do |story_images| %>
+
+	  <%= story_images.text_field :image_size_h %>
+    <%= story_images.check_box :_destroy %>
+    <%= story_images.label :_destroy, 'remove' %>
+
+  <% end %>
+
 	<h2>Places</h2>
 	<%= f.fields_for :places, @story.places do |story_places| %>
 	  <div class="place_fields">
