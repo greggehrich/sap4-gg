@@ -19,10 +19,10 @@
 	</div>
 
   <h2>Images</h2>
-  <% f.fields_for :images, @image do |story_images| %>
+  <% f.fields_for :images, @images do |story_images| %>
 
 	  <%= story_images.text_field :image_size_h %>
-    <%= story_images.check_box :_destroy %>
+    <%= story_images.check_bo :_destroy %>
     <%= story_images.label :_destroy, 'remove' %>
 
   <% end %>

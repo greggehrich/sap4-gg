@@ -22,7 +22,7 @@ class StoriesController < ApplicationController
 
   def edit
     @story = Story.find(params[:id])
-    @image = Image.where(story_id: @story)
+    @images = Image.where(story_id: @story)
     # redirect_to :storyplace/edit
   end
 
