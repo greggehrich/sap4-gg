@@ -15,7 +15,8 @@
   <div class="panel top-margin-sap" style="padding-bottom: 0px; padding-right: 5px" >
 		<div class="field">
 		  <h4>Story</h4>
-		  <%= f.text_field :title %>
+		  <%= f.label :title %>
+		  <%= f.text_field :title, size: 50, maxlength: 250 %>
 		</div>
 	</div>
 
@@ -23,13 +24,17 @@
 		  <%= f.fields_for :images, @story.images do |story_images| %>
 	      <div class="row" style="padding-bottom: 6px">
 	        <div class="col-xs-5 col-sm-3 col-md-2" style="margin-right: auto;">
-		        <%= image_tag(@story.images.first.url.full_url, :width =>200) %>
+		        <%= image_tag(story_images.url.full_url, :width =>200) %>
+	          <%= story_images.check_box :_destroy %>
+	          <%= story_images.label :_destroy, 'delete' %>
 	        </div>
 
         <div class="col-xs-5 col-sm-3 col-md-2" style="margin-right: auto;">
-				  <%= story_images.text_field :image_size_h %>
-			    <%= story_images.check_box :_destroy %>
-			    <%= story_images.label :_destroy, 'delete' %>
+
+          <%= story_images.label "Horiz px" %>
+				  <%= story_images.text_field :image_size_h, size: 5, maxlength: 5 %><br>
+          <%= story_images.label "Vertical px" %>
+				  <%= story_images.text_field :image_size_v, size: 5, maxlength: 5 %>
 	      </div>
       </div>
 		  <% end %>
@@ -40,7 +45,7 @@
 		<%= f.fields_for :places, @story.places do |story_places| %>
 		  <div class="place_fields">
 		    <div class="field">
-		      <%= story_places.label :name %>
+		      <%= story_places.label :title %>
 		      <%= story_places.text_field :name %>
 		      <%= story_places.check_box :_destroy %>
 		      <%= story_places.label :_destroy, 'delete' %>
