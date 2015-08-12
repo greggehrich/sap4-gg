@@ -1,4 +1,3 @@
-<br><br><br><br>
 <%= form_for(@story) do |f| %>
 
   <% if @story.errors.any? %>
@@ -13,35 +12,46 @@
     </div>
   <% end %>
 
-	<div class="field">
-	  <h2>Story</h2>
-	  <%= f.text_field :title %>
+  <div class="panel top-margin-sap" style="padding-bottom: 0px; padding-right: 5px" >
+		<div class="field">
+		  <h4>Story</h4>
+		  <%= f.text_field :title %>
+		</div>
 	</div>
 
-  <h2>Images</h2>
-  <%= f.fields_for :images, @story.images do |story_images| %>
+  <div class="panel top-margin-sap" style="padding-bottom: 0px; padding-right: 5px" >
+		  <%= f.fields_for :images, @story.images do |story_images| %>
+	      <div class="row" style="padding-bottom: 6px">
+	        <div class="col-xs-5 col-sm-3 col-md-2" style="margin-right: auto;">
+		        <%= image_tag(@story.images.first.url.full_url, :width =>200) %>
+	        </div>
 
-	  <%= story_images.text_field :image_size_h %>
-    <%= story_images.check_box :_destroy %>
-    <%= story_images.label :_destroy, 'remove' %>
+        <div class="col-xs-5 col-sm-3 col-md-2" style="margin-right: auto;">
+				  <%= story_images.text_field :image_size_h %>
+			    <%= story_images.check_box :_destroy %>
+			    <%= story_images.label :_destroy, 'delete' %>
+	      </div>
+      </div>
+		  <% end %>
+  </div>
 
-  <% end %>
-
-	<h2>Places</h2>
-	<%= f.fields_for :places, @story.places do |story_places| %>
-	  <div class="place_fields">
-	    <div class="field">
-	      <%= story_places.label :name %>
-	      <%= story_places.text_field :name %>
-	      <%= story_places.check_box :_destroy %>
-	      <%= story_places.label :_destroy, 'remove' %>
-	    </div>
+  <div class="panel top-margin-sap" style="padding-bottom: 0px; padding-right: 5px" >
+		<h4>Places</h4>
+		<%= f.fields_for :places, @story.places do |story_places| %>
+		  <div class="place_fields">
+		    <div class="field">
+		      <%= story_places.label :name %>
+		      <%= story_places.text_field :name %>
+		      <%= story_places.check_box :_destroy %>
+		      <%= story_places.label :_destroy, 'delete' %>
+		    </div>
+		  </div>
+		<% end %>
+	  <div class="actions">
+	    <%= f.submit "Save" %>
 	  </div>
 	<% end %>
-  <div class="actions">
-    <%= f.submit "Save" %>
-  </div>
-<% end %>
+</div>
 
 <%= link_to 'Back To This Story', @story %> |
 <%= link_to 'All Stories', stories_path %>
