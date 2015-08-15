@@ -11,6 +11,7 @@ class Story < ActiveRecord::Base
 
   has_many :story_category_assignments, dependent: :destroy
   has_many :story_categories, through: :story_category_assignments
+  accepts_nested_attributes_for :story_categories
 
   has_many :author_story_assignments, dependent: :destroy
   has_many :authors, through: :author_story_assignments

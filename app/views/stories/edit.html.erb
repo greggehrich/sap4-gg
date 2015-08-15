@@ -20,53 +20,74 @@
 		</div>
 	</div>
 
-  <div class="panel top-margin-sap" style="padding-bottom: 0px; padding-right: 5px" >
-	  <%= f.fields_for :images do |i| %>
-      <%= i.fields_for :url do |u| %>
-
-	      <div class="row" style="padding-bottom: 6px">
-	        <div class="col-xs-5 col-sm-3 col-md-2" style="margin-right: auto;">
-	          <%= image_tag(u.object.full_url, :width =>250) %>
-
-		        <% if false %>
-		          <%= i.check_box :_destroy %>  // don't want to enable image delete right now. user should just update existing //
-		          <%= i.label :_destroy, 'delete' %>
-		        <% end %>
-
-		        </div>
-
-	        <div class="col-xs-5 col-sm-3 col-md-2" style="margin-right: auto;">
-	          <%= i.label "Horiz px" %>
-					  <%= i.text_field :image_size_h, size: 5, maxlength: 5 %><br>
-	          <%= i.label "Vertical px" %>
-					  <%= i.text_field :image_size_v, size: 5, maxlength: 5 %>
-
-	        </div>
-	      </div>
-
-        <%= u.text_area :full_url, cols: 100, maxlength: 500 %>
-
-  <% end %>
-	  <% end %>
+  <div class="panel" style="padding-bottom: 0px; padding-right: 5px" >
+    <% if @story.images.first.try(:id) %>
+		  <%= f.fields_for :images do |i| %>
+	      <%= i.fields_for :url do |u| %>
+			      <div class="row" style="padding-bottom: 6px">
+			        <div class="col-xs-5 col-sm-3 col-md-2" style="margin-right: auto;">
+			          <%= image_tag(u.object.full_url, :width =>250) %>
+				        <% if false %>
+				          <%= i.check_box :_destroy %>  // don't want to enable image delete right now. user should just update existing //
+				          <%= i.label :_destroy, 'delete' %>
+				        <% end %>
+				        </div>
+			        <div class="col-xs-5 col-sm-3 col-md-2" style="margin-right: auto;">
+			          <%= i.label "Horiz px" %>
+							  <%= i.text_field :image_size_h, size: 5, maxlength: 5 %><br>
+			          <%= i.label "Vertical px" %>
+							  <%= i.text_field :image_size_v, size: 5, maxlength: 5 %>
+			        </div>
+			      </div>
+	          <%= u.text_area :full_url, cols: 100, maxlength: 500 %>
+	      <% end %>
+		  <% end %>
+    <% else %>
+      <div>No Images Found for this Story</div>
+    <% end %>
   </div>
 
-  <div class="panel top-margin-sap" style="padding-bottom: 0px; padding-right: 5px" >
-		<h4>Places</h4>
-		<%= f.fields_for :places, @story.places do |story_places| %>
-		  <div class="place_fields">
-		    <div class="field">
-		      <%= story_places.label :title %>
-		      <%= story_places.text_field :name, size: 50, maxlength: 250  %>
-		      <%= story_places.check_box :_destroy %>
-		      <%= story_places.label :_destroy, 'delete' %>
-		    </div>
-		  </div>
-		<% end %>
-	  <div class="actions">
-	    <%= f.submit "Save" %>
-	  </div>
-	<% end %>
-</div>
+  <div class="panel" style="padding-bottom: 0px; padding-right: 5px" >
+    <div class="row" style="padding-bottom: 6px">
+      <% if @story.story_categories.first.try(:code) %>
+        <%= f.fields_for :story_categories do |sc| %>
+	        <div class="col-md-1" style="margin-right: auto;">
+	          <%= sc.text_field :code, size: 10 %>
+	        </div>
+	        <div class="col-md-10" style="margin-right: auto;">
+	          <%= sc.text_field :name, size: 25, maxlength: 50 %><br>
+	        </div>
+	      <% end %>
+      <% else %>
+        <div>&nbsp;&nbsp;&nbsp;No Categories Found for this Story</div>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="panel" style="padding-bottom: 0px; padding-right: 5px" >
+    <% if @story.places.first.try(:id) %>
+
+      <h4>Places</h4>
+			<%= f.fields_for :places, @story.places do |story_places| %>
+			  <div class="place_fields">
+			    <div class="field">
+			      <%= story_places.label :title %>
+			      <%= story_places.text_field :name, size: 50, maxlength: 250  %>
+			      <%= story_places.check_box :_destroy %>
+			      <%= story_places.label :_destroy, 'delete' %>
+			    </div>
+			  </div>
+			<% end %>
+		<% else %>
+      <div>No Places Found for this Story</div>
+  <% end %>
+  </div>
+
+	<div class="actions">
+	  <%= f.submit "Save All" %>
+	</div>
+
+<% end %>
 
 <%= link_to 'Back To This Story', @story %> |
 <%= link_to 'All Stories', stories_path %>

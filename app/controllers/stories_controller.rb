@@ -3,14 +3,16 @@ class StoriesController < ApplicationController
 
   def index
     page = params[:page] ? params[:page] : 1
-    @stories = Story.ready_for_display.paginate(per_page: 50, page: page).order('created_at DESC')
+    @stories = Story.paginate(per_page: 50, page: page).order('created_at DESC')
+    # @stories = Story.ready_for_display.paginate(per_page: 50, page: page).order('created_at DESC')
     @stories = @stories.where(["title ILIKE ?", "%#{params[:search]}%"]) if params[:search]
 
   end
 
   # this show will eventually go away
   def show
-    @story = Story.where(ready_for_display: true).find(params[:id])
+    @story = Story.find(params[:id])
+    # @story = Story.where(ready_for_display: true).find(params[:id])
     @places = @story.places
 
     if user_signed_in?
@@ -24,6 +26,7 @@ class StoriesController < ApplicationController
     @story = Story.find(params[:id])
     # @images = Image.where(story_id: @story)
     # redirect_to :storyplace/edit
+    # binding.pry
   end
 
   def update
@@ -99,7 +102,8 @@ class StoriesController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def story_params
       params.require(:story).permit(:title, places_attributes: [ :id, :name, :_destroy ],
-                      images_attributes: [ :id, :image_size_h, :_destroy, url_attributes: [ :id, :full_url, :_destroy ] ])
+                      images_attributes: [ :id, :image_size_h, :_destroy, url_attributes: [ :id, :full_url, :_destroy ] ],
+                      story_categories_attributes: [ :id ])
     end
 
 end
