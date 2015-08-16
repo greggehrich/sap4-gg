@@ -101,9 +101,12 @@ class StoriesController < ApplicationController
     end
     # Never trust parameters from the scary internet, only allow the white list through.
     def story_params
-      params.require(:story).permit(:title, places_attributes: [ :id, :name, :_destroy ],
-                      images_attributes: [ :id, :image_size_h, :_destroy, url_attributes: [ :id, :full_url, :_destroy ] ],
-                      story_categories_attributes: [ :id ])
+      params.require(:story).permit(:title, :description, :editor_tagline,
+                      places_attributes: [ :id, :name, :email, :phone, :needs_review, :reported_closed, :_destroy ],
+                      images_attributes: [ :id, :image_size_h, :image_size_v, :image_type, :source,:_destroy, url_attributes: [ :id, :full_url, :_destroy ] ],
+                      story_categories_attributes: [ :id, :code, :name ],
+                      mediacorp_attributes: [ :id, :title ],
+                      authors_attributes: [ :id, :display_name ])
     end
 
 end
