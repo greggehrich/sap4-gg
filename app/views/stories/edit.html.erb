@@ -12,142 +12,148 @@
     </div>
   <% end %>
 
-  <div class="panel top-margin-sap" style="padding-bottom: 0px; padding-right: 5px" >
-    <div class="row" style="padding-bottom: 6px">
-	    <div class="col-md-1" style="margin-right: auto;">
-		    <%= f.label "Story title" %><br>
-		    <%= f.label "Description" %><br>
-		    <%= f.label "Tagline" %>
-	    </div>
+  <div class="container-fluid">
+	  <div class="panel panel-default top-margin-sap" style="padding-bottom: 0px; padding-right: 5px; margin-bottom: 10px" >
 
-	    <div class="col-md-10" style="margin-right: auto;">
-	      <%= f.text_field :title, size: 75, maxlength: 250 %><br>
-	      <%= f.text_field :description, size: 75, maxlength: 1000 %><br>
-	      <%= f.text_field :editor_tagline, size: 75, maxlength: 60 %>
+	    <div class="row" style="padding-bottom: 6px">
+		    <div class="col-sm-3 col-md-2" style="margin-right: auto;">
+			    <%= f.label "Story title" %><br>
+			    <%= f.label "Description" %><br>
+			    <%= f.label "Tagline" %>
+		    </div>
+
+		    <div class="col-sm-9 col-md-7" style="margin-right: auto;"><br>
+		      <%= f.text_field :title, maxlength: 250, class: "form-control", style: "margin-top: -18px; height: 24px"%><br>
+		      <%= f.text_field :description, maxlength: 1000, class: "form-control", style: "margin-top: -18px; height: 24px" %><br>
+		      <%= f.text_field :editor_tagline, maxlength: 60, class: "form-control", style: "margin-top: -18px; height: 24px" %>
+				</div>
+
 			</div>
 		</div>
-	</div>
 
-  <div class="panel" style="padding-bottom: 0px; padding-right: 5px" >
-    <% if @story.images.first.try(:id) %>
-		  <%= f.fields_for :images do |i| %>
-	      <%= i.fields_for :url do |u| %>
-			      <div class="row" style="padding-bottom: 6px">
-			        <div class="col-xs-5 col-sm-4 col-md-2" style="margin-right: auto;">
-			          <%= image_tag(u.object.full_url, :width =>250) %>
-				        <% if false %>
-				          <%= i.check_box :_destroy %>  // don't want to enable image delete right now. user should just update existing //
-				          <%= i.label :_destroy, 'delete' %>
-				        <% end %>
+	  <div class="panel panel-default" style="padding-bottom: 0px; padding-right: 5px; margin-bottom: 10px" >
+	    <% if @story.images.first.try(:id) %>
+			  <%= f.fields_for :images do |i| %>
+		      <%= i.fields_for :url do |u| %>
+				      <div class="row" style="padding-bottom: 6px">
+				        <div class="col-xs-5 col-sm-4 col-md-2" style="margin-right: auto;">
+				          <%= image_tag(u.object.full_url, :width =>250) %>
+					        <% if false %>
+					          <%= i.check_box :_destroy %>  // don't want to enable image delete right now. user should just update existing //
+					          <%= i.label :_destroy, 'delete' %>
+					        <% end %>
 				        </div>
-			        <div class="col-xs-3 col-sm-2 col-md-1" style="margin-right: auto; line-height: 1.5em">
-			          <%= i.label "Horiz px" %><br>
-			          <%= i.label "Vertical px" %><br>
-			          <%= i.label "Img type" %><br>
-			          <%= i.label "Source" %>
-			        </div>
-			        <div class="col-sm-5 col-md-9" style="margin-right: auto;">
-							  <%= i.text_field :image_size_h, size: 5, maxlength: 5 %><br>
-							  <%= i.text_field :image_size_v, size: 5, maxlength: 5 %><br>
-			          <%= i.text_field :image_type, size: 10, maxlength: 20 %><br>
-							  <%= i.text_field :source, size: 10, maxlength: 20 %>
-			        </div>
-			      </div>
-	          <%= u.text_area :full_url, cols: 100, maxlength: 500 %>
-	      <% end %>
-		  <% end %>
-    <% else %>
-      <div>No Images Found for this Story</div>
-    <% end %>
-  </div>
-
-  <div class="panel" style="padding-bottom: 0px; padding-right: 5px" >
-    <div class="row" style="padding-bottom: 6px">
-      <% if @story.story_categories.first.try(:code) %>
-        <%= f.fields_for :story_categories do |sc| %>
-	        <div class="col-md-1" style="margin-right: auto;">
-	          <%= sc.text_field :code, size: 10 %>
-	        </div>
-	        <div class="col-md-10" style="margin-right: auto;">
-	          <%= sc.text_field :name, size: 25, maxlength: 50 %><br>
-	        </div>
-	      <% end %>
-      <% else %>
-        <div>&nbsp;&nbsp;&nbsp;No Categories Found for this Story</div>
-      <% end %>
-    </div>
-  </div>
-
-  <div class="panel" style="padding-bottom: 0px; padding-right: 5px" >
-    <div class="row" style="padding-bottom: 6px">
-      <% if @story.mediacorp.try(:title) %>
-        <%= f.fields_for :mediacorp do |m| %>
-					&nbsp;&nbsp;Media
-          <%= m.text_field :title, size: 50, maxlength: 50 %><br>
-	      <% end %>
-      <% else %>
-        <div>&nbsp;&nbsp;&nbsp;No Media Company Found for this Story</div>
-      <% end %>
-    </div>
-  </div>
-
- <div class="panel" style="padding-bottom: 0px; padding-right: 5px" >
-    <div class="row" style="padding-bottom: 6px">
-      <% if @story.authors.first.try(:id) %>
-        <%= f.fields_for :authors do |m| %>
-					&nbsp;&nbsp;Name
-          <%= m.text_field :display_name, size: 50, maxlength: 50 %><br>
-	      <% end %>
-      <% else %>
-        <div>&nbsp;&nbsp;&nbsp;No Authors Found for this Story</div>
-      <% end %>
-    </div>
-  </div>
-
-  <div class="panel" style="padding-bottom: 0px; padding-right: 5px" >
-
-
-	    <% if @story.places.first.try(:id) %>
-        <div class="row" style="padding-bottom: 6px">
-					<%= f.fields_for :places, @story.places do |story_places| %>
-
-            <div class="col-md-12" style="margin-right: auto; line-height: 1.9em">
-
-	            &nbsp;&nbsp;<%= story_places.label "Place title" %>
-				      <%= story_places.text_field :name, size: 80, maxlength: 250  %><br>
-		          <div class="col-sm-2 col-md-1 col-lg-1" style="margin-right: auto; line-height: 2.3em">
-								&nbsp;&nbsp;Email<br>
-		            &nbsp;&nbsp;Phone<br>
-					    </div>
-		          <div class="col-sm-4 col-md-3 col-lg-2" style="margin-right: auto;">
-		            <%= story_places.text_field :email, size: 25, maxlength: 50  %><br>
-		            <%= story_places.telephone_field :phone %><br>
-		          </div>
-		          <div class="col-sm-2 col-md-2 col-lg-2" style="margin-right: auto; line-height: 2.3em">
-		            Needs Review<br>
-		            Closed
-		          </div>
-	            <div class="col-sm-4 col-md-6 col-lg-7" style="margin-right: auto; margin-bottom: 10px">
-	              <%= story_places.text_field :needs_review, size: 5, maxlength: 5  %><br>
-	              <%= story_places.text_field :reported_closed, size: 5, maxlength: 5  %>
-	              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	              <%= story_places.check_box :_destroy %>
-	              <%= story_places.label :_destroy, 'delete place' %>
-	            </div>
-
-            </div>
-        <% end %>
-        </div>
-			<% else %>
-		      <div>No Places Found for this Story</div>
+				        <div class="col-xs-3 col-sm-2 col-md-1" style="margin-right: auto; line-height: 1.5em">
+				          <%= i.label "Horiz px" %><br>
+				          <%= i.label "Vertical px" %><br>
+				          <%= i.label "Img type" %><br>
+				          <%= i.label "Source" %>
+				        </div>
+				        <div class="col-sm-5 col-md-9" style="margin-right: auto;">
+								  <%= i.text_field :image_size_h, size: 5, maxlength: 5 %><br>
+								  <%= i.text_field :image_size_v, size: 5, maxlength: 5 %><br>
+				          <%= i.text_field :image_type, size: 10, maxlength: 20 %><br>
+								  <%= i.text_field :source, size: 10, maxlength: 20 %>
+				        </div>
+				        <div class="col-sm-12">
+				          <%= u.text_area :full_url, cols: 100, maxlength: 500, class: "form-control", style: "margin-top: 10px"%>
+				        </div>
+				      </div>
+		      <% end %>
+			  <% end %>
+	    <% else %>
+	      <div>No Images Found for this Story</div>
 	    <% end %>
-  </div>
+	  </div>
 
-	<div class="actions">
-	  <%= f.submit "Save All" %>
+	  <div class="panel" style="padding-bottom: 0px; padding-right: 5px; margin-bottom: 10px" >
+	    <div class="row" style="padding-bottom: 6px">
+	      <% if @story.story_categories.first.try(:code) %>
+	        <%= f.fields_for :story_categories do |sc| %>
+		        <div class="col-md-1" style="margin-right: auto;">
+		          <%= sc.text_field :code, size: 10 %>
+		        </div>
+		        <div class="col-md-10" style="margin-right: auto;">
+		          <%= sc.text_field :name, size: 25, maxlength: 50 %><br>
+		        </div>
+		      <% end %>
+	      <% else %>
+	        <div>&nbsp;&nbsp;&nbsp;No Categories Found for this Story</div>
+	      <% end %>
+	    </div>
+	  </div>
+
+	  <div class="panel" style="padding-bottom: 0px; padding-right: 5px; margin-bottom: 10px" >
+	    <div class="row" style="padding-bottom: 6px">
+	      <% if @story.mediacorp.try(:title) %>
+	        <%= f.fields_for :mediacorp do |m| %>
+						&nbsp;&nbsp;Media
+	          <%= m.text_field :title, size: 50, maxlength: 50 %><br>
+		      <% end %>
+	      <% else %>
+	        <div>&nbsp;&nbsp;&nbsp;No Media Company Found for this Story</div>
+	      <% end %>
+	    </div>
+	  </div>
+
+	 <div class="panel" style="padding-bottom: 0px; padding-right: 5px; margin-bottom: 10px" >
+	    <div class="row" style="padding-bottom: 6px">
+	      <% if @story.authors.first.try(:id) %>
+	        <%= f.fields_for :authors do |m| %>
+						&nbsp;&nbsp;Name
+	          <%= m.text_field :display_name, size: 50, maxlength: 50 %><br>
+		      <% end %>
+	      <% else %>
+	        <div>&nbsp;&nbsp;&nbsp;No Authors Found for this Story</div>
+	      <% end %>
+	    </div>
+	  </div>
+
+	  <div class="panel" style="padding-bottom: 0px; padding-right: 5px" >
+
+
+		    <% if @story.places.first.try(:id) %>
+	        <div class="row" style="padding-bottom: 6px">
+						<%= f.fields_for :places, @story.places do |story_places| %>
+
+	            <div class="col-md-12" style="margin-right: auto;">
+		            &nbsp;&nbsp;<%= story_places.label "Place title" %>
+					      <%= story_places.text_field :name, size: 80, maxlength: 250  %><br>
+
+			          <div class="col-sm-2 col-md-1 col-lg-1" style="margin-right: auto; line-height: 1.5em">
+									&nbsp;&nbsp;Email<br>
+			            &nbsp;&nbsp;Phone<br>
+						    </div>
+			          <div class="col-sm-4 col-md-3 col-lg-2" style="margin-right: auto; font-size: .8em">
+			            <%= story_places.text_field :email, size: 25, maxlength: 50  %><br>
+			            <%= story_places.telephone_field :phone %><br>
+			          </div>
+			          <div class="col-sm-2 col-md-2 col-lg-2" style="margin-right: auto; line-height: 1.5em">
+			            Needs Review<br>
+			            Closed
+			          </div>
+		            <div class="col-sm-4 col-md-6 col-lg-7" style="margin-right: auto; font-size: .8em; margin-bottom: 10px">
+		              <%= story_places.text_field :needs_review, size: 5, maxlength: 5  %><br>
+		              <%= story_places.text_field :reported_closed, size: 5, maxlength: 5  %>
+		              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		              <%= story_places.check_box :_destroy %>
+		              <%= story_places.label :_destroy, 'delete place' %>
+		            </div>
+
+	            </div>
+	        <% end %>
+	        </div>
+				<% else %>
+			      <div>No Places Found for this Story</div>
+		    <% end %>
+	  </div>
+
+		<div class="actions">
+		  <%= f.submit "Save All" %>
+		</div>
 	</div>
 
 <% end %>
 
 <%= link_to 'Back To This Story', @story %> |
-<%= link_to 'All Stories', stories_path %>
+<%= link_to 'All Stories', stories_path %><br><br>
