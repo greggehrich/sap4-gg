@@ -145,8 +145,8 @@
 		              <div class="col-sm-10 col-md-11 col-lg-11" style="font-size: .8em; margin-bottom: 10px; margin-top: -10px; margin-left: px">
 		                <%= l.text_field :address1 %>
 		                <%= l.text_field :city %>
-		                <%= l.text_field :state, size: 3, maxlength: 2 %>
-		                <%= l.text_field :country, size: 5, maxlength: 5 %><br>
+		                <%= l.text_field :state, value: l.object.state.upcase, size: 3, maxlength: 2 %>
+		                <%= l.text_field :country, value: l.object.country.upcase, size: 5, maxlength: 5 %><br>
 		                <%= l.object.lat %> / <%= l.object.lng %>
 		                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		                <%= story_places.check_box :_destroy %>
