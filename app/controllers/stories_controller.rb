@@ -24,15 +24,16 @@ class StoriesController < ApplicationController
 
   def edit
     @story = Story.find(params[:id])
-    # @images = Image.where(story_id: @story)
-    # redirect_to :storyplace/edit
-    # binding.pry
   end
 
   def update
-    @story.update(story_params)
-    redirect_to story_path
+    if @story.update(story_params)
+        redirect_to story_path
+    else
+      render :edit
+    end
   end
+
 
   def save_story_show
     if user_signed_in?
@@ -102,8 +103,10 @@ class StoriesController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def story_params
       params.require(:story).permit(:title, :description, :editor_tagline,
-                      places_attributes: [ :id, :name, :email, :phone, :needs_review, :reported_closed, :_destroy ],
-                      images_attributes: [ :id, :image_size_h, :image_size_v, :image_type, :source,:_destroy, url_attributes: [ :id, :full_url, :_destroy ] ],
+                      places_attributes: [ :id, :name, :email, :phone, :needs_review, :reported_closed, :_destroy,
+                                           location_attributes: [ :id, :address1, :city, :state, :country, :lat, :lng ] ],
+                      images_attributes: [ :id, :image_size_h, :image_size_v, :image_type, :source,:_destroy,
+                                           url_attributes: [ :id, :full_url, :_destroy ] ],
                       story_categories_attributes: [ :id, :code, :name ],
                       mediacorp_attributes: [ :id, :title ],
                       authors_attributes: [ :id, :display_name ])

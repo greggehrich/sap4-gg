@@ -2,6 +2,11 @@ class Location < ActiveRecord::Base
 
   validates :lat, :lng, presence: true
 
+  validates :address1, :presence => { :message => "STREET ADDRESS is required" }
+  validates :city, :presence => { :message => "CITY is required" }
+  validates :state, :presence => { :message => "STATE is required" }
+  validates :country, :presence => { :message => "COUNTRY is required" }
+
   has_many :places
   belongs_to :zip_code
 
@@ -24,7 +29,7 @@ class Location < ActiveRecord::Base
   end
   after_validation :geocode
 
-  reverse_geocoded_by :lat, :lng
-  after_validation :reverse_geocode
+  # reverse_geocoded_by :lat, :lng
+  # after_validation :reverse_geocode
 
 end

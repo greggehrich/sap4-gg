@@ -1,12 +1,12 @@
 <%= form_for(@story) do |f| %>
 
   <% if @story.errors.any? %>
-    <div id="error_explanation">
+    <div id="error_explanation"><br><br><br>
       <h2><%= pluralize(@story.errors.count, "error") %> prohibited this from being saved:</h2>
 
       <ul>
-        <% @story.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
+        <% @story.errors.each_with_index do |message,i| %>
+          <li><%= message[1] %></li>
         <% end %>
       </ul>
     </div>
@@ -87,7 +87,7 @@
 	    <div class="row" style="padding-bottom: 6px">
 	      <% if @story.mediacorp.try(:title) %>
 	        <%= f.fields_for :mediacorp do |m| %>
-						&nbsp;&nbsp;Media
+						&nbsp;&nbsp;&nbsp;Media
 	          <%= m.text_field :title, size: 50, maxlength: 50 %><br>
 		      <% end %>
 	      <% else %>
@@ -115,33 +115,46 @@
 		    <% if @story.places.first.try(:id) %>
 	        <div class="row" style="padding-bottom: 6px">
 						<%= f.fields_for :places, @story.places do |story_places| %>
+							<%= story_places.fields_for :location do |l| %>
 
-	            <div class="col-md-12" style="margin-right: auto;">
-		            &nbsp;&nbsp;<%= story_places.label "Place title" %>
-					      <%= story_places.text_field :name, size: 80, maxlength: 250  %><br>
+		            <div class="col-md-12" style="margin-right: auto;">
+			            &nbsp;&nbsp;<%= story_places.label "Place title" %>
+						      <%= story_places.text_field :name, size: 80, maxlength: 250  %><br>
 
-			          <div class="col-sm-2 col-md-1 col-lg-1" style="margin-right: auto; line-height: 1.5em">
-									&nbsp;&nbsp;Email<br>
-			            &nbsp;&nbsp;Phone<br>
-						    </div>
-			          <div class="col-sm-4 col-md-3 col-lg-2" style="margin-right: auto; font-size: .8em">
-			            <%= story_places.text_field :email, size: 25, maxlength: 50  %><br>
-			            <%= story_places.telephone_field :phone %><br>
-			          </div>
-			          <div class="col-sm-2 col-md-2 col-lg-2" style="margin-right: auto; line-height: 1.5em">
-			            Needs Review<br>
-			            Closed
-			          </div>
-		            <div class="col-sm-4 col-md-6 col-lg-7" style="margin-right: auto; font-size: .8em; margin-bottom: 10px">
-		              <%= story_places.text_field :needs_review, size: 5, maxlength: 5  %><br>
-		              <%= story_places.text_field :reported_closed, size: 5, maxlength: 5  %>
-		              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		              <%= story_places.check_box :_destroy %>
-		              <%= story_places.label :_destroy, 'delete place' %>
-		            </div>
+				          <div class="col-sm-2 col-md-1 col-lg-1" style="line-height: 1.5em; margin-bottom: 10px">
+										Email<br>
+				            Phone
+							    </div>
+				          <div class="col-sm-4 col-md-3 col-lg-2" style="margin-bottom: 10px; font-size: .8em">
+				            <%= story_places.text_field :email, size: 25, maxlength: 50  %><br>
+				            <%= story_places.telephone_field :phone %>
+				          </div>
+				          <div class="col-sm-2 col-md-2 col-lg-2" style="margin-bottom: 10px; line-height: 1.5em">
+				            Needs Review<br>
+				            Closed
+				          </div>
+			            <div class="col-sm-4 col-md-6 col-lg-7" style="font-size: .8em; margin-bottom: 10px">
+			              <%= story_places.text_field :needs_review, size: 5, maxlength: 5  %><br>
+			              <%= story_places.text_field :reported_closed, size: 5, maxlength: 5  %>
+			            </div>
 
-	            </div>
-	        <% end %>
+		              <div class="col-sm-2 col-md-1 col-lg-1" style="line-height: 1.5em; margin-top: -10px; ">
+		                S/C/S/C<br>
+		                Lat/Lng
+		              </div>
+		              <div class="col-sm-10 col-md-11 col-lg-11" style="font-size: .8em; margin-bottom: 10px; margin-top: -10px; margin-left: px">
+		                <%= l.text_field :address1 %>
+		                <%= l.text_field :city %>
+		                <%= l.text_field :state, size: 3, maxlength: 2 %>
+		                <%= l.text_field :country, size: 5, maxlength: 5 %><br>
+		                <%= l.object.lat %> / <%= l.object.lng %>
+		                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		                <%= story_places.check_box :_destroy %>
+		                <%= story_places.label :_destroy, 'delete place' %>
+		              </div>
+	              </div>
+	            <% end %>
+	          <% end %>
 	        </div>
 				<% else %>
 			      <div>No Places Found for this Story</div>
@@ -151,9 +164,9 @@
 		<div class="actions">
 		  <%= f.submit "Save All" %>
 		</div>
-	</div>
+
+    <%= link_to 'Back To This Story', @story %> |
+    <%= link_to 'All Stories', stories_path %><br><br>
+  </div>
 
 <% end %>
-
-<%= link_to 'Back To This Story', @story %> |
-<%= link_to 'All Stories', stories_path %><br><br>

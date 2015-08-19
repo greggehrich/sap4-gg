@@ -1,6 +1,8 @@
 class Place < ActiveRecord::Base
-  
+
   validates :location_id, presence: true
+  validates :reported_closed, inclusion: { in: %w(true false),
+                                           message: "%{value} must be 'true' or 'false'" }, :allow_nil => true
 
   has_many :urls, as: :urlable, dependent: :destroy
 
@@ -13,6 +15,8 @@ class Place < ActiveRecord::Base
 
   has_many :usersavedplaces, dependent: :destroy
   belongs_to :location
+  accepts_nested_attributes_for :location
+
   belongs_to :parent, class_name: 'Place', foreign_key: :parent_id
 
   def is_parent?

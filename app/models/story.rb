@@ -1,5 +1,7 @@
 class Story < ActiveRecord::Base
 
+  validates :editor_tagline, :presence => { :message => "EDITOR TAGLINE is required" }
+
   # TODO: no validations!
 
   has_many :urls, as: :urlable, dependent: :destroy
