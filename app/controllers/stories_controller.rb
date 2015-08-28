@@ -1,5 +1,11 @@
 class StoriesController < ApplicationController
-  before_action :set_story, only: [:show, :edit, :update, :destroy]
+  before_action :set_story, only: [:edit, :update, :destroy]
+  # before_action :set_story, only: [:show, :edit, :update, :destroy]
+
+  def start
+    # redirect_to stories_start_path
+    # render :start
+  end
 
   def index
     page = params[:page] ? params[:page] : 1
@@ -96,10 +102,12 @@ class StoriesController < ApplicationController
   end
 
   private
+
     # Use callbacks to share common setup or constraints between actions.
     def set_story
       @story = Story.find(params[:id])
     end
+
     # Never trust parameters from the scary internet, only allow the white list through.
     def story_params
       params.require(:story).permit(:title, :description, :editor_tagline,
