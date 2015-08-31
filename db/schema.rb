@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150702132508) do
+ActiveRecord::Schema.define(version: 20150830211643) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -167,6 +167,13 @@ ActiveRecord::Schema.define(version: 20150702132508) do
     t.integer "story_id", null: false
   end
 
+  create_table "slocations", force: :cascade do |t|
+    t.string   "code"
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "stories", force: :cascade do |t|
     t.integer  "story_screen_scrape_id"
     t.date     "original_published_at"
@@ -207,6 +214,13 @@ ActiveRecord::Schema.define(version: 20150702132508) do
   end
 
   add_index "story_category_assignments", ["story_id", "story_category_id"], name: "idx_story_category_assignment_ids", unique: true, using: :btree
+
+  create_table "story_locations", force: :cascade do |t|
+    t.integer  "story_id"
+    t.integer  "slocation_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "story_place_assignments", force: :cascade do |t|
     t.integer  "story_id",   null: false

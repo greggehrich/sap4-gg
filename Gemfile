@@ -20,6 +20,9 @@ gem 'underscore-rails'
 gem 'high_voltage'
 gem 'fastimage'
 gem 'pry'
+gem 'domainatrix'
+gem 'sanitize'
+# gem 'open-uri'
 
 # mail stuff
 gem 'sendgrid'

@@ -2,7 +2,13 @@ class Story < ActiveRecord::Base
 
   validates :editor_tagline, :presence => { :message => "EDITOR TAGLINE is required" }
 
+  attr_accessor :slocation_ids, :place_category_ids, :story_category_ids
+
   # TODO: no validations!
+
+  # temp use for now
+  has_many :story_locations, dependent: :destroy
+  has_many :slocations, through: :story_locations
 
   has_many :urls, as: :urlable, dependent: :destroy
   has_many :usersavedstories, dependent: :destroy

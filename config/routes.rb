@@ -24,6 +24,7 @@ Rails.application.routes.draw do
   resources :users
   resources :hoteljunks
   resources :locations
+  resources :slocations
   resources :places
   resources :stories
   resources :map, only: [:index] do
