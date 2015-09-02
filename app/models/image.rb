@@ -11,7 +11,6 @@ class Image < ActiveRecord::Base
   accepts_nested_attributes_for :url
 
   belongs_to :story
-  # accepts_nested_attributes_for :story
 
   attr_accessor :image_data, :manual_url
 
