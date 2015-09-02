@@ -34,6 +34,30 @@ class StoriesController < ApplicationController
     end
   end
 
+  # POST /stories
+  # POST /stories.json
+  def create
+    # TODO:  check_manual_url(params)
+    binding.pry
+    my_params = set_image_params(story_params)
+    @story = Story.new(my_params)
+
+    respond_to do |format|
+      if @story.save
+        update_locations_and_categories(@story, story_params)
+        format.html { redirect_to story_proof_url(@story), notice: 'Story was successfully created.' }
+        format.json { render :show, status: :created, location: @story }
+      else
+        @source_url_pre = params["story"]["urls_attributes"]["0"]["url_full"]
+        get_domain_info(@source_url_pre)
+        set_fields_on_fail(story_params)
+        get_locations_and_categories
+        format.html { render :new }
+        format.json { render json: @story.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
   def index
     page = params[:page] ? params[:page] : 1
     @stories = Story.paginate(per_page: 50, page: page).order('created_at DESC')
@@ -187,12 +211,13 @@ class StoriesController < ApplicationController
       @page_imgs << { 'src_url' => src_url, 'alt_text' => params['image_alt_text_cache'][key] }
     end
     @selected_slocation_ids = process_chosen_params(hash['slocation_ids'])
-    @selected_place_category_ids = process_chosen_params(hash['place_category_ids'])
+    @selected_splace_category_ids = process_chosen_params(hash['splace_category_ids'])
     @selected_story_category_ids = process_chosen_params(hash['story_category_ids'])
   end
 
   def set_image_params(story_params)
-    image_data = story_params["urls_attributes"]["0"]["images_attributes"]["0"]["image_data"]
+    image_data = params["story"]["image"]["image_data"]
+    # image_data = story_params["urls_attributes"]["0"]["images_attributes"]["0"]["image_data"]
     unless image_data.nil?
       image_data_hash = JSON.parse(image_data)
       story_params["urls_attributes"]["0"]["images_attributes"]["0"]["src_url"] = image_data_hash["src_url"]
@@ -206,7 +231,7 @@ class StoriesController < ApplicationController
 
   def get_locations_and_categories
     @slocations = Slocation.order(:name)
-    @place_categories = PlaceCategory.order(:name)
+    @splace_categories = SplaceCategory.order(:name)
     @story_categories = StoryCategory.order(:name)
   end
 
@@ -214,8 +239,8 @@ class StoriesController < ApplicationController
     new_slocations = Slocation.find(process_chosen_params(my_params[:slocation_ids]))
     story.slocations = new_slocations
 
-    new_place_categories = PlaceCategory.find(process_chosen_params(my_params[:place_category_ids]))
-    story.place_categories = new_place_categories
+    new_splace_categories = SplaceCategory.find(process_chosen_params(my_params[:splace_category_ids]))
+    story.splace_categories = new_splace_categories
 
     new_story_categories = StoryCategory.find(process_chosen_params(my_params[:story_category_ids]))
     story.story_categories = new_story_categories
@@ -234,17 +259,17 @@ class StoriesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def story_params
-      params.require(:story).permit(:title, :description, :editor_tagline,
-                      :slocation_ids => [],
-                      :place_category_ids => [],
-                      :story_category_ids => [],
-                      places_attributes: [ :id, :name, :email, :phone, :needs_review, :reported_closed, :_destroy,
-                             location_attributes: [ :id, :address1, :city, :state, :country, :lat, :lng ] ],
-                      images_attributes: [ :id, :image_size_h, :image_size_v, :image_type, :source,:_destroy,
-                                           url_attributes: [ :id, :full_url, :_destroy ] ],
-                      story_categories_attributes: [ :id, :code, :name ],
-                      mediacorp_attributes: [ :id, :title ],
-                      authors_attributes: [ :id, :display_name ])
+      params.require(:story).permit(:title, :description, :editor_tagline, :story_year, :story_month, :story_date,
+              :slocation_ids => [], :splace_category_ids => [], :story_category_ids => [],
+                  url_attributes: [ :id, :full_url, :domain, :keywords],
+                  places_attributes: [ :id, :name, :email, :phone, :needs_review, :reported_closed, :_destroy,
+                         location_attributes: [ :id, :address1, :city, :state, :country, :lat, :lng ]],
+                  image_attributes: [ :id, :image_size_h, :image_size_v, :image_type, :source, :_destroy,
+                                       :image_data, :manual_url, :manual_enter,
+                                       url_attributes: [ :id, :full_url, :_destroy ]],
+                  story_categories_attributes: [ :id, :code, :name ],
+                  mediacorp_attributes: [ :id, :title ],
+                  authors_attributes: [ :id, :display_name ])
     end
 
 end

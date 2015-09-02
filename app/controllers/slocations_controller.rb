@@ -1,5 +1,5 @@
 class SlocationsController < ApplicationController
-  before_action :set_location, only: [:show, :edit, :update, :destroy]
+  before_action :set_slocation, only: [:show, :edit, :update, :destroy]
 
   # GET /locations
   # GET /locations.json
@@ -63,7 +63,7 @@ class SlocationsController < ApplicationController
 
   private
   # Use callbacks to share common setup or constraints between actions.
-  def set_location
+  def set_slocation
     @slocation = Slocation.find(params[:id])
   end
 

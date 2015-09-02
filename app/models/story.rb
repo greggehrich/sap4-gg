@@ -2,15 +2,21 @@ class Story < ActiveRecord::Base
 
   validates :editor_tagline, :presence => { :message => "EDITOR TAGLINE is required" }
 
-  attr_accessor :slocation_ids, :place_category_ids, :story_category_ids
+  attr_accessor :slocation_ids, :splace_category_ids, :story_category_ids
 
   # TODO: no validations!
 
-  # temp use for now
+  # next 4 relationships are temporary until places are fully implemented
   has_many :story_locations, dependent: :destroy
   has_many :slocations, through: :story_locations
+  accepts_nested_attributes_for :slocations
+  has_many :story_place_categories, dependent: :destroy
+  has_many :splace_categories, through: :story_place_categories
+  accepts_nested_attributes_for :splace_categories
 
   has_many :urls, as: :urlable, dependent: :destroy
+  accepts_nested_attributes_for :urls
+
   has_many :usersavedstories, dependent: :destroy
 
   has_many :story_place_assignments, dependent: :destroy

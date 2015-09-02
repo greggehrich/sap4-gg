@@ -1,0 +1,27 @@
+<br><br>
+<h1>Listing Story Place Categories</h1>
+
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @splace_categories.each do |splace_category| %>
+      <tr>
+        <td><%= splace_category.code %></td>
+        <td><%= splace_category.name %></td>        <td><%= link_to 'Show', splace_category %></td>
+        <td><%= link_to 'Edit', edit_splace_category_path(splace_category) %></td>
+        <td><%= link_to 'Destroy', splace_category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Story Place Category', new_splace_category_path %>

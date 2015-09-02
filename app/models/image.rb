@@ -1,4 +1,5 @@
 class Image < ActiveRecord::Base
+  before_validation :check_manual_url, on: :create
 
   validates :image_type, presence: true
   validates :image_type, :presence => { :message => "IMAGE TYPE is required" }
@@ -11,5 +12,12 @@ class Image < ActiveRecord::Base
 
   belongs_to :story
   # accepts_nested_attributes_for :story
+
+  attr_accessor :image_data, :manual_url
+
+  def check_manual_url
+    self.source ||= self.manual_url
+    self.manual_enter = (self.manual_url.present? ? true : false)
+  end
 
 end

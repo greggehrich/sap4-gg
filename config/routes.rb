@@ -25,6 +25,8 @@ Rails.application.routes.draw do
   resources :hoteljunks
   resources :locations
   resources :slocations
+  resources :splace_categories
+  resources :story_categories
   resources :places
   resources :stories
   resources :map, only: [:index] do

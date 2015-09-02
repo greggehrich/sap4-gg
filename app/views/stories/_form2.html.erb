@@ -1,0 +1,23 @@
+<%= form_for @story do |f| %>
+  <br><br> <br><br>
+  <!-- TODO: you needs to test for errors from the nested URLs also -->
+  <% if @story.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@story.errors.count, "error") %> prohibited this story from being saved:</h2>
+      <ul>
+        <% @story.errors.each_with_index do |message, i| %>
+          <li><%= message[1] %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+	Title <%= f.text_area :title, rows: 2, :value => @title, :maxlength => 250, style:"width: 825px" %>
+
+  <%= f.fields_for :url do |su| %>
+
+              Story URL
+              <%= su.text_field :full_url, :value => @source_url_pre, :readonly => true, :size => 100 %>
+
+  <% end %>
+<% end %>
