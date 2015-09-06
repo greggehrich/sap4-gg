@@ -20,9 +20,9 @@ class StoriesController < ApplicationController
       @screen_scraper = ScreenScraper.new
       if @screen_scraper.scrape!(@full_web_url)
         @story = Story.new
-        @story.images.build
-        @story.images.first.url.build
-        @story.urls.build
+        @image = @story.images.build
+        @image_url = @image.build_url 
+        @story_url = @story.urls.build
 
         # url = @story.urls.build
         # url.images.build
