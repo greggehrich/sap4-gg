@@ -20,6 +20,10 @@ class StoriesController < ApplicationController
       @screen_scraper = ScreenScraper.new
       if @screen_scraper.scrape!(@full_web_url)
         @story = Story.new
+        @story.images.build
+        @story.images.first.url.build
+        @story.urls.build
+
         # url = @story.urls.build
         # url.images.build
         set_scrape_fields
@@ -38,14 +42,15 @@ class StoriesController < ApplicationController
   # POST /stories.json
   def create
     # TODO:  check_manual_url(params)
-    binding.pry
+    # binding.pry
     my_params = set_image_params(story_params)
     @story = Story.new(my_params)
 
     respond_to do |format|
       if @story.save
         update_locations_and_categories(@story, story_params)
-        format.html { redirect_to story_proof_url(@story), notice: 'Story was successfully created.' }
+        format.html { redirect_to story_path(@story), notice: 'Story was successfully created.' }
+        # format.html { redirect_to story_proof_url(@story), notice: 'Story was successfully created.' }
         format.json { render :show, status: :created, location: @story }
       else
         @source_url_pre = params["story"]["urls_attributes"]["0"]["url_full"]
