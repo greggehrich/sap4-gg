@@ -264,17 +264,18 @@ class StoriesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def story_params
-      params.require(:story).permit(:title, :description, :editor_tagline, :story_year, :story_month, :story_date,
+      params.require(:story).permit(:id, :title, :description, :editor_tagline,
+              :original_published_year, :original_published_month, :original_published_date,
               :slocation_ids => [], :splace_category_ids => [], :story_category_ids => [],
-                  url_attributes: [ :id, :full_url, :domain, :keywords],
-                  places_attributes: [ :id, :name, :email, :phone, :needs_review, :reported_closed, :_destroy,
-                         location_attributes: [ :id, :address1, :city, :state, :country, :lat, :lng ]],
-                  image_attributes: [ :id, :image_size_h, :image_size_v, :image_type, :source, :_destroy,
-                                       :image_data, :manual_url, :manual_enter,
-                                       url_attributes: [ :id, :full_url, :_destroy ]],
-                  story_categories_attributes: [ :id, :code, :name ],
-                  mediacorp_attributes: [ :id, :title ],
-                  authors_attributes: [ :id, :display_name ])
+              urls_attributes: [ :id, :full_url, :domain, :keywords],
+              places_attributes: [ :id, :name, :email, :phone, :needs_review, :reported_closed, :_destroy,
+                     location_attributes: [ :id, :address1, :city, :state, :country, :lat, :lng ]],
+              image_attributes: [ :id, :image_size_h, :image_size_v, :image_type, :source, :_destroy,
+                     :image_data, :manual_url,
+                     url_attributes: [ :id, :full_url, :_destroy ]],
+              story_categories_attributes: [ :id, :code, :name ],
+              mediacorp_attributes: [ :id, :title ],
+              authors_attributes: [ :id, :display_name ])
     end
 
 end
