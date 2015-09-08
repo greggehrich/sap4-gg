@@ -162,18 +162,18 @@
           </td>
         </tr>
         <tr>
-          <td class="<%= "#{@pc_complete}" %>" >Place Categories</td>
-          <td>
-            <%= f.select :splace_category_ids, options_from_collection_for_select(@splace_categories, 'id', 'name', @selected_splace_category_ids), {},
-                         {:multiple => true} %>
-          </td>
-        </tr>
-        <tr>
           <td>Story Categories</td>
           <td>
             <%= f.select :story_category_ids, options_from_collection_for_select(@story_categories, 'id', 'name', @selected_story_category_ids), {},
                          {:multiple => true} %>
           </td>
+        <tr>
+          <td>Place Categories</td>
+          <td>
+            <%= f.select :splace_category_ids, options_from_collection_for_select(@splace_categories, 'id', 'name', @selected_splace_category_ids), {},
+                         {:multiple => true} %>
+          </td>
+        </tr>
           <td></td>
         </tr>
         <% if false %>
