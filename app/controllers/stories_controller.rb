@@ -42,7 +42,7 @@ class StoriesController < ApplicationController
   # POST /stories.json
   def create
     # TODO:  check_manual_url(params)
-    binding.pry
+    # binding.pry
     # @story = Story.new(story_params)
     my_params = set_image_params(story_params)
     @story = Story.new(my_params)
@@ -273,6 +273,9 @@ class StoriesController < ApplicationController
               :original_published_year, :original_published_month, :original_published_date,
               :story_slocation_join_ids => [],
               :story_splace_join_ids => [],
+              :story_category_ids => [],
+              :slocation_ids => [],
+              :splace_category_ids => [],
               :story_category_ids => [],
               slocations_attributes: [ :id, :code, :name ],
               splace_categories_attributes: [ :id, :code, :name ],
