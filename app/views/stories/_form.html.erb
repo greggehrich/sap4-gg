@@ -2,7 +2,7 @@
   <br>
   <!-- TODO: you needs to test for errors from the nested URLs also -->
   <% if @story.errors.any? %>
-    <div id="error_explanation">
+    <div id="error_explanation"><br><br>
       <h2><%= pluralize(@story.errors.count, "error") %> prohibited this story from being saved:</h2>
       <ul>
         <% @story.errors.each_with_index do |message, i| %>
@@ -12,12 +12,12 @@
     </div>
   <% end %>
 
-  <%= f.fields_for @story_url do |su| %>
+  <div class="form-group" style="margin-top: .5%">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <table class="table-responsive table-condensed">
 
-    <div class="form-group" style="margin-top: .5%">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <table class="table-responsive table-condensed">
+          <%= f.fields_for :urls do |su| %>
             <tr>
               <td>Story URL</td>
               <td><%= su.text_field :full_url, :value => @source_url_pre, :readonly => true, :size => 100 %></td>
@@ -26,17 +26,6 @@
             <tr>
               <td>Url Domain</td>
               <td><%= su.text_field :domain, :value => @base_domain, :readonly => true, :size => 25 %>
-              </td>
-              <td></td>
-            </tr>
-            <tr>
-              <td class="<%= "#{@title_complete}" %>" >Story Title</td>
-              <td><%= f.text_area :title, rows: 2, :value => @title, :maxlength => 250, style:"width: 825px" %></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td class="<%= "#{@desc_complete}" %>" >Story Desc</td>
-              <td><%= f.text_area :description, rows: 3, :value => @meta_desc, :maxlength => 1000, style:"width: 825px" %>
               </td>
               <td></td>
             </tr>
@@ -50,102 +39,95 @@
               <%= su.hidden_field :raw_url_desc_scrape, :value => @meta_desc %>
               <%= su.hidden_field :raw_url_keywords_scrape, :value => @meta_keywords %>
             <% end %>
-          </table>
+          <% end %>
+
+          <tr>
+            <td class="<%= "#{@title_complete}" %>" >Story Title</td>
+            <td><%= f.text_area :title, rows: 2, :value => @title, :maxlength => 250, style:"width: 825px" %></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="<%= "#{@desc_complete}" %>" >Story Desc</td>
+            <td><%= f.text_area :description, rows: 3, :value => @meta_desc, :maxlength => 1000, style:"width: 825px" %>
+            </td>
+            <td></td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div class="container-fluid">
+
+          <% unless @image1 %>
+            <strong>Choose an Image</strong><br><br>
+          <% end %>
+
+
+				  <%= f.fields_for :images do |i| %>
+				    <%= i.fields_for :url do |iu| %>
+
+          <% unless @page_imgs.nil? %>  <!-- display scraped images -->
+            <% @page_imgs.each_with_index do |hash, idx| %>
+              <div class="row">
+                <% unless @image1 %>
+                  <div class="col-lg-1 text-right">
+                    <%= i.radio_button :image_data, hash.to_json %>
+                    <%= hidden_field_tag "image_src_cache[#{idx}]", hash['src_url'] %>
+                    <%= hidden_field_tag "image_alt_text_cache[#{idx}]", hash['alt_text'] %>
+                  </div>
+                <% end %>
+                <div class="col-md-2">
+                  <%= iu.label( :text, hash["alt_text"], :style => "font-weight:normal") %><br>
+                  <% size = hash["image_width"].to_s + " x " + hash["image_height"].to_s %>Size:
+                  <%= iu.label( :image_size, size, :style => "font-weight:normal") %>
+                </div>
+                <div class="col-md-2">
+                  <%= image_tag(hash["src_url"], width: "250") %><br>
+                </div>
+              </div>
+            <% end %>
+          <% end %>
+
+          <% if false %>
+          <% unless @image1 %>   <!-- display prompt for manual image --->
+            <div class="row-fluid"  style="border-top: 1px solid #BABFBA"><br>
+              <div class="col-md-1">
+                <%= iu.label( :manual_url, "or Enter Manually") %>
+              </div>
+              <div class="col-md-1 text-right">
+                URL<br><br>
+              </div>
+              <div class="col-md-10 text-left">
+                <%= text_area_tag :manual_url %><br>
+              </div><br>
+            </div>
+            <div class="col-md-1">
+              <%= i.label( :image_size_h, "(min 350px)") %>
+            </div>
+            <div class="row-fluid">
+              <div class="col-md-1 text-right">
+                Width<br><br>
+              </div>
+              <div class="col-md-4 text-left">
+                <%= i.text_field :image_size_h %>&nbsp;&nbsp;&nbsp;&nbsp;Height&nbsp;&nbsp;
+                <%= i.text_field :image_size_v %><br>
+              </div>
+            </div>
+          <% end %>
+          <% end %>
+
+				    <% end %>
+				  <% end %>
+
         </div>
       </div>
     </div>
-  <% end %>
-
-  <%= f.fields_for @image do |i| %>
-    <%= i.fields_for @image_url do |iu| %>
-      <div class="form-group">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="container-fluid">
-
-              <% unless @image1 %>
-                <strong>Choose an Image</strong><br><br>
-              <% end %>
-
-              <% if params[:action] != "edit" %>
-
-                <% unless @page_imgs.nil? %>  <!-- display scraped images -->
-                  <% @page_imgs.each_with_index do |hash, idx| %>
-                    <div class="row">
-                      <% unless @image1 %>
-                        <div class="col-lg-1 text-right">
-                          <%= i.radio_button :image_data, hash.to_json %>
-                          <%= hidden_field_tag "image_src_cache[#{idx}]", hash['src_url'] %>
-                          <%= hidden_field_tag "image_alt_text_cache[#{idx}]", hash['alt_text'] %>
-                        </div>
-                      <% end %>
-                      <div class="col-md-2">
-                        <%= i.label( :text, hash["alt_text"], :style => "font-weight:normal") %><br>
-                        <% size = hash["image_width"].to_s + " x " + hash["image_height"].to_s %>Size:
-                        <%= i.label( :image_height, size, :style => "font-weight:normal") %>
-                      </div>
-                      <div class="col-md-2">
-                        <%= image_tag(hash["src_url"], width: "250") %><br>
-                      </div>
-                    </div>
-                  <% end %>
-                <% end %>
-
-                <% unless @image1 %>   <!-- display prompt for manual image --->
-                  <div class="row-fluid"  style="border-top: 1px solid #BABFBA"><br>
-                    <div class="col-md-1">
-                      <%= iu.label( :manual_url, "or Enter Manually") %>
-                    </div>
-                    <div class="col-md-1 text-right">
-                      URL<br><br>
-                    </div>
-                    <div class="col-md-10 text-left">
-                      <%= text_area_tag :manual_url %><br>
-                    </div><br>
-                  </div>
-                  <div class="col-md-1">
-                    <%= i.label( :image_size_h, "(min 350px)") %>
-                  </div>
-                  <div class="row-fluid">
-                    <div class="col-md-1 text-right">
-                      Width<br><br>
-                    </div>
-                    <div class="col-md-4 text-left">
-                      <%= i.text_field :image_size_h %>&nbsp;&nbsp;&nbsp;&nbsp;Height&nbsp;&nbsp;
-                      <%= i.text_field :image_size_v %><br>
-                    </div>
-                  </div>
-                <% end %>
-
-              <% else %>
-
-                <div class="row-fluid"><br> <!-- display db values on edit -->
-                  <div class="col-md-1">
-                  </div>
-                  <div class="col-md-1 text-right">
-                    URL<br><br>
-                  </div>
-                  <div class="col-md-10 text-left">
-                    <%= iu.text_area :full_url, :cols => 80 %><br>
-                  </div><br>
-                </div>
-                <div class="row-fluid">
-                  <div class="col-md-2 text-right">
-                    Width<br><br>
-                  </div>
-                  <div class="col-md-4 text-left">
-                    <%= i.text_field :image_size_h %>&nbsp;&nbsp;&nbsp;&nbsp;Height&nbsp;&nbsp;
-                    <%= i.text_field :image_size_v %><br>
-                  </div>
-                </div>
-              <% end %>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    <% end %>
-  <% end %>
+  </div>
 
   <div class="panel panel-default">
     <div class="panel-body">
@@ -158,7 +140,7 @@
         <tr>
           <td>Story Locations</td>
           <td colspan="2">
-            <%= f.select :slocation_ids, options_from_collection_for_select(@slocations, 'id', 'name', @selected_slocation_ids), {}, {:multiple => true} %>
+            <%= f.select :story_slocation_join_ids, options_from_collection_for_select(@slocations, 'id', 'name', @selected_slocation_ids), {}, {:multiple => true} %>
           </td>
         </tr>
         <tr>
@@ -170,7 +152,7 @@
         <tr>
           <td>Place Categories</td>
           <td>
-            <%= f.select :splace_category_ids, options_from_collection_for_select(@splace_categories, 'id', 'name', @selected_splace_category_ids), {},
+            <%= f.select :story_splace_join_ids, options_from_collection_for_select(@splace_categories, 'id', 'name', @selected_splace_category_ids), {},
                          {:multiple => true} %>
           </td>
         </tr>

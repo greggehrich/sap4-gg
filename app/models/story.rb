@@ -1,17 +1,19 @@
 class Story < ActiveRecord::Base
 
   validates :editor_tagline, :presence => { :message => "EDITOR TAGLINE is required" }
+  validates :description, :presence => { :message => "DESCRIPTION is required" }
+  validates :title, :presence => { :message => "TITLE is required" }
 
   attr_accessor :slocation_ids, :splace_category_ids, :story_category_ids
 
   # TODO: no validations!
 
-  # next 4 relationships are temporary until places are fully implemented
-  has_many :story_locations, dependent: :destroy
-  has_many :slocations, through: :story_locations
+  # these next 4 relationships are temporary bridges until places are fully implemented
+  has_many :story_slocation_joins, dependent: :destroy
+  has_many :slocations, through: :story_slocation_joins
   accepts_nested_attributes_for :slocations
-  has_many :story_place_categories, dependent: :destroy
-  has_many :splace_categories, through: :story_place_categories
+  has_many :story_splace_joins, dependent: :destroy
+  has_many :splace_categories, through: :story_splace_joins
   accepts_nested_attributes_for :splace_categories
 
   has_many :urls, as: :urlable, dependent: :destroy

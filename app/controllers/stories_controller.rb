@@ -42,7 +42,8 @@ class StoriesController < ApplicationController
   # POST /stories.json
   def create
     # TODO:  check_manual_url(params)
-    # binding.pry
+    binding.pry
+    # @story = Story.new(story_params)
     my_params = set_image_params(story_params)
     @story = Story.new(my_params)
 
@@ -53,7 +54,7 @@ class StoriesController < ApplicationController
         # format.html { redirect_to story_proof_url(@story), notice: 'Story was successfully created.' }
         format.json { render :show, status: :created, location: @story }
       else
-        @source_url_pre = params["story"]["urls_attributes"]["0"]["url_full"]
+        @source_url_pre = params["story"]["urls_attributes"]["0"]["full_url"]
         get_domain_info(@source_url_pre)
         set_fields_on_fail(story_params)
         get_locations_and_categories
@@ -202,15 +203,15 @@ class StoriesController < ApplicationController
   end
 
   def set_fields_on_fail(hash)
-    @title = hash['urls_attributes']['0']['url_title']
-    @meta_desc = hash['urls_attributes']['0']['url_desc']
-    @meta_keywords = hash['urls_attributes']['0']['url_keywords']
+    @title = hash['title']['0']
+    @meta_desc = hash['description']
+    @meta_keywords = hash['urls_attributes']['0']['keywords']
     @meta_tagline = hash["editor_tagline"]
-    @meta_type = hash["story_type"]
-    @meta_author = hash["author"]
-    @year = hash["story_year"]
-    @month = hash["story_month"]
-    @day = hash["story_date"]
+    # @meta_type = hash["story_type"]
+    # @meta_author = hash["author"]
+    @year = hash["original_published_year"]
+    @month = hash["original_published_month"]
+    @day = hash["original_published_date"]
     @page_imgs = []
     params['image_src_cache'].try(:each) do |key, src_url|  # in case hidden field hash is nil, added try
       @page_imgs << { 'src_url' => src_url, 'alt_text' => params['image_alt_text_cache'][key] }
@@ -218,17 +219,21 @@ class StoriesController < ApplicationController
     @selected_slocation_ids = process_chosen_params(hash['slocation_ids'])
     @selected_splace_category_ids = process_chosen_params(hash['splace_category_ids'])
     @selected_story_category_ids = process_chosen_params(hash['story_category_ids'])
+    # binding.pry
   end
 
   def set_image_params(story_params)
-    image_data = params["story"]["image"]["image_data"]
+    image_data = params["story"]["images_attributes"]["0"]["image_data"]
+    # image_data = params["story"]["image"]["image_data"]
     # image_data = story_params["urls_attributes"]["0"]["images_attributes"]["0"]["image_data"]
     unless image_data.nil?
       image_data_hash = JSON.parse(image_data)
-      story_params["urls_attributes"]["0"]["images_attributes"]["0"]["src_url"] = image_data_hash["src_url"]
-      story_params["urls_attributes"]["0"]["images_attributes"]["0"]["alt_text"]= image_data_hash["alt_text"]
-      story_params["urls_attributes"]["0"]["images_attributes"]["0"]["image_width"] = image_data_hash["image_width"]
-      story_params["urls_attributes"]["0"]["images_attributes"]["0"]["image_height"]= image_data_hash["image_height"]
+      @image_url = image_data_hash["src_url"]
+      # story_params["urls_attributes"]["0"]["images_attributes"]["0"]["alt_text"]= image_data_hash["alt_text"]
+      story_params["images_attributes"]["0"]["image_size_h"] = image_data_hash["image_width"]
+      # story_params["urls_attributes"]["0"]["images_attributes"]["0"]["image_width"] = image_data_hash["image_width"]
+      story_params["images_attributes"]["0"]["image_size_v"] = image_data_hash["image_height"]
+      # story_params["urls_attributes"]["0"]["images_attributes"]["0"]["image_height"]= image_data_hash["image_height"]
     end
     story_params
     # binding.pry
@@ -264,16 +269,19 @@ class StoriesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def story_params
-      params.require(:story).permit(:id, :title, :description, :editor_tagline,
+      params.require(:story).permit( :title, :description, :editor_tagline,
               :original_published_year, :original_published_month, :original_published_date,
-              :slocation_ids => [], :splace_category_ids => [], :story_category_ids => [],
+              :story_slocation_join_ids => [],
+              :story_splace_join_ids => [],
+              :story_category_ids => [],
+              slocations_attributes: [ :id, :code, :name ],
+              splace_categories_attributes: [ :id, :code, :name ],
+              story_categories_attributes: [ :id, :code, :name ],
               urls_attributes: [ :id, :full_url, :domain, :keywords],
               places_attributes: [ :id, :name, :email, :phone, :needs_review, :reported_closed, :_destroy,
                      location_attributes: [ :id, :address1, :city, :state, :country, :lat, :lng ]],
-              image_attributes: [ :id, :image_size_h, :image_size_v, :image_type, :source, :_destroy,
-                     :image_data, :manual_url,
-                     url_attributes: [ :id, :full_url, :_destroy ]],
-              story_categories_attributes: [ :id, :code, :name ],
+              images_attributes: [ :id, :image_size_h, :image_size_v, :image_type, :_destroy, :manual_url,
+                    url_attributes: [ :id, :image_data, :full_url ]],
               mediacorp_attributes: [ :id, :title ],
               authors_attributes: [ :id, :display_name ])
     end
